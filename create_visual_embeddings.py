@@ -1,3 +1,6 @@
+"""Create visual embeddings for a range of Unicode characters. Requires
+an appropiate font that includes a wide range of glyphs for Unicode characters"""
+
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import pickle as pkl
