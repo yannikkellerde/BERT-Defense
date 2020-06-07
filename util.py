@@ -1,10 +1,11 @@
 import numpy as np
 import pickle as pkl
 import sys
+import progressbar
 from PIL import Image
 
 def load_dictionary(filename):
-    with open(filename,'r') as f:
+    with open(filename,'r', encoding="utf8") as f:
         return list(filter(lambda x:not x.startswith("#!comment:"),f.read().splitlines()))
 
 def load_pickle(filename):
@@ -29,8 +30,50 @@ def redraw_vec(vec,image_dim = (23,15)):
     image = Image.fromarray(vec.astype('uint8'), 'L')
     image.show()
 
+
+def eval_cosine_similarity(embedding):
+    similarity_scores = []
+    sim_mean = []
+    sim_max = []
+    sim_min = []
+    size = []
+    bar = progressbar.ProgressBar(max_value=len(embedding)**2)
+    i = 0
+    j = 0
+    for key1 in embedding:
+        for key2 in embedding:
+            similarity_scores.append(cosine_similarity(embedding[key1], embedding[key2]))
+            j +=1
+            i +=1
+            if j == 100000:
+                similarity_scores = np.array(similarity_scores)
+                sim_max.append(np.max(similarity_scores))
+                sim_mean.append([np.mean(similarity_scores), j])
+                sim_min.append(np.min(similarity_scores))
+                size.append(i)
+                j = 0
+                similarity_scores = []
+            bar.update(i)
+    similarity_scores = np.array(similarity_scores)
+    sim_mean = calc_mean(sim_mean, size)
+    sim_max = np.max(sim_max)
+    sim_min = np.min(sim_min)
+    with open("sim_eval.txt", "w") as f:
+        f.write(str(sim_mean) + "\n")
+        f.write(str(sim_max) + "\n")
+        f.write(str(sim_min) + "\n")
+
+
+def calc_mean(means, size):
+    mean = 0
+    for i in range(means):
+        mean = mean + means[i] * size[i]
+    norm = np.sum(np.array(size))
+    return mean/norm
+
 if __name__ == '__main__':
-    vec_dict = load_embedding_file("visual_embeddings.pkl")
+    vec_dict = load_pickle("visual_embeddings.pkl")
+    eval_cosine_similarity(vec_dict)
     vec1 = vec_dict[ord("ì")].astype(int)
     vec2 = vec_dict[ord("i")].astype(int)
     redraw_vec(vec1)
