@@ -69,6 +69,11 @@ def eval_cosine_similarity(embedding):
         f.write(str(sim_min) + "\n")
 
 
+def softmax(x, theta=1):
+    ps = np.exp(x * theta)
+    ps /= np.sum(ps)
+    return ps
+
 def calc_mean(means, size):
     mean = 0
     for i in range(len(means)):
