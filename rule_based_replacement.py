@@ -5,17 +5,7 @@ from util import cosine_similarity,write_dataset,load_unlabeled_dataset,load_pic
 from tqdm import tqdm
 import math
 import time
-
-# Some useful character constants
-small_vocals = "aeiou"
-big_vocals = small_vocals.upper()
-vocals = small_vocals+big_vocals
-small_consonants = "bcdfghjklmnpqrstvwxyz"
-big_consonants = small_consonants.upper()
-consonants = small_consonants+big_consonants
-letters = vocals+consonants
-punctuations = ",.?-' "
-all_chars = letters+punctuations
+from letter_stuff import *
 
 def calculate_distance(word_a,word_b):
     pass
@@ -117,5 +107,5 @@ if __name__ == '__main__':
     gen = fuzz_word(sys.argv[1],vec_dict)
     for trial in gen:
         print(trial)
-        if trial=="kitchen":
+        if trial=="black":
             break

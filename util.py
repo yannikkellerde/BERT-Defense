@@ -8,6 +8,12 @@ def load_dictionary(filename):
     with open(filename,'r', encoding="utf8") as f:
         return list(filter(lambda x:not x.startswith("#!comment:"),f.read().splitlines()))
 
+def each_char_in(haystack,needle):
+    for char in needle:
+        if not char in haystack:
+            return False
+    return True
+
 def load_pickle(filename):
     with open(filename, 'rb') as f:
         return pkl.load(f)

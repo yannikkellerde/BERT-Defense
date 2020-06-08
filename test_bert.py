@@ -1,6 +1,9 @@
 import torch
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 import numpy as np
+from tqdm import trange,tqdm
+from util import load_dictionary,each_char_in
+from letter_stuff import singular_punctuations,all_chars
 
 # OPTIONAL: if you want to have more information on what's happening, activate the logger as follows
 import logging
@@ -28,8 +31,17 @@ with torch.no_grad():
     predictions = model(tokens_tensor, segments_tensors)
 
 masked_index = tokenized_text.index('[MASK]')
-preds = predictions[0, masked_index].numpy() 
+preds = predictions[0, masked_index].numpy()
 best_indexied = list(reversed(np.argsort(preds)))
-for i in range(10):
+tokens = []
+for i in trange(len(best_indexied)):
     predicted_token = tokenizer.convert_ids_to_tokens([best_indexied[i]])[0]
-    print(predicted_token)
+    tokens.append(predicted_token)
+big_dict = [x.lower() for x in load_dictionary("DATA/wiki-100k.txt")+list(singular_punctuations)]
+with open("DATA/bert_wiki_full_words.txt","w") as f:
+    f.write("\n".join(list(filter(lambda x:x.lower() in big_dict,tokens))))
+with open("DATA/bert_wiki_word_pieces.txt","w") as f:
+    for t in tqdm(tokens):
+        if t.startswith("##"):
+            if each_char_in(all_chars,t[2:]):
+                f.write(t[2:]+"\n")
