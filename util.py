@@ -48,13 +48,18 @@ def eval_cosine_similarity(embedding):
             if j == 100000:
                 similarity_scores = np.array(similarity_scores)
                 sim_max.append(np.max(similarity_scores))
-                sim_mean.append([np.mean(similarity_scores), j])
+                sim_mean.append(np.mean(similarity_scores))
                 sim_min.append(np.min(similarity_scores))
-                size.append(i)
+                size.append(j)
                 j = 0
                 similarity_scores = []
             bar.update(i)
-    similarity_scores = np.array(similarity_scores)
+    if j !=0:
+        similarity_scores = np.array(similarity_scores)
+        sim_max.append(np.max(similarity_scores))
+        sim_mean.append(np.mean(similarity_scores))
+        sim_min.append(np.min(similarity_scores))
+        size.append(j)
     sim_mean = calc_mean(sim_mean, size)
     sim_max = np.max(sim_max)
     sim_min = np.min(sim_min)
@@ -66,7 +71,7 @@ def eval_cosine_similarity(embedding):
 
 def calc_mean(means, size):
     mean = 0
-    for i in range(means):
+    for i in range(len(means)):
         mean = mean + means[i] * size[i]
     norm = np.sum(np.array(size))
     return mean/norm
