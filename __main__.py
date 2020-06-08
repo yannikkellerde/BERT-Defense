@@ -1,6 +1,6 @@
 import numpy as np
 from bert_posterior import bert_posterior, format_prior_and_dict
-from edit_distance_Jan import get_word_dic_distance
+from edit_distance import get_word_dic_distance
 from util import load_dictionary,load_pickle,load_and_preprocess_dataset
 
 if __name__ == '__main__':
