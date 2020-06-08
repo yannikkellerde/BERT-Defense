@@ -1,3 +1,5 @@
+# Code based on https://stackoverflow.com/questions/54978443/predicting-missing-words-in-a-sentence-natural-language-processing-model
+
 import torch
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 import numpy as np
@@ -14,6 +16,8 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 text = "[CLS] What is [MASK] ? [SEP]"
 tokenized_text = tokenizer.tokenize(text)
 indexed_tokens = tokenizer.convert_tokens_to_ids(tokenized_text)
+print(tokenized_text,indexed_tokens)
+exit()
 
 # Create the segments tensors.
 segments_ids = [0] * len(tokenized_text)
@@ -32,6 +36,7 @@ with torch.no_grad():
 
 masked_index = tokenized_text.index('[MASK]')
 preds = predictions[0, masked_index].numpy()
+print(preds[:5])
 best_indexied = list(reversed(np.argsort(preds)))
 tokens = []
 for i in trange(len(best_indexied)):

@@ -35,7 +35,7 @@ def in_cost(in_char):
 def sub_cost(char1, char2, word_embedding):
     vek1 = word_embedding[ord(char1)]
     vek2 = word_embedding[ord(char2)]
-    return 1 - util.cosine_similarity(vek1, vek2)
+    return 1 - vek1@vek2
 
 
 def del_cost(del_char, table, scaler=0.75):
@@ -61,7 +61,7 @@ def get_word_dic_distance(word, dic, word_embedding):
     values = np.array(values)
     max_value = np.max(values)
     values = max_value - values
-    values = util.softmax(np.array(values))
+    values = util.softmax(np.array(values),theta=4)
     distance = list(zip(words, values))
     return distance
 
