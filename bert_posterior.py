@@ -36,9 +36,12 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
     my_min = np.inf
     for i,p in enumerate(prior):
         s = np.sort(p)
-        if s[-1]-s[-2]+alreadys[i]<my_min:
+        diff = s[-1]-s[-2]
+        if diff==1:
+            diff = 100
+        if diff+alreadys[i]<my_min:
             lowest = i
-            my_min = s[-1]-s[-2]
+            my_min = diff
     alreadys[lowest] += 1
     old_word = sent_ray[lowest]
     sent_ray[lowest] = tokenizer.vocab["[MASK]"]
