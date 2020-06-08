@@ -3,6 +3,7 @@ import util
 from tqdm import tqdm,trange
 from operator import itemgetter
 
+
 def levenshteinDistance(target, source, word_embedding):
     char_app = char_apparence(source)
     n = len(target)
@@ -49,6 +50,7 @@ def char_apparence(word):
         else:
             table[c] = 1
     return table
+
 
 def get_word_dic_distance(word, dic, word_embedding):
     distance = []
