@@ -4,6 +4,50 @@ import sys
 import progressbar
 from PIL import Image
 
+def load_and_preprocess_dataset(filename):
+    """
+    Load a dataset in 3d list of dimensions LxSxW with
+    L = number of lines
+    S = number of sentences in line
+    W = number of words in sentence
+
+    The preprocessing includes
+    1. Replacing multiple spaces with a single one
+    2. Replacing spaces in the end of sentences
+    3. Making periods, commas, quotation marks, semicolons and colons
+       their own word, if they are in the beginning or end of a word.
+    Then the words are seperated by splitting at spaces.
+    """
+    out_dataset = []
+    with open(filename, 'r') as f:
+        for line in f.read().splitlines():
+            one_line = []
+            out_dataset.append(one_line)
+            sentences = line.split("\t")
+            for sentence in sentences:
+                sentence=sentence.strip()
+                for _ in range(3):
+                    sentence.replace("  "," ")
+                words = sentence.split(" ")
+                newwords = []
+                for i,word in enumerate(words):
+                    lateradd = []
+                    if len(word)>0 and word[0]=='"':
+                        newwords.append(word[0])
+                        word = word[1:]
+                    for _ in range(3):
+                        if len(word)>0 and (word[-1]=="," or word[-1]=='"' or word[-1]==";" or word[-1]==":"):
+                            lateradd.append(word[-1])
+                            word = word[:-1]
+                        if i==len(words)-1 and len(word)>1 and word[-1]=="." and word[-2]!=".":
+                            lateradd.append(word[-1])
+                            word = word[:-1]
+                    if len(word)>0:
+                        newwords.append(word)
+                    newwords.extend(list(reversed(lateradd)))
+                one_line.append(newwords)
+    return out_dataset
+
 def load_dictionary(filename):
     with open(filename,'r', encoding="utf8") as f:
         return list(filter(lambda x:not x.startswith("#!comment:"),f.read().splitlines()))
@@ -18,14 +62,10 @@ def load_pickle(filename):
     with open(filename, 'rb') as f:
         return pkl.load(f)
 
-def load_unlabeled_dataset(filename):
-    with open(filename, 'r') as f:
-        return [a.split("\t") for a in filter(lambda x:x!="",f.read().splitlines())]
-
 def write_dataset(filename,dataset):
-    """Write a dataset of dimensions NxM to a file. M should usually be 2"""
+    """Write a dataset of dimensions LxSxW to a file. S is the amount of sentences and W the number of words"""
     with open(filename, 'w') as f:
-        f.write("\n".join(["\t".join(x) for x in dataset]))
+        f.write("\n".join(["\t".join([" ".join(y) for y in x]) for x in dataset]))
 
 def cosine_similarity(a,b):
     return (a@b)/(np.linalg.norm(a)*np.linalg.norm(b))
@@ -88,14 +128,17 @@ def calc_mean(means, size):
     return mean/norm
 
 if __name__ == '__main__':
-    vec_dict = load_pickle("visual_embeddings.pkl")
-    eval_cosine_similarity(vec_dict)
-    vec1 = vec_dict[ord("ì")].astype(int)
-    vec2 = vec_dict[ord("i")].astype(int)
+    write_dataset("preprocessed.txt",load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt"))
+    """vec_dict = load_pickle("visual_embeddings.pkl")
+    #eval_cosine_similarity(vec_dict)
+    vec2 = vec_dict[ord("Q")]
+    vec1 = vec_dict[ord("O")]
+    print(np.linalg.norm(vec1))
+    print(cosine_similarity(vec1, vec2),cosine_similarity(vec1/np.linalg.norm(vec1),vec2/np.linalg.norm(vec2)))
     redraw_vec(vec1)
     redraw_vec(vec2)
     print(cosine_similarity(vec1, vec2))
     print(np.dot(vec1, vec2))
-    """for i in range(len(vec1)):
+    for i in range(len(vec1)):
         if vec1[i]!=0 and vec2[i]!=0:
             print(vec1[i],vec2[i])"""
