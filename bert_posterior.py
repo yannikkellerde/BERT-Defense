@@ -41,7 +41,7 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
             diff = 100
         if diff+alreadys[i]<my_min:
             lowest = i
-            my_min = diff
+            my_min = diff+alreadys[i]
     alreadys[lowest] += 1
     old_word = sent_ray[lowest]
     sent_ray[lowest] = tokenizer.vocab["[MASK]"]
