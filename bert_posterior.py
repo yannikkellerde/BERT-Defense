@@ -3,13 +3,14 @@ import numpy as np
 from util import softmax
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 import logging
+logger = logging.getLogger('root')
 
-logging.info("loading bert model ...")
+logger.info("loading bert model ...")
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 # Load pre-trained model (weights)
 model = BertForMaskedLM.from_pretrained('bert-base-uncased')
 model.eval()
-logging.info("done loading bert model")
+logger.info("done loading bert model")
 
 def format_dict(dictionary):
     return [tokenizer.vocab[x] for x in dictionary]
@@ -35,7 +36,7 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
     if maxdepth<=0:
         return prior
     sent_ray = [dictionary[np.argmax(p)] for p in prior]
-    logging.debug(tokenizer.convert_ids_to_tokens(sent_ray))
+    logger.debug(tokenizer.convert_ids_to_tokens(sent_ray))
     my_min = np.inf
     for i,p in enumerate(prior):
         s = np.sort(p)
@@ -49,7 +50,7 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
     old_word = sent_ray[lowest]
     sent_ray[lowest] = tokenizer.vocab["[MASK]"]
     indexed_tokens = [tokenizer.vocab["[CLS]"]]+sent_ray+[tokenizer.vocab["[SEP]"]]
-    logging.debug(tokenizer.convert_ids_to_tokens(indexed_tokens))
+    logger.debug(tokenizer.convert_ids_to_tokens(indexed_tokens))
     # Create the segments tensors.
     segments_ids = [0] * len(indexed_tokens)
 
@@ -65,11 +66,13 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
     preds = predictions[0, masked_index].numpy()
     likelihood = softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.5)
 
-    best_indexied = list(reversed(np.argsort(preds)))
-    best_scores = [likelihood[dictionary.index(index)] for index in best_indexied[:10] if index in dictionary]
-    predicted_tokens = list(zip(tokenizer.convert_ids_to_tokens(best_indexied[:5]),best_scores[:5]))
-    logging.debug(predicted_tokens)
-    logging.debug(tokenizer.convert_ids_to_tokens([old_word])[0],likelihood[dictionary.index(old_word)])
+    best_indexied = list(reversed(np.argsort(likelihood)))
+    best_scores = [likelihood[index] for index in best_indexied[:10]]
+    predicted_tokens = list(zip(tokenizer.convert_ids_to_tokens([dictionary[x] for x in best_indexied[:5]]),best_scores[:5]))
+    logger.debug(predicted_tokens)
+    if len(predicted_tokens)==0:
+        logger.warn(f"{preds.shape}, {best_indexied[:5]}, {likelihood[:5]}, {best_scores[:5]}, {predicted_tokens}")
+    logger.debug(f"{tokenizer.convert_ids_to_tokens([old_word])[0]}, {likelihood[dictionary.index(old_word)]}")
 
     numerator = orig_priors[lowest] * likelihood
     posterior = prior.copy()
