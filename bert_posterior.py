@@ -10,6 +10,9 @@ model = BertForMaskedLM.from_pretrained('bert-base-uncased')
 model.eval()
 print("done loading bert model")
 
+def format_dict(dictionary):
+    return [tokenizer.vocab[x] for x in dictionary]
+
 def format_prior_and_dict(prior,dictionary):
     """prior is a WxD 2d numpy float array with W the amount of words in sentence and D the amount of words in the dictionary.
     dictionary is a list of words
@@ -19,8 +22,7 @@ def format_prior_and_dict(prior,dictionary):
         d = [(dictionary.index(x[0]), x[1]) for x in p]
         new_prior.append([x[1] for x in sorted(d)])
     new_prior = np.array(new_prior)
-    new_dictionary = [tokenizer.vocab[x] for x in dictionary]
-    return new_prior, new_dictionary
+    return new_prior, format_dict(dictionary)
 
 def bert_posterior(prior,dictionary,maxdepth):
     return bert_posterior_recur(prior.copy(),prior,np.zeros(len(prior)),dictionary,maxdepth)

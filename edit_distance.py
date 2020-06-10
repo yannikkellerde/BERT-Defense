@@ -61,11 +61,12 @@ def char_apparence(word):
     return table
 
 
-def get_word_dic_distance(word, dic, word_embedding):
+def get_word_dic_distance(word, dic, word_embedding, sort=True):
     distance = []
     for sample_word in tqdm(dic):
         distance.append((sample_word, levenshteinDistance(sample_word, word, word_embedding)))
-    distance.sort(key=itemgetter(1))
+    if sort:
+        distance.sort(key=itemgetter(1))
     words, values = zip(*distance)
     values = np.array(values)
     max_value = np.max(values)
