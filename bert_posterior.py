@@ -60,7 +60,7 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
 
     masked_index = indexed_tokens.index(tokenizer.vocab["[MASK]"])
     preds = predictions[0, masked_index].numpy()
-    likelihood = softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]))
+    likelihood = softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.5)
 
     best_indexied = list(reversed(np.argsort(preds)))
     best_scores = [likelihood[dictionary.index(index)] for index in best_indexied[:10] if index in dictionary]
