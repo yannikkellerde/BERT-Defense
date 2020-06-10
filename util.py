@@ -19,7 +19,7 @@ def load_and_preprocess_dataset(filename):
     Then the words are seperated by splitting at spaces.
     """
     out_dataset = []
-    with open(filename, 'r') as f:
+    with open(filename, 'r',  encoding="utf8") as f:
         for line in f.read().splitlines():
             one_line = []
             out_dataset.append(one_line)
