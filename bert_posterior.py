@@ -2,13 +2,14 @@ import torch
 import numpy as np
 from util import softmax
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
+import logging
 
-print("loading bert model ...")
+logging.info("loading bert model ...")
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 # Load pre-trained model (weights)
 model = BertForMaskedLM.from_pretrained('bert-base-uncased')
 model.eval()
-print("done loading bert model")
+logging.info("done loading bert model")
 
 def format_dict(dictionary):
     return [tokenizer.vocab[x] for x in dictionary]
@@ -34,7 +35,7 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
     if maxdepth<=0:
         return prior
     sent_ray = [dictionary[np.argmax(p)] for p in prior]
-    print(tokenizer.convert_ids_to_tokens(sent_ray))
+    logging.debug(tokenizer.convert_ids_to_tokens(sent_ray))
     my_min = np.inf
     for i,p in enumerate(prior):
         s = np.sort(p)
@@ -48,7 +49,7 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
     old_word = sent_ray[lowest]
     sent_ray[lowest] = tokenizer.vocab["[MASK]"]
     indexed_tokens = [tokenizer.vocab["[CLS]"]]+sent_ray+[tokenizer.vocab["[SEP]"]]
-    print(tokenizer.convert_ids_to_tokens(indexed_tokens))
+    logging.debug(tokenizer.convert_ids_to_tokens(indexed_tokens))
     # Create the segments tensors.
     segments_ids = [0] * len(indexed_tokens)
 
@@ -67,8 +68,8 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
     best_indexied = list(reversed(np.argsort(preds)))
     best_scores = [likelihood[dictionary.index(index)] for index in best_indexied[:10] if index in dictionary]
     predicted_tokens = list(zip(tokenizer.convert_ids_to_tokens(best_indexied[:5]),best_scores[:5]))
-    print(predicted_tokens)
-    print(tokenizer.convert_ids_to_tokens([old_word])[0],likelihood[dictionary.index(old_word)])
+    logging.debug(predicted_tokens)
+    logging.debug(tokenizer.convert_ids_to_tokens([old_word])[0],likelihood[dictionary.index(old_word)])
 
     numerator = orig_priors[lowest] * likelihood
     posterior = prior.copy()
