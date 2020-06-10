@@ -61,9 +61,9 @@ def char_apparence(word):
     return table
 
 
-def get_word_dic_distance(word, dic, word_embedding, sort=True):
+def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True):
     distance = []
-    for sample_word in tqdm(dic):
+    for sample_word in (tqdm(dic) if progress else dic):
         distance.append((sample_word, levenshteinDistance(sample_word, word, word_embedding)))
     if sort:
         distance.sort(key=itemgetter(1))

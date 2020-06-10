@@ -3,7 +3,41 @@ import pickle as pkl
 import sys
 import progressbar
 from PIL import Image
+from edit_distance import get_word_dic_distance
+import multiprocessing
+from itertools import chain
+from functools import reduce
 
+def distance_words(tasks,dictionary,word_embedding):
+    results = []
+    for task in tasks:
+        word = task[0]
+        if word.lower() in dictionary:
+            tmp = [(x,0) for x in dictionary]
+            tmp[dictionary.index(word.lower())] = (word.lower(),1)
+            results.append([tmp,*task[1:]])
+        else:
+            results.append([get_word_dic_distance(word, dictionary, word_embedding, sort=False, progress=False),*task[1:]])
+    return results
+
+def multiprocess_word_distances(dataset,dictionary,word_embedding):
+    cpu_count = multiprocessing.cpu_count()
+    work_words = []
+    for a,line in enumerate(dataset):
+        for b,sentence in enumerate(line):
+            for word in sentence:
+                work_words.append([word,a,b])
+    splitl = len(work_words)/(cpu_count-1)
+    split_words = []
+    for i in range(cpu_count-1):
+        split_words.append([work_words[int(round(i*splitl)):int(round((i+1)*splitl))],dictionary,word_embedding])
+    with multiprocessing.Pool(processes=cpu_count-1) as pool:
+        results = pool.starmap(distance_words,split_words)
+    results = list(reduce(lambda x,y:x+y,results))
+    out = [[[] for sentence in line] for line in dataset]
+    for result in results:
+        out[result[1]][result[2]].append(result[0])
+    return out
 def load_and_preprocess_dataset(filename):
     """
     Load a dataset in 3d list of dimensions LxSxW with
@@ -129,16 +163,4 @@ def calc_mean(means, size):
 
 if __name__ == '__main__':
     write_dataset("preprocessed.txt",load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt"))
-    """vec_dict = load_pickle("visual_embeddings.pkl")
-    #eval_cosine_similarity(vec_dict)
-    vec2 = vec_dict[ord("Q")]
-    vec1 = vec_dict[ord("O")]
-    print(np.linalg.norm(vec1))
-    print(cosine_similarity(vec1, vec2),cosine_similarity(vec1/np.linalg.norm(vec1),vec2/np.linalg.norm(vec2)))
-    redraw_vec(vec1)
-    redraw_vec(vec2)
-    print(cosine_similarity(vec1, vec2))
-    print(np.dot(vec1, vec2))
-    for i in range(len(vec1)):
-        if vec1[i]!=0 and vec2[i]!=0:
-            print(vec1[i],vec2[i])"""
+    vec_dict = load_pickle("visual_embeddings.pkl")
