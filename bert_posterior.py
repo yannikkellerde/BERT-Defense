@@ -48,9 +48,10 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
             my_min = diff+alreadys[i]
     alreadys[lowest] += 1
     old_word = sent_ray[lowest]
+    logger.debug(f"Masked token: {tokenizer.convert_ids_to_tokens([sent_ray[lowest]])[0]}")
     sent_ray[lowest] = tokenizer.vocab["[MASK]"]
     indexed_tokens = [tokenizer.vocab["[CLS]"]]+sent_ray+[tokenizer.vocab["[SEP]"]]
-    logger.debug(tokenizer.convert_ids_to_tokens(indexed_tokens))
+    
     # Create the segments tensors.
     segments_ids = [0] * len(indexed_tokens)
 

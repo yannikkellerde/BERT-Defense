@@ -1,5 +1,5 @@
 import logging
-# create logger with 'spam_application'
+# create logger with 'root'
 logger = logging.getLogger('root')
 logger.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
