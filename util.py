@@ -161,6 +161,8 @@ def calc_mean(means, size):
     norm = np.sum(np.array(size))
     return mean/norm
 
+def fast_argmin(a):
+    return min(range(len(a)), key=lambda x: a[x])
+
 if __name__ == '__main__':
-    write_dataset("preprocessed.txt",load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt"))
-    vec_dict = load_pickle("visual_embeddings.pkl")
+    pass

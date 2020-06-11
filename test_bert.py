@@ -13,6 +13,6 @@ logging.basicConfig(level=logging.INFO)
 
 # Load pre-trained model tokenizer (vocabulary)
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-text = "Opinionated"
+text = "bystander"
 tokenized_text = tokenizer.tokenize(text)
 print(tokenized_text)
