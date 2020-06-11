@@ -2,6 +2,8 @@ import numpy as np
 import util
 from tqdm import tqdm,trange
 from edit_distance import get_word_dic_distance
+from operator import itemgetter
+import sys
 
 full_word_dic = util.load_dictionary("DATA/bert_wiki_full_words.txt")
 piece_dict = util.load_dictionary("DATA/bert_wiki_word_pieces.txt")
@@ -10,26 +12,55 @@ word_embedding = util.load_pickle("visual_embeddings.pkl")
 
 def cut_care_about(probs,care_abouts_prob):
     for i in range(len(probs)):
-        if probs[i] < care_abouts_prob:
-            return i-1
+        if probs[i][1] < care_abouts_prob:
+            return i
     return len(probs)
 
-def word_piece_distance(word,care_abouts_prob = 0.05):
+def word_piece_distance(word,care_abouts_prob = 0.01,inner_amount=5):
+    word=word.lower()
     probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,True)
-    prob_cut = care_abouts_prob(probs,care_abouts_prob)
-    lefts = set(x[2] for x in probs[:prob_cut] if x>1)
-    reindamits = []
-    for left in lefts:
-        left_probs = get_word_dic_distance(word[(len(word)-left):],piece_dict,word_embedding,True,True,orgi_word=word)
-        left_cut = care_abouts_prob(left_probs,care_abouts_prob)
-        for i,old in enumerate(probs[:prob_cut]):
-            if old[2] == left:
-                for prob in left_probs[:left_cut]:
-                    new_prob = old[1]*prob[1]
-                    if new_prob > care_abouts_prob:
-                        reindamits.append([[old[0],prob[0]],new_prob,prob[2]])
-    
-
+    print(probs[:10])
+    probs = [[[x[0]]]+list(x[1:]) for x in probs]
+    prob_cut = cut_care_about(probs,care_abouts_prob)
+    if prob_cut == 0:
+        return probs
+    max_left = max(x[2] for x in probs[:prob_cut])
+    prob_left_dict = {i:list() for i in range(max_left+1)}
+    for i in range(prob_cut-1,-1,-1):
+        prob = probs[i]
+        for j in range(i):
+            if probs[i][0][0] in probs[j][0][0]:
+                del probs[i]
+                break
+        else:
+            if prob[2]>0:
+                prob_left_dict[prob[2]].append(prob[:2])
+                del probs[i]
+    for left in range(max_left,-1,-1):
+        if len(prob_left_dict[left]) == 0:
+            continue
+        left_probs = get_word_dic_distance(word[(len(word)-left):],piece_dict,word_embedding,True,True,orig_word=word)
+        for i in range(len(left_probs)-1,-1,-1):
+            for j in range(i):
+                if left_probs[i][0][0] in left_probs[j][0][0]:
+                    del left_probs[i]
+                    break
+        for old in prob_left_dict[left]:
+            left_cut = inner_amount//len(old[0])+1
+            inner_reins = []
+            for new in left_probs[:left_cut]:
+                inner_reins.append([old[0]+[new[0]],new[1],new[2]])
+            insum = sum([x[1] for x in inner_reins])
+            for rein in inner_reins:
+                if rein[2]>0:
+                    prob_left_dict[rein[2]].append((rein[0],old[1]*(rein[1]/insum)))
+                else:
+                    probs.append([rein[0],old[1]*(rein[1]/insum),rein[2]])
+    probs.sort(key=itemgetter(1),reverse=True)
+    probsum = sum(x[1] for x in probs)
+    for p in probs:
+        p[1] /= probsum
+    return probs
 if __name__ == '__main__':
-    
-
+    res = word_piece_distance(*sys.argv[1:])
+    print(res[:10])
