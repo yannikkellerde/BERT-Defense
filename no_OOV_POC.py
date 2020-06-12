@@ -19,7 +19,6 @@ def cut_care_about(probs,care_abouts_prob):
 def word_piece_distance(word,care_abouts_prob = 0.01,inner_amount=5):
     word=word.lower()
     probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,True)
-    print(probs[:10])
     probs = [[[x[0]]]+list(x[1:]) for x in probs]
     prob_cut = cut_care_about(probs,care_abouts_prob)
     if prob_cut == 0:

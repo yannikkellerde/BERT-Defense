@@ -2,3 +2,4 @@ Eigennamen bzw. Personennamen
 Zahlen, Uhrzeiten, Datum
 Nicht durch leerzeichen getrennte wörter (Auch durch bindestrich getrennte wörter)
 Kurze wörter, die im aktuellen dictionary drin stehen, aber eigentlich so nicht auftreten.
+Wenn wir wörter in potenziell unterschiedlich viele token aufsplitten, ist das schwieriger mit dem Bert masken und so

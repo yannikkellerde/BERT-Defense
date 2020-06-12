@@ -20,7 +20,7 @@ def levenshteinDistance(target, source, word_embedding,char_app=None):
         for j in range(1, m+1):
             possibilities = [distance[i-1][j] + in_cost(target[i-1], vowls_in),# insertion von target_i in source
                                 distance[i-1][j-1] + sub_cost(target[i-1], source[j-1], word_embedding),# substituition von target in source
-                                distance[i][j-1] + del_cost(source[j-1], char_app,False,m)]# delition  source_j
+                                distance[i][j-1] + del_cost(source[j-1], char_app,i==n,m)]# delition  source_j
             if target[i-1] == source[j-1]:
                 possibilities.append(distance[i-1][j-1])
             choice = util.fast_argmin(possibilities)
@@ -48,7 +48,7 @@ def sub_cost(char1, char2, word_embedding):
 
 
 def del_cost(del_char, table, freelo,wordlen, scaler=0.75):
-    return min(2/wordlen+0.2,1) if freelo else scaler**(table[del_char]-1)
+    return min(2/wordlen+0.3,1) if freelo else scaler**(table[del_char]-1)
 
 
 def vowl_checker(word):
