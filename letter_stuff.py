@@ -9,5 +9,6 @@ letters = vocals+consonants
 sentence_ends = "?!;.\""
 singular_punctuations = ",:&"+sentence_ends
 non_singular_punctuations = "-' #/\\(){}()%$€@"
+trenner_punctuations = "-'/&"
 punctuations = non_singular_punctuations+singular_punctuations
 all_chars = letters+punctuations

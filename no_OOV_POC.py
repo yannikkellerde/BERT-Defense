@@ -3,11 +3,12 @@ import util
 from tqdm import tqdm,trange
 from edit_distance import get_word_dic_distance
 from operator import itemgetter
+from letter_stuff import trenner_punctuations
 import sys
 
 full_word_dic = util.load_dictionary("DATA/bert_wiki_full_words.txt")
 piece_dict = util.load_dictionary("DATA/bert_wiki_word_pieces.txt")
-dic = full_word_dic+piece_dict
+double_dic = full_word_dic+piece_dict
 word_embedding = util.load_pickle("visual_embeddings.pkl")
 
 def cut_care_about(probs,care_abouts_prob):
@@ -16,7 +17,7 @@ def cut_care_about(probs,care_abouts_prob):
             return i
     return len(probs)
 
-def word_piece_distance(word,care_abouts_prob = 0.01,inner_amount=5):
+def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
     word=word.lower()
     probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,True)
     probs = [[[x[0]]]+list(x[1:]) for x in probs]
@@ -38,7 +39,11 @@ def word_piece_distance(word,care_abouts_prob = 0.01,inner_amount=5):
     for left in range(max_left,-1,-1):
         if len(prob_left_dict[left]) == 0:
             continue
-        left_probs = get_word_dic_distance(word[(len(word)-left):],piece_dict,word_embedding,True,True,orig_word=word)
+        if word[(len(word)-left)-1] in trenner_punctuations:
+            my_dict = double_dic
+        else:
+            my_dict = piece_dict
+        left_probs = get_word_dic_distance(word[(len(word)-left):],my_dict,word_embedding,True,True,orig_word=word)
         for i in range(len(left_probs)-1,-1,-1):
             for j in range(i):
                 if left_probs[i][0][0] in left_probs[j][0][0]:
