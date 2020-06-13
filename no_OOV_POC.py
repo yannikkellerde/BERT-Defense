@@ -35,6 +35,7 @@ def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
     probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,True)
     probs = [[[x[0]]]+list(x[1:]) for x in probs]
     probs = priorize(probs)
+    probs.sort(key=itemgetter(1),reverse=True)
     prob_cut = cut_care_about(probs,care_abouts_prob)
     if prob_cut == 0:
         return probs
@@ -94,8 +95,9 @@ def check_for_some_text(dataset):
     return out
 
 if __name__ == '__main__':
-    dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
-    out_dataset = check_for_some_text(dataset[100:105])
-    util.write_dataset("preprocessed.txt",out_dataset)
-    #res = word_piece_distance(*sys.argv[1:])
-    #print(res[:10])
+    #dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
+    #out_dataset = check_for_some_text(dataset[150:160])
+    #util.write_dataset("preprocessed.txt",out_dataset)
+    res = word_piece_distance(*sys.argv[1:])
+    res.sort(key=itemgetter(1),reverse=True)
+    print(res[:10])

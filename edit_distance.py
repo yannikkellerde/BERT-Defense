@@ -5,16 +5,17 @@ from operator import itemgetter
 from letter_stuff import trenner_punctuations,vocals
 
 
-def levenshteinDistance(target, source, word_embedding,char_app=None):
+def levenshteinDistance(target, source, word_embedding,char_app=None,vowls_in=None):
     if char_app is None:
         char_app = char_apparence(source)
-    vowls_in = vowl_checker(source)
+    if vowls_in is None:
+        vowls_in = vowl_checker(source)
     n = len(target)
     m = len(source)
     freelo_amount = 0.1 if source[0] in trenner_punctuations else 0.5
     dels = 0
     distance = np.zeros((n+1, m+1))
-    i=0.2
+    i=0
     for num in range(1, n+1):
         i += 0.2 if ((target[num-1] in vocals) and (not vowls_in)) else 1
         distance[num][0] = i
@@ -39,7 +40,7 @@ def levenshteinDistance(target, source, word_embedding,char_app=None):
 
 def in_cost(in_char, vowls_in):
     if (in_char in vocals) and not(vowls_in):
-        return 0.2
+        return 0.3
     else:
         return 1
 
@@ -47,7 +48,7 @@ def in_cost(in_char, vowls_in):
 def sub_cost(char1, char2, word_embedding):
     vek1 = word_embedding[ord(char1)]
     vek2 = word_embedding[ord(char2)]
-    return 1 - (vek1@vek2)/2
+    return min((1 - vek1@vek2)*2,1)
 
 
 def del_cost(del_char, table, freelo,freelo_amount, scaler=0.75):
@@ -77,6 +78,7 @@ def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, o
     if orig_word is None:
         orig_word = word
     char_app = char_apparence(orig_word)
+    vowls_in = vowl_checker(orig_word)
     distance = []
     for sample_word in (tqdm(dic) if progress else dic):
         distance.append((sample_word, *levenshteinDistance(sample_word, word, word_embedding,char_app)))
