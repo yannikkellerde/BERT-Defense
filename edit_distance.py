@@ -2,7 +2,7 @@ import numpy as np
 import util
 from tqdm import tqdm,trange
 from operator import itemgetter
-from letter_stuff import trenner_punctuations,vocals
+from letter_stuff import trenner_punctuations,vocals, annoying_boys
 
 
 def levenshteinDistance(target, source, word_embedding,char_app=None,vowls_in=None):
@@ -12,7 +12,7 @@ def levenshteinDistance(target, source, word_embedding,char_app=None,vowls_in=No
         vowls_in = vowl_checker(source)
     n = len(target)
     m = len(source)
-    freelo_amount = 0.1 if source[0] in trenner_punctuations else 0.5
+    freelo_amount = (0.1 if source[0] in trenner_punctuations else 0.5) if len(source)>2 else 1
     dels = 0
     distance = np.zeros((n+1, m+1))
     i=0
@@ -70,7 +70,10 @@ def char_apparence(word):
         if c in table:
             table[c] = table[c] + 1
         else:
-            table[c] = 1
+            if c in annoying_boys:
+                table[c] = 3
+            else:
+                table[c] = 1
     return table
 
 
@@ -94,8 +97,12 @@ def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, o
 
 
 if __name__ == '__main__':
-    dic = util.load_dictionary("DATA/bert_wiki_full_words.txt")
+    letter_begin = util.load_dictionary("DATA/dictionaries/bert_letter_begin.txt")
+    number_begin = util.load_dictionary("DATA/dictionaries/bert_number_begin.txt")
+    dic = letter_begin+number_begin
     word_embedding = util.load_pickle("visual_embeddings.pkl")
+    print(word_embedding[ord("ί")]@word_embedding[ord("t")])
+    exit()
     distance = get_word_dic_distance("of``hrry", dic, word_embedding)
     for i in range(40):
         print(distance[i])

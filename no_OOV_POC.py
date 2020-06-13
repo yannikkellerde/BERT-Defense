@@ -30,9 +30,9 @@ def priorize(probs):
     out = [list(x) for x in zip(dic,vals,dels)]
     return out
 
-def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
+def word_piece_distance(word,care_abouts_prob = 0.01,inner_amount=5):
     word=util.mylower(word)
-    probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,True)
+    probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,False)
     probs = [[[x[0]]]+list(x[1:]) for x in probs]
     probs = priorize(probs)
     probs.sort(key=itemgetter(1),reverse=True)
@@ -58,7 +58,7 @@ def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
             my_dict = double_dic
         else:
             my_dict = piece_dict
-        left_probs = get_word_dic_distance(word[(len(word)-left):],my_dict,word_embedding,True,True,orig_word=word)
+        left_probs = get_word_dic_distance(word[(len(word)-left):],my_dict,word_embedding,True,False,orig_word=word)
         for i in range(len(left_probs)-1,-1,-1):
             for j in range(i):
                 if left_probs[i][0][0] in left_probs[j][0][0]:
@@ -72,6 +72,8 @@ def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
             insum = sum([x[1] for x in inner_reins])
             for rein in inner_reins:
                 if rein[2]>0:
+                    if left==1:
+                        print(rein)
                     prob_left_dict[rein[2]].append((rein[0],old[1]*(rein[1]/insum)))
                 else:
                     probs.append([rein[0],old[1]*(rein[1]/insum),rein[2]])
@@ -82,22 +84,30 @@ def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
     return probs
 
 def check_for_some_text(dataset):
+    transpo_dict = {}
     out = []
-    for line in dataset:
+    for line in tqdm(dataset):
         my_line = []
         out.append(my_line)
         for sentence in line:
             words = []
             my_line.append(words)
             for word in sentence:
-                my_word = "".join(word_piece_distance(word)[0][0])
+                print(word)
+                if word in transpo_dict:
+                    problies = transpo_dict[word]
+                else:
+                    problies = word_piece_distance(word)
+                    transpo_dict[word] = problies[:100]
+                my_word = "".join(problies[0][0])
+                print(my_word)
                 words.append(my_word)
     return out
 
 if __name__ == '__main__':
-    #dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
-    #out_dataset = check_for_some_text(dataset[150:160])
-    #util.write_dataset("preprocessed.txt",out_dataset)
-    res = word_piece_distance(*sys.argv[1:])
-    res.sort(key=itemgetter(1),reverse=True)
-    print(res[:10])
+    dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
+    out_dataset = check_for_some_text(dataset[250:270])
+    util.write_dataset("preprocessed.txt",out_dataset)
+    #res = word_piece_distance(*sys.argv[1:])
+    #res.sort(key=itemgetter(1),reverse=True)
+    #print(res[:10])
