@@ -84,7 +84,7 @@ def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, o
     vowls_in = vowl_checker(orig_word)
     distance = []
     for sample_word in (tqdm(dic) if progress else dic):
-        distance.append((sample_word, *levenshteinDistance(sample_word, word, word_embedding,char_app)))
+        distance.append((sample_word, *levenshteinDistance(sample_word, word, word_embedding,char_app,vowls_in)))
     if sort:
         distance.sort(key=itemgetter(1))
     words, values, dels = zip(*distance)
