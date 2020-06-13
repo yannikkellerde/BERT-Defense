@@ -82,6 +82,25 @@ def load_and_preprocess_dataset(filename):
                 one_line.append(newwords)
     return out_dataset
 
+def load_freq_dict():
+    freq_dict = {}
+    with open("DATA/dictionaries/word_frequencies.txt","r") as f:
+        for line in f.read().splitlines():
+            parts = line.split("\t")
+            freq_dict[parts[0].lower()] = int(parts[1])
+    return freq_dict
+
+def get_prior(dictionary, theta = 5e-11, freq_dict=None, not_in_val=50000):
+    if freq_dict is None:
+        freq_dict = load_freq_dict()
+    prior = []
+    for word in dictionary:
+        if word in freq_dict:
+            prior.append(freq_dict[word])
+        else:
+            prior.append(not_in_val)
+    return softmax(np.array(prior),theta)
+        
 def load_dictionary(filename):
     with open(filename,'r', encoding="utf8") as f:
         return list(filter(lambda x:not x.startswith("#!comment:"),f.read().splitlines()))

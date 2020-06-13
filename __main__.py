@@ -27,7 +27,10 @@ import time
 
 if __name__ == '__main__':
     logger.info("loading dictionary, word embedding and dataset")
-    dictionary = load_dictionary("DATA/bert_wiki_full_words.txt")
+    letter_dic = load_dictionary("DATA/dictionaries/bert_letter_begin.txt")
+    number_dic = load_dictionary("DATA/dictionaries/bert_number_begin.txt")
+    punc_dic = load_dictionary("DATA/dictionaries/bert_punctuations.txt")
+    dictionary = letter_dic+number_dic+punc_dic
     word_embedding = load_pickle("visual_embeddings.pkl")
     bert_dict = format_dict(dictionary)
     dataset = load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")

@@ -62,7 +62,7 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
     # Predict all tokens
     with torch.no_grad():
         predictions = model(tokens_tensor, segments_tensors)
-
+    
     masked_index = indexed_tokens.index(tokenizer.vocab["[MASK]"])
     preds = predictions[0, masked_index].numpy()
     likelihood = softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.5)

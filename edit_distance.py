@@ -2,7 +2,7 @@ import numpy as np
 import util
 from tqdm import tqdm,trange
 from operator import itemgetter
-from letter_stuff import trenner_punctuations
+from letter_stuff import trenner_punctuations,vocals
 
 
 def levenshteinDistance(target, source, word_embedding,char_app=None):
@@ -11,11 +11,13 @@ def levenshteinDistance(target, source, word_embedding,char_app=None):
     vowls_in = vowl_checker(source)
     n = len(target)
     m = len(source)
-    freelo_amount = 0.1 if source[0] in trenner_punctuations else min(2/m+0.3,1)
+    freelo_amount = 0.1 if source[0] in trenner_punctuations else 0.5
     dels = 0
     distance = np.zeros((n+1, m+1))
-    for i in range(1, n+1):
-        distance[i][0] = i
+    i=0.2
+    for num in range(1, n+1):
+        i += 0.2 if ((target[num-1] in vocals) and (not vowls_in)) else 1
+        distance[num][0] = i
     for j in range(1, m+1):
         distance[0][j] = j
     for i in range(1, n+1):
@@ -36,8 +38,7 @@ def levenshteinDistance(target, source, word_embedding,char_app=None):
 
 
 def in_cost(in_char, vowls_in):
-    vowls = ["A", "a", "E", "e", "I", "i", "O", "o", "u", "U" ]
-    if (in_char in vowls) and not(vowls_in):
+    if (in_char in vocals) and not(vowls_in):
         return 0.2
     else:
         return 1
@@ -50,7 +51,8 @@ def sub_cost(char1, char2, word_embedding):
 
 
 def del_cost(del_char, table, freelo,freelo_amount, scaler=0.75):
-    return freelo_amount if freelo else scaler**(table[del_char]-1)
+    scal_cost = scaler**(table[del_char]-1)
+    return min(freelo_amount,scal_cost) if freelo else scal_cost
 
 
 def vowl_checker(word):

@@ -6,10 +6,14 @@ from operator import itemgetter
 from letter_stuff import trenner_punctuations
 import sys
 
-full_word_dic = util.load_dictionary("DATA/bert_wiki_full_words.txt")
-piece_dict = util.load_dictionary("DATA/bert_wiki_word_pieces.txt")
+letter_dic = util.load_dictionary("DATA/dictionaries/bert_letter_begin.txt")
+number_dic = util.load_dictionary("DATA/dictionaries/bert_number_begin.txt")
+punct_dic = util.load_dictionary("DATA/dictionaries/bert_punctuations.txt")
+full_word_dic = letter_dic + number_dic + punct_dic
+piece_dict = util.load_dictionary("DATA/dictionaries/bert_morphemes.txt")
 double_dic = full_word_dic+piece_dict
 word_embedding = util.load_pickle("visual_embeddings.pkl")
+freq_dict = util.load_freq_dict()
 
 def cut_care_about(probs,care_abouts_prob):
     for i in range(len(probs)):
@@ -17,10 +21,21 @@ def cut_care_about(probs,care_abouts_prob):
             return i
     return len(probs)
 
+def priorize(probs):
+    dic,vals,dels = zip(*probs)
+    my_mass = sum(vals)
+    prior = util.get_prior([x[0] for x in dic],freq_dict=freq_dict)
+    vals = np.array(vals)*prior
+    vals = vals*(my_mass/sum(vals))
+    out = [list(x) for x in zip(dic,vals,dels)]
+    return out
+
 def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
     word=word.lower()
     probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,True)
+    print(list(filter(lambda x:x[0]=="and",probs)))
     probs = [[[x[0]]]+list(x[1:]) for x in probs]
+    probs = priorize(probs)
     prob_cut = cut_care_about(probs,care_abouts_prob)
     if prob_cut == 0:
         return probs
@@ -65,6 +80,23 @@ def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
     for p in probs:
         p[1] /= probsum
     return probs
+
+def check_for_some_text(dataset):
+    out = []
+    for line in dataset:
+        my_line = []
+        out.append(my_line)
+        for sentence in line:
+            words = []
+            my_line.append(words)
+            for word in sentence:
+                my_word = "".join(word_piece_distance(word)[0][0])
+                words.append(my_word)
+    return out
+
 if __name__ == '__main__':
+    #dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
+    #out_dataset = check_for_some_text(dataset[:1])
+    #util.write_dataset("preprocessed.txt",out_dataset)
     res = word_piece_distance(*sys.argv[1:])
     print(res[:10])
