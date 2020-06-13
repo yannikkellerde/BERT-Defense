@@ -31,9 +31,8 @@ def priorize(probs):
     return out
 
 def word_piece_distance(word,care_abouts_prob = 0.001,inner_amount=5):
-    word=word.lower()
+    word=util.mylower(word)
     probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,True)
-    print(list(filter(lambda x:x[0]=="and",probs)))
     probs = [[[x[0]]]+list(x[1:]) for x in probs]
     probs = priorize(probs)
     prob_cut = cut_care_about(probs,care_abouts_prob)
@@ -95,8 +94,8 @@ def check_for_some_text(dataset):
     return out
 
 if __name__ == '__main__':
-    #dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
-    #out_dataset = check_for_some_text(dataset[:1])
-    #util.write_dataset("preprocessed.txt",out_dataset)
-    res = word_piece_distance(*sys.argv[1:])
-    print(res[:10])
+    dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
+    out_dataset = check_for_some_text(dataset[100:105])
+    util.write_dataset("preprocessed.txt",out_dataset)
+    #res = word_piece_distance(*sys.argv[1:])
+    #print(res[:10])

@@ -7,6 +7,7 @@ from edit_distance import get_word_dic_distance
 import multiprocessing
 from itertools import chain
 from functools import reduce
+from letter_stuff import small_letters,big_letters
 
 def distance_words(tasks,dictionary,word_embedding):
     results = []
@@ -182,6 +183,16 @@ def calc_mean(means, size):
 
 def fast_argmin(a):
     return min(range(len(a)), key=lambda x: a[x])
+
+lower_dict = {x:x.lower() for x in big_letters}
+def mylower(word):
+    out = ""
+    for letter in word:
+        if letter in lower_dict:
+            out += lower_dict[letter]
+        else:
+            out += letter
+    return out
 
 if __name__ == '__main__':
     pass
