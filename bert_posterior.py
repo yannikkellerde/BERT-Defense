@@ -3,7 +3,7 @@ import numpy as np
 from util import softmax
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 import logging
-logger = logging.getLogger('root')
+logger = logging.getLogger()
 
 logger.info("loading bert model ...")
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')

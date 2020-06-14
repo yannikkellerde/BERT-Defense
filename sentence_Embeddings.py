@@ -8,13 +8,9 @@ def init_model_roberta():
 
 
 def sentence_embedding_only_best_word(model, posterior, dic):
-    sentences = []
-    out_sentence = [dic[np.argmax(p)] for p in posterior]
-    sentence = ""
-    for word in out_sentence:
-        sentence = sentence + word + " "
-    sentences.append(sentence)
-    sentence_embeddings = model.encode(sentences)
+    sentence = " ".join([dic[np.argmax(p)] for p in posterior])
+    sentences = [sentence]
+    sentence_embeddings = model.encode(sentences,show_progress_bar=False)
     return sentence_embeddings[0]
 
 
@@ -24,7 +20,7 @@ def sentence_average_from_word_embeddings(posterior, dic, embeddings):
     for word_distribution in posterior:
         word_vec = get_word_vec_from_distribution(word_distribution, dic, embeddings)
         word_vecs.append(word_vec)
-    sentence_embedding.append(word_vecs.average(np.array(word_vecs), axis=0))
+    sentence_embedding.append(np.average(np.array(word_vecs), axis=0))
     return sentence_embedding
 
 
