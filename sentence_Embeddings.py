@@ -40,11 +40,11 @@ def load_vectors(fname):
 
 def get_word_vec_from_distribution(word_distribution, dic, embeddings):
     word_vecs = []
-    weigths = []
+    weights = []
     for i in range(len(word_distribution)):
         if word_distribution[i] !=0:
             word_vecs.append(embeddings[dic[i]])
             weights.append(word_distribution[i])
     word_vecs = np.array(word_vecs)
-    average_word = np.average(word_vecs, axis=0, weights=weigths)
+    average_word = np.average(word_vecs, axis=0, weights=weights)
     return average_word
