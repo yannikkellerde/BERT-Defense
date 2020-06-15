@@ -28,6 +28,7 @@ from multiprocess_tasks import multiprocess_word_distances
 from sentence_Embeddings import load_vectors, sentence_embedding_only_best_word,init_model_roberta, sentence_average_from_word_embeddings
 import time
 import os,sys
+from tqdm import tqdm,trange
 
 
 if __name__ == '__main__':
@@ -47,14 +48,22 @@ if __name__ == '__main__':
             transpo_dict = pkl.load(f)
     else:
         transpo_dict = {}
-    sim_scores_robert = []
+    if os.path.exists("storage/embeddings_robert.pkl"):
+        with open("storage/embeddings_robert.pkl","rb") as f:
+            all_embed_robert=pkl.load(f)
+    else:
+        all_embed_robert = []
+    if os.path.exists("storage/sim_scores_robert.txt"):
+        with open("storage/sim_scores_robert.txt","r") as f:
+            sim_scores_robert = f.read().splitlines()
+    else:
+        sim_scores_robert = []
     #sim_scores_word = []
-    all_embed_robert = []
     #all_embed_word = []
-    for whereami in range(0,len(dataset),20):
+    for whereami in trange(len(sim_scores_robert),len(dataset),20):
         in_data = dataset[whereami:whereami+20]
-        logger.info("input data:")
-        logger.info(in_data)
+        logger.debug("input data:")
+        logger.debug(in_data)
         start = time.perf_counter()
         logger.info("calculating distances")
         priors = multiprocess_word_distances(in_data,dictionary,word_embedding,transpo_dict)
@@ -98,8 +107,8 @@ if __name__ == '__main__':
         #with open("storage/sim_scores_word_vec.txt","w") as f:
         #    f.write("\n".join(sim_scores_word))
 
-        logger.info("full posterior:")
-        logger.info(posterior_sentences)
-        logger.info("cosine_similarity")
-        logger.info(sim_scores_robert)
+        logger.debug("full posterior:")
+        logger.debug(posterior_sentences)
+        logger.debug("cosine_similarity")
+        logger.debug(sim_scores_robert)
         logger.info(f"time writing all the stuff: {time.perf_counter()-start}")

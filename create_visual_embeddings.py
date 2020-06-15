@@ -9,7 +9,7 @@ from tqdm import tqdm,trange
 fnt = ImageFont.truetype('unifont-13.0.02.ttf', 25)
 vec_dict = {}
 
-for i in trange(32,30000,1):
+for i in trange(0,30000,1):
     txt = Image.new('L', (15,23), (255,))
     d = ImageDraw.Draw(txt)
     d.text((0,0), chr(i), font=fnt, fill=(0,))
