@@ -12,8 +12,6 @@ punct_dic = util.load_dictionary("DATA/dictionaries/bert_punctuations.txt")
 full_word_dic = letter_dic + number_dic + punct_dic
 piece_dict = util.load_dictionary("DATA/dictionaries/bert_morphemes.txt")
 double_dic = full_word_dic+piece_dict
-word_embedding = util.load_pickle("visual_embeddings.pkl")
-freq_dict = util.load_freq_dict()
 
 def cut_care_about(probs,care_abouts_prob):
     for i in range(len(probs)):
@@ -30,7 +28,8 @@ def priorize(probs):
     out = [list(x) for x in zip(dic,vals,dels)]
     return out
 
-def word_piece_distance(word,min_care_abouts_prob = 0.01):
+def word_piece_distance(word,word_embedding):
+    min_care_abouts_prob = 0.01
     word=util.mylower(word)
     probs = get_word_dic_distance(word,full_word_dic,word_embedding,False,False)
     if len(word)>20:   # Filter out long links and other incomprehensible stuff
@@ -38,7 +37,6 @@ def word_piece_distance(word,min_care_abouts_prob = 0.01):
     #probs = priorize(probs)
     probs_before_sort = probs[:]
     probs.sort(key=itemgetter(1),reverse=True)
-    print(probs[:10])
     care_abouts_prob = min_care_abouts_prob
     for p in probs:
         if p[1]<min_care_abouts_prob:
@@ -46,7 +44,6 @@ def word_piece_distance(word,min_care_abouts_prob = 0.01):
         if p[2]==0:
             care_abouts_prob = p[1]
             break
-    print(care_abouts_prob)
     inner_amount = care_abouts_prob/2
     prob_cut = cut_care_about(probs,care_abouts_prob)
     if prob_cut == 0:
@@ -85,7 +82,11 @@ def word_piece_distance(word,min_care_abouts_prob = 0.01):
                 if old[1]*(new[1]/probsum)<inner_amount:
                     probsum -= new[1]
                     break
-                inner_reins.append([old[0]+[new[0]],new[1],new[2]])
+                if new[0] in piece_dict:
+                    putin = "##"+new[0]
+                else:
+                    putin = new[0]
+                inner_reins.append([old[0]+[putin],new[1],new[2]])
             for rein in inner_reins:
                 if rein[2]>0:
                     if left==1:
@@ -124,6 +125,8 @@ if __name__ == '__main__':
     #dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
     #out_dataset = check_for_some_text(dataset[250:270])
     #util.write_dataset("preprocessed.txt",out_dataset)
-    res,combostuff = word_piece_distance(*sys.argv[1:])
+    word_embedding = util.load_pickle("visual_embeddings.pkl")
+    freq_dict = util.load_freq_dict()
+    res,combostuff = word_piece_distance(*sys.argv[1:],word_embedding)
     res.sort(key=itemgetter(1),reverse=True)
     print(res[:10],combostuff[:10])

@@ -1,19 +1,19 @@
-from edit_distance import get_word_dic_distance
+from no_OOV_POC import word_piece_distance
 import multiprocessing
 from functools import reduce
 from util import mylower
 import numpy as np
 
-def distance_words(tasks,dictionary,word_embedding):
+def distance_words(tasks,word_embedding):
     results = []
     for task in tasks:
         word = task[0]
-        probs_mit_wort = get_word_dic_distance(word, dictionary, word_embedding, sort=False, progress=False)
+        probs_mit_wort,combostuff = word_piece_distance(word, word_embedding)
         probs_ohne_wort = np.array([x[1] for x in probs_mit_wort])
-        results.append([probs_ohne_wort,*task[1:]])
+        results.append([[probs_ohne_wort,combostuff],*task[1:]])
     return results
 
-def multiprocess_word_distances(dataset,dictionary,word_embedding,transpo_dict = {}):
+def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {}):
     cpu_count = multiprocessing.cpu_count()
     work_words = []
     preresults = []
@@ -28,7 +28,7 @@ def multiprocess_word_distances(dataset,dictionary,word_embedding,transpo_dict =
     splitl = len(work_words)/(cpu_count-1)
     split_words = []
     for i in range(cpu_count-1):
-        split_words.append([work_words[int(round(i*splitl)):int(round((i+1)*splitl))],dictionary,word_embedding])
+        split_words.append([work_words[int(round(i*splitl)):int(round((i+1)*splitl))],word_embedding])
     with multiprocessing.Pool(processes=cpu_count-1) as pool:
         results = pool.starmap(distance_words,split_words)
     for i,part in enumerate(results):
@@ -40,4 +40,4 @@ def multiprocess_word_distances(dataset,dictionary,word_embedding,transpo_dict =
         out[result[1]][result[2]].append(result[0])
     for preres in preresults:
         out[preres[1]][preres[2]].insert(preres[3],preres[0])
-    return np.array(out)
+    return out

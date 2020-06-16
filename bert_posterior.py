@@ -3,6 +3,7 @@ import numpy as np
 from util import softmax
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 import logging
+from copy import deepcopy
 logger = logging.getLogger()
 
 logger.info("loading bert model ...")
@@ -29,16 +30,13 @@ def format_prior_and_dict(prior,dictionary):
 def bert_posterior(prior,dictionary,maxdepth):
     return bert_posterior_recur(prior.copy(),prior,np.zeros(len(prior)),dictionary,maxdepth)
 
-def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
-    """Function partly based on https://stackoverflow.com/questions/54978443/predicting-missing-words-in-a-sentence-natural-language-processing-model
-    Prior and dictionary should be formated according to format_prior_and_dict
+def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
+    """dictionary should be formated according to format_dict
     """
     if maxdepth<=0:
         return prior
-    sent_ray = [dictionary[np.argmax(p)] for p in prior]
-    logger.debug(tokenizer.convert_ids_to_tokens(sent_ray))
     my_min = np.inf
-    for i,p in enumerate(prior):
+    for i,(p,_c) in enumerate(prior):
         s = np.sort(p)
         diff = s[-1]-s[-2]
         if diff==1:
@@ -47,9 +45,23 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
             lowest = i
             my_min = diff+alreadys[i]
     alreadys[lowest] += 1
-    old_word = sent_ray[lowest]
-    logger.debug(f"Masked token: {tokenizer.convert_ids_to_tokens([sent_ray[lowest]])[0]}")
-    sent_ray[lowest] = tokenizer.vocab["[MASK]"]
+    sent_ray = []
+    for i,(p,c) in enumerate(prior):
+        pmaxin = np.argmax(p)
+        if i==lowest:
+            old_word = dictionary[pmaxin]
+            sent_ray.append(tokenizer.vocab["[MASK]"])
+        elif len(c) == 0:
+            sent_ray.append(dictionary[pmaxin])
+        else:
+            csum = sum(x[1] for x in c)
+            if p[pmaxin]/(1+csum)>c[0][1]:
+                sent_ray.append(dictionary[pmaxin])
+            else:
+                for w in c[0][0]:
+                    sent_ray.append(tokenizer.vocab[w])
+    logger.debug(tokenizer.convert_ids_to_tokens(sent_ray))
+    logger.debug(f"Masked token: {tokenizer.convert_ids_to_tokens([old_word])[0]}")
     indexed_tokens = [tokenizer.vocab["[CLS]"]]+sent_ray+[tokenizer.vocab["[SEP]"]]
     
     # Create the segments tensors.
@@ -75,9 +87,7 @@ def bert_posterior_recur(orig_priors,prior,alreadys,dictionary,maxdepth):
         logger.warn(f"{preds.shape}, {best_indexied[:5]}, {likelihood[:5]}, {best_scores[:5]}, {predicted_tokens}")
     logger.debug(f"{tokenizer.convert_ids_to_tokens([old_word])[0]}, {likelihood[dictionary.index(old_word)]}")
 
-    numerator = orig_priors[lowest] * likelihood
-    posterior = prior.copy()
-    posterior[lowest] = numerator/np.sum(numerator)
-    #if dictionary[np.argmax(posterior[lowest])] != old_word:
-    return bert_posterior_recur(orig_priors,posterior,alreadys, dictionary, maxdepth-1)
-    #return posterior
+    numerator = orig_prior[lowest][0] * likelihood
+    posterior = deepcopy(prior)
+    posterior[lowest][0] = numerator/np.sum(numerator)
+    return bert_posterior_recur(orig_prior,posterior,alreadys, dictionary, maxdepth-1)

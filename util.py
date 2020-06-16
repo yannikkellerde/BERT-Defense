@@ -86,11 +86,16 @@ def load_pickle(filename):
     with open(filename, 'rb') as f:
         return pkl.load(f)
 
-def write_dataset(filename,dataset):
+def write_dataset(filename,dataset,as_sentences=False):
     """Write a dataset of dimensions LxSxW to a file. S is the amount of sentences and W the number of words"""
     with open(filename, 'w') as f:
-        f.write("\n".join(["\t".join([" ".join(y) for y in x]) for x in dataset]))
-
+        if as_sentences:
+            f.write("\n".join(["\t".join(x) for x in dataset]))
+        else:
+            f.write("\n".join(["\t".join([" ".join(y) for y in x]) for x in dataset]))
+def only_read_dataset(filename):
+    with open(filename, 'r') as f:
+        return [x.split("\t") for x in f.read().splitlines()]
 def cosine_similarity(a,b):
     return (a@b)/(np.linalg.norm(a)*np.linalg.norm(b))
 

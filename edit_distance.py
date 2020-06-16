@@ -85,7 +85,7 @@ def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, o
     char_app = char_apparence(orig_word)
     vowls_in = vowl_checker(orig_word)
     if len(word)>20:  # Filter out links and other uncomprehensable stuff
-        distance = [(sample_word,1) for sample_word in dic]
+        distance = [(sample_word,1,0) for sample_word in dic]
     else:
         distance = []
         for sample_word in (tqdm(dic) if progress else dic):
