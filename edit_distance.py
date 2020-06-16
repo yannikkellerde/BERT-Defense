@@ -12,20 +12,22 @@ def levenshteinDistance(target, source, word_embedding,char_app=None,vowls_in=No
         vowls_in = vowl_checker(source)
     n = len(target)
     m = len(source)
-    freelo_amount = (0.1 if source[0] in trenner_punctuations else 0.5) if len(source)>2 else 1
+    freelo_amount = (0.2 if source[0] in trenner_punctuations else 0.5) if len(source)>2 else 1
     dels = 0
     distance = np.zeros((n+1, m+1))
-    i=0
+    i = 0
     for num in range(1, n+1):
-        i += 0.2 if ((target[num-1] in vocals) and (not vowls_in)) else 1
+        i += in_cost(target[num-1],vowls_in)
         distance[num][0] = i
-    for j in range(1, m+1):
-        distance[0][j] = j
+    j = 0
+    for num in range(1, m+1):
+        j += del_cost(source[num-1],char_app,False,freelo_amount)
+        distance[0][num] = j
     for i in range(1, n+1):
         for j in range(1, m+1):
             possibilities = [distance[i-1][j] + in_cost(target[i-1], vowls_in),# insertion von target_i in source
                                 distance[i-1][j-1] + sub_cost(target[i-1], source[j-1], word_embedding),# substituition von target in source
-                                distance[i][j-1] + del_cost(source[j-1], char_app,False,freelo_amount)]# delition  source_j
+                                distance[i][j-1] + del_cost(source[j-1], char_app,i==n,freelo_amount)]# delition  source_j
             if target[i-1] == source[j-1]:
                 possibilities.append(distance[i-1][j-1])
             choice = util.fast_argmin(possibilities)
@@ -82,9 +84,12 @@ def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, o
         orig_word = word
     char_app = char_apparence(orig_word)
     vowls_in = vowl_checker(orig_word)
-    distance = []
-    for sample_word in (tqdm(dic) if progress else dic):
-        distance.append((sample_word, *levenshteinDistance(sample_word, word, word_embedding,char_app,vowls_in)))
+    if len(word)>20:  # Filter out links and other uncomprehensable stuff
+        distance = [(sample_word,1) for sample_word in dic]
+    else:
+        distance = []
+        for sample_word in (tqdm(dic) if progress else dic):
+            distance.append((sample_word, *levenshteinDistance(sample_word, word, word_embedding,char_app,vowls_in)))
     if sort:
         distance.sort(key=itemgetter(1))
     words, values, dels = zip(*distance)
@@ -92,7 +97,7 @@ def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, o
     max_value = np.max(values)
     values = max_value - values
     values = util.softmax(np.array(values),theta=4)
-    distance = list(zip(words, values, dels))
+    distance = list(map(list,zip(words, values, dels)))
     return distance
 
 
