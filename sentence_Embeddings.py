@@ -18,6 +18,7 @@ def get_most_likely_sentence(distribution,dic):
         else:
             csum = sum(x[1] for x in c)
             if p[pmaxin]/(1+csum)>c[0][1]:
+            #if p[pmaxin]>c[0][1]:
                 sentence += dic[pmaxin]
             else:
                 for w in c[0][0]:

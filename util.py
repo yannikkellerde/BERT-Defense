@@ -43,7 +43,7 @@ def load_and_preprocess_dataset(filename):
                         if len(word)>0 and (word[-1]=="," or word[-1]=='"' or word[-1]==";" or word[-1]==":" or word[-1]=="'"):
                             lateradd.append(word[-1])
                             word = word[:-1]
-                        if i==len(words)-1 and len(word)>1 and word[-1]=="." and word[-2]!=".":
+                        if i==len(words)-1 and len(word)>1 and (word[-1]=="." and word[-2]!=".") or word[-1]=="?" or word[-1]=="!":
                             lateradd.append(word[-1])
                             word = word[:-1]
                     if len(word)>0:
@@ -85,6 +85,19 @@ def each_char_in(haystack,needle):
 def load_pickle(filename):
     with open(filename, 'rb') as f:
         return pkl.load(f)
+
+def combine_known_transpos(dataset,combo_transpo,normal_transpo):
+    out = [[[] for _sentence in line] for line in dataset]
+    for i,line in enumerate(dataset):
+        for j,sentence in enumerate(line):
+            for word in sentence:
+                word=mylower(word)
+                print(word in combo_transpo, word in normal_transpo)
+                if len(word) > 20:
+                    out[i][j].append(combo_transpo[word])
+                else:
+                    out[i][j].append([normal_transpo[word],combo_transpo[word][1]])
+    return out
 
 def write_dataset(filename,dataset,as_sentences=False):
     """Write a dataset of dimensions LxSxW to a file. S is the amount of sentences and W the number of words"""

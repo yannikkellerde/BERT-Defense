@@ -22,7 +22,7 @@ logger.debug("\n\n")
 import numpy as np
 from bert_posterior import bert_posterior, format_dict
 from edit_distance import get_word_dic_distance
-from util import load_dictionary,load_pickle,load_and_preprocess_dataset,cosine_similarity,write_dataset,only_read_dataset
+from util import load_dictionary,load_pickle,load_and_preprocess_dataset,cosine_similarity,write_dataset,only_read_dataset, combine_known_transpos
 from letter_stuff import sentence_ends
 from multiprocess_tasks import multiprocess_word_distances
 from sentence_Embeddings import load_vectors, sentence_embedding_only_best_word,init_model_roberta, sentence_average_from_word_embeddings, get_most_likely_sentence
@@ -43,6 +43,9 @@ if __name__ == '__main__':
     dataset = load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
     logger.info("Init Sentence Embedding Model")
     model = init_model_roberta()
+    if os.path.exists("storage_first_version/word_distances.pkl"):
+        with open("storage_first_version/word_distances.pkl","rb") as f:
+            first_version_transpo = pkl.load(f)
     if os.path.exists("storage/word_distances.pkl"):
         with open("storage/word_distances.pkl","rb") as f:
             transpo_dict = pkl.load(f)
@@ -68,7 +71,8 @@ if __name__ == '__main__':
         logger.debug(in_data)
         start = time.perf_counter()
         logger.info("calculating distances")
-        priors = multiprocess_word_distances(in_data,word_embedding,transpo_dict)
+        priors = multiprocess_word_distances(in_data,word_embedding,transpo_dict,first_version_transpo)
+        #priors = combine_known_transpos(in_data,transpo_dict,first_version_transpo)
         logger.info(f"time distance calculation: {time.perf_counter()-start}")
         start = time.perf_counter()
         posterior_sentences = [[[] for _sentence in line] for line in priors]

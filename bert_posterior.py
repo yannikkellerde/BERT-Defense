@@ -56,6 +56,7 @@ def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
         else:
             csum = sum(x[1] for x in c)
             if p[pmaxin]/(1+csum)>c[0][1]:
+            #if p[pmaxin]>c[0][1]:
                 sent_ray.append(dictionary[pmaxin])
             else:
                 for w in c[0][0]:

@@ -13,7 +13,7 @@ def distance_words(tasks,word_embedding):
         results.append([[probs_ohne_wort,combostuff],*task[1:]])
     return results
 
-def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {}):
+def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {},simple_transpo = {}):
     cpu_count = multiprocessing.cpu_count()
     work_words = []
     preresults = []
@@ -22,7 +22,10 @@ def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {}):
             for c,word in enumerate(sentence):
                 useword = mylower(word)
                 if useword in transpo_dict:
-                    preresults.append([transpo_dict[useword],a,b,c])
+                    if len(useword)>20:
+                        preresults.append([transpo_dict[useword],a,b,c])
+                    else:
+                        preresults.append([[simple_transpo[useword],transpo_dict[useword][1]],a,b,c])
                 else:
                     work_words.append([useword,a,b])
     splitl = len(work_words)/(cpu_count-1)
@@ -33,7 +36,10 @@ def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {}):
         results = pool.starmap(distance_words,split_words)
     for i,part in enumerate(results):
         for j,wordpart in enumerate(part):
-            transpo_dict[split_words[i][0][j][0]] = wordpart[0]
+            word = split_words[i][0][j][0]
+            transpo_dict[word] = wordpart[0]
+            if len(word)<=20:
+                results[i][j][0] = [simple_transpo[word],wordpart[0][1]]
     results = list(reduce(lambda x,y:x+y,results))
     out = [[[] for sentence in line] for line in dataset]
     for result in results:
