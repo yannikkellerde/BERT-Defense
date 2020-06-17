@@ -32,7 +32,6 @@ if __name__ == '__main__':
     letter_dic = load_dictionary("DATA/dictionaries/bert_letter_begin.txt")
     number_dic = load_dictionary("DATA/dictionaries/bert_number_begin.txt")
     punc_dic = load_dictionary("DATA/dictionaries/bert_punctuations.txt")
-    word_vecs = load_vectors("DATA/embeddings/wiki-news-300d-1M-subword.txt")
     # word_vecs = load_vectors("DATA/embeddings/wiki-news-300d-1M-subword.vec")
     dictionary = letter_dic+number_dic+punc_dic
     word_embedding = load_pickle("visual_embeddings.pkl")
@@ -58,7 +57,7 @@ if __name__ == '__main__':
             logger.info("calculating posterior")
             posterior = bert_posterior(bert_prior,bert_dict,10)
             sent_emb = sentence_embedding_only_best_word(model, posterior, dictionary)
-            sent_emb2 = sentence_average_from_word_embeddings(posterior, dictionary, word_vecs)
+            # sent_emb2 = sentence_average_from_word_embeddings(posterior, dictionary, word_vecs)
             embedded_sentences[l][s] = sent_emb
             out_sentence = [dictionary[np.argmax(p)] for p in posterior]
             logger.info("Posterior sentence"+str(out_sentence))
