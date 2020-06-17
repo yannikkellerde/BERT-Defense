@@ -12,8 +12,6 @@ punct_dic = util.load_dictionary("DATA/dictionaries/bert_punctuations.txt")
 full_word_dic = letter_dic + number_dic + punct_dic
 piece_dict = util.load_dictionary("DATA/dictionaries/bert_morphemes.txt")
 double_dic = full_word_dic+piece_dict
-word_embedding = util.load_pickle("visual_embeddings.pkl")
-freq_dict = util.load_freq_dict()
 
 def cut_care_about(probs,care_abouts_prob):
     for i in range(len(probs)):
@@ -30,27 +28,39 @@ def priorize(probs):
     out = [list(x) for x in zip(dic,vals,dels)]
     return out
 
-def word_piece_distance(word,care_abouts_prob = 0.01,inner_amount=5):
+def word_piece_distance(word,word_embedding):
+    min_care_abouts_prob = 0.01
     word=util.mylower(word)
-    probs = get_word_dic_distance(word,full_word_dic,word_embedding,True,False)
-    probs = [[[x[0]]]+list(x[1:]) for x in probs]
-    probs = priorize(probs)
+    probs = get_word_dic_distance(word,full_word_dic,word_embedding,False,False)
+    if len(word)>20:   # Filter out long links and other incomprehensible stuff
+        return (probs,tuple())
+    #probs = priorize(probs)
+    probs_before_sort = probs[:]
     probs.sort(key=itemgetter(1),reverse=True)
+    care_abouts_prob = min_care_abouts_prob
+    for p in probs:
+        if p[1]<min_care_abouts_prob:
+            break
+        if p[2]==0:
+            care_abouts_prob = p[1]
+            break
+    inner_amount = care_abouts_prob/2
     prob_cut = cut_care_about(probs,care_abouts_prob)
     if prob_cut == 0:
-        return probs
+        return (probs_before_sort,tuple())
     max_left = max(x[2] for x in probs[:prob_cut])
     prob_left_dict = {i:list() for i in range(max_left+1)}
+    combostuff = []
     for i in range(prob_cut-1,-1,-1):
-        prob = probs[i]
+        prob = [[probs[i][0]]]+list(probs[i][1:])
         for j in range(i):
-            if probs[i][0][0] in probs[j][0][0]:
-                del probs[i]
+            if probs[i][0] in probs[j][0]:
+                probs[i][1] = 0
                 break
         else:
             if prob[2]>0:
                 prob_left_dict[prob[2]].append(prob[:2])
-                del probs[i]
+                probs[i][1] = 0
     for left in range(max_left,-1,-1):
         if len(prob_left_dict[left]) == 0:
             continue
@@ -65,23 +75,30 @@ def word_piece_distance(word,care_abouts_prob = 0.01,inner_amount=5):
                     del left_probs[i]
                     break
         for old in prob_left_dict[left]:
-            left_cut = inner_amount//len(old[0])+1
             inner_reins = []
-            for new in left_probs[:left_cut]:
-                inner_reins.append([old[0]+[new[0]],new[1],new[2]])
-            insum = sum([x[1] for x in inner_reins])
+            probsum = 0
+            for new in left_probs:
+                probsum += new[1]
+                if old[1]*(new[1]/probsum)<inner_amount:
+                    probsum -= new[1]
+                    break
+                if new[0] in piece_dict:
+                    putin = "##"+new[0]
+                else:
+                    putin = new[0]
+                inner_reins.append([old[0]+[putin],new[1],new[2]])
             for rein in inner_reins:
                 if rein[2]>0:
                     if left==1:
                         print(rein)
-                    prob_left_dict[rein[2]].append((rein[0],old[1]*(rein[1]/insum)))
+                    prob_left_dict[rein[2]].append((rein[0],old[1]*(rein[1]/probsum)))
                 else:
-                    probs.append([rein[0],old[1]*(rein[1]/insum),rein[2]])
-    probs.sort(key=itemgetter(1),reverse=True)
+                    combostuff.append((rein[0],old[1]*(rein[1]/probsum)))
+    combostuff.sort(key=itemgetter(1),reverse=True)
     probsum = sum(x[1] for x in probs)
-    for p in probs:
+    for p in probs_before_sort:
         p[1] /= probsum
-    return probs
+    return (probs_before_sort,tuple(combostuff))
 
 def check_for_some_text(dataset):
     transpo_dict = {}
@@ -105,9 +122,11 @@ def check_for_some_text(dataset):
     return out
 
 if __name__ == '__main__':
-    dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
-    out_dataset = check_for_some_text(dataset[250:270])
-    util.write_dataset("preprocessed.txt",out_dataset)
-    #res = word_piece_distance(*sys.argv[1:])
-    #res.sort(key=itemgetter(1),reverse=True)
-    #print(res[:10])
+    #dataset = util.load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
+    #out_dataset = check_for_some_text(dataset[250:270])
+    #util.write_dataset("preprocessed.txt",out_dataset)
+    word_embedding = util.load_pickle("visual_embeddings.pkl")
+    freq_dict = util.load_freq_dict()
+    res,combostuff = word_piece_distance(*sys.argv[1:],word_embedding)
+    res.sort(key=itemgetter(1),reverse=True)
+    print(res[:10],combostuff[:10])

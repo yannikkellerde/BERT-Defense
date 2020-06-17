@@ -1,9 +1,10 @@
 import logging
+import pickle as pkl
 # create logger with 'root'
-logger = logging.getLogger('root')
+logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 # create file handler which logs even debug messages
-fh = logging.FileHandler('__main__.log')
+fh = logging.FileHandler('shared_task.log')
 fh.setLevel(logging.DEBUG)
 # create console handler with a higher log level
 ch = logging.StreamHandler()
@@ -16,15 +17,18 @@ ch.setFormatter(console_formatter)
 # add the handlers to the logger
 logger.addHandler(fh)
 logger.addHandler(ch)
+logger.debug("\n\n")
 
 import numpy as np
 from bert_posterior import bert_posterior, format_dict
 from edit_distance import get_word_dic_distance
-from util import load_dictionary,load_pickle,load_and_preprocess_dataset,cosine_similarity
+from util import load_dictionary,load_pickle,load_and_preprocess_dataset,cosine_similarity,write_dataset,only_read_dataset, combine_known_transpos
 from letter_stuff import sentence_ends
 from multiprocess_tasks import multiprocess_word_distances
-from sentence_Embeddings import load_vectors, sentence_embedding_only_best_word,init_model_roberta, sentence_average_from_word_embeddings
+from sentence_Embeddings import load_vectors, sentence_embedding_only_best_word,init_model_roberta, sentence_average_from_word_embeddings, get_most_likely_sentence
 import time
+import os,sys
+from tqdm import tqdm,trange
 
 
 if __name__ == '__main__':
@@ -32,42 +36,78 @@ if __name__ == '__main__':
     letter_dic = load_dictionary("DATA/dictionaries/bert_letter_begin.txt")
     number_dic = load_dictionary("DATA/dictionaries/bert_number_begin.txt")
     punc_dic = load_dictionary("DATA/dictionaries/bert_punctuations.txt")
-    # word_vecs = load_vectors("DATA/embeddings/wiki-news-300d-1M-subword.vec")
+    #word_vecs = load_vectors("DATA/embeddings/wiki-news-300d-1M-subword.txt")
     dictionary = letter_dic+number_dic+punc_dic
     word_embedding = load_pickle("visual_embeddings.pkl")
     bert_dict = format_dict(dictionary)
     dataset = load_and_preprocess_dataset("DATA/test-scoreboard-dataset.txt")
-    in_data = dataset[0:5]
-    logger.info(in_data)
     logger.info("Init Sentence Embedding Model")
     model = init_model_roberta()
-    logger.info("calculating distances")
-    start = time.perf_counter()
-    priors = multiprocess_word_distances(in_data,dictionary,word_embedding)
-    posterior_sentences = [[[] for _sentence in line] for line in priors]
-    embedded_sentences =  [[[] for _sentence in line] for line in priors]
-    for l,line in enumerate(priors):
-        for s,sentence_prior in enumerate(line):
-            prior_sentence = [list(sorted([(y[1],y[0]) for y in x],reverse=True))[0][1] for x in sentence_prior]
-            logger.info("Only distance normalized sentence: "+str(prior_sentence))
-            if prior_sentence[-1] not in sentence_ends:
-                tmp = [(x,1/len(sentence_ends) if x in sentence_ends else 0) for x in dictionary]
-                sentence_prior.append(tmp)
-            bert_prior = np.array([[x[1] for x in p] for p in sentence_prior])
-            logger.info("calculating posterior")
-            posterior = bert_posterior(bert_prior,bert_dict,10)
-            sent_emb = sentence_embedding_only_best_word(model, posterior, dictionary)
-            # sent_emb2 = sentence_average_from_word_embeddings(posterior, dictionary, word_vecs)
-            embedded_sentences[l][s] = sent_emb
-            out_sentence = [dictionary[np.argmax(p)] for p in posterior]
-            logger.info("Posterior sentence"+str(out_sentence))
-            posterior_sentences[l][s] = out_sentence
-    sim_scores = []
-    for line in embedded_sentences:
-        sim_scores.append(cosine_similarity(line[0], line[1]))
-    logger.info(f"time taken: {time.perf_counter()-start}")
+    if os.path.exists("storage_first_version/word_distances.pkl"):
+        with open("storage_first_version/word_distances.pkl","rb") as f:
+            first_version_transpo = pkl.load(f)
+    if os.path.exists("storage/word_distances.pkl"):
+        with open("storage/word_distances.pkl","rb") as f:
+            transpo_dict = pkl.load(f)
+    else:
+        transpo_dict = {}
+    if os.path.exists("storage/embeddings_robert.pkl"):
+        with open("storage/embeddings_robert.pkl","rb") as f:
+            all_embed_robert=pkl.load(f)
+    else:
+        all_embed_robert = []
+    if os.path.exists("storage/sim_scores_robert.txt"):
+        with open("storage/sim_scores_robert.txt","r") as f:
+            sim_scores_robert = f.read().splitlines()
+    else:
+        sim_scores_robert = []
+    if os.path.exists("storage/cleaned_dataset.txt"):
+        all_cleaned_dataset = only_read_dataset("storage/cleaned_dataset.txt")
+    else:
+        all_cleaned_dataset = []
+    for whereami in trange(len(sim_scores_robert),len(dataset),20):
+        in_data = dataset[whereami:whereami+20]
+        logger.debug("input data:")
+        logger.debug(in_data)
+        start = time.perf_counter()
+        logger.info("calculating distances")
+        priors = multiprocess_word_distances(in_data,word_embedding,transpo_dict,first_version_transpo)
+        #priors = combine_known_transpos(in_data,transpo_dict,first_version_transpo)
+        logger.info(f"time distance calculation: {time.perf_counter()-start}")
+        start = time.perf_counter()
+        posterior_sentences = [[[] for _sentence in line] for line in priors]
+        embedded_sentences_robert =  [[[] for _sentence in line] for line in priors]
+        cleaned_dataset =  [[[] for _sentence in line] for line in priors]
+        for l,line in enumerate(priors):
+            for s,sentence_prior in enumerate(line):
+                prior_sentence = get_most_likely_sentence(sentence_prior,dictionary)
+                logger.debug("Only distance normalized sentence: "+str(prior_sentence))
+                if prior_sentence[-1] not in sentence_ends:
+                    tmp = [np.array([1/len(sentence_ends) if x in sentence_ends else 0 for x in dictionary]),tuple()]
+                    sentence_prior.append(tmp)
+                logger.debug("calculating posterior")
+                posterior = bert_posterior(sentence_prior,bert_dict,int(len(sentence_prior)*1.5))
+                out_sentence = get_most_likely_sentence(posterior,dictionary)
+                sent_emb_robert = sentence_embedding_only_best_word(model, out_sentence)
+                embedded_sentences_robert[l][s] = sent_emb_robert
+                cleaned_dataset[l][s] = out_sentence
+                logger.debug("Posterior sentence"+str(out_sentence))
+                posterior_sentences[l][s] = out_sentence
+            sim_scores_robert.append(cosine_similarity(embedded_sentences_robert[l][0], embedded_sentences_robert[l][1]))
+        logger.info(f"time posterior + similarity: {time.perf_counter()-start}")
+        start = time.perf_counter()
+        all_embed_robert.extend(embedded_sentences_robert)
+        all_cleaned_dataset.extend(cleaned_dataset)
 
-    logger.info("full posterior:")
-    logger.info(posterior_sentences)
-    logger.info("cosine_similarity")
-    logger.info(sim_scores)
+        write_dataset("storage/cleaned_dataset.txt",all_cleaned_dataset,as_sentences=True)
+        with open("storage/embeddings_robert.pkl","wb") as f:
+            pkl.dump(all_embed_robert,f)
+        with open("storage/sim_scores_robert.txt","w") as f:
+            f.write("\n".join([str(x) for x in sim_scores_robert]))
+        with open("storage/word_distances.pkl","wb") as f:
+            pkl.dump(transpo_dict,f)
+        logger.debug("full posterior:")
+        logger.debug(posterior_sentences)
+        logger.debug("cosine_similarity")
+        logger.debug(sim_scores_robert)
+        logger.info(f"time writing all the stuff: {time.perf_counter()-start}")

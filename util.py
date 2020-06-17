@@ -43,7 +43,7 @@ def load_and_preprocess_dataset(filename):
                         if len(word)>0 and (word[-1]=="," or word[-1]=='"' or word[-1]==";" or word[-1]==":" or word[-1]=="'"):
                             lateradd.append(word[-1])
                             word = word[:-1]
-                        if i==len(words)-1 and len(word)>1 and word[-1]=="." and word[-2]!=".":
+                        if i==len(words)-1 and len(word)>1 and (word[-1]=="." and word[-2]!=".") or word[-1]=="?" or word[-1]=="!":
                             lateradd.append(word[-1])
                             word = word[:-1]
                     if len(word)>0:
@@ -86,11 +86,29 @@ def load_pickle(filename):
     with open(filename, 'rb') as f:
         return pkl.load(f)
 
-def write_dataset(filename,dataset):
+def combine_known_transpos(dataset,combo_transpo,normal_transpo):
+    out = [[[] for _sentence in line] for line in dataset]
+    for i,line in enumerate(dataset):
+        for j,sentence in enumerate(line):
+            for word in sentence:
+                word=mylower(word)
+                print(word in combo_transpo, word in normal_transpo)
+                if len(word) > 20:
+                    out[i][j].append(combo_transpo[word])
+                else:
+                    out[i][j].append([normal_transpo[word],combo_transpo[word][1]])
+    return out
+
+def write_dataset(filename,dataset,as_sentences=False):
     """Write a dataset of dimensions LxSxW to a file. S is the amount of sentences and W the number of words"""
     with open(filename, 'w') as f:
-        f.write("\n".join(["\t".join([" ".join(y) for y in x]) for x in dataset]))
-
+        if as_sentences:
+            f.write("\n".join(["\t".join(x) for x in dataset]))
+        else:
+            f.write("\n".join(["\t".join([" ".join(y) for y in x]) for x in dataset]))
+def only_read_dataset(filename):
+    with open(filename, 'r') as f:
+        return [x.split("\t") for x in f.read().splitlines()]
 def cosine_similarity(a,b):
     return (a@b)/(np.linalg.norm(a)*np.linalg.norm(b))
 

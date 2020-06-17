@@ -1,20 +1,36 @@
 import numpy as np
 import io
 from sentence_transformers import SentenceTransformer
+import logging
+logger = logging.getLogger()
 
 
 def init_model_roberta():
     return SentenceTransformer("roberta-large-nli-stsb-mean-tokens")
 
 
-def sentence_embedding_only_best_word(model, posterior, dic):
-    sentences = []
-    out_sentence = [dic[np.argmax(p)] for p in posterior]
+def get_most_likely_sentence(distribution,dic):
     sentence = ""
-    for word in out_sentence:
-        sentence = sentence + word + " "
-    sentences.append(sentence)
-    sentence_embeddings = model.encode(sentences)
+    for i,(p,c) in enumerate(distribution):
+        pmaxin = np.argmax(p)
+        if len(c) == 0:
+            sentence += dic[pmaxin]
+        else:
+            csum = sum(x[1] for x in c)
+            if p[pmaxin]/(1+csum)>c[0][1]:
+            #if p[pmaxin]>c[0][1]:
+                sentence += dic[pmaxin]
+            else:
+                for w in c[0][0]:
+                    sentence += w.replace("##","")
+        if i!=len(distribution)-1:
+            sentence+=" "
+    return sentence
+
+def sentence_embedding_only_best_word(model, sentence):
+    logger.debug("Encoding Sentence: "+sentence)
+    sentences = [sentence]
+    sentence_embeddings = model.encode(sentences,show_progress_bar=False)
     return sentence_embeddings[0]
 
 
@@ -24,7 +40,7 @@ def sentence_average_from_word_embeddings(posterior, dic, embeddings):
     for word_distribution in posterior:
         word_vec = get_word_vec_from_distribution(word_distribution, dic, embeddings)
         word_vecs.append(word_vec)
-    sentence_embedding.append(word_vecs.average(np.array(word_vecs), axis=0))
+    sentence_embedding.append(np.average(np.array(word_vecs), axis=0))
     return sentence_embedding
 
 
