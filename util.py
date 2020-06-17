@@ -183,6 +183,20 @@ def mylower(word):
             out += letter
     return out
 
+
+def read_labeled_data(link):
+    text_to_read = open(link, "r", encoding="utf8")
+    scores = []
+    first_sentences = []
+    second_sentences = []
+    for line in text_to_read:
+        point = line.split("\t")
+        scores.append(float(point[0]))
+        first_sentences.append(point[1].strip())
+        second_sentences.append(point[2].strip())
+    return scores, first_sentences, second_sentences
+
+
 if __name__ == '__main__':
     word_embedding = load_pickle("visual_embeddings.pkl")
     redraw_vec(word_embedding[ord("t")])

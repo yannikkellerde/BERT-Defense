@@ -8,6 +8,8 @@ logger = logging.getLogger()
 def init_model_roberta():
     return SentenceTransformer("roberta-large-nli-stsb-mean-tokens")
 
+def simple_sentence_embedder(model, sentences):
+    return model.encode(sentences, show_progress_bar=True)
 
 def get_most_likely_sentence(distribution,dic):
     sentence = ""
@@ -26,6 +28,8 @@ def get_most_likely_sentence(distribution,dic):
         if i!=len(distribution)-1:
             sentence+=" "
     return sentence
+
+
 
 def sentence_embedding_only_best_word(model, sentence):
     logger.debug("Encoding Sentence: "+sentence)
