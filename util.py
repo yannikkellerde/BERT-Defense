@@ -43,7 +43,7 @@ def load_and_preprocess_dataset(filename):
                         if len(word)>0 and (word[-1]=="," or word[-1]=='"' or word[-1]==";" or word[-1]==":" or word[-1]=="'"):
                             lateradd.append(word[-1])
                             word = word[:-1]
-                        if i==len(words)-1 and len(word)>1 and (word[-1]=="." and word[-2]!=".") or word[-1]=="?" or word[-1]=="!":
+                        if i==len(words)-1 and len(word)>1 and ((word[-1]=="." and word[-2]!=".") or word[-1]=="?" or word[-1]=="!"):
                             lateradd.append(word[-1])
                             word = word[:-1]
                     if len(word)>0:
