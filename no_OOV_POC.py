@@ -12,6 +12,7 @@ punct_dic = util.load_dictionary("DATA/dictionaries/bert_punctuations.txt")
 full_word_dic = letter_dic + number_dic + punct_dic
 piece_dict = util.load_dictionary("DATA/dictionaries/bert_morphemes.txt")
 double_dic = full_word_dic+piece_dict
+pseudo_morphemes = ["'t","'s"]
 
 def cut_care_about(probs,care_abouts_prob):
     for i in range(len(probs)):
@@ -65,10 +66,10 @@ def word_piece_distance(word,word_embedding):
         if len(prob_left_dict[left]) == 0:
             continue
         if word[(len(word)-left)-1] in trenner_punctuations:
-            my_dict = double_dic
+            my_dict = double_dic+pseudo_morphemes
         else:
-            my_dict = piece_dict
-        left_probs = get_word_dic_distance(word[(len(word)-left):],my_dict,word_embedding,True,False,orig_word=word)
+            my_dict = piece_dict+pseudo_morphemes
+        left_probs = get_word_dic_distance(word[(len(word)-left):],my_dict+pseudo_morphemes,word_embedding,True,False,orig_word=word)
         for i in range(len(left_probs)-1,-1,-1):
             for j in range(i):
                 if left_probs[i][0][0] in left_probs[j][0][0]:
@@ -82,11 +83,13 @@ def word_piece_distance(word,word_embedding):
                 if old[1]*(new[1]/probsum)<inner_amount:
                     probsum -= new[1]
                     break
-                if new[0] in piece_dict:
-                    putin = "##"+new[0]
+                if new[0] in pseudo_morphemes:
+                    putin = list(new[0])
                 else:
-                    putin = new[0]
-                inner_reins.append([old[0]+[putin],new[1],new[2]])
+                    putin = [new[0]]
+                if new[0] in piece_dict or new[0] in pseudo_morphemes:
+                    putin = ["##"+x for x in putin]
+                inner_reins.append([old[0]+putin,new[1],new[2]])
             for rein in inner_reins:
                 if rein[2]>0:
                     if left==1:

@@ -13,6 +13,6 @@ singular_punctuations = ",:&"+sentence_ends
 non_singular_punctuations = "-' #/\\(){}[]%$€@"
 trenner_punctuations = "-'/&"
 numbers = "0123456789"
-annoying_boys = "|;:._´`=)([]{},'+*/\\\"><"
+annoying_boys = "|;:._´`=)([]{},+*/\\\"><"
 punctuations = non_singular_punctuations+singular_punctuations
 all_chars = letters+punctuations+numbers
