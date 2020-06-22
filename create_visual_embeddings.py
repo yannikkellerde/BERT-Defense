@@ -5,8 +5,9 @@ from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import pickle as pkl
 from tqdm import tqdm,trange
+from sklearn.decomposition import PCA
 
-fnt = ImageFont.truetype('unifont-13.0.02.ttf', 25)
+fnt = ImageFont.truetype('DATA/unifont-13.0.02.ttf', 25)
 vec_dict = {}
 
 for i in trange(0,30000,1):
@@ -24,3 +25,18 @@ for i in range(20):
     print(mean,np.linalg.norm(vec_dict[ord("O")]))
 with open("visual_embeddings.pkl","wb") as f:
     pkl.dump(vec_dict,f)
+
+vecs = []
+keys = []
+for key in tqdm(vec_dict):
+    vecs.append(vec_dict[key])
+    keys.append(key)
+pca = PCA(n_components=150)
+pca.fit(vecs)
+print(np.sum(pca.explained_variance_ratio_))
+vecs = pca.transform(vecs)
+vec_dict = {}
+for key, vec in zip(keys, vecs):
+    vec_dict[key] = vec
+with open("visual_embeddings_pca.pkl","wb") as f:
+    pkl.dump(vec_dict,f)    
