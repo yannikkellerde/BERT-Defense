@@ -5,7 +5,7 @@ from operator import itemgetter
 from letter_stuff import trenner_punctuations,vocals, annoying_boys
 
 
-def levenshteinDistance(target, source, word_embedding,char_app=None,vowls_in=None):
+def levenshteinDistance(target, source, word_embedding,char_app=None,vowls_in=None,cheap_deletions=True):
     if char_app is None:
         char_app = char_apparence(source)
     if vowls_in is None:
@@ -27,7 +27,7 @@ def levenshteinDistance(target, source, word_embedding,char_app=None,vowls_in=No
         for j in range(1, m+1):
             possibilities = [distance[i-1][j] + in_cost(target[i-1], vowls_in),# insertion von target_i in source
                                 distance[i-1][j-1] + sub_cost(target[i-1], source[j-1], word_embedding),# substituition von target in source
-                                distance[i][j-1] + del_cost(source[j-1], char_app,i==n,freelo_amount)]# delition  source_j
+                                distance[i][j-1] + del_cost(source[j-1], char_app,i==n and cheap_deletions,freelo_amount)]# delition  source_j
             if target[i-1] == source[j-1]:
                 possibilities.append(distance[i-1][j-1])
             choice = util.fast_argmin(possibilities)
@@ -79,7 +79,7 @@ def char_apparence(word):
     return table
 
 
-def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, orig_word=None):
+def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, orig_word=None, cheap_deletions=True):
     if orig_word is None:
         orig_word = word
     char_app = char_apparence(orig_word)
@@ -89,7 +89,7 @@ def get_word_dic_distance(word, dic, word_embedding, sort=True, progress=True, o
     else:
         distance = []
         for sample_word in (tqdm(dic) if progress else dic):
-            distance.append((sample_word, *levenshteinDistance(sample_word, word, word_embedding,char_app,vowls_in)))
+            distance.append((sample_word, *levenshteinDistance(sample_word, word, word_embedding,char_app,vowls_in,cheap_deletions)))
     if sort:
         distance.sort(key=itemgetter(1))
     words, values, dels = zip(*distance)
