@@ -29,10 +29,12 @@ def priorize(probs):
     out = [list(x) for x in zip(dic,vals,dels)]
     return out
 
-def word_piece_distance(word,word_embedding):
+def word_piece_distance(word,word_embedding,allow_combo_words=True):
     min_care_abouts_prob = 0.01
     word=util.mylower(word)
-    probs = get_word_dic_distance(word,full_word_dic,word_embedding,False,False)
+    if not allow_combo_words:
+        return get_word_dic_distance(word,full_word_dic,word_embedding,False,False,cheap_deletions=False)
+    probs = get_word_dic_distance(word,full_word_dic,word_embedding,False,False,cheap_deletions=True)
     if len(word)>20:   # Filter out long links and other incomprehensible stuff
         return (probs,tuple())
     #probs = priorize(probs)
@@ -92,8 +94,6 @@ def word_piece_distance(word,word_embedding):
                 inner_reins.append([old[0]+putin,new[1],new[2]])
             for rein in inner_reins:
                 if rein[2]>0:
-                    if left==1:
-                        print(rein)
                     prob_left_dict[rein[2]].append((rein[0],old[1]*(rein[1]/probsum)))
                 else:
                     combostuff.append((rein[0],old[1]*(rein[1]/probsum)))

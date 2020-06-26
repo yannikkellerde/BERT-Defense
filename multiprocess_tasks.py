@@ -8,12 +8,13 @@ def distance_words(tasks,word_embedding):
     results = []
     for task in tasks:
         word = task[0]
-        probs_mit_wort,combostuff = word_piece_distance(word, word_embedding)
+        _weird_probs,combostuff = word_piece_distance(word, word_embedding,allow_combo_words=True)
+        probs_mit_wort = word_piece_distance(word,word_embedding,allow_combo_words=False)
         probs_ohne_wort = np.array([x[1] for x in probs_mit_wort])
         results.append([[probs_ohne_wort,combostuff],*task[1:]])
     return results
 
-def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {},simple_transpo = {}):
+def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {}):
     cpu_count = multiprocessing.cpu_count()
     work_words = []
     preresults = []
@@ -22,10 +23,7 @@ def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {},simple_
             for c,word in enumerate(sentence):
                 useword = mylower(word)
                 if useword in transpo_dict:
-                    if len(useword)>20:
-                        preresults.append([transpo_dict[useword],a,b,c])
-                    else:
-                        preresults.append([[simple_transpo[useword],transpo_dict[useword][1]],a,b,c])
+                    preresults.append([transpo_dict[useword],a,b,c])
                 else:
                     work_words.append([useword,a,b])
     splitl = len(work_words)/(cpu_count-1)
@@ -38,8 +36,6 @@ def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {},simple_
         for j,wordpart in enumerate(part):
             word = split_words[i][0][j][0]
             transpo_dict[word] = wordpart[0]
-            if len(word)<=20:
-                results[i][j][0] = [simple_transpo[word],wordpart[0][1]]
     results = list(reduce(lambda x,y:x+y,results))
     out = [[[] for sentence in line] for line in dataset]
     for result in results:

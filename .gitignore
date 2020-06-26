@@ -3,3 +3,4 @@ visual_embeddings.pkl
 __pycache__/
 .vscode
 safety/
+word_distances.pkl
