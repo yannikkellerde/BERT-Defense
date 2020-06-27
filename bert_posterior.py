@@ -7,9 +7,9 @@ from copy import deepcopy
 logger = logging.getLogger()
 
 logger.info("loading bert model ...")
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+tokenizer = BertTokenizer.from_pretrained('bert-large-uncased')
 # Load pre-trained model (weights)
-model = BertForMaskedLM.from_pretrained('bert-base-uncased')
+model = BertForMaskedLM.from_pretrained('bert-large-uncased')
 model.eval()
 logger.info("done loading bert model")
 
