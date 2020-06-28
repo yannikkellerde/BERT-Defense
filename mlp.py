@@ -67,32 +67,32 @@ def create_model(layerss, dropout, activation_func):
 def random_model_testing(n, batch_size=256):
     train_score, train_1, train_2, dev_score, dev_1, dev_2, test_1, test_2 = load_all_data()
     for i in trange(n):
-        num_layers = random.randint(1, 25)
-        dropout = random.uniform(0.05, 0.6)
+        num_layers = random.randint(1, 10)
+        dropout = random.uniform(0.05, 0.5)
         layers = []
         for i in range(num_layers):
             layers.append(random.randint(50,2000))
         model = create_model(layers, dropout, 'relu')
-        filepath = "model_" + str(layers) + str(dropout) + ".h5" 
+        filepath = "mlp_model/models/model_" + str(layers) + str(dropout) + ".h5" 
         callbacks = [tf.keras.callbacks.EarlyStopping(patience=10),
                      tf.keras.callbacks.ModelCheckpoint(filepath=filepath)]
         model.fit((train_1, train_2), train_score, batch_size=batch_size, epochs=10000,
-                  validation_data = ((dev_1, dev_2), dev_score), callbacks=[callbacks],
+                  validation_data = ((dev_1, dev_2), dev_score), callbacks=callbacks,
                   verbose=1)
         if i%5 == 0:
-            model_clean_up(dev_1, dev_2)
+            model_clean_up(dev_1, dev_2, dev_score)
 
 
-def model_clean_up(dev_1, dev_2):
-    all_models = os.listdir("mlp_model")
+def model_clean_up(dev_1, dev_2, dev_score):
+    all_models = os.listdir("mlp_model/models")
     best_model = None
     best_file = None
     for model in all_models:
-        filepath = "mlp_model/" + model
+        filepath = "mlp_model/models/" + model
         m = tf.keras.models.load_model(filepath)
-        challenger = m.model.evaluate(test_x, test_y, verbose=0)[1]
+        challenger = m.evaluate((dev_1, dev_2), dev_score, verbose=0)[1]
         if not(best_model is None):
-            if best_model < challenger:
+            if best_model > challenger:
                 os.remove(best_file)
                 best_model = challenger
                 best_file = filepath
@@ -101,9 +101,12 @@ def model_clean_up(dev_1, dev_2):
         else:
             best_model = challenger
             best_file = filepath
+    print("Best Model dev mse :" + str(best_model))
 
 
 if __name__ == '__main__':
-    random_model_testing(10)
+    train_score, train_1, train_2, dev_score, dev_1, dev_2, test_1, test_2 = load_all_data()
+    #random_model_testing(50)
+    model_clean_up(dev_1, dev_2, dev_score)
     
     
