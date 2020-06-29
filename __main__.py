@@ -25,7 +25,7 @@ from edit_distance import get_word_dic_distance
 from util import load_dictionary,load_pickle,load_and_preprocess_dataset,cosine_similarity,write_dataset,only_read_dataset, combine_known_transpos
 from letter_stuff import sentence_ends
 from multiprocess_tasks import multiprocess_word_distances
-from sentence_Embeddings import load_vectors, sentence_embedding_only_best_word,init_model_roberta, sentence_average_from_word_embeddings, get_most_likely_sentence
+from sentence_Embeddings import create_pre_mapping,load_vectors, sentence_embedding_only_best_word,init_model_roberta, sentence_average_from_word_embeddings, get_most_likely_sentence
 import time
 import os,sys
 from tqdm import tqdm,trange
@@ -86,16 +86,22 @@ if __name__ == '__main__':
                 if prior_sentence[-1] not in sentence_ends:
                     tmp = [np.array([1/len(sentence_ends) if x in sentence_ends else 0 for x in dictionary]),tuple()]
                     sentence_prior.append(tmp)
+                if s>0:
+                    for i,word in enumerate(in_data[l][s]):
+                        if word in pre_map:
+                            sentence_prior[i] = pre_map[word]
                 logger.debug("calculating posterior")
                 posterior = bert_posterior(sentence_prior,bert_dict,int(len(sentence_prior)*1.5))
+                if s == 0:
+                    pre_map = create_pre_mapping(posterior,in_data[l][s],dictionary)
                 out_sentence = get_most_likely_sentence(posterior,dictionary)
-                #sent_emb_robert = sentence_embedding_only_best_word(model, out_sentence)
-                #embedded_sentences_robert[l][s] = sent_emb_robert
+                sent_emb_robert = sentence_embedding_only_best_word(model, out_sentence)
+                embedded_sentences_robert[l][s] = sent_emb_robert
                 cleaned_dataset[l][s] = out_sentence
                 logger.debug("Posterior sentence"+str(out_sentence))
                 posterior_sentences[l][s] = out_sentence
-            #sim_scores_robert.append(cosine_similarity(embedded_sentences_robert[l][0], embedded_sentences_robert[l][1]))
-        sim_scores_robert.extend(get_similarity(cleaned_dataset))
+            sim_scores_robert.append(cosine_similarity(embedded_sentences_robert[l][0], embedded_sentences_robert[l][1]))
+        #sim_scores_robert.extend(get_similarity(cleaned_dataset))
         logger.info(f"time posterior + similarity: {time.perf_counter()-start}")
         start = time.perf_counter()
         #all_embed_robert.extend(embedded_sentences_robert)

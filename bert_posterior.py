@@ -37,9 +37,9 @@ def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
         return prior
     my_min = np.inf
     for i,(p,_c) in enumerate(prior):
-        s = np.sort(p)
-        diff = s[-1]-s[-2]
-        if diff==1:
+        s = np.partition(-p,1)
+        diff = s[1]-s[0]
+        if diff==1 or s[0]==0:
             diff = 100
         if diff+alreadys[i]<my_min:
             lowest = i

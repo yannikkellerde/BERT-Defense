@@ -29,7 +29,25 @@ def get_most_likely_sentence(distribution,dic):
             sentence+=" "
     return sentence
 
-
+def create_pre_mapping(distribution,orig_words,dic):
+    pre_map = {}
+    for i,(p,c) in enumerate(distribution):
+        pmaxin = np.argmax(p)
+        if len(c) == 0:
+            if len(dic[pmaxin])>3:
+                blub = np.zeros_like(p)
+                blub[pmaxin] = 1
+                pre_map[orig_words[i]] = [blub,tuple()]
+        else:
+            csum = sum(x[1] for x in c)
+            if p[pmaxin]/(1+csum)>c[0][1]:
+                if len(dic[pmaxin])>3:
+                    blub = np.zeros_like(p)
+                    blub[pmaxin] = 1
+                    pre_map[orig_words[i]] = [blub,tuple()]
+            else:
+                pre_map[orig_words[i]] = [np.zeros_like(p),((c[0][0],1),)]
+    return pre_map
 
 def sentence_embedding_only_best_word(model, sentence):
     logger.debug("Encoding Sentence: "+sentence)
