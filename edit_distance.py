@@ -50,7 +50,7 @@ def in_cost(in_char, vowls_in):
 def sub_cost(char1, char2, word_embedding):
     vek1 = word_embedding[ord(char1)]
     vek2 = word_embedding[ord(char2)]
-    return min((1 - vek1@vek2)*2,1)
+    return min((1 - min((vek1@vek2), 1))*2,1)
 
 
 def del_cost(del_char, table, freelo,freelo_amount, scaler=0.75):
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     number_begin = util.load_dictionary("DATA/dictionaries/bert_number_begin.txt")
     dic = letter_begin+number_begin
     word_embedding = util.load_pickle("visual_embeddings.pkl")
-    print(word_embedding[ord("ί")]@word_embedding[ord("t")])
+    print(word_embedding[ord("o")]@word_embedding[ord("=")])
     exit()
     distance = get_word_dic_distance("of``hrry", dic, word_embedding)
     for i in range(40):
