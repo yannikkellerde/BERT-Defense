@@ -50,7 +50,7 @@ def in_cost(in_char, vowls_in):
 def sub_cost(char1, char2, word_embedding):
     vek1 = word_embedding[ord(char1)]
     vek2 = word_embedding[ord(char2)]
-    return min((1 - (vek1@vek2, 1))*2,1)
+    return min((1 - vek1@vek2)*2,1)
 
 
 def del_cost(del_char, table, freelo,freelo_amount, scaler=0.75):
