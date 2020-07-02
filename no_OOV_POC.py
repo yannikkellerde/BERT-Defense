@@ -94,6 +94,8 @@ def word_piece_distance(word,word_embedding,allow_combo_words=True):
                 inner_reins.append([old[0]+putin,new[1],new[2]])
             for rein in inner_reins:
                 if rein[2]>0:
+                    if rein[2]>=left:
+                        continue
                     prob_left_dict[rein[2]].append((rein[0],old[1]*(rein[1]/probsum)))
                 else:
                     combostuff.append((rein[0],old[1]*(rein[1]/probsum)))
@@ -132,4 +134,4 @@ if __name__ == '__main__':
     freq_dict = util.load_freq_dict()
     res,combostuff = word_piece_distance(*sys.argv[1:],word_embedding)
     res.sort(key=itemgetter(1),reverse=True)
-    print(res[:10],combostuff[:10])
+    print(res[:50],combostuff[:50])

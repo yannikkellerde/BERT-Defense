@@ -106,8 +106,6 @@ if __name__ == '__main__':
     number_begin = util.load_dictionary("DATA/dictionaries/bert_number_begin.txt")
     dic = letter_begin+number_begin
     word_embedding = util.load_pickle("visual_embeddings.pkl")
-    print(word_embedding[ord("o")]@word_embedding[ord("=")])
-    exit()
-    distance = get_word_dic_distance("of``hrry", dic, word_embedding)
+    distance = get_word_dic_distance("ɋ˯İՅ", dic, word_embedding, cheap_deletions=False)
     for i in range(40):
         print(distance[i])
