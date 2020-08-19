@@ -37,7 +37,7 @@ class Phonetic_attacker():
             for cur_n in range(3,0,-1):
                 phone_stats = stats[cur_n][i]
                 sum_examples = sum(phone_stats.values())
-                if sum_examples<self.min_examples:
+                if sum_examples<self.min_examples and cur_n>1:
                     continue
                 letters,nums = zip(*list(phone_stats.items()))
                 nums = np.array(nums)/sum_examples
