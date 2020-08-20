@@ -126,4 +126,4 @@ class Phonetic_attacker():
 
 if __name__ == "__main__":
     attacker = Phonetic_attacker()
-    attacker.attack_document("sts-b-sentences.txt","examples/tmp.txt")
+    attacker.attack_document("sts-b-sentences.txt","examples/lil_random_with_freq.txt")
