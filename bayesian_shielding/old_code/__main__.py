@@ -53,7 +53,13 @@ if __name__ == '__main__':
         transpo_dict = {}
     """if os.path.exists("storage/embeddings_robert.pkl"):
         with open("storage/embeddings_robert.pkl","rb") as f:
-            all_embed_robert=pkl.load(f)
+            all_embed_robert=pkl.load(f)def convert_prior_to_weights_tensor(prior,dictionary):
+    weights_tensor = np.zeros(len(prior),len(tokenizer.vocab))
+    for i,p in enumerate(prior):
+        for j,weight in enumerate(p):
+            weights_tensor[i][dictionary[j]] = weight
+    return weights_tensor
+
     else:
         all_embed_robert = []"""
     if os.path.exists("storage/sim_scores_robert.txt"):

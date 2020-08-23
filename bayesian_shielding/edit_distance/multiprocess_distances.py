@@ -1,19 +1,25 @@
 import sys
 sys.path.append("..")
-from no_OOV_POC import word_piece_distance
+from edit_distance.edit_distance import get_word_dic_distance
 import multiprocessing
 from functools import reduce
 from util import mylower
 import numpy as np
 
+letter_dic = util.load_dictionary("DATA/dictionaries/bert_letter_begin.txt")
+number_dic = util.load_dictionary("DATA/dictionaries/bert_number_begin.txt")
+punct_dic = util.load_dictionary("DATA/dictionaries/bert_punctuations.txt")
+full_word_dic = letter_dic + number_dic + punct_dic
+piece_dict = util.load_dictionary("DATA/dictionaries/bert_morphemes.txt")
+double_dic = full_word_dic+piece_dict
+
 def distance_words(tasks,word_embedding):
     results = []
     for task in tasks:
         word = task[0]
-        _weird_probs,combostuff = word_piece_distance(word, word_embedding,allow_combo_words=True)
-        probs_mit_wort = word_piece_distance(word,word_embedding,allow_combo_words=False)
+        probs_mit_wort = get_word_dic_distance(word,full_word_dic,word_embedding,cheap_actions=True,sort=False, progress=False)
         probs_ohne_wort = np.array([x[1] for x in probs_mit_wort])
-        results.append([[probs_ohne_wort,combostuff],*task[1:]])
+        results.append([probs_ohne_wort,*task[1:]])
     return results
 
 def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {}):
