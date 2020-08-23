@@ -1,3 +1,9 @@
+##### Hyperparameters #######
+self.min_examples = 8
+self.softmax_param = 4
+self.word_attack_prob = 1
+self.phoneme_attack_prob = 1
+#############################
 President for early conclusion of Eco Partnership with Sri Lanka	President for early cinclusion of Ekko Partnership with Sree Lanca
 The report forecasts there will be 71,079 hot spots worldwide this year, up from just 14,752 in 2002 and 1,214 in 2001.	The report forrqcass there wil be 71,079 hot spots worldwide this year, upp fromm jist 14,752 in 2002 and 1,214 in 2001.
 The arrests revealed new details about the four-month investigation at Selenski's Mount Olivet Road home.	The aremstze revealdt new ditails' about the forr-month investogationd att Selenski's Mount Olivet Roade home.

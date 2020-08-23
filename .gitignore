@@ -4,3 +4,4 @@ __pycache__/
 .vscode
 safety/
 word_distances.pkl
+word_frequency.txt
