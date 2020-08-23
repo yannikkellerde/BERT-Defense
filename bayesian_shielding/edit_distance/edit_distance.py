@@ -113,8 +113,10 @@ def char_apparence(word):
                 table[c] = 1
     return table
 
-
-def get_word_dic_distance(word, dic, word_embedding, cheap_actions=False, keep_order=False, progress=True):
+default_word_embedding = load_pickle("../binaries/visual_embeddings.pkl")
+def get_word_dic_distance(word, dic, word_embedding=None, cheap_actions=False, keep_order=False, progress=True):
+    if word_embedding is None:
+        word_embedding = default_word_embedding
     char_app = char_apparence(word)
     vowls_in = vowl_checker(word)
     if keep_order:
@@ -143,8 +145,7 @@ if __name__ == '__main__':
     letter_begin = load_dictionary("../../DATA/dictionaries/bert_letter_begin.txt")
     number_begin = load_dictionary("../../DATA/dictionaries/bert_number_begin.txt")
     dic = letter_begin+number_begin
-    word_embedding = load_pickle("../binaries/visual_embeddings.pkl")
-    print(levenshteinDistance("eco", "eco" , cheap_actions=True, word_embedding=word_embedding))
-    distance = get_word_dic_distance("lohle", dic, word_embedding,cheap_actions=True)
+    print(levenshteinDistance("eco", "eco" , cheap_actions=True, word_embedding=default_word_embedding))
+    distance = get_word_dic_distance("lohle", dic, cheap_actions=True)
     for i in range(40):
         print(distance[i])

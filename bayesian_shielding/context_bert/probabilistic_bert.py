@@ -1,14 +1,13 @@
 import sys
 sys.path.append("..")
-from pytorch_pretrained_bert.modeling import BertEmbeddings
-from pytorch_pretrained_bert import BertForMaskedLM
-from pytorch_pretrained_bert import BertModel, BertOnlyMLMHead
+from pytorch_pretrained_bert.modeling import BertEmbeddings,BertOnlyMLMHead
+from pytorch_pretrained_bert import BertForMaskedLM,BertModel
 import torch
 from torch import nn
 
 class my_BertEmbeddings(BertEmbeddings):
     def __init__(self,config):
-        super(BertEmbeddings, self).__init__(config)
+        super(my_BertEmbeddings, self).__init__(config)
         self.word_embed_tensor = self.word_embeddings(torch.arange(config.vocab_size))
     def forward(self, input_weight_tensor, token_type_ids=None):
         # input_weight_list format: [[list of weights for word 1],...,[list of weights for word N]]

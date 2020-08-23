@@ -19,6 +19,29 @@ def get_most_likely_sentence(distribution,dic):
             sentence+=" "
     return sentence
 
+def preprocess_sentence(sentence):
+    sentence=sentence.strip()
+    for _ in range(3):
+        sentence.replace("  "," ")
+    words = sentence.split(" ")
+    newwords = []
+    for i,word in enumerate(words):
+        lateradd = []
+        if len(word)>0 and (word[0]=='"' or word[0]=="'"):
+            newwords.append(word[0])
+            word = word[1:]
+        for _ in range(3):
+            if len(word)>0 and (word[-1]=="," or word[-1]=='"' or word[-1]==";" or word[-1]==":" or word[-1]=="'"):
+                lateradd.append(word[-1])
+                word = word[:-1]
+            if i==len(words)-1 and len(word)>1 and ((word[-1]=="." and word[-2]!=".") or word[-1]=="?" or word[-1]=="!"):
+                lateradd.append(word[-1])
+                word = word[:-1]
+        if len(word)>0:
+            newwords.append(word)
+        newwords.extend(list(reversed(lateradd)))
+    return newwords
+
 def load_and_preprocess_dataset(filename):
     """
     Load a dataset in 3d list of dimensions LxSxW with
@@ -40,27 +63,7 @@ def load_and_preprocess_dataset(filename):
             out_dataset.append(one_line)
             sentences = line.split("\t")
             for sentence in sentences:
-                sentence=sentence.strip()
-                for _ in range(3):
-                    sentence.replace("  "," ")
-                words = sentence.split(" ")
-                newwords = []
-                for i,word in enumerate(words):
-                    lateradd = []
-                    if len(word)>0 and (word[0]=='"' or word[0]=="'"):
-                        newwords.append(word[0])
-                        word = word[1:]
-                    for _ in range(3):
-                        if len(word)>0 and (word[-1]=="," or word[-1]=='"' or word[-1]==";" or word[-1]==":" or word[-1]=="'"):
-                            lateradd.append(word[-1])
-                            word = word[:-1]
-                        if i==len(words)-1 and len(word)>1 and ((word[-1]=="." and word[-2]!=".") or word[-1]=="?" or word[-1]=="!"):
-                            lateradd.append(word[-1])
-                            word = word[:-1]
-                    if len(word)>0:
-                        newwords.append(word)
-                    newwords.extend(list(reversed(lateradd)))
-                one_line.append(newwords)
+                one_line.append(preprocess_sentence(sentence))
     return out_dataset
         
 def load_dictionary(filename):

@@ -2,7 +2,7 @@ import sys
 sys.path.append("..")
 import torch
 import numpy as np
-from util import softmax
+from util.util import softmax
 from pytorch_pretrained_bert import BertTokenizer, BertForMaskedLM
 from context_bert.probabilistic_bert import my_BertForMaskedLM
 import logging
