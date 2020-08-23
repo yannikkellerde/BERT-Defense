@@ -11,7 +11,7 @@ dictionary = get_full_word_dict()
 def get_tokens_prior(tokens,dictionary):
     prior = np.empty((len(tokens),len(dictionary)))
     for i,token in enumerate(tokens):
-        prior[i] = get_word_dic_distance(token,dictionary,cheap_actions=True,progress=True)
+        prior[i,:] = get_word_dic_distance(token,dictionary,cheap_actions=True,progress=True,keep_order=True)
     return prior
 
 def clean_sentence(sentence):

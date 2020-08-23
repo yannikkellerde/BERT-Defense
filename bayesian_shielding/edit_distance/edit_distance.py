@@ -125,6 +125,7 @@ def get_word_dic_distance(word, dic, word_embedding=None, cheap_actions=False, k
             distance[i] = levenshteinDistance(sample_word, word,cheap_actions=cheap_actions,
                                                             word_embedding=word_embedding,
                                                             char_app=char_app,vowls_in=vowls_in)
+        distance = softmax(1/distance,theta=4)
     else:
         distance = []
         for sample_word in (tqdm(dic) if progress else dic):
@@ -133,10 +134,7 @@ def get_word_dic_distance(word, dic, word_embedding=None, cheap_actions=False, k
                                                                 char_app=char_app,vowls_in=vowls_in)))
         distance.sort(key=itemgetter(1))
         words, values = zip(*distance)
-        values = np.array(values)
-        max_value = np.max(values)
-        values = max_value - values
-        values = softmax(np.array(values),theta=4)
+        values = softmax(1/np.array(values),theta=4)
         distance = list(map(list,zip(words, values)))
     return distance
 
