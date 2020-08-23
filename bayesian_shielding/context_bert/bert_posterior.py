@@ -70,7 +70,7 @@ def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
     if maxdepth <= 0:
         return prior
     my_min = np.inf
-    for i,(p,_c) in enumerate(prior):
+    for i,p in enumerate(prior):
         s = np.partition(-p,1)
         diff = s[1]-s[0]
         if diff == 1 or s[0]==0:
@@ -80,21 +80,13 @@ def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
             my_min = diff+alreadys[i]
     alreadys[lowest] += 1
     sent_ray = []
-    for i,(p,c) in enumerate(prior):
+    for i,p in enumerate(prior):
         pmaxin = np.argmax(p)
         if i==lowest:
             old_word = dictionary[pmaxin]
             sent_ray.append(tokenizer.vocab["[MASK]"])
-        elif len(c) == 0:
-            sent_ray.append(dictionary[pmaxin])
-        else:
-            csum = sum(x[1] for x in c)
-            if p[pmaxin]/(1+csum)>c[0][1]:
-            #if p[pmaxin]>c[0][1]:
-                sent_ray.append(dictionary[pmaxin])
-            else:
-                for w in c[0][0]:
-                    sent_ray.append(tokenizer.vocab[w])
+        sent_ray.append(dictionary[pmaxin])
+
     logger.debug(tokenizer.convert_ids_to_tokens(sent_ray))
     logger.debug(f"Masked token: {tokenizer.convert_ids_to_tokens([old_word])[0]}")
     indexed_tokens = [tokenizer.vocab["[CLS]"]]+sent_ray+[tokenizer.vocab["[SEP]"]]
@@ -122,7 +114,7 @@ def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
         logger.warn(f"{preds.shape}, {best_indexied[:5]}, {likelihood[:5]}, {best_scores[:5]}, {predicted_tokens}")
     logger.debug(f"{tokenizer.convert_ids_to_tokens([old_word])[0]}, {likelihood[dictionary.index(old_word)]}")
 
-    numerator = orig_prior[lowest][0] * likelihood
+    numerator = orig_prior[lowest] * likelihood
     posterior = deepcopy(prior)
-    posterior[lowest][0] = numerator/np.sum(numerator)
+    posterior[lowest] = numerator/np.sum(numerator)
     return bert_posterior_recur(orig_prior,posterior,alreadys, dictionary, maxdepth-1)

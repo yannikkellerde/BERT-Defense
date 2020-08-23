@@ -12,18 +12,9 @@ from util.letter_stuff import small_letters,big_letters
 
 def get_most_likely_sentence(distribution,dic):
     sentence = ""
-    for i,(p,c) in enumerate(distribution):
+    for i,p in enumerate(distribution):
         pmaxin = np.argmax(p)
-        if len(c) == 0:
-            sentence += dic[pmaxin]
-        else:
-            csum = sum(x[1] for x in c)
-            if p[pmaxin]/(1+csum)>c[0][1]:
-            #if p[pmaxin]>c[0][1]:
-                sentence += dic[pmaxin]
-            else:
-                for w in c[0][0]:
-                    sentence += w.replace("##","")
+        sentence += dic[pmaxin]
         if i!=len(distribution)-1:
             sentence+=" "
     return sentence
@@ -75,6 +66,13 @@ def load_and_preprocess_dataset(filename):
 def load_dictionary(filename):
     with open(filename,'r', encoding="utf8") as f:
         return list(filter(lambda x:not x.startswith("#!comment:"),f.read().splitlines()))
+
+def get_full_word_dict():
+    letter_dic = load_dictionary("../../DATA/dictionaries/bert_letter_begin.txt")
+    number_dic = load_dictionary("../../DATA/dictionaries/bert_number_begin.txt")
+    punct_dic = load_dictionary("../../DATA/dictionaries/bert_punctuations.txt")
+    full_word_dic = letter_dic + number_dic + punct_dic
+    return full_word_dic
 
 def each_char_in(haystack,needle):
     for char in needle:

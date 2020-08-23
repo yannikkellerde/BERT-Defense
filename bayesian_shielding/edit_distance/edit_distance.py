@@ -114,25 +114,28 @@ def char_apparence(word):
     return table
 
 
-def get_word_dic_distance(word, dic, word_embedding, cheap_actions=False, sort=True, progress=True):
+def get_word_dic_distance(word, dic, word_embedding, cheap_actions=False, keep_order=False, progress=True):
     char_app = char_apparence(word)
     vowls_in = vowl_checker(word)
-    if len(word)>20:  # Filter out links and other uncomprehensable stuff
-        distance = [(sample_word,1,0) for sample_word in dic]
+    if keep_order:
+        distance = np.empty(len(dic))
+        for i,sample_word in (tqdm(enumerate(dic)) if progress else enumerate(dic)):
+            distance[i] = levenshteinDistance(sample_word, word,cheap_actions=cheap_actions,
+                                                            word_embedding=word_embedding,
+                                                            char_app=char_app,vowls_in=vowls_in)
     else:
         distance = []
         for sample_word in (tqdm(dic) if progress else dic):
             distance.append((sample_word, levenshteinDistance(sample_word, word,cheap_actions=cheap_actions,
-                                                               word_embedding=word_embedding,
-                                                               char_app=char_app,vowls_in=vowls_in)))
-    if sort:
+                                                                word_embedding=word_embedding,
+                                                                char_app=char_app,vowls_in=vowls_in)))
         distance.sort(key=itemgetter(1))
-    words, values = zip(*distance)
-    values = np.array(values)
-    max_value = np.max(values)
-    values = max_value - values
-    values = softmax(np.array(values),theta=4)
-    distance = list(map(list,zip(words, values)))
+        words, values = zip(*distance)
+        values = np.array(values)
+        max_value = np.max(values)
+        values = max_value - values
+        values = softmax(np.array(values),theta=4)
+        distance = list(map(list,zip(words, values)))
     return distance
 
 
