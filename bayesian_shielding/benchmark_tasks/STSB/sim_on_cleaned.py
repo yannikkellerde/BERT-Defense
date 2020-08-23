@@ -1,6 +1,6 @@
 import sys
-sys.path.append("..")
-from STSB.sentence_Embeddings import init_model_roberta,sentence_embedding_only_best_word
+sys.path.append("../..")
+from STSB.RoBERTa_handler import init_model_roberta,encode_one_sentence
 from util.util import cosine_similarity
 import numpy as np
 from tqdm import tqdm
@@ -16,8 +16,8 @@ def sim_on_cleaned(filename,output,which_model="second"):
         model = init_model_roberta()
         scores = []
         for line in tqdm(cleaned_dataset):
-            s1 = sentence_embedding_only_best_word(model,line[0])
-            s2 = sentence_embedding_only_best_word(model,line[1])
+            s1 = encode_one_sentence(model,line[0])
+            s2 = encode_one_sentence(model,line[1])
             scores.append(cosine_similarity(s1,s2))
     scores = np.clip(scores, 0.0, 1.0)
     with open(output,"w") as f:

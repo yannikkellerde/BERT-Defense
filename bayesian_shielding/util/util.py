@@ -10,6 +10,24 @@ from itertools import chain
 from functools import reduce
 from util.letter_stuff import small_letters,big_letters
 
+def get_most_likely_sentence(distribution,dic):
+    sentence = ""
+    for i,(p,c) in enumerate(distribution):
+        pmaxin = np.argmax(p)
+        if len(c) == 0:
+            sentence += dic[pmaxin]
+        else:
+            csum = sum(x[1] for x in c)
+            if p[pmaxin]/(1+csum)>c[0][1]:
+            #if p[pmaxin]>c[0][1]:
+                sentence += dic[pmaxin]
+            else:
+                for w in c[0][0]:
+                    sentence += w.replace("##","")
+        if i!=len(distribution)-1:
+            sentence+=" "
+    return sentence
+
 def load_and_preprocess_dataset(filename):
     """
     Load a dataset in 3d list of dimensions LxSxW with
@@ -53,26 +71,6 @@ def load_and_preprocess_dataset(filename):
                     newwords.extend(list(reversed(lateradd)))
                 one_line.append(newwords)
     return out_dataset
-
-def load_freq_dict():
-    freq_dict = {}
-    with open("../../DATA/dictionaries/word_frequencies.txt","r") as f:
-        lines = f.read().splitlines()
-        for i,line in enumerate(lines):
-            parts = line.split("\t")
-            freq_dict[parts[0].lower()] = int(len(lines)-i)
-    return freq_dict
-
-def get_prior(dictionary, theta = 0.00001, freq_dict=None, not_in_val=1):
-    if freq_dict is None:
-        freq_dict = load_freq_dict()
-    prior = []
-    for word in dictionary:
-        if word in freq_dict:
-            prior.append(freq_dict[word])
-        else:
-            prior.append(not_in_val)
-    return softmax(np.array(prior),theta)
         
 def load_dictionary(filename):
     with open(filename,'r', encoding="utf8") as f:
@@ -87,19 +85,6 @@ def each_char_in(haystack,needle):
 def load_pickle(filename):
     with open(filename, 'rb') as f:
         return pkl.load(f)
-
-def combine_known_transpos(dataset,combo_transpo,normal_transpo):
-    out = [[[] for _sentence in line] for line in dataset]
-    for i,line in enumerate(dataset):
-        for j,sentence in enumerate(line):
-            for word in sentence:
-                word=mylower(word)
-                print(word in combo_transpo, word in normal_transpo)
-                if len(word) > 20:
-                    out[i][j].append(combo_transpo[word])
-                else:
-                    out[i][j].append([normal_transpo[word],combo_transpo[word][1]])
-    return out
 
 def write_dataset(filename,dataset,as_sentences=False):
     """Write a dataset of dimensions LxSxW to a file. S is the amount of sentences and W the number of words"""
@@ -120,45 +105,6 @@ def redraw_vec(vec,image_dim = (23,15)):
     vec = (vec+np.min(vec))*(255/(np.max(vec)-np.min(vec)))
     image = Image.fromarray(vec.astype('uint8'), 'L')
     image.show()
-
-
-def eval_cosine_similarity(embedding):
-    similarity_scores = []
-    sim_mean = []
-    sim_max = []
-    sim_min = []
-    size = []
-    bar = progressbar.ProgressBar(max_value=len(embedding)**2)
-    i = 0
-    j = 0
-    for key1 in embedding:
-        for key2 in embedding:
-            similarity_scores.append(cosine_similarity(embedding[key1], embedding[key2]))
-            j +=1
-            i +=1
-            if j == 100000:
-                similarity_scores = np.array(similarity_scores)
-                sim_max.append(np.max(similarity_scores))
-                sim_mean.append(np.mean(similarity_scores))
-                sim_min.append(np.min(similarity_scores))
-                size.append(j)
-                j = 0
-                similarity_scores = []
-            bar.update(i)
-    if j !=0:
-        similarity_scores = np.array(similarity_scores)
-        sim_max.append(np.max(similarity_scores))
-        sim_mean.append(np.mean(similarity_scores))
-        sim_min.append(np.min(similarity_scores))
-        size.append(j)
-    sim_mean = calc_mean(sim_mean, size)
-    sim_max = np.max(sim_max)
-    sim_min = np.min(sim_min)
-    with open("sim_eval.txt", "w") as f:
-        f.write(str(sim_mean) + "\n")
-        f.write(str(sim_max) + "\n")
-        f.write(str(sim_min) + "\n")
-
 
 def softmax(x, theta=1):
     ps = np.exp(x * theta)

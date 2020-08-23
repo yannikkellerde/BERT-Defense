@@ -6,7 +6,7 @@ import pickle as pkl
 from util import read_labeled_data
 from tqdm import trange
 import random
-from sentence_Embeddings import init_model_roberta, simple_sentence_embedder
+from RoBERTa_handler import init_model_roberta, simple_sentence_embedder
 
 
 

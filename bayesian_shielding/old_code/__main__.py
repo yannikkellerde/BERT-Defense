@@ -22,10 +22,10 @@ logger.debug("\n\n")
 import numpy as np
 from bert_posterior import bert_posterior, format_dict
 from edit_distance import get_word_dic_distance
-from util import load_dictionary,load_pickle,load_and_preprocess_dataset,cosine_similarity,write_dataset,only_read_dataset, combine_known_transpos
+from util import load_dictionary,load_pickle,load_and_preprocess_dataset,cosine_similarity,write_dataset,only_read_dataset, combine_known_transpos, get_most_likely_sentence
 from letter_stuff import sentence_ends
 from multiprocess_tasks import multiprocess_word_distances
-from sentence_Embeddings import create_pre_mapping,load_vectors, sentence_embedding_only_best_word,init_model_roberta, sentence_average_from_word_embeddings, get_most_likely_sentence
+from RoBERTa_handler import create_pre_mapping,load_vectors, encode_one_sentence,init_model_roberta, sentence_average_from_word_embeddings
 import time
 import os,sys
 from tqdm import tqdm,trange
@@ -95,7 +95,7 @@ if __name__ == '__main__':
                 if s == 0:
                     pre_map = create_pre_mapping(posterior,in_data[l][s],dictionary)
                 out_sentence = get_most_likely_sentence(posterior,dictionary)
-                sent_emb_robert = sentence_embedding_only_best_word(model, out_sentence)
+                sent_emb_robert = encode_one_sentence(model, out_sentence)
                 embedded_sentences_robert[l][s] = sent_emb_robert
                 cleaned_dataset[l][s] = out_sentence
                 logger.debug("Posterior sentence"+str(out_sentence))

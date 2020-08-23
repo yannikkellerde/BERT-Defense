@@ -1,10 +1,10 @@
 import sys
-sys.path.append("..")
-from STSB.sentence_Embeddings import init_model_roberta,simple_sentence_embedder
+sys.path.append("../..")
+from STSB.RoBERTa_handler import init_model_roberta,simple_sentence_embedder
 from util.util import read_labeled_data,cosine_similarity
 import scipy.stats
 
-scores,first_sentences,second_sentences = read_labeled_data("DATA/training-dataset.txt")
+scores,first_sentences,second_sentences = read_labeled_data("../../../DATA/training-dataset.txt")
 
 model = init_model_roberta()
 
