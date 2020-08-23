@@ -2,11 +2,12 @@ import sys
 sys.path.append("..")
 import torch
 import numpy as np
-from util.util import softmax
+from util.util import softmax,get_most_likely_sentence,get_full_word_dict
 from pytorch_pretrained_bert import BertTokenizer, BertForMaskedLM
 from context_bert.probabilistic_bert import my_BertForMaskedLM
 import logging
 from copy import deepcopy
+full_word_dic = get_full_word_dict()
 logger = logging.getLogger()
 
 logger.info("loading bert model ...")
@@ -38,7 +39,7 @@ def bert_posterior(prior,dictionary,maxdepth):
     return bert_posterior_recur(prior.copy(),prior,np.zeros(len(prior)),dictionary,maxdepth)
 
 def convert_prior_to_weights_tensor(prior,dictionary):
-    weights_tensor = np.zeros(len(prior),len(tokenizer.vocab))
+    weights_tensor = torch.zeros((len(prior),len(tokenizer.vocab)))
     for i,p in enumerate(prior):
         for j,weight in enumerate(p):
             weights_tensor[i][dictionary[j]] = weight
@@ -53,14 +54,16 @@ def bert_posterior_probabilistic(prior,dictionary,iterations_left):
         weights_tensor = convert_prior_to_weights_tensor(prior,dictionary)
         likelihood = np.empty_like(prior)
         for mask_id in range(len(prior)):
-            inner_tensor = weights_tensor.clone()
-            inner_tensor[mask_id] = mask_tensor
+            inner_tensor = weights_tensor.clone().reshape((1,len(prior),len(tokenizer.vocab)))
+            inner_tensor[0][mask_id] = mask_tensor
             predictions = probmodel(inner_tensor)
-            preds = predictions[0, masked_index].numpy()
+            preds = predictions[0, mask_id].numpy()
             likelihood[mask_id] = softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.5)
     posterior_numerator = prior*likelihood
     posterior = (posterior_numerator.T/np.sum(posterior_numerator,axis=1)).T
-    return bert_posterior_recur(posterior,alreadys, dictionary, iterations_left-1)
+    print("likelihood",get_most_likely_sentence(likelihood,full_word_dic))
+    print("posterior",get_most_likely_sentence(posterior,full_word_dic))
+    return bert_posterior_probabilistic(posterior, dictionary, iterations_left-1)
         
 
 

@@ -1,7 +1,7 @@
 import sys
 sys.path.append("..")
 import numpy as np
-from util.util import load_dictionary,fast_argmin,softmax,load_pickle
+from util.util import get_full_word_dict,fast_argmin,softmax,load_pickle
 from tqdm import tqdm,trange
 from operator import itemgetter
 from util.letter_stuff import trenner_punctuations,vocals, annoying_boys
@@ -114,7 +114,7 @@ def char_apparence(word):
     return table
 
 default_word_embedding = load_pickle("../binaries/visual_embeddings.pkl")
-def get_word_dic_distance(word, dic, word_embedding=None, cheap_actions=False, keep_order=False, progress=True):
+def get_word_dic_distance(word, dic, word_embedding=None, cheap_actions=False, keep_order=False, progress=True,theta=27):
     if word_embedding is None:
         word_embedding = default_word_embedding
     char_app = char_apparence(word)
@@ -125,7 +125,7 @@ def get_word_dic_distance(word, dic, word_embedding=None, cheap_actions=False, k
             distance[i] = levenshteinDistance(sample_word, word,cheap_actions=cheap_actions,
                                                             word_embedding=word_embedding,
                                                             char_app=char_app,vowls_in=vowls_in)
-        distance = softmax(1/distance,theta=4)
+        distance = softmax(1/(distance+1),theta=theta)
     else:
         distance = []
         for sample_word in (tqdm(dic) if progress else dic):
@@ -134,16 +134,17 @@ def get_word_dic_distance(word, dic, word_embedding=None, cheap_actions=False, k
                                                                 char_app=char_app,vowls_in=vowls_in)))
         distance.sort(key=itemgetter(1))
         words, values = zip(*distance)
-        values = softmax(1/np.array(values),theta=4)
+        values = softmax(1/(np.array(values)+1),theta=theta)
         distance = list(map(list,zip(words, values)))
     return distance
 
 
 if __name__ == '__main__':
-    letter_begin = load_dictionary("../../DATA/dictionaries/bert_letter_begin.txt")
-    number_begin = load_dictionary("../../DATA/dictionaries/bert_number_begin.txt")
-    dic = letter_begin+number_begin
-    print(levenshteinDistance("eco", "eco" , cheap_actions=True, word_embedding=default_word_embedding))
-    distance = get_word_dic_distance("lohle", dic, cheap_actions=True)
+    dic = get_full_word_dict()
+    #print(levenshteinDistance("eco", "eco" , cheap_actions=True, word_embedding=default_word_embedding))
+    distance = get_word_dic_distance("spèedіnΜ", dic, cheap_actions=True)
+    for w,p in distance:
+        if w=="a" or w=="speeding":
+            print(w,p)
     for i in range(40):
         print(distance[i])
