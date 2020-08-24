@@ -39,39 +39,55 @@ def bert_posterior(prior,dictionary,maxdepth):
     return bert_posterior_recur(prior.copy(),prior,np.zeros(len(prior)),dictionary,maxdepth)
 
 def convert_prior_to_weights_tensor(prior,dictionary):
-    weights_tensor = torch.zeros((len(prior),len(tokenizer.vocab)))
+    weights_tensor = torch.zeros((len(prior)+2,len(tokenizer.vocab)))
+    weights_tensor[0][tokenizer.vocab["[CLS]"]]=1
+    weights_tensor[len(prior)+1][tokenizer.vocab["[SEP]"]]=1
     for i,p in enumerate(prior):
         for j,weight in enumerate(p):
-            weights_tensor[i][dictionary[j]] = weight
+            weights_tensor[i+1][dictionary[j]] = weight
     return weights_tensor
 
 mask_tensor = torch.zeros(len(tokenizer.vocab))
 mask_tensor[tokenizer.vocab["[MASK]"]]=1
-def bert_posterior_probabilistic(prior,dictionary,iterations_left):
+def calc_probabilistic_likelihood(weights_tensor,mask_id,dictionary):
+    inner_tensor = weights_tensor.clone().reshape((1,weights_tensor.size(0),weights_tensor.size(1)))
+    inner_tensor[0][mask_id] = mask_tensor
+    predictions = probmodel(inner_tensor)
+    preds = predictions[0, mask_id].numpy()
+    return softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.5)
+
+def bert_posterior_probabilistic_rounds(prior,dictionary,iterations_left):
     if iterations_left <= 0:
         return prior
     with torch.no_grad():
         weights_tensor = convert_prior_to_weights_tensor(prior,dictionary)
         likelihood = np.empty_like(prior)
-        for mask_id in range(len(prior)):
-            inner_tensor = weights_tensor.clone().reshape((1,len(prior),len(tokenizer.vocab)))
-            inner_tensor[0][mask_id] = mask_tensor
-            predictions = probmodel(inner_tensor)
-            preds = predictions[0, mask_id].numpy()
-            likelihood[mask_id] = softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.5)
+        for mask_id in range(1,len(prior)+1):
+            likelihood[mask_id-1] = calc_probabilistic_likelihood(weights_tensor,mask_id,dictionary)
     posterior_numerator = prior*likelihood
     posterior = (posterior_numerator.T/np.sum(posterior_numerator,axis=1)).T
     print("likelihood",get_most_likely_sentence(likelihood,full_word_dic))
     print("posterior",get_most_likely_sentence(posterior,full_word_dic))
     return bert_posterior_probabilistic(posterior, dictionary, iterations_left-1)
-        
 
-
-def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
-    """dictionary should be formated according to format_dict
-    """
-    if maxdepth <= 0:
+def bert_posterior_probabilistic_live(prior,dictionary,iterations_left,alreadys=None):
+    if iterations_left <= 0:
         return prior
+    if alreadys is None:
+        alreadys = np.zeros(len(prior))
+    mask_id = get_most_uncertain_index(prior,alreadys)+1
+    with torch.no_grad():
+        weights_tensor = convert_prior_to_weights_tensor(prior,dictionary)
+        likelihood = calc_probabilistic_likelihood(weights_tensor,mask_id,dictionary)
+    numerator = prior[mask_id-1] * likelihood
+    prior[mask_id-1] = numerator/np.sum(numerator)
+    print("masked",mask_id-1)
+    print("likelihood",get_most_likely_sentence([likelihood],full_word_dic)))
+    print("posterior",get_most_likely_sentence(prior,full_word_dic))
+    return bert_posterior_probabilistic_live(prior,dictionary,iterations_left-1,alreadys)
+
+
+def get_most_uncertain_index(prior,alreadys):
     my_min = np.inf
     for i,p in enumerate(prior):
         s = np.partition(-p,1)
@@ -81,6 +97,14 @@ def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
         if diff+alreadys[i]<my_min:
             lowest = i
             my_min = diff+alreadys[i]
+    return lowest
+
+def bert_posterior_recur(orig_prior,prior,alreadys,dictionary,maxdepth):
+    """dictionary should be formated according to format_dict
+    """
+    if maxdepth <= 0:
+        return prior
+    lowest = get_most_uncertain_index(prior,alreadys)
     alreadys[lowest] += 1
     sent_ray = []
     for i,p in enumerate(prior):

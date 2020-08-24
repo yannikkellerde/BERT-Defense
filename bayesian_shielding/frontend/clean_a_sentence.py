@@ -2,7 +2,7 @@ import sys
 sys.path.append("..")
 from context_bert.bert_posterior import bert_posterior,bert_posterior_probabilistic,format_dict
 from edit_distance.edit_distance import get_word_dic_distance
-from util.util import get_full_word_dict,get_most_likely_sentence,preprocess_sentence
+from util.util import get_full_word_dict,get_most_likely_sentence,preprocess_sentence,softmax
 
 import numpy as np
 
@@ -22,6 +22,10 @@ def clean_sentence(sentence):
     print(get_most_likely_sentence(prior,dictionary))
     posterior_old = bert_posterior(prior,bert_dict,10)
     print(get_most_likely_sentence(posterior_old,dictionary))
+    for i in range(len(prior)):
+        prior[i] = softmax(prior[i],theta=100)
+    print("new prior",list(sorted(prior[1],reverse=True))[:20])
+    print("sum prior",np.sum(prior))
     posterior_new = bert_posterior_probabilistic(prior,bert_dict,3)
     print(get_most_likely_sentence(posterior_new,dictionary))
 

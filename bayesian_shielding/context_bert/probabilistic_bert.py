@@ -4,12 +4,14 @@ from pytorch_pretrained_bert.modeling import BertEmbeddings,BertOnlyMLMHead
 from pytorch_pretrained_bert import BertForMaskedLM,BertModel
 import torch
 from torch import nn
+import pickle
 
 class my_BertEmbeddings(BertEmbeddings):
     def __init__(self,config):
         super(my_BertEmbeddings, self).__init__(config)
-        self.word_embed_tensor = self.word_embeddings(torch.arange(config.vocab_size,dtype=torch.long)).transpose(1,0)
+        self.vocab_size = config.vocab_size
     def forward(self, input_weight_tensor, token_type_ids=None):
+        word_embed_tensor = self.word_embeddings(torch.arange(self.vocab_size,dtype=torch.long))
         seq_length = input_weight_tensor.size(1)
         if token_type_ids is None:
             token_type_ids = torch.zeros(input_weight_tensor.size(0),input_weight_tensor.size(1),dtype=torch.long)
@@ -18,8 +20,8 @@ class my_BertEmbeddings(BertEmbeddings):
         all_embs = []
         for one in input_weight_tensor:
             word_embs = []
-            for word_weight_tensor in one:
-                word_emb = torch.mean((self.word_embed_tensor*word_weight_tensor).transpose(1,0),0)
+            for i,word_weight_tensor in enumerate(one):
+                word_emb = torch.sum((word_embed_tensor.transpose(1,0)*word_weight_tensor).transpose(1,0),0)
                 word_embs.append(word_emb)
             all_embs.append(torch.stack(word_embs))
 
