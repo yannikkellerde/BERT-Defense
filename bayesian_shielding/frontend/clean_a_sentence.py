@@ -1,6 +1,6 @@
 import sys
 sys.path.append("..")
-from context_bert.bert_posterior import bert_posterior,bert_posterior_probabilistic,format_dict
+from context_bert.bert_posterior import bert_posterior,bert_posterior_probabilistic_live,bert_posterior_probabilistic_rounds,format_dict
 from edit_distance.edit_distance import get_word_dic_distance
 from util.util import get_full_word_dict,get_most_likely_sentence,preprocess_sentence,softmax
 
@@ -19,15 +19,13 @@ def clean_sentence(sentence):
     tokens = preprocess_sentence(sentence)
     print(tokens)
     prior = get_tokens_prior(tokens,dictionary)
-    print(get_most_likely_sentence(prior,dictionary))
+    print("Prior:",get_most_likely_sentence(prior,dictionary))
     posterior_old = bert_posterior(prior,bert_dict,10)
-    print(get_most_likely_sentence(posterior_old,dictionary))
-    for i in range(len(prior)):
-        prior[i] = softmax(prior[i],theta=100)
-    print("new prior",list(sorted(prior[1],reverse=True))[:20])
-    print("sum prior",np.sum(prior))
-    posterior_new = bert_posterior_probabilistic(prior,bert_dict,3)
-    print(get_most_likely_sentence(posterior_new,dictionary))
+    print("Old Posterior:",get_most_likely_sentence(posterior_old,dictionary))
+    posterior_live = bert_posterior_probabilistic_live(prior,bert_dict,15)
+    print("New Posterior live:",get_most_likely_sentence(posterior_live,dictionary))
+    posterior_rounds = bert_posterior_probabilistic_rounds(prior,bert_dict,3)
+    print("New Posterior rounds:",get_most_likely_sentence(posterior_rounds,dictionary))
 
 if __name__ == '__main__':
     print(clean_sentence(sys.argv[1]))

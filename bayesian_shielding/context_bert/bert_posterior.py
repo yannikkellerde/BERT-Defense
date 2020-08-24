@@ -38,6 +38,7 @@ def format_prior_and_dict(prior,dictionary):
 def bert_posterior(prior,dictionary,maxdepth):
     return bert_posterior_recur(prior.copy(),prior,np.zeros(len(prior)),dictionary,maxdepth)
 
+
 def convert_prior_to_weights_tensor(prior,dictionary):
     weights_tensor = torch.zeros((len(prior)+2,len(tokenizer.vocab)))
     weights_tensor[0][tokenizer.vocab["[CLS]"]]=1
@@ -49,12 +50,29 @@ def convert_prior_to_weights_tensor(prior,dictionary):
 
 mask_tensor = torch.zeros(len(tokenizer.vocab))
 mask_tensor[tokenizer.vocab["[MASK]"]]=1
+def calc_baseline(weights_tensor,mask_id,dictionary):
+    base = torch.tensor(np.ones((1,weights_tensor.size(0),weights_tensor.size(1)))/weights_tensor.size(1),dtype=torch.long)
+    base[0][mask_id] = mask_tensor
+    predictions = probmodel(base)
+    preds = predictions[0, mask_id].numpy()
+    return softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.4)
+
+def showprobs(probs,amount=20):
+    inds = np.flip(np.argsort(probs))
+    return [[full_word_dic[inds[i]],probs[inds[i]]] for i in range(amount)]
+
 def calc_probabilistic_likelihood(weights_tensor,mask_id,dictionary):
     inner_tensor = weights_tensor.clone().reshape((1,weights_tensor.size(0),weights_tensor.size(1)))
     inner_tensor[0][mask_id] = mask_tensor
     predictions = probmodel(inner_tensor)
     preds = predictions[0, mask_id].numpy()
-    return softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.5)
+    baseline = calc_baseline(weights_tensor,mask_id,dictionary)
+    preres = softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=0.6)
+    print("baseline",showprobs(baseline))
+    print("preres",showprobs(preres))
+    res = softmax(preres-baseline,theta=100)
+    print("minmax",np.min(res),np.max(res),np.std(res))
+    return res
 
 def bert_posterior_probabilistic_rounds(prior,dictionary,iterations_left):
     if iterations_left <= 0:
@@ -68,7 +86,7 @@ def bert_posterior_probabilistic_rounds(prior,dictionary,iterations_left):
     posterior = (posterior_numerator.T/np.sum(posterior_numerator,axis=1)).T
     print("likelihood",get_most_likely_sentence(likelihood,full_word_dic))
     print("posterior",get_most_likely_sentence(posterior,full_word_dic))
-    return bert_posterior_probabilistic(posterior, dictionary, iterations_left-1)
+    return bert_posterior_probabilistic_rounds(posterior, dictionary, iterations_left-1)
 
 def bert_posterior_probabilistic_live(prior,dictionary,iterations_left,alreadys=None):
     if iterations_left <= 0:
@@ -82,7 +100,7 @@ def bert_posterior_probabilistic_live(prior,dictionary,iterations_left,alreadys=
     numerator = prior[mask_id-1] * likelihood
     prior[mask_id-1] = numerator/np.sum(numerator)
     print("masked",mask_id-1)
-    print("likelihood",get_most_likely_sentence([likelihood],full_word_dic)))
+    print("likelihood",get_most_likely_sentence([likelihood],full_word_dic))
     print("posterior",get_most_likely_sentence(prior,full_word_dic))
     return bert_posterior_probabilistic_live(prior,dictionary,iterations_left-1,alreadys)
 
