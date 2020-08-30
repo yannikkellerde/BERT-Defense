@@ -28,6 +28,13 @@ class Phonetic_attacker():
         self.word_attack_prob = 1
         self.phoneme_attack_prob = 1
 
+    def set_level(self,p):
+        # p between 0 and 1
+        # Some empirically tuned way to select softmax param and word_attack_prob
+        # to approximately match the severities of the other attacks
+        self.softmax_param = 0.5+(2**((1-p)*5))/8
+        self.word_attack_prob = self.phoneme_attack_prob = -(1/(p*20+1))+1
+
     def reconstruct_word(self,phonemes):
         word = []
         stats = {}
@@ -71,7 +78,8 @@ class Phonetic_attacker():
             output.append(uptilnow)
         return output,capitatlize
 
-    def attack_sentence(self,sentence):
+    def __call__(self,sentence,prob):
+        self.set_level(prob)
         tokens,capitatlize = self.preproecess_sentence(sentence)
         out_sentence = []
         for token in tokens:
@@ -99,7 +107,7 @@ class Phonetic_attacker():
             sentences = f.read().splitlines()
         out = []
         for sentence in sentences:
-            out.append(self.attack_sentence(sentence))
+            out.append(self.__call_(sentence))
         with open(output,"w") as f:
             f.write("\n".join(["\t".join(x) for x in zip(sentences,out)]))
 
