@@ -145,6 +145,18 @@ def read_labeled_data(link):
         second_sentences.append(point[2].strip())
     return scores, first_sentences, second_sentences
 
+def fast_allmin(a):
+    if len(a) == 0:
+        return []
+    all_ = [0]
+    min_ = a[0]
+    for i in range(1, len(a)):
+        if a[i] < min_:
+            all_ = [i]
+            min_ = a[i]
+        elif a[i] == min_:
+            all_.append(i)
+    return all_
 
 if __name__ == '__main__':
     word_embedding = load_pickle("../binaries/visual_embeddings.pkl")

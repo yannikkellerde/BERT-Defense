@@ -30,7 +30,6 @@ def levenshteinDistance(target, source, cheap_actions=False , word_embedding=Non
         vowls_in = vowl_checker(source)
     n = len(target)
     m = len(source)
-    dels = 0
     distance = np.zeros((n+1, m+1))
     i = 0
     for num in range(1, n+1):
@@ -49,13 +48,7 @@ def levenshteinDistance(target, source, cheap_actions=False , word_embedding=Non
                 possibilities.append(distance[i-1][j-1])
             if i > 2 and j > 2 and target[i-1] == source[j-2] and target[i-2] == source[j-1]:
                 possibilities.append(distance[i-2][j-2] + (trans_cost(anagramm) if cheap_actions[3] else 1))
-            choice = fast_argmin(possibilities)
-            if i==n:
-                if choice==2:
-                    dels+=1
-                else:
-                    dels=0
-            distance[i][j] = possibilities[choice]
+            distance[i][j] = min(possibilities)
     return distance[n][m]
 
 
