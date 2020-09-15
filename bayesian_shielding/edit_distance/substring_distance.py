@@ -19,13 +19,7 @@ class Sub_dist():
         self.full_word_dic = get_full_word_dict()
         self.morph_dic = load_dictionary("../../DATA/dictionaries/bert_morphemes.txt")
 
-    def one_dist(self,source,target):
-        no_vowls = True
-        for char in source:
-            if char in self.vowls:
-                no_vowls = False
-        appearance_table = self.char_appearence(source)
-
+    def one_dist(self,source,target,no_vowls,appearance_table):
         matrix = np.zeros((len(target)+1,len(source)+1))
         startmatrix = [[set() for _ in range(len(source)+1)] for _ in range(len(target)+1)]
         for num in range(len(source)+1):
@@ -60,55 +54,78 @@ class Sub_dist():
                 combos.append((startpoint,endpoint))
         return matrix[-1,endpoints[0]],combos
     
-    def find_best_combo(self,cur_comb,cur_index,cur_dist,combo_parts,best_dist):
-        best_choice = None
-        fill_dist = cur_dist + len(combo_parts)-cur_index
-        if fill_dist < best_dist:
-            best_choice = cur_comb
-            best_dist = fill_dist
+    def _insert_into_hyps(self,combo,dist,hyps):
+        to_ins = (combo,dist)
+        for i in range(len(hyps)):
+            if to_ins[1]<hyps[i][1]:
+                to_ins,hyps[i] = hyps[i],to_ins
+    def find_best_hypothesis(self,cur_comb,cur_dist,combo_parts,best_hyps):
+        fill_dist = cur_dist + len(combo_parts)-cur_comb[-1]
+        if fill_dist < best_hyps[-1][1]:
+            self._insert_into_hyps(cur_comb,fill_dist,best_hyps)
+        if cur_comb[-1]<len(combo_parts):
+            for targ_in,dist in combo_parts[cur_comb[-1]]:
+                new_dist = cur_dist+dist
+                if len(cur_comb)>1:
+                    new_dist+=0.9
+                if new_dist < best_hyps[-1][1]:
+                    self.find_best_hypothesis(cur_comb+[targ_in],new_dist,combo_parts,best_hyps)
+        return best_hyps
 
-        for ind in (cur_index,cur_index+1,cur_index-1):
-            if ind>=0 and ind<len(combo_parts):
-                for targ_in,sample_word,dist in combo_parts[ind]:
-                    new_dist = cur_dist+dist+abs(ind-cur_index)
-                    if len(cur_comb)>0:
-                        new_dist+=0.9
-                    if new_dist < best_dist:
-                        comb_dist = self.find_best_combo(cur_comb+[sample_word],targ_in,new_dist,combo_parts,best_dist)
-                        if comb_dist is not None:
-                            best_dist = comb_dist[1]
-                            best_choice = comb_dist[0]
-        if best_choice is None:
-            return None
-        return (best_choice, best_dist)
+    def word_to_prob(self,source,num_hyps=10,progress=False):
+        no_vowls = True
+        for char in source:
+            if char in self.vowls:
+                no_vowls = False
+        appearance_table = self.char_appearence(source)
 
-    def word_to_prob(self,source,progress=False):
         comb_parts = [{} for _ in range(len(source))]
+        combo_words = {}
+        def enter_combos(comb,dist):
+            for c in comb:
+                if c[1]-c[0] < len(source) and dist<c[1]-c[0]:
+                    for targ_in in range(max(c[0]+1,c[1]-1),min(c[1]+2,len(source)+1)):
+                        true_dist = dist
+                        if targ_in<c[1]:
+                            for char in source[targ_in:c[1]]:
+                                true_dist+=self.del_cost(char,appearance_table)
+                        elif targ_in>c[1]:
+                            for char in source[c[1]:targ_in]:
+                                true_dist+=self.in_cost(char,no_vowls)
+                        if targ_in in comb_parts[c[0]]:
+                            if comb_parts[c[0]][targ_in]<true_dist:
+                                continue
+                        comb_parts[c[0]][targ_in] = true_dist
+                        if c in combo_words:
+                            combo_words[c].append((true_dist,sample_word))
+                        else:
+                            combo_words[c] = [(true_dist,sample_word)]
         distance = np.zeros(len(self.full_word_dic))
         for i,sample_word in (tqdm(enumerate(self.full_word_dic)) if progress else enumerate(self.full_word_dic)):
-            dist,comb = self.one_dist(source,sample_word)
+            dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)
             fill_cost = len(source)-max([x[1]-x[0] for x in comb])
             real_dist = dist + fill_cost
             if fill_cost > 0:
-                for c in comb:
-                    if c[1]-c[0] < len(source) and c[1]>c[0] and dist<c[1]-c[0]:
-                        if c[1] in comb_parts[c[0]]:
-                            if comb_parts[c[0]][c[1]][1]<dist:
-                                continue
-                        comb_parts[c[0]][c[1]] = (sample_word,dist)
+                enter_combos(comb,dist)
             distance[i] = real_dist
-        """for sample_word in (tqdm(self.morph_dic) if progress else self.morph_dic):
-            dist,comb = self.one_dist(source,sample_word)
+        combo_words[(0,len(source))] = list(zip(distance,self.full_word_dic))
+        for sample_word in (tqdm(self.morph_dic) if progress else self.morph_dic):
+            dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)
             for c in comb:
-                if c[1]-c[0] < len(source) and c[1]>c[0] and dist<c[1]-c[0]:
-                        if c[1] in comb_parts[c[0]]:
-                            if comb_parts[c[0]][c[1]][1]<dist:
-                                continue
-                        comb_parts[c[0]][c[1]] = (sample_word,dist)"""
+                enter_combos(comb,dist)
         bestdist = np.min(distance)
-        comb_parts = [list(sorted(filter(lambda x:x[2]<bestdist,[(key,val[0],val[1]) for key,val in co.items()]),key=lambda x:x[2])) for co in comb_parts]
-        best_combo = self.find_best_combo([],0,0,comb_parts,bestdist)
-        print(best_combo,self.full_word_dic[np.argmin(distance)],bestdist)
+        comb_parts = [list(sorted(filter(lambda x:x[1]<bestdist,co.items()),key=lambda x:x[1])) for co in comb_parts]
+        orig_hyps = [((0,len(source)),bestdist)]+[(None,np.inf) for _ in range(num_hyps-1)]
+        best_hyps = self.find_best_hypothesis([0],0,comb_parts,orig_hyps)
+        hyps_with_words = []
+        for hyp in best_hyps:
+            word_prob_list = []
+            for i in range(len(hyp[0])-1):
+                cw = combo_words[(hyp[0][i],hyp[0][i+1])]
+                cw.sort()
+                word_prob_list.append(cw)
+            hyps_with_words.append(hyp+(word_prob_list,))
+        return hyps_with_words
 
     def in_cost(self, in_char, no_vowls):
         if (not self.cheap_actions["ins"]):
@@ -145,4 +162,5 @@ class Sub_dist():
 
 if __name__ == "__main__":
     sd = Sub_dist()
-    print(sd.word_to_prob(sys.argv[1],progress=True))
+    res = sd.word_to_prob(sys.argv[1],progress=True)
+    print([x[:2]+([y[0] for y in x[2]],) for x in res])

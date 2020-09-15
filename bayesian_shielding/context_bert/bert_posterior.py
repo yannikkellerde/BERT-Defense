@@ -104,6 +104,7 @@ class BertPosterior():
 
     def bert_posterior_old(self,prior,maxdepth):
         return self.bert_posterior_recur_old(prior.copy(),prior,np.zeros(len(prior)),maxdepth)
+
     def bert_posterior_recur_old(self,orig_prior,prior,alreadys,maxdepth):
         if maxdepth <= 0:
             return prior
