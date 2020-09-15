@@ -1,7 +1,7 @@
 import sys
 sys.path.append("../..")
 from STSB.RoBERTa_handler import init_model_roberta,encode_one_sentence
-from util.util import cosine_similarity
+from util.utility import cosine_similarity
 import numpy as np
 from tqdm import tqdm
 import sys

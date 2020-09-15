@@ -2,7 +2,7 @@ import sys
 sys.path.append("..")
 import torch
 import numpy as np
-from util.util import softmax,get_most_likely_sentence,get_full_word_dict
+from util.utility import softmax,get_most_likely_sentence,get_full_word_dict
 from pytorch_pretrained_bert import BertTokenizer, BertForMaskedLM
 from context_bert.probabilistic_bert import my_BertForMaskedLM
 import logging

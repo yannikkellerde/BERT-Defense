@@ -3,7 +3,7 @@ sys.path.append("..")
 from edit_distance.edit_distance import get_word_dic_distance
 import multiprocessing
 from functools import reduce
-from util.util import mylower,get_full_word_dict
+from util.utility import mylower,get_full_word_dict
 import numpy as np
 
 full_word_dic = get_full_word_dict

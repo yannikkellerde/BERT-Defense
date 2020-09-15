@@ -1,7 +1,7 @@
 import sys
 sys.path.append("..")
 import numpy as np
-from util.util import get_full_word_dict,fast_argmin,softmax,load_pickle
+from util.utility import get_full_word_dict,fast_argmin,softmax,load_pickle
 from tqdm import tqdm,trange
 from operator import itemgetter
 from util.letter_stuff import trenner_punctuations,vocals, annoying_boys

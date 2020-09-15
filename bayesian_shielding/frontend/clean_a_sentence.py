@@ -2,7 +2,7 @@ import sys
 sys.path.append("..")
 from context_bert.bert_posterior import BertPosterior
 from edit_distance.edit_distance import get_word_dic_distance
-from util.util import get_full_word_dict,get_most_likely_sentence,preprocess_sentence,softmax
+from util.utility import get_full_word_dict,get_most_likely_sentence,preprocess_sentence,softmax
 
 import numpy as np
 

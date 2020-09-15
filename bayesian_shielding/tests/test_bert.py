@@ -5,7 +5,7 @@ import torch
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 import numpy as np
 from tqdm import trange,tqdm
-from util.util import load_dictionary,each_char_in
+from util.utility import load_dictionary,each_char_in
 from util.letter_stuff import singular_punctuations,all_chars
 import numpy as np
 import math
