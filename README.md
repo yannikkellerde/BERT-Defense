@@ -12,5 +12,5 @@
 - [ ] Find information about human text similarity clues (ask psychologists and/or read papers)
 - [ ] Maybe make an experiment about humans handeling adversarial attacks.
 - [ ] Handle random shuffeling, reversed words and potentially even more human similarity clues.
-- [ ] Find a way to handle abnormal word segmentations (*Working on it*).
+- [x] Find a way to handle abnormal word segmentations.
 - [ ] Write the paper

@@ -3,12 +3,12 @@ import pickle
 from tqdm import tqdm
 import sys
 sys.path.append("..")
-from util.utility import fast_allmin,load_pickle,get_full_word_dict,load_dictionary, softmax
+from util.utility import fast_allmin,load_pickle,get_full_word_dict,load_dictionary, softmax, smallest_n_permutations
 from util.letter_stuff import annoying_boys
 
 class Sub_dist():
     def __init__(self):
-        self.vowls = set("AaEeOoUu")
+        self.vowls = set("AaEeOoUuiI")
         self.del_scaler = 0.75
         self.cheap_actions = {
             "ins":True,
@@ -20,8 +20,8 @@ class Sub_dist():
         self.full_word_dic = get_full_word_dict()
         self.morph_dic = load_dictionary("../../DATA/dictionaries/bert_morphemes.txt")
         self.punc_dic = load_dictionary("../../DATA/dictionaries/bert_punctuations.txt")
-        self.prob_softmax = 27
-        self.hyp_softmax = 30
+        self.prob_softmax = 5
+        self.hyp_softmax = 10
         with open("../binaries/freq_ranking.pkl", "rb") as f:
             self.freq_dict = pickle.load(f)
 
@@ -146,40 +146,26 @@ class Sub_dist():
                     else:
                         cw = tuple(zip(*combo_words[(hyp[0][i],hyp[0][i+1])]))
                     word_prob_list.append(cw)
-                hyps_with_words.append(hyp+(word_prob_list,))
+                hyps_with_words.append(hyp+(tuple(word_prob_list),))
+        if len(hyps_with_words)==0:
+            raise Exception("WTF")
         return hyps_with_words
 
-    def get_sentence_hypothesis(self,sentence,max_hyps=10,max_worse_percent=0.2,progress=False):
+    def get_sentence_hypothesis(self,sentence,max_hyps=10,min_prob=0.07,progress=False):
         word_hyps = [self.word_to_prob(x,num_hyps=max_hyps,progress=progress) for x in sentence]
-        cur_ind = [0]*len(word_hyps)
-        best_edit_dist = None
+        permuts = smallest_n_permutations([[y[1] for y in x] for x in word_hyps],max_hyps)
         hyps = []
-        for i in range(max_hyps):
-            full_hyp = [x[i] for x,i in zip(word_hyps,cur_ind)]
-            print(full_hyp[0])
+        for edit_dist,cur_ind in permuts:
+            full_hyp = [x[j] for x,j in zip(word_hyps,cur_ind)]
             newhyp = sum((x[2] for x in full_hyp),tuple())
-            newhyp = [(softmax(1/(x[0]+1),self.prob_softmax),x[1]) for x in newhyp]
-            edit_dist = sum(x[1] for x in full_hyp)
-            if best_edit_dist is None:
-                best_edit_dist = edit_dist
+            newhyp = [(softmax(-np.array(x[0]),self.prob_softmax),x[1]) for x in newhyp]
             hyps.append((edit_dist,newhyp))
-            best_new_dist = best_edit_dist*(1+max_worse_percent)
-            bestj = None
-            for j in range(len(cur_ind)):
-                if len(word_hyps[j])>cur_ind[j]+1:
-                    maydist = edit_dist - word_hyps[j][cur_ind[j]] + word_hyps[j][cur_ind[j]+1]
-                    if maydist < best_new_dist:
-                        bestj = j
-                        best_new_dist = maydist
-            if bestj is None:
-                break
-            cur_ind[j] += 1
         unp_hyps = list(zip(*hyps))
-        smax = softmax(1/(unp_hyps[0]+1),self.hyp_softmax)
-        hyps = tuple(zip(smax,unp_hyps[1]))
+        smax = softmax(-np.array(unp_hyps[0]),self.hyp_softmax)
+        hyps = tuple(filter(lambda x:x[0]>min_prob,zip(smax,unp_hyps[1])))
         return hyps
 
-    def show_hyp_max(hyp):
+    def show_hyp_max(self,hyp):
         print(hyp[0]," ".join([x[1][np.argmax(x[0])] for x in hyp[1]]))
 
     def in_cost(self, in_char, no_vowls):
@@ -217,6 +203,9 @@ class Sub_dist():
 
 if __name__ == "__main__":
     sd = Sub_dist()
+    #res = sd.word_to_prob(sys.argv[1],progress=True)
+    #for wuff in res:
+    #    print(wuff[0],wuff[1],[x[1][np.argmin(x[0])] for x in wuff[2]])
     res = sd.get_sentence_hypothesis(sys.argv[1].split(" "),progress=True)
     for x in res:
         sd.show_hyp_max(x)

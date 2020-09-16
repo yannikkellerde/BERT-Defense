@@ -1,6 +1,7 @@
 import sys
 sys.path.append("..")
 import numpy as np
+import math
 import pickle as pkl
 import sys
 import progressbar
@@ -18,6 +19,14 @@ def get_most_likely_sentence(distribution,dic):
         if i!=len(distribution)-1:
             sentence+=" "
     return sentence
+def get_most_likely_sentence_multidics(distribution,dics):
+    sentence = ""
+    for i,p in enumerate(distribution):
+        pmaxin = np.argmax(p)
+        sentence += dics[i][pmaxin]
+        if i!=len(distribution)-1:
+            sentence+=" "
+    return sentence
 
 def preprocess_sentence(sentence):
     sentence=sentence.strip()
@@ -26,6 +35,7 @@ def preprocess_sentence(sentence):
     words = sentence.split(" ")
     newwords = []
     for i,word in enumerate(words):
+        word = mylower(word)
         lateradd = []
         if len(word)>0 and (word[0]=='"' or word[0]=="'"):
             newwords.append(word[0])
@@ -157,6 +167,32 @@ def fast_allmin(a):
         elif a[i] == min_:
             all_.append(i)
     return all_
+
+def smallest_n_permutations(lists,n):
+    """Find the n lowest sum combinations using one number from each of the sorted lists.
+    Might only work approximately.
+    """
+    inds = [0]*len(lists)
+    permuts = []
+    costs = []
+    for i in range(n):
+        permuts.append(tuple(inds))
+        costs.append(sum([x[inds[j]] for j,x in enumerate(lists)]))
+        while tuple(inds) in permuts:
+            differences = [(x[inds[j]+1]-x[inds[j]] if len(x)>inds[j]+1 else math.inf) for j,x in enumerate(lists)]
+            to_inc = fast_argmin(differences)
+            if differences[to_inc] == math.inf:
+                return list(zip(costs,permuts))
+            inds[to_inc]+=1
+        changed = True
+        while changed:
+            changed = False
+            for j in range(len(inds)):
+                if inds[j]>0:
+                    if tuple(inds[:j]+[inds[j]-1]+inds[j+1:]) not in permuts:
+                        inds[j]-=1
+                        changed = True
+    return list(zip(costs,permuts))
 
 if __name__ == '__main__':
     word_embedding = load_pickle("../binaries/visual_embeddings.pkl")
