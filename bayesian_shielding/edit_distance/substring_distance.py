@@ -144,19 +144,21 @@ class Sub_dist():
                     if (hyp[0][i],hyp[0][i+1]) == (0,len(source)):
                         cw = (distance,self.full_word_dic)
                     else:
-                        cw = list(zip(*combo_words[(hyp[0][i],hyp[0][i+1])]))
+                        cw = tuple(zip(*combo_words[(hyp[0][i],hyp[0][i+1])]))
                     word_prob_list.append(cw)
                 hyps_with_words.append(hyp+(word_prob_list,))
         return hyps_with_words
 
-    def get_sentence_hypothesis(self,sentence,max_hyps=10,max_worse_percent=0.2):
-        word_hyps = [self.word_to_prob(x,num_hyps=max_hyps) for x in sentence]
+    def get_sentence_hypothesis(self,sentence,max_hyps=10,max_worse_percent=0.2,progress=False):
+        word_hyps = [self.word_to_prob(x,num_hyps=max_hyps,progress=progress) for x in sentence]
         cur_ind = [0]*len(word_hyps)
         best_edit_dist = None
         hyps = []
         for i in range(max_hyps):
             full_hyp = [x[i] for x,i in zip(word_hyps,cur_ind)]
+            print(full_hyp[0])
             newhyp = sum((x[2] for x in full_hyp),tuple())
+            newhyp = [(softmax(1/(x[0]+1),self.prob_softmax),x[1]) for x in newhyp]
             edit_dist = sum(x[1] for x in full_hyp)
             if best_edit_dist is None:
                 best_edit_dist = edit_dist
@@ -172,10 +174,13 @@ class Sub_dist():
             if bestj is None:
                 break
             cur_ind[j] += 1
+        unp_hyps = list(zip(*hyps))
+        smax = softmax(1/(unp_hyps[0]+1),self.hyp_softmax)
+        hyps = tuple(zip(smax,unp_hyps[1]))
         return hyps
 
     def show_hyp_max(hyp):
-
+        print(hyp[0]," ".join([x[1][np.argmax(x[0])] for x in hyp[1]]))
 
     def in_cost(self, in_char, no_vowls):
         if (not self.cheap_actions["ins"]):
@@ -212,7 +217,6 @@ class Sub_dist():
 
 if __name__ == "__main__":
     sd = Sub_dist()
-    res = sd.word_to_prob(sys.argv[1],progress=True)
-    maxed = [x[:2]+([y[0] for y in x[2]],) for x in res]
-    print(maxed)
-    print([(x[1]," ".join([y[1] for y in x[2]])) for x in maxed])
+    res = sd.get_sentence_hypothesis(sys.argv[1].split(" "),progress=True)
+    for x in res:
+        sd.show_hyp_max(x)
