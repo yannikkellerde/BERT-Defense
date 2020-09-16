@@ -3,7 +3,7 @@ import pickle
 from tqdm import tqdm
 import sys
 sys.path.append("..")
-from util.utility import fast_allmin,load_pickle,get_full_word_dict,load_dictionary
+from util.utility import fast_allmin,load_pickle,get_full_word_dict,load_dictionary, softmax
 from util.letter_stuff import annoying_boys
 
 class Sub_dist():
@@ -20,6 +20,8 @@ class Sub_dist():
         self.full_word_dic = get_full_word_dict()
         self.morph_dic = load_dictionary("../../DATA/dictionaries/bert_morphemes.txt")
         self.punc_dic = load_dictionary("../../DATA/dictionaries/bert_punctuations.txt")
+        self.prob_softmax = 27
+        self.hyp_softmax = 30
         with open("../binaries/freq_ranking.pkl", "rb") as f:
             self.freq_dict = pickle.load(f)
 
@@ -63,6 +65,8 @@ class Sub_dist():
         for i in range(len(hyps)):
             if to_ins[1]<hyps[i][1]:
                 to_ins,hyps[i] = hyps[i],to_ins
+
+
     def find_best_hypothesis(self,cur_comb,cur_dist,combo_parts,best_hyps):
         fill_dist = cur_dist + len(combo_parts)-cur_comb[-1]
         if fill_dist < best_hyps[-1][1]:
@@ -123,7 +127,7 @@ class Sub_dist():
             if fill_cost > 0:
                 enter_combos(comb,dist,sample_word,False)
             distance[i] = real_dist
-        combo_words[(0,len(source))] = list(zip(distance,self.full_word_dic))
+        combo_words[(0,len(source))] = [distance,self.full_word_dic]
         for sample_word in (tqdm(self.morph_dic) if progress else self.morph_dic):
             dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)
             for c in comb:
@@ -137,11 +141,41 @@ class Sub_dist():
             if hyp[0] is not None:
                 word_prob_list = []
                 for i in range(len(hyp[0])-1):
-                    cw = combo_words[(hyp[0][i],hyp[0][i+1])]
-                    cw.sort()
+                    if (hyp[0][i],hyp[0][i+1]) == (0,len(source)):
+                        cw = (distance,self.full_word_dic)
+                    else:
+                        cw = list(zip(*combo_words[(hyp[0][i],hyp[0][i+1])]))
                     word_prob_list.append(cw)
                 hyps_with_words.append(hyp+(word_prob_list,))
         return hyps_with_words
+
+    def get_sentence_hypothesis(self,sentence,max_hyps=10,max_worse_percent=0.2):
+        word_hyps = [self.word_to_prob(x,num_hyps=max_hyps) for x in sentence]
+        cur_ind = [0]*len(word_hyps)
+        best_edit_dist = None
+        hyps = []
+        for i in range(max_hyps):
+            full_hyp = [x[i] for x,i in zip(word_hyps,cur_ind)]
+            newhyp = sum((x[2] for x in full_hyp),tuple())
+            edit_dist = sum(x[1] for x in full_hyp)
+            if best_edit_dist is None:
+                best_edit_dist = edit_dist
+            hyps.append((edit_dist,newhyp))
+            best_new_dist = best_edit_dist*(1+max_worse_percent)
+            bestj = None
+            for j in range(len(cur_ind)):
+                if len(word_hyps[j])>cur_ind[j]+1:
+                    maydist = edit_dist - word_hyps[j][cur_ind[j]] + word_hyps[j][cur_ind[j]+1]
+                    if maydist < best_new_dist:
+                        bestj = j
+                        best_new_dist = maydist
+            if bestj is None:
+                break
+            cur_ind[j] += 1
+        return hyps
+
+    def show_hyp_max(hyp):
+
 
     def in_cost(self, in_char, no_vowls):
         if (not self.cheap_actions["ins"]):
