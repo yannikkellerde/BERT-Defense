@@ -5,6 +5,7 @@ sys.path.append("../bayesian_shielding")
 from benchmark_tasks.STSB.RoBERTa_handler import init_model_roberta,simple_sentence_embedder
 from bayesian_shielding.util.utility import read_labeled_data,cosine_similarity
 from adversarial_attacks.attack_api import Adversarial_attacker
+from frontend.clean_vs_segmentation import clean_sentence
 import scipy.stats
 from nltk import tokenize
 from nltk.translate.bleu_score import sentence_bleu
@@ -33,14 +34,15 @@ def mover_score(reference, sentence):
 
 def sts_b_spearmans_rank(datafile, attackfunc, cleanfunc):
     model = init_model_roberta()
+    print("Read sentence in")
     scores, first_sentences, second_sentences = read_labeled_data(datafile)
-
+    print("Start attack")
     first_sentences_atk = [attackfunc(x) for x in first_sentences]
     second_sentences_atk = [attackfunc(x) for x in second_sentences]
-
+    print("Start clean")
     first_sentences_clean = [cleanfunc(x) for x in first_sentences_atk]
     second_sentences_clean = [cleanfunc(x) for x in second_sentences_atk]
-
+    print("Start embedding")
     embed_first_sentences_clean = simple_sentence_embedder(model,first_sentences_clean)
     embed_second_sentences_clean = simple_sentence_embedder(model,second_sentences_clean)
 
@@ -49,11 +51,11 @@ def sts_b_spearmans_rank(datafile, attackfunc, cleanfunc):
     
     embed_first_sentences = simple_sentence_embedder(model, first_sentences)
     embed_second_sentences = simple_sentence_embedder(model, second_sentences)
-
+    print("calculate cosine")
     cosine_sims = [cosine_similarity(x,y) for x,y in zip(embed_first_sentences,embed_second_sentences)]
     cosine_sims_atk = [cosine_similarity(x,y) for x,y in zip(embed_first_sentences_atk,embed_second_sentences_atk)]
     cosine_sims_clean = [cosine_similarity(x,y) for x,y in zip(embed_first_sentences_clean,embed_second_sentences_clean)]
-    
+    print("Calculate spearmans rank")
     spearman = [scipy.stats.spearmanr(scores,np.clip(x, 0.0, 1.0)) for x in [cosine_sims, cosine_sims_atk, cosine_sims_clean]]
     print(f"Real rank: {spearman[0]}, Atk rank: {spearman[1]}, Clean rank {spearman[2]}")
     return spearman
@@ -63,9 +65,7 @@ def sts_b_spearmans_rank(datafile, attackfunc, cleanfunc):
 
 
 if __name__ == '__main__':
-    print(sys.path)
     attack = Adversarial_attacker()
-    lambda parameter_list: expression
     attacks_with_severity = [(x,0.1) for x in attack.methods]
-    sts_b_spearmans_rank("DATA/training-dataset.txt",lambda sentence: )
+    sts_b_spearmans_rank("test_senteces.txt",lambda sentence: attack.multiattack(sentence, attacks_with_severity), clean_sentence)
     # print(mover_score('they are now equipped with air conditioning and nice toilets.','they have air conditioning and new toilets.'))
