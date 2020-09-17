@@ -26,4 +26,5 @@ def clean_sentence(sentence):
     print(f"\nFinal cleaned sentence: {posterior_hyps[0][1]}")
 
 if __name__ == "__main__":
-    clean_sentence("Abycìisƫınblзók anöωriճe 1ińa spèedіnΜpdstspeϲțɜtoɦԍ.")
+    clean_sentence("Abycìisƫınblзókanöωriճe1ińaspèedіnΜpdstspeϲțɜtoɦԍ.")
+    clean_sentence("`,`Opi;ni;o;natedands)tu)b)b)o)rn'''becomestreatwi/thdrugs.")
