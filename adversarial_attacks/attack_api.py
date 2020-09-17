@@ -6,7 +6,7 @@ from simple_attacks.simple_attacks import simple_perturb
 
 class Adversarial_attacker():
     def __init__(self):
-        self.phonetic_attacker = Phonetic_attacker(stats_folder="phonetic_attacks/statistics")
+        self.phonetic_attacker = Phonetic_attacker(stats_folder=os.path.join(os.path.realpath(os.path.dirname(__file__)),"phonetic_attacks/statistics"))
         self.visual_attacker = Viper_decs()
         self.methods = ['visual','phonetic','full-swap','inner-swap','intrude','disemvowel','truncate','keyboard-typo','natural-typo']
 
