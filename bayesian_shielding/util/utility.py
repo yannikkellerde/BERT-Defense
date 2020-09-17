@@ -81,9 +81,9 @@ def load_dictionary(filename):
         return list(filter(lambda x:not x.startswith("#!comment:"),f.read().splitlines()))
 
 def get_full_word_dict():
-    letter_dic = load_dictionary("../../DATA/dictionaries/bert_letter_begin.txt")
-    number_dic = load_dictionary("../../DATA/dictionaries/bert_number_begin.txt")
-    punct_dic = load_dictionary("../../DATA/dictionaries/bert_punctuations.txt")
+    letter_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_letter_begin.txt"))
+    number_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_number_begin.txt"))
+    punct_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_punctuations.txt"))
     full_word_dic = letter_dic + number_dic + punct_dic
     return full_word_dic
 
