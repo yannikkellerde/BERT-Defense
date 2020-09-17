@@ -6,10 +6,14 @@ docutils==0.15.2
 future==0.18.2
 idna==2.9
 jmespath==0.10.0
+matplotlib==3.3.2
+moverscore==1.0.3
 numpy==1.18.5
 Pillow==7.1.2
 pkg-resources==0.0.0
 progressbar==2.5
+py-rouge==1.1
+pyemd==0.5.1
 python-dateutil==2.8.1
 pytorch-pretrained-bert==0.6.2
 regex==2020.6.8

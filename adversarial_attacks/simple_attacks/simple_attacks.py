@@ -205,7 +205,7 @@ def key(word, probability=1.0):
 
 
 typos = {}
-for line in open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "en.natural")):
+for line in open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "en.natural"),encoding='utf-8'):
     line = line.strip().split()
     typos[line[0]] = line[1:]
 
