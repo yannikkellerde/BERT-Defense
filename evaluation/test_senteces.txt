@@ -18,33 +18,3 @@
 0.28	Philippines holds second senator over corruption	Philippines recovering after powerful typhoon
 0.84	A gray cat laying on a brown table.	A grey cat lying on a wooden table.
 0.45	The brown train is sitting on the railroad tracks.	The white train is sitting on the tracks.
-0.0	No, you don't need to have taken classes or earned a degree in your area.	I have done quite a bit of technical writing for healthcare information systems.
-0.4	Russian plane reportedly crashes in Egypt	Pilot killed as US jet crashes in England
-0.48	The tech-loaded Nasdaq composite rose 20.96 points to 1595.91, ending at its highest level for 12 months.	The technology-laced Nasdaq Composite Index <.IXIC> climbed 19.11 points, or 1.2 percent, to 1,615.02.
-0.52	Syria 'to declare chemical weapons and sign convention'	Russia, Syria Work on 'Concrete' Chemical Weapons Plan
-0.44	South Korea Says North Fired Missiles	North Korea launches short-range missiles
-0.16	Flash floods kill 58 in eastern Afghanistan	Bomb wounds 16 in eastern Afghanistan
-0.56	Two years later, the insurance coverage would begin.	Under the agreement, Medicare coverage for drug benefits would begin in 2006.
-0.28	Two boys in black swimming trunks are holding another boy by his arms and legs on a beach.	Man in white shirt flipping young boy in the water with four other boys surrounding them.
-0.68	Obama urges decisive action on Europe debt crisis	Obama urges Europe to act quickly on crisis
-0.85	A woman is chopping broccoli.	A woman is chopping broccoli with a knife.
-0.75	Critics say the law violates civil liberties, something House Judiciary Committee Chairman James Sensenbrenner, R-Wis., says he is sensitive to.	House Judiciary Committee Chairman James Sensenbrenner, R-Wis., says he is sensitive to civil liberties complaints.
-0.8	religious extremism continues in pakistan despite the banning of militant groups.	religious extremism continues in pakistan despite the banning of militant groups by the pakistani government.
-0.84	Vehicles ablaze in collapsed Japan tunnel	Vehicles 'left burning' as smoke emits from Japan tunnel
-0.88	A doctor prescribes medicine to a patient.	A doctor prescribes a medicine.
-0.36	A woman is chopping an onion.	A woman is chopping garlic with a knife.
-0.64	A guy on a white horse.	A man riding a white horse in an arena.
-0.15	A woman is playing in the ocean.	A woman is preparing shrimp to cook.
-0.16	China gives US regulators access to audit records	China opposes US arms sales to Taiwan
-0.56	Bangladesh Honors Factory Victims	Retailers back Bangladesh factory safety pact
-0.76	Pakistan to release most senior Afghan Taliban prisoner	Pakistan to release senior Taliban commander on Saturday
-0.08	Algeria president gets therapy after stroke: state media	Bulgarian president tries to break election stalemate
-0.6	Artists are worried the plan would harm those who need help most - performers who have a difficult time lining up shows.	The artists say the plan will harm French culture and punish those who need help most - performers who have a hard time lining up work.
-0.12	First of all, let me say that there seems to be 3 main traits to casting a spell.	I always thought that Harry seemed to learn from the Half-Blood Prince better than he did from other sources.
-0.16	A man is running on a street.	A man plays the guitar.
-0.4	I would say you can do it, but it wouldn't be advised.	Personally, I would say not unless it suits you.
-0.68	The two Democrats on the five-member FCC panel held a news conference to sway opinion against Powell.	The two Democrats on the five-member FCC held a news conference to sway opinion against Powell and the panel's two other Republicans.
-0.88	Asteroid zips between Earth and satellites	Asteroid passes Earth in fly-by
-0.68	"The European Union is basically absent," said Tito Barbini, regional minister for agriculture in Tuscany, Italy.	Tito Barbini, a regional minister for agriculture in Tuscany, Italy, criticized the absence Tuesday in Sacramento.
-0.65	A boy is playing a key-board.	A boy is sitting in a room playing a piano by lamp light.
-0.04	The woman is smoking.	The man is walking.

@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pickle
 from tqdm import tqdm
@@ -16,13 +17,13 @@ class Sub_dist():
             "del":True,
             "tp":True
         }
-        self.word_embedding = load_pickle("../binaries/visual_embeddings.pkl")
+        self.word_embedding = load_pickle(os.path.join(os.path.dirname(__file__), "../binaries/visual_embeddings.pkl"))
         self.full_word_dic = get_full_word_dict()
-        self.morph_dic = load_dictionary("../../DATA/dictionaries/bert_morphemes.txt")
-        self.punc_dic = load_dictionary("../../DATA/dictionaries/bert_punctuations.txt")
+        self.morph_dic = load_dictionary(os.path.join(os.path.dirname(__file__), "../../DATA/dictionaries/bert_morphemes.txt"))
+        self.punc_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_punctuations.txt"))
         self.prob_softmax = 5
         self.hyp_softmax = 10
-        with open("../binaries/freq_ranking.pkl", "rb") as f:
+        with open(os.path.join(os.path.dirname(__file__),"../binaries/freq_ranking.pkl"), "rb") as f:
             self.freq_dict = pickle.load(f)
 
     def one_dist(self,source,target,no_vowls,appearance_table):
