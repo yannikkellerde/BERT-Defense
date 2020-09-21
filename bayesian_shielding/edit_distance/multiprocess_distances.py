@@ -1,36 +1,35 @@
 import sys
 sys.path.append("..")
-from edit_distance.edit_distance import get_word_dic_distance
+from edit_distance.substring_distance import Sub_dist
 import multiprocessing
 from functools import reduce
 from util.utility import mylower,get_full_word_dict
 import numpy as np
 
 full_word_dic = get_full_word_dict
-def distance_words(tasks,word_embedding):
+def distance_words(tasks:list,lev_handler:Sub_dist):
     results = []
     for task in tasks:
         word = task[0]
-        probs = get_word_dic_distance(word,full_word_dic,word_embedding,cheap_actions=True,keeporder=True,progress=False)
+        probs = lev_handler.get_sentence_hypothesis(sentence)
         results.append([probs,*task[1:]])
     return results
 
-def multiprocess_word_distances(dataset,word_embedding,transpo_dict = {}):
+def multiprocess_word_distances(sentences:list,lev_handler:Sub_dist,transpo_dict = {}):
     cpu_count = multiprocessing.cpu_count()
     work_words = []
     preresults = []
-    for a,line in enumerate(dataset):
-        for b,sentence in enumerate(line):
-            for c,word in enumerate(sentence):
-                useword = mylower(word)
-                if useword in transpo_dict:
-                    preresults.append([transpo_dict[useword],a,b,c])
-                else:
-                    work_words.append([useword,a,b])
+    for a,sentence in enumerate(sentences):
+        for b,word in enumerate(sentence):
+            useword = mylower(word)
+            if useword in transpo_dict:
+                preresults.append([transpo_dict[useword],a,b])
+            else:
+                work_words.append([useword,a])
     splitl = len(work_words)/(cpu_count-1)
     split_words = []
     for i in range(cpu_count-1):
-        split_words.append([work_words[int(round(i*splitl)):int(round((i+1)*splitl))],word_embedding])
+        split_words.append([work_words[int(round(i*splitl)):int(round((i+1)*splitl))],lev_handler])
     with multiprocessing.Pool(processes=cpu_count-1) as pool:
         results = pool.starmap(distance_words,split_words)
     for i,part in enumerate(results):

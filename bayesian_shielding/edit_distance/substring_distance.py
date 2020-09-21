@@ -10,6 +10,13 @@ from util.letter_stuff import annoying_boys
 class Sub_dist():
     def __init__(self):
         self.vowls = set("AaEeOoUuiI")
+        self.word_embedding = load_pickle(os.path.join(os.path.dirname(__file__), "../binaries/visual_embeddings.pkl"))
+        self.full_word_dic = get_full_word_dict()
+        self.morph_dic = load_dictionary(os.path.join(os.path.dirname(__file__), "../../DATA/dictionaries/bert_morphemes.txt"))
+        self.punc_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_punctuations.txt"))
+        with open(os.path.join(os.path.dirname(__file__),"../binaries/freq_ranking.pkl"), "rb") as f:
+            self.freq_dict = pickle.load(f)
+
         self.del_scaler = 0.75
         self.cheap_actions = {
             "ins":True,
@@ -17,14 +24,28 @@ class Sub_dist():
             "del":True,
             "tp":True
         }
-        self.word_embedding = load_pickle(os.path.join(os.path.dirname(__file__), "../binaries/visual_embeddings.pkl"))
-        self.full_word_dic = get_full_word_dict()
-        self.morph_dic = load_dictionary(os.path.join(os.path.dirname(__file__), "../../DATA/dictionaries/bert_morphemes.txt"))
-        self.punc_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_punctuations.txt"))
+        self.num_hyps = 10
+        self.min_prob = 0.07
         self.prob_softmax = 5
         self.hyp_softmax = 10
-        with open(os.path.join(os.path.dirname(__file__),"../binaries/freq_ranking.pkl"), "rb") as f:
-            self.freq_dict = pickle.load(f)
+        self.freq_scale = 2
+        self.hyperparams = ["prob_softmax","hyp_softmax","cheap_actions","del_scaler","num_hyps","min_prob","freq_scale"]
+    
+    def set_hyperparams(self,**kwargs):
+        if "prob_softmax" in kwargs:
+            self.prob_softmax = kwargs["prob_softmax"]
+        if "hyp_softmax" in kwargs:
+            self.hyp_softmax = kwargs["hyp_softmax"]
+        if "del_scaler" in kwargs:
+            self.del_scaler = kwargs["del_scaler"]
+        if "cheap_actions" in kwargs:
+            self.cheap_actions = kwargs["cheap_actions"]
+        if "num_hyps" in kwargs:
+            self.num_hyps = kwargs["num_hyps"]
+        if "min_prob" in kwargs:
+            self.min_prob = kwargs["min_prob"]
+        if "freq_scale" in kwargs:
+            self.freq_scale = kwargs["freq_scale"]
 
     def one_dist(self,source,target,no_vowls,appearance_table):
         matrix = np.zeros((len(target)+1,len(source)+1))
@@ -40,19 +61,30 @@ class Sub_dist():
 
         for i in range(1, len(target)+1):
             for j in range(1, len(source)+1):
+                eq_to_last = target[i-1] == source[j-1]
+                can_trans = i > 2 and j > 2 and target[i-1] == source[j-2] and target[i-2] == source[j-1]
                 possibilities = [matrix[i-1][j] + self.in_cost(target[i-1],no_vowls),# insertion von target_i in source
                                     matrix[i-1][j-1] + self.sub_cost(target[i-1], source[j-1]),# substituition von target in source
                                     matrix[i][j-1] + self.del_cost(source[j-1], appearance_table)]# deletion  source_j
-                if target[i-1] == source[j-1]:
+                if eq_to_last:
                     possibilities.append(matrix[i-1][j-1])
+                if can_trans:
+                    possibilities.append(matrix[i-2][j-2] + self.trans_cost())
                 mins = fast_allmin(possibilities)
                 for mini in mins:
                     if mini == 0:
                         startmatrix[i][j].update(startmatrix[i-1][j])
-                    elif mini == 1 or mini == 3:
+                    elif mini == 1:
                         startmatrix[i][j].update(startmatrix[i-1][j-1])
                     elif mini == 2:
                         startmatrix[i][j].update(startmatrix[i][j-1])
+                    elif mini == 3:
+                        if eq_to_last:
+                            startmatrix[i][j].update(startmatrix[i-1][j-1])
+                        elif can_trans:
+                            startmatrix[i][j].update(startmatrix[i-2][j-2])
+                    elif mini == 4:
+                        startmatrix[i][j].update(startmatrix[i-2][j-2])
                 matrix[i][j] = possibilities[mins[0]]
         endpoints = fast_allmin(matrix[-1])
         combos = []
@@ -79,7 +111,7 @@ class Sub_dist():
                     self.find_best_hypothesis(cur_comb+[targ_in],new_dist,combo_parts,best_hyps)
         return best_hyps
 
-    def word_to_prob(self,source,num_hyps=10,progress=False,freq_scale=2):
+    def word_to_prob(self,source,progress=False):
         no_vowls = True
         for char in source:
             if char in self.vowls:
@@ -91,13 +123,13 @@ class Sub_dist():
         def enter_combos(comb,dist,sample_word,ismorph):
             dist += 0.5
             if sample_word in self.freq_dict and not ismorph:
-                dist += ((self.freq_dict[sample_word]/len(self.freq_dict))*freq_scale)/len(sample_word)
+                dist += ((self.freq_dict[sample_word]/len(self.freq_dict))*self.freq_scale)/len(sample_word)
             else:
                 if ismorph:
                     dist+=0.4
                 else:
                     if sample_word not in self.punc_dic:
-                        dist+=freq_scale/len(sample_word)
+                        dist+=self.freq_scale/len(sample_word)
             for c in comb:
                 if c[1]-c[0] < len(source) and dist<c[1]-c[0]:
                     if ismorph and c[0]==0:
@@ -135,7 +167,7 @@ class Sub_dist():
                 enter_combos(comb,dist,sample_word,True)
         bestdist = np.min(distance)
         comb_parts = [list(sorted(filter(lambda x:x[1]<bestdist,co.items()),key=lambda x:x[1])) for co in comb_parts]
-        orig_hyps = [((0,len(source)),bestdist)]+[(None,np.inf) for _ in range(num_hyps-1)]
+        orig_hyps = [((0,len(source)),bestdist)]+[(None,np.inf) for _ in range(self.num_hyps-1)]
         best_hyps = self.find_best_hypothesis([0],0,comb_parts,orig_hyps)
         hyps_with_words = []
         for hyp in best_hyps:
@@ -152,9 +184,9 @@ class Sub_dist():
             raise Exception("WTF")
         return hyps_with_words
 
-    def get_sentence_hypothesis(self,sentence,max_hyps=10,min_prob=0.07,progress=False):
-        word_hyps = [self.word_to_prob(x,num_hyps=max_hyps,progress=progress) for x in sentence]
-        permuts = smallest_n_permutations([[y[1] for y in x] for x in word_hyps],max_hyps)
+    def get_sentence_hypothesis(self,sentence,progress=False):
+        word_hyps = [self.word_to_prob(x,progress=progress) for x in sentence]
+        permuts = smallest_n_permutations([[y[1] for y in x] for x in word_hyps],self.num_hyps)
         hyps = []
         for edit_dist,cur_ind in permuts:
             full_hyp = [x[j] for x,j in zip(word_hyps,cur_ind)]
@@ -163,7 +195,7 @@ class Sub_dist():
             hyps.append((edit_dist,newhyp))
         unp_hyps = list(zip(*hyps))
         smax = softmax(-np.array(unp_hyps[0]),self.hyp_softmax)
-        hyps = tuple(filter(lambda x:x[0]>min_prob,zip(smax,unp_hyps[1])))
+        hyps = tuple(filter(lambda x:x[0]>self.min_prob,zip(smax,unp_hyps[1])))
         return hyps
 
     def show_hyp_max(self,hyp):
@@ -189,6 +221,9 @@ class Sub_dist():
             return 1
         scal_cost = self.del_scaler**(table[del_char]-1)
         return scal_cost
+
+    def trans_cost(self):
+        return 1
 
     def char_appearence(self,word):
         table = {}

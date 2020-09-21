@@ -22,10 +22,17 @@ def get_most_likely_sentence(distribution,dic):
 def get_most_likely_sentence_multidics(distribution,dics):
     sentence = ""
     for i,p in enumerate(distribution):
+        leerz = True
         pmaxin = np.argmax(p)
-        sentence += dics[i][pmaxin]
-        if i!=len(distribution)-1:
+        if dics[i][pmaxin].startswith("##"):
+            newword = dics[i][pmaxin][2:]
+            leerz = False
+        else:
+            newword = dics[i][pmaxin]
+        if i>0 and leerz and dics[i][pmaxin]!="-" and lastword!="-":
             sentence+=" "
+        lastword = newword
+        sentence += newword
     return sentence
 
 def preprocess_sentence(sentence):
