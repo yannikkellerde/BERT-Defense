@@ -5,7 +5,7 @@ sys.path.append("../bayesian_shielding")
 from benchmark_tasks.STSB.RoBERTa_handler import init_model_roberta,simple_sentence_embedder
 from bayesian_shielding.util.utility import read_labeled_data,cosine_similarity, only_read_dataset
 from adversarial_attacks.attack_api import Adversarial_attacker
-from frontend.clean_vs_segmentation import clean_sentence, clean_sentence_init
+from frontend.clean_sentences import clean_sentence, clean_sentence_init
 import scipy.stats
 from nltk import tokenize
 from nltk.translate.bleu_score import sentence_bleu

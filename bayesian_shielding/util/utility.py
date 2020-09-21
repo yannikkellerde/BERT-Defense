@@ -201,6 +201,12 @@ def smallest_n_permutations(lists,n):
                         changed = True
     return list(zip(costs,permuts))
 
+def split_equal(a, n):
+    # Source https://stackoverflow.com/a/2135920
+    # Split list a into n approximately equal length chunks.
+    k, m = divmod(len(a), n)
+    return (a[i * k + min(i, m):(i + 1) * k + min(i + 1, m)] for i in range(n))
+
 if __name__ == '__main__':
     word_embedding = load_pickle("../binaries/visual_embeddings.pkl")
     redraw_vec(word_embedding[ord("t")])
