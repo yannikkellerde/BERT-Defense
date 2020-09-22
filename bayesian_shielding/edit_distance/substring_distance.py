@@ -5,7 +5,7 @@ from tqdm import tqdm
 import sys
 sys.path.append("..")
 from util.utility import fast_allmin,load_pickle,get_full_word_dict,load_dictionary, softmax, smallest_n_permutations
-from util.letter_stuff import annoying_boys
+from util.letter_stuff import annoying_boys,letters
 
 class Sub_dist():
     def __init__(self):
@@ -26,10 +26,11 @@ class Sub_dist():
         }
         self.num_hyps = 10
         self.min_prob = 0.07
-        self.prob_softmax = 5
+        self.prob_softmax = 1
         self.hyp_softmax = 10
         self.freq_scale = 2
         self.hyperparams = ["prob_softmax","hyp_softmax","cheap_actions","del_scaler","num_hyps","min_prob","freq_scale"]
+        self.char_distribs = {word:self.get_char_distribution(word)[0] for word in self.full_word_dic}
     
     def set_hyperparams(self,**kwargs):
         if "prob_softmax" in kwargs:
@@ -111,6 +112,26 @@ class Sub_dist():
                     self.find_best_hypothesis(cur_comb+[targ_in],new_dist,combo_parts,best_hyps)
         return best_hyps
 
+    def get_char_distribution(self,word):
+        dic = {x:0 for x in letters}
+        unknowns = 0
+        for char in word:
+            if char in dic:
+                dic[char]+=1
+            else:
+                unknowns+=1
+        return dic,unknowns
+
+    def score_anagramness(self,source,target,source_dict,targ_dict,unknowns):
+        ana_dist = 1+unknowns
+        for letter in letters:
+            ana_dist += abs(source_dict[letter]-targ_dict[letter])*2
+        if source[0] == target[0]:
+            ana_dist*=0.7
+        if source[-1] == target[-1]:
+            ana_dist*=0.8
+        return ana_dist
+
     def word_to_prob(self,source,progress=False):
         no_vowls = True
         for char in source:
@@ -121,12 +142,12 @@ class Sub_dist():
         comb_parts = [{} for _ in range(len(source))]
         combo_words = {}
         def enter_combos(comb,dist,sample_word,ismorph):
-            dist += 0.5
+            dist += 0.7
             if sample_word in self.freq_dict and not ismorph:
                 dist += ((self.freq_dict[sample_word]/len(self.freq_dict))*self.freq_scale)/len(sample_word)
             else:
                 if ismorph:
-                    dist+=0.4
+                    dist+=0.3
                 else:
                     if sample_word not in self.punc_dic:
                         dist+=self.freq_scale/len(sample_word)
@@ -153,13 +174,14 @@ class Sub_dist():
                         else:
                             combo_words[targ_comb] = [(true_dist,put_word)]
         distance = np.zeros(len(self.full_word_dic))
+        char_distrib,unknowns = self.get_char_distribution(source)
         for i,sample_word in (tqdm(enumerate(self.full_word_dic)) if progress else enumerate(self.full_word_dic)):
             dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)
             fill_cost = len(source)-max([x[1]-x[0] for x in comb])
             real_dist = dist + fill_cost
             if fill_cost > 0:
                 enter_combos(comb,dist,sample_word,False)
-            distance[i] = real_dist
+            distance[i] = min(real_dist,self.score_anagramness(source,sample_word,char_distrib,self.char_distribs[sample_word],unknowns))
         combo_words[(0,len(source))] = [distance,self.full_word_dic]
         for sample_word in (tqdm(self.morph_dic) if progress else self.morph_dic):
             dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)
@@ -211,10 +233,10 @@ class Sub_dist():
 
     def sub_cost(self, char1, char2):
         if (not self.cheap_actions["sub"]):
-            return 1
+            return 1.5
         vek1 = self.word_embedding[ord(char1)]
         vek2 = self.word_embedding[ord(char2)]
-        return min((1 - vek1@vek2)*2,1)
+        return min((1 - vek1@vek2)*2+0.2,1.5)
 
     def del_cost(self, del_char, table):
         if (not self.cheap_actions["del"]):
@@ -239,9 +261,9 @@ class Sub_dist():
 
 if __name__ == "__main__":
     sd = Sub_dist()
-    #res = sd.word_to_prob(sys.argv[1],progress=True)
+    res = sd.word_to_prob(sys.argv[1],progress=True)
     #for wuff in res:
     #    print(wuff[0],wuff[1],[x[1][np.argmin(x[0])] for x in wuff[2]])
-    res = sd.get_sentence_hypothesis(sys.argv[1].split(" "),progress=True)
-    for x in res:
-        sd.show_hyp_max(x)
+    #res = sd.get_sentence_hypothesis(sys.argv[1].split(" "),progress=True)
+    #for x in res:
+    #    sd.show_hyp_max(x)

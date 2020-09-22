@@ -10,6 +10,7 @@ import multiprocessing
 from itertools import chain
 from functools import reduce
 from util.letter_stuff import small_letters,big_letters
+from nltk.tokenize.treebank import TreebankWordDetokenizer
 
 def get_most_likely_sentence(distribution,dic):
     sentence = ""
@@ -20,7 +21,8 @@ def get_most_likely_sentence(distribution,dic):
             sentence+=" "
     return sentence
 def get_most_likely_sentence_multidics(distribution,dics):
-    sentence = ""
+    nltk_tokens = []
+    word_buffer = ""
     for i,p in enumerate(distribution):
         leerz = True
         pmaxin = np.argmax(p)
@@ -29,10 +31,13 @@ def get_most_likely_sentence_multidics(distribution,dics):
             leerz = False
         else:
             newword = dics[i][pmaxin]
-        if i>0 and leerz and dics[i][pmaxin]!="-" and lastword!="-":
-            sentence+=" "
-        lastword = newword
-        sentence += newword
+        if i>0 and leerz and newword!="-" and (len(word_buffer)==0 or word_buffer[-1]!="-"):
+            nltk_tokens.append(word_buffer)
+            word_buffer = ""
+        word_buffer += newword
+    if len(word_buffer)>0:
+        nltk_tokens.append(word_buffer)
+    sentence = TreebankWordDetokenizer().detokenize(nltk_tokens)
     return sentence
 
 def preprocess_sentence(sentence):

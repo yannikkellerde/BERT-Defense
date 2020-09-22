@@ -68,6 +68,5 @@ class Sentence_cleaner():
 
 if __name__ == "__main__":
     cleaner = Sentence_cleaner()
-    #cleaner.clean_sentence("Abycìisƫınblзókanöωriճe1ińaspèedіnΜpdstspeϲțɜtoɦԍ.")
-    #cleaner.clean_sentence("`,`Opi;ni;o;natedands)tu)b)b)o)rn'''becomestreatwi/thdrugs.")
-    cleaner.clean_sentence("well-done riidng the skateboard",progress=True)
+    cleaner.clean_sentence(sys.argv[1],progress=True)
+    #cleaner.clean_sentence("Italy's Prime-minister (some weird guy) and I like hanging out in germany",progress=True)

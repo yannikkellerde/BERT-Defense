@@ -5,7 +5,7 @@ sys.path.append("../bayesian_shielding")
 from benchmark_tasks.STSB.RoBERTa_handler import init_model_roberta,simple_sentence_embedder
 from bayesian_shielding.util.utility import read_labeled_data,cosine_similarity, only_read_dataset
 from adversarial_attacks.attack_api import Adversarial_attacker
-from frontend.clean_sentences import clean_sentence, clean_sentence_init
+from frontend.clean_sentences import Sentence_cleaner
 import scipy.stats
 from nltk import tokenize
 from nltk.translate.bleu_score import sentence_bleu
@@ -110,7 +110,7 @@ if __name__ == '__main__':
     attacks_with_severity = [(x,0.1) for x in ['keyboard-typo','natural-typo']]
     context_bert, dist_handler= clean_sentence_init()
     
-    spearman = sts_b_spearmans_rank("test_senteces.txt",lambda sentence: attack.multiattack(sentence, attacks_with_severity), 
+    spearman = sts_b_spearmans_rank("test_sentences.txt",lambda sentence: attack.multiattack(sentence, attacks_with_severity), 
                                     lambda sentence: clean_sentence(sentence, context_bert=context_bert, dist_handler=dist_handler))
     
     data= direct_evaluation("sts-b-sentences_short.txt",lambda sentence: attack.multiattack(sentence, attacks_with_severity), 
