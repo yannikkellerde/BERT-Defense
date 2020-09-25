@@ -217,8 +217,9 @@ class Sub_dist():
             hyps.append((edit_dist,newhyp))
         unp_hyps = list(zip(*hyps))
         smax = softmax(-np.array(unp_hyps[0]),self.hyp_softmax)
-        hyps = tuple(filter(lambda x:x[0]>self.min_prob,zip(smax,unp_hyps[1])))
-        return hyps
+        max_prob = max(smax)
+        hyps = tuple(sorted(filter(lambda x:x[0]>self.min_prob*max_prob,zip(smax,unp_hyps[1])),key=lambda x:x[0]))
+        return hyps[:self.num_hyps]
 
     def show_hyp_max(self,hyp):
         print(hyp[0]," ".join([x[1][np.argmax(x[0])] for x in hyp[1]]))
@@ -233,10 +234,10 @@ class Sub_dist():
 
     def sub_cost(self, char1, char2):
         if (not self.cheap_actions["sub"]):
-            return 1.5
+            return 1.1
         vek1 = self.word_embedding[ord(char1)]
         vek2 = self.word_embedding[ord(char2)]
-        return min((1 - vek1@vek2)*2+0.2,1.5)
+        return min((1 - vek1@vek2)*2,1.1)
 
     def del_cost(self, del_char, table):
         if (not self.cheap_actions["del"]):
@@ -261,9 +262,11 @@ class Sub_dist():
 
 if __name__ == "__main__":
     sd = Sub_dist()
+    #print(sd.sub_cost("ǎ","a"))
+    #exit()
     res = sd.word_to_prob(sys.argv[1],progress=True)
-    #for wuff in res:
-    #    print(wuff[0],wuff[1],[x[1][np.argmin(x[0])] for x in wuff[2]])
+    for wuff in res:
+        print(wuff[0],wuff[1],[x[1][np.argmin(x[0])] for x in wuff[2]])
     #res = sd.get_sentence_hypothesis(sys.argv[1].split(" "),progress=True)
     #for x in res:
     #    sd.show_hyp_max(x)

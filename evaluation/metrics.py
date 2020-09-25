@@ -106,7 +106,7 @@ def clean_atk_sentences(sentences, attackfunc, cleanfunc):
 
 if __name__ == '__main__':
     
-    attack = Adversarial_attacker()
+    """attack = Adversarial_attacker()
     attacks_with_severity = [(x,0.1) for x in ['keyboard-typo','natural-typo']]
     context_bert, dist_handler= clean_sentence_init()
     
@@ -117,4 +117,5 @@ if __name__ == '__main__':
                             lambda sentence: clean_sentence(sentence, context_bert=context_bert, dist_handler=dist_handler))
     print(f"Real rank: {spearman[0]}, Atk rank: {spearman[1]}, Clean rank {spearman[2]}")
     print(data)
-    #print(bleu_score('My name is Jan M','My name is Jan'))
+    #print(bleu_score('My name is Jan M','My name is Jan'))"""
+    print(rouge_score("Hello I am a tree","Hello, the tree is me"))

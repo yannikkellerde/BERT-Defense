@@ -10,8 +10,7 @@ class Sentence_cleaner():
     def __init__(self):
         self.context_bert = BertPosterior()
         self.dist_handler = Sub_dist()
-        self.bert_iterations = 5
-        self.hyperparams = self.context_bert.hyperparams+self.dist_handler.hyperparams+["bert_iterations"]
+        self.hyperparams = self.context_bert.hyperparams+self.dist_handler.hyperparams
 
     def set_hyperparams(self, **kwargs):
         self.context_bert.set_hyperparams(**kwargs)
@@ -27,7 +26,7 @@ class Sentence_cleaner():
             word_dics = [x[1] for x in content]
             if progress:
                 print("Prior:",get_most_likely_sentence_multidics(prior,word_dics))
-            posterior = self.context_bert.bert_posterior_for_hypothesis(prior,word_dics,self.bert_iterations,orig_prior=prior.copy(),verbose=progress)
+            posterior = self.context_bert.bert_posterior_for_hypothesis(prior,word_dics,len(prior),orig_prior=prior.copy(),verbose=progress)
             post_sent = get_most_likely_sentence_multidics(prior,word_dics)
             all_hyps.append((prob,post_sent))
             if progress:
@@ -47,7 +46,7 @@ class Sentence_cleaner():
                 word_dics = [x[1] for x in content]
                 if progress:
                     print("Prior:",get_most_likely_sentence_multidics(prior,word_dics))
-                posterior = self.context_bert.bert_posterior_for_hypothesis(prior,word_dics,self.bert_iterations,orig_prior=prior.copy(),verbose=progress)
+                posterior = self.context_bert.bert_posterior_for_hypothesis(prior,word_dics,len(prior),orig_prior=prior.copy(),verbose=progress)
                 post_sent = get_most_likely_sentence_multidics(prior,word_dics)
                 all_hyps.append((prob,post_sent))
                 if progress:
