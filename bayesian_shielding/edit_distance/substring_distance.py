@@ -254,10 +254,7 @@ class Sub_dist():
             if c in table:
                 table[c] = table[c] + 1
             else:
-                if c in annoying_boys:
-                    table[c] = 3
-                else:
-                    table[c] = 1
+                table[c] = 1
         return table
 
 if __name__ == "__main__":
