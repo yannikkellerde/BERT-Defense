@@ -39,6 +39,6 @@ if __name__ == "__main__":
         res = attack.do_one_attack(sys.argv[1],method,1)
         print(res.count(" "),method,res)"""
     
-    attacks_with_severity = [('full-swap',1)]
+    attacks_with_severity = [('keyboard-typo',0.2),('intrude',0.5),('segmentation',0.6)]
     res = attack.multiattack(sys.argv[1],attacks_with_severity)
     print(res.count(" "),"multiattack", res)

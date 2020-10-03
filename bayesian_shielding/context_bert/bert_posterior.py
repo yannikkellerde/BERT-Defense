@@ -31,8 +31,8 @@ class BertPosterior():
         self.mask_tensor = torch.zeros(len(self.tokenizer.vocab))
         self.mask_tensor[self.tokenizer.vocab["[MASK]"]]=1
 
-        self.top_n = 5
-        self.bert_theta = 0.5
+        self.top_n = 4
+        self.bert_theta = 0.25
         self.gtp_theta = 0.005
         self.hyperparams = ["top_n","bert_theta","gtp_theta"]
 
@@ -99,12 +99,14 @@ class BertPosterior():
             loss=self.gtp(tensor_input, lm_labels=tensor_input)
         return -math.exp(loss)
 
-    def gtp_hypothesis(self,hypothesis):
+    def gtp_hypothesis(self,hypothesis,verbose=False):
         probs,sentences = zip(*hypothesis)
         likelihood = softmax(np.array([self.gtp_score_sentence(sentence) for sentence in sentences]),theta=self.gtp_theta)
         priors = np.array(probs)
         posterior = priors * likelihood
         posterior /= sum(posterior)
+        if verbose:
+            print(f"hypothesis prior probabilities: {probs}. Likelihood: {likelihood}. Posterior: {posterior}")
         hyps = list(zip(posterior,sentences))
         hyps.sort(reverse=True)
         return hyps

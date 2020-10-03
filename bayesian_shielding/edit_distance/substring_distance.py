@@ -20,7 +20,7 @@ class Sub_dist():
         self.del_scaler = 0.75
         self.cheap_actions = {
             "ins":True,
-            "sub":True,
+            "sub":False,
             "del":True,
             "tp":True
         }
@@ -123,7 +123,7 @@ class Sub_dist():
         return dic,unknowns
 
     def score_anagramness(self,source,target,source_dict,targ_dict,unknowns):
-        ana_dist = 1+unknowns
+        ana_dist = 1+unknowns*2
         for letter in letters:
             ana_dist += abs(source_dict[letter]-targ_dict[letter])*2
         if source[0] == target[0]:
@@ -142,7 +142,7 @@ class Sub_dist():
         comb_parts = [{} for _ in range(len(source))]
         combo_words = {}
         def enter_combos(comb,dist,sample_word,ismorph):
-            dist += 0.7
+            dist += 0.5
             if sample_word in self.freq_dict and not ismorph:
                 dist += ((self.freq_dict[sample_word]/len(self.freq_dict))*self.freq_scale)/len(sample_word)
             else:
@@ -163,16 +163,16 @@ class Sub_dist():
                         elif targ_in>c[1]:
                             for char in source[c[1]:targ_in]:
                                 true_dist+=self.in_cost(char,no_vowls)
-                        if targ_in in comb_parts[c[0]]:
-                            if comb_parts[c[0]][targ_in]<true_dist:
-                                continue
-                        comb_parts[c[0]][targ_in] = true_dist
                         put_word = "##"+sample_word if ismorph else sample_word
                         targ_comb = (c[0],targ_in)
                         if targ_comb in combo_words:
                             combo_words[targ_comb].append((true_dist,put_word))
                         else:
                             combo_words[targ_comb] = [(true_dist,put_word)]
+                        if targ_in in comb_parts[c[0]]:
+                            if comb_parts[c[0]][targ_in]<true_dist:
+                                continue
+                        comb_parts[c[0]][targ_in] = true_dist
         distance = np.zeros(len(self.full_word_dic))
         char_distrib,unknowns = self.get_char_distribution(source)
         for i,sample_word in (tqdm(enumerate(self.full_word_dic)) if progress else enumerate(self.full_word_dic)):
@@ -218,7 +218,7 @@ class Sub_dist():
         unp_hyps = list(zip(*hyps))
         smax = softmax(-np.array(unp_hyps[0]),self.hyp_softmax)
         max_prob = max(smax)
-        hyps = tuple(sorted(filter(lambda x:x[0]>self.min_prob*max_prob,zip(smax,unp_hyps[1])),key=lambda x:x[0]))
+        hyps = tuple(sorted(filter(lambda x:x[0]>self.min_prob*max_prob,zip(smax,unp_hyps[1])),key=lambda x:-x[0]))
         return hyps[:self.num_hyps]
 
     def show_hyp_max(self,hyp):
@@ -234,10 +234,10 @@ class Sub_dist():
 
     def sub_cost(self, char1, char2):
         if (not self.cheap_actions["sub"]):
-            return 1.1
+            return 1
         vek1 = self.word_embedding[ord(char1)]
         vek2 = self.word_embedding[ord(char2)]
-        return min((1 - vek1@vek2)*2,1.1)
+        return min((1 - vek1@vek2)*2,1)
 
     def del_cost(self, del_char, table):
         if (not self.cheap_actions["del"]):
@@ -254,7 +254,10 @@ class Sub_dist():
             if c in table:
                 table[c] = table[c] + 1
             else:
-                table[c] = 1
+                if c in letters:
+                    table[c] = 1
+                else:
+                    table[c] = 3
         return table
 
 if __name__ == "__main__":
