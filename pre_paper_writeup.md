@@ -58,11 +58,11 @@ After tokenizing the sentence, it looks like this: `['a', 'sma|ll', 'w#hiteca:t'
 When we now calculate the substring levenshtein distances for each word, we can form the following prior sentence hypothesis:  
 `Hypothesis 1, Probability: 0.5591098924966913, Prior:a small white cat wit glowing eyes standing underneath chair.`
 `Hypothesis 2, Probability: 0.4300367473288713, Prior:a small white cat wit glowing eyes standing underneath a chair.`  
-Note, that here, only the most probable words according to the prior are shown. Actually, each word index has a whole dictionary with probabilities associated with it. We see, that we have 2 hypothesis, one that the *a* in front of chair does not belong there and the actual word is only chair (it could be a typo or something) and the other one is that a is it's own word that belongs in front of chair.
+Note, that here, only the most probable words according to the prior are shown. Actually, each word index has a whole dictionary with probabilities associated with it. We see, that we have 2 hypothesis, one that the `a` in front of chair does not belong there and the actual word is only chair (it could be a typo or something) and the other one is that a is it's own word that belongs in front of chair.
 Let's now put our hypothesis through the BERT posterior and see how that changes our sentences.
 `Hypothesis 1, Posterior: a small white cat with glowing eyes standing underneath chair.`
 `Hypothesis 2, Posterior: a small white cat with glowing eyes standing underneath a chair.`  
-In both cases, BERT fixed the *wit-with* error, as *wit* would not make any sense gramatically.  
+In both cases, BERT fixed the `wit-with` error, as `wit` would not make any sense gramatically.  
 To figure our which of the 2 Hypothesis we should finally choose, let's put the sentences into GTP to calculate sentence Likelihoods.  
 `Hypothesis 1, Prior prob: 0.5591098924966913, Sentence: a small white cat with glowing eyes standing underneath chair. GTP Likelihood: 0.31197451, Posterior prob: 0.3708833644581104`
 `Hypothesis 2, Prior prob: 0.4300367473288713, Sentence: a small white cat with glowing eyes standing underneath a chair. GTP Likelihood: 0.68802549, Posterior prob: 0.6291166355418897`
