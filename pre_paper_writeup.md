@@ -30,7 +30,8 @@ Inspired by [http://ginstrom.com/scribbles/2007/12/01/fuzzy-substring-matching-w
     * Create single-word distance Matrix **D**
     * For each target word T from Full-word dict + Morpheme dict:
         + Calculate Substring Levenshtein distance to obtain distance D and combinations **M**.
-        + If T in Full-word dict, store D in **D**, while accounting for fillup costs for substring matches.
+        + Calculate Anagram matching distance A, by evaluating letter frequencies by comparing character frequencies in source and target word.
+        + If T in Full-word dict, store min(A,D) in **D**, while accounting for fillup costs for substring matches.
         + For each U in **M**: Store T,D in *C\[U\]*
     * Puzzle together S from combinations in *C*, so that the start and end indices match up the full source word S. Assume lowest distance from the target words of each combinations key in *C*. Increase costs for using many word parts. Keep N lowest cost hypothesis in list **H**.
     * Keep the entries of *C* at the selected combinations for each hypothesis as dictionaries for later use. (The lowest distance word part will not necessarily be the final result after using BERT)

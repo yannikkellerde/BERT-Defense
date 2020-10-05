@@ -79,7 +79,10 @@ class BertPosterior():
             return prior
         alreadys[mask_id-1] += 1
         with torch.no_grad():
-            weights_tensor = self.convert_prior_to_weights_tensor_hypothesis(prior,bert_dics)
+            if len(word_dics[-1][np.argmax(prior[-1])])>1:
+                weights_tensor = self.convert_prior_to_weights_tensor_hypothesis(prior+[np.array([1])],bert_dics+[[self.tokenizer.vocab["."]]])
+            else:
+                weights_tensor = self.convert_prior_to_weights_tensor_hypothesis(prior,bert_dics)
             likelihood = self.calc_probabilistic_likelihood_hypothesis(weights_tensor,mask_id,bert_dics[mask_id-1])
         if orig_prior is None:
             numerator = prior[mask_id-1] * likelihood
