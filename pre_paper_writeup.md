@@ -81,7 +81,7 @@ First of all, you have to distinguish between two basic ways of dealing with wor
     * word parts → Splitting compound words into individual parts
     * morphemic analysis → Break word into morphemes to analyze meaning
 
-# Typoglycemia
+### Typoglycemia
 
 Typoglycemia is a neologism that describes the effect that a text is still perfectly readable, even though the letters in the words have been swapped, as long as the first and last letter remain the same. According to an Internet meme, this is said to have been scientifically confirmed by the University of Cambridge. However, this is not the case. Nevertheless, Matt Davis from the University of Cambridge has written an interesting article about this. (https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/). Important points from the article for our paper:
 
