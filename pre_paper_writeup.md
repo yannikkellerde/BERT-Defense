@@ -90,3 +90,5 @@ Typoglycemia is a neologism that describes the effect that a text is still perfe
 * transpostion are easy to read if you do not change the sound of a word
 * Context is very important this is given by function words that do not change e.g. the/and
 * Shape of a word plays a big role in recognizing words, hence the idea that only the first and last letter would play a role. Nevertheless these do not determine alone the shape of a word.
+
+The meme: Aoccdrnig to a rscheearch at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, the olny iprmoetnt tihng is taht the frist and lsat ltteer be at the rghit pclae. The rset can be a toatl mses and you can sitll raed it wouthit porbelm. Tihs is bcuseae the huamn mnid deos not raed ervey lteter by istlef, but the wrod as a wlohe.
