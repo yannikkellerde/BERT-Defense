@@ -16,7 +16,8 @@ class Tuner():
         self.cleaner = Sentence_cleaner()
         self.attack_api = Adversarial_attacker()
         self.roberta = None
-        self.tune_store = "../DATA/hyperparam_tune/"
+        self.trial_name = "test"
+        self.tune_store = "results/cleanup_examples"
         os.makedirs(self.tune_store,exist_ok=True)
 
     def likelihood_random_search(self, ground_truth, prior, iterations=100, stsb=True):
@@ -30,8 +31,8 @@ class Tuner():
         assert len(ground_truth)==len(prior),"prior and ground_truth length must be equal"
         params_with_ranges = {
             "top_n":[1, 10, int],
-            "bert_theta":[0.1, 0.6, float],
-            "gtp_theta":[0.001, 0.02, float]
+            "bert_theta":[0.1, 0.4, float],
+            "gtp_theta":[0.0001, 0.02, float]
         }
         tune_entries = []
         for i in trange(iterations):
@@ -47,7 +48,7 @@ class Tuner():
             tune_entry = params
             tune_entry.update({"bleu":[],"mover":[],"rouge-1":[],"rouge-4":[],"rouge-l":[],"rouge-w":[]})
             with open(os.path.join(self.tune_store,"cleaned",f'{params["top_n"]}_{params["bert_theta"]}_{params["gtp_theta"]}'),"w") as f:
-                f.write("\n".join(posterior))
+                f.write("\n".join([x+"\t"+y for x,y in zip(ground_truth,posterior)]))
             if stsb:
                 self.posterior_embeddings = simple_sentence_embedder(self.roberta,posterior)
                 l = len(self.posterior_embeddings)
@@ -81,10 +82,17 @@ class Tuner():
         with open("atk_sentences.txt", "w") as f:
             f.write("\n".join(atk_sentences))
         prior = self.cleaner.get_priors(atk_sentences)
-        with open("prior.pkl", "wb") as f:
+        with open(f"prior_{self.trial_name}.pkl", "wb") as f:
             pickle.dump(prior,f)
+        self.sentence_prior(ground_truth,prior,target=os.path.join(self.tune_store,f"prior_{self.trial_name}.txt"))
+        
+    def load_prior(self):
+        with open(f"prior_{self.trial_name}.pkl", "rb") as f:
+            prior = pickle.load(f)
+        return prior
 
-    def sentence_prior(self,prior,target="prior.txt"):
+    def sentence_prior(self,ground_truth,prior,target="prior.txt"):
+        os.makedirs(os.path.dirname(target), exist_ok=True)
         sentences = []
         for i,p in enumerate(prior):
             print("\n",len(p),i)
@@ -93,7 +101,7 @@ class Tuner():
             print(len(p[0][1]),"\n")
             sentences.append(get_most_likely_sentence_multidics([b[0] for b in p[0][1]],[b[1] for b in p[0][1]]))
         with open(target, "w") as f:
-            f.write("\n".join(sentences))
+            f.write("\n".join([x+"\t"+y for x,y in zip(ground_truth,sentences)]))
 
     def load_ground_truth(self,path="test_sentences.txt"):
         scores, first_sentences, second_sentences = read_labeled_data(path)
@@ -101,10 +109,9 @@ class Tuner():
 
 if __name__ == "__main__":
     tun = Tuner()
-    ground_truth = tun.load_ground_truth()
-    #tun.create_prior_file(ground_truth)
-    with open("prior.pkl", "rb") as f:
-        prior = pickle.load(f)
-    tun.sentence_prior(prior)
+    tun.trial_name = "400"
+    ground_truth = tun.load_ground_truth(path="test_400_sentences.txt")
+    tun.create_prior_file(ground_truth)
+    prior = tun.load_prior()
     print(len(prior),len(prior[0]),len(ground_truth))
     tun.likelihood_random_search(ground_truth,prior,100,False)
