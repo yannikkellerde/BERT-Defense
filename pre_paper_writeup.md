@@ -45,7 +45,7 @@ Inspired by [http://ginstrom.com/scribbles/2007/12/01/fuzzy-substring-matching-w
 6. For each Hypothesis **H** in **S**:
     * Select most uncertain word part U in **H** based on difference of highest 2 probabilities.
     * Perform weighted average of the word embeddings top N words (based on probability) for each other word part in **H**.
-    * Mask U and put it, toghether with the avg. word embeddings into bert, to obtain a probability distribution P over words for the masked word part U.
+    * Mask U and put it, together with the avg. word embeddings into bert, to obtain a probability distribution P over words for the masked word part U.
     * Only select the words in P that are in the dictionary associated with U and then use softmax to call it a likelihood L.
     * Obtain Posterior *P* from prior probabilitys for U and L.
     * Repeat until each word has been covered once (or even for more iterations).
