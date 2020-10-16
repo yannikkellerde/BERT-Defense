@@ -1,5 +1,8 @@
+## Visual similarity
+To asses the similarity of the first 30000 Unicode glyphs with english letters and numbers, we create a 30000x36 similarity matrix. Each glyph is drawn via PIL in 20pt using a fitting font from the [Noto](https://www.google.com/get/noto/) font collection. The bitmap is then cropped to contain only the glyph. Then the image is resized and padded on the right and bottom to be of size (30px, 30px). When comparing the bitmap of a unicode glyph image and a letter/number glyph, multiple versions of the letter/number bitmap are created. For letters, the small as well as the large versions of each letter are taken. The bitmap get's downsized to 5 different sizes ((30px, 30px) to (15px, 15px)), rotated and flipped in all 8 unique ways and then padded to (30px, 30px) again, such that the glyph is either placed at the top-left or the bottom left. The percentage of matching black pixels between bitmaps is converted into a similarity score and the highest similarity of all versions is chosen as a final result.
+
 ## New Phonetic attacks
-Use [https://github.com/letter-to-phoneme/m2m-aligner](Many to many aligner) to align letters and phones of [cmudict](https://github.com/cmusphinx/cmudict). Calculate statistics from aligned cmudict: To what letters are phones most likely to correspond to? Weight this statistic via a word frequency. To attack a word, transcribe it to it's phonetic representation via cmudict and then use the statistics to transform the phonetic representation back to letters. For higher attack levels, choose statistically less likely letters. Cherry picked example: `Heavy rain raises threat of Christmas Day flooding => Heavie rayn razes threit of Cristmise Day flooding`. [List of not cherry picked examples](adversarial_attacks/phonetic_attacks/examples/lil_random_with_freq.txt).
+Use [Many to many aligner](https://github.com/letter-to-phoneme/m2m-aligner) to align letters and phones of [cmudict](https://github.com/cmusphinx/cmudict). Calculate statistics from aligned cmudict: To what letters are phones most likely to correspond to? Weight this statistic via a word frequency. To attack a word, transcribe it to it's phonetic representation via cmudict and then use the statistics to transform the phonetic representation back to letters. For higher attack levels, choose statistically less likely letters. Cherry picked example: `Heavy rain raises threat of Christmas Day flooding => Heavie rayn razes threit of Cristmise Day flooding`. [List of not cherry picked examples](adversarial_attacks/phonetic_attacks/examples/lil_random_with_freq.txt).
 
 ## Substring Levenshtein Distance
 Inspired by [http://ginstrom.com/scribbles/2007/12/01/fuzzy-substring-matching-with-levenshtein-distance-in-python/](http://ginstrom.com/scribbles/2007/12/01/fuzzy-substring-matching-with-levenshtein-distance-in-python/). The Idea is to perform fuzzy substring matching to get back source word indicies between which the target word fits best. Multiple of those can then be used to puzzle together long source strings without word segmentations.
@@ -18,7 +21,7 @@ Inspired by [http://ginstrom.com/scribbles/2007/12/01/fuzzy-substring-matching-w
 * **Return C,L**
 
 - Insertion cost: reduced if vowl and no vowls in word
-- Sub_cost: 1, visual embeddings don't work against DCES (Previously: Reduced for high cosine similarity between swapped chars (visual embeddings))
+- Sub_cost: Reduced for high similarity values
 - Del_cost: Reduced for frequent characters in source word
 - Swap_cost: 1
 

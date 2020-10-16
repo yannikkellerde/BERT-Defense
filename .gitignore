@@ -3,3 +3,4 @@ __pycache__/
 safety/
 word_distances.pkl
 word_frequency.txt
+noto-regular/

@@ -5,12 +5,13 @@ from tqdm import tqdm
 import sys
 sys.path.append("..")
 from util.utility import fast_allmin,load_pickle,get_full_word_dict,load_dictionary, softmax, smallest_n_permutations
-from util.letter_stuff import annoying_boys,letters
+from util.letter_stuff import annoying_boys,letters,small_letters,numbers,all_chars
 
 class Sub_dist():
     def __init__(self):
         self.vowls = set("AaEeOoUuiI")
-        self.word_embedding = load_pickle(os.path.join(os.path.dirname(__file__), "../binaries/visual_embeddings.pkl"))
+        self.sim_matrix = np.load("../binaries/vis_sim.npy")
+        self.letter_map = {x:i for i,x in enumerate(small_letters+numbers)}
         self.full_word_dic = get_full_word_dict()
         self.morph_dic = load_dictionary(os.path.join(os.path.dirname(__file__), "../../DATA/dictionaries/bert_morphemes.txt"))
         self.punc_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_punctuations.txt"))
@@ -20,7 +21,7 @@ class Sub_dist():
         self.del_scaler = 0.75
         self.cheap_actions = {
             "ins":True,
-            "sub":False,
+            "sub":True,
             "del":True,
             "tp":True
         }
@@ -92,6 +93,8 @@ class Sub_dist():
         for endpoint in endpoints:
             for startpoint in startmatrix[-1][endpoint]:
                 combos.append((startpoint,endpoint))
+        if target in ["and","bud"]:
+            print(target,matrix)
         return matrix[-1,endpoints[0]],combos
     
     def _insert_into_hyps(self,combo,dist,hyps):
@@ -135,7 +138,7 @@ class Sub_dist():
     def word_to_prob(self,source,progress=False):
         no_vowls = True
         for char in source:
-            if char in self.vowls:
+            if char in self.vowls or char not in all_chars:
                 no_vowls = False
         appearance_table = self.char_appearence(source)
 
@@ -179,6 +182,8 @@ class Sub_dist():
             dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)
             fill_cost = len(source)-max([x[1]-x[0] for x in comb])
             real_dist = dist + fill_cost
+            if sample_word=="and":
+                print(real_dist,fill_cost,dist,comb)
             if fill_cost > 0:
                 enter_combos(comb,dist,sample_word,False)
             distance[i] = min(real_dist,self.score_anagramness(source,sample_word,char_distrib,self.char_distribs[sample_word],unknowns))
@@ -202,8 +207,6 @@ class Sub_dist():
                         cw = tuple(zip(*combo_words[(hyp[0][i],hyp[0][i+1])]))
                     word_prob_list.append(cw)
                 hyps_with_words.append(hyp+(tuple(word_prob_list),))
-        if len(hyps_with_words)==0:
-            raise Exception("WTF")
         return hyps_with_words
 
     def get_sentence_hypothesis(self,sentence,progress=False):
@@ -232,12 +235,10 @@ class Sub_dist():
         else:
             return 1
 
-    def sub_cost(self, char1, char2):
-        if (not self.cheap_actions["sub"]):
+    def sub_cost(self,letnum,unic):
+        if (not self.cheap_actions["sub"] or unic in all_chars or letnum not in self.letter_map):
             return 1
-        vek1 = self.word_embedding[ord(char1)]
-        vek2 = self.word_embedding[ord(char2)]
-        return min((1 - vek1@vek2)*2,1)
+        return max(0,min(1,(0.8-self.sim_matrix[ord(unic),self.letter_map[letnum]])*3))
 
     def del_cost(self, del_char, table):
         if (not self.cheap_actions["del"]):
@@ -262,7 +263,7 @@ class Sub_dist():
 
 if __name__ == "__main__":
     sd = Sub_dist()
-    #print(sd.sub_cost("ǎ","a"))
+    #print(sd.sub_cost("b","ǟ"))
     #exit()
     res = sd.word_to_prob(sys.argv[1],progress=True)
     for wuff in res:
