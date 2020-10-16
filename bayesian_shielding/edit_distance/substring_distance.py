@@ -93,8 +93,6 @@ class Sub_dist():
         for endpoint in endpoints:
             for startpoint in startmatrix[-1][endpoint]:
                 combos.append((startpoint,endpoint))
-        if target in ["and","bud"]:
-            print(target,matrix)
         return matrix[-1,endpoints[0]],combos
     
     def _insert_into_hyps(self,combo,dist,hyps):
@@ -182,8 +180,6 @@ class Sub_dist():
             dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)
             fill_cost = len(source)-max([x[1]-x[0] for x in comb])
             real_dist = dist + fill_cost
-            if sample_word=="and":
-                print(real_dist,fill_cost,dist,comb)
             if fill_cost > 0:
                 enter_combos(comb,dist,sample_word,False)
             distance[i] = min(real_dist,self.score_anagramness(source,sample_word,char_distrib,self.char_distribs[sample_word],unknowns))
