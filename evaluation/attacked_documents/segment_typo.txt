@@ -1,0 +1,201 @@
+# [('segmentation', 0.5), ('keyboard-typo', 0.3)]
+0.8	Abrown dog is runnlng yhrough ghefield.	abrowndog eith hictongue waggijgashe runs througha field
+0.28	Egypt's MuslimBrotherhoodRefusee to Badk Down	Egyptian courtsentences MuslimBrotherhood leadergo lifein priwon
+1.0	A mxn js playinga keyboard.	A man plagsa kejboard.
+0.12	Amanis chop[ingbutterintoa con6ainer.	Awomanis cuttingshrkmps.
+0.88	A squirrel runs arouhd ib circ.es.	Asquirrelis kovingincircles.
+0.84	Person wi5h twl ski polesskiingdown a dnowy hill.	A person skiinh down a sjowy hil. .
+0.84	Senste confirms JanetYellenaschairofUS Feeeral Reserve	USSenatd ConfirmsJanetYellenas NewCentgal BankChief
+0.96	A grou- ofhorses grazing in s fleld.	Grou'of horxes grazingin grassy field.
+0.28	Amsnis ridingahorse.	Amah is drkving acar.
+0.88	Two boyssitfacing one anotheratatableand onepoibts at ths o5her.	Two people sit facingeachotheg ata tabless onw pointsattheother.
+1.0	Threedogspullinga janon anicyclethrough thesnow.	The d0gs arepulling amanom a typeof bike, throughthesnkw.
+0.88	A dogis jumpiny over abqrrierata agilitycompetitiin.	A rog jumpingoveranobstacle coursedence.
+0.8	The injured wege takento hospitalsin Jefferson City anc Colu,bia, acollegf townabout 30 miles tofhe norgh.	Theinjuredwere takengo hospitals inJeffersonCity andColumbia, about 48kmnorth; theor conditipns were nit immediately avzilable.
+0.4	Rwv's Eagly Rewds: March 2	Rec .'s Ea5lyReads: Sfpt.3rd , 2015
+0.7	Intbe weekslrading up to theexecution, severalFlorida officiaps 4eceivedanonymous threateningletters.	Seve4al Floridaofficials connectedtothe casehavf receivedthreatening letters, accompanier byrifle bullefs.
+0.44	ThfNote'sMust-Readsfor Fridau May 24 , 2013	Tne Note'sMust-Reads forFridat, August23,2013
+0.2	5uns victim dowbGot any proof?	pwranoid Got any prood?
+0.28	Philippines holss secondsenatorover clrruption	Philippinesrecovering after powerfulty[hoon
+0.84	A gray cay laging oja browntable.	Agrey ca6 lyingonxwoodentable.
+0.45	The browntrain iscittingonthe raolroad tracks.	Tge white t4ainissittingonthe tracks.
+0.0	No, youdon'tneedtohavetakenclaasesor earnedadegresinyour area.	I havedonequktea bkt oft3chnicalwritingfor healthcareinformation systems.
+0.4	Russian 'lane reportedlyxrashes inEgypt	Pilot iilled ss US jetcrashes inEngland
+0.48	Thetech-loadedNasda2composite rose 20.96 poings to 1595.91, ending a6 itshighest level f9r 12 monthe.	Thetechnology-lacedNaadaqComposite Inxex <.IXIC> clkmbed19.11 pointx, or 1.2 percent, ro 1,615.02.
+0.52	Syria 'to declarechemicalwezpons and signconventkon '	Russia, Syr8aWorkon'Concrete' Chemical WeaponsPlan
+0.44	South Kkrea Says North Fi4ed Missiles	North Kor3alaunchesshort-rangemissiles
+0.16	F.ash floods kill588neastern Afghanistan	Bomb wo8nds16 in easternAfghabistan
+0.56	Twohears later, theinsuranxe coveragewoulf begin.	Under theagreement, M3dicare coveragefor druy benefitc would befin in 2006.
+0.28	Two boysinblack swimming trunksarwholdinganotherboybyhisarmsand legsonabeavh.	Man inwhjte shirrflipping young boy inthewaterwithfourother boys surr0undingthem.
+0.68	Obama urgesdecisiveacgionon Europedebt crlsis	Obama urges Europe 6o actquickly 0n crosis
+0.85	A womanis choppkng brpccoli.	Awoman isxhopping broccoliqith a knife.
+0.75	Cditics aay thelawviolatescivilliberties, somethingHouse Judiciary Committee ChairmanJames Sensenbrenner, R-Wls., says ne 9s sensitive tp.	House JudiciaryCommitteeChairjan JamesSensenbrenner, R-Wis., says he issensitive gocivil liberhies cpmplaints.
+0.8	religiousextremismcontinyes inpakistsndespitethe banning ofmilitant groups.	religiousextremism cohtinuesinpakistan despite the bznning od militantgroups by thepakistanigovernment.
+0.84	Vehicles ablazein collapsedJaoantunnel	Vehicles'leftburning' assmokeemitsfromJapwn tunbel
+0.88	A doctor prescribes medidine to w patieht.	Adoctorprescribes amedicime.
+0.36	Aqoman ischo-pingan onion.	Awomanischoppingga5licwith x knife.
+0.64	Agutona white horxe.	A maj ridinv awhitrhorse in anarena.
+0.15	Awomanis playintin hheocean.	A w9man is pr4paring shrimptocook.
+0.16	Cuina gives USregulators access toaudit recirds	China op0osesUS arme sales to Taiwan
+0.56	Bahgladesh HonorsFactoryVictims	RetailersbackBangladeshfactory ssfetypact
+0.76	Pakistantoreleasemostsenior AfghanTalibanprosoner	Pakistan torekease seniorTaliban co,mander on Saturday
+0.08	Algeriapresident getstherapyafterstroke: wtate kedia	Bulgarian presidebttries to break election stalema5e
+0.6	Artistsareworried the plan wouldharm tnosewho need help most-performers wyo havead8fficult timeliningup shpws.	Theart8sts say theplanwillharmFrenchculture andpunisgthosewhoneed helpmost- performers whohave a hardtimeliningupwori.
+0.12	Firxtofall, let me saythatthere seemstobf3maintraits go casting aspell.	I always thoughtthst Harryseemedto learnfromthe Half-BloodPrince better than hedie drom otherdources.
+0.16	A man isrunnibgon s street.	A manplays tbe guiyar.
+0.4	I wokldsayyou can xoit, bkt itwouldn'tbeadvised.	Personakly, I wouldsxynotunlessitsuits you.
+0.68	ThetwoDemocratsonthefive-memberFCCpanel neld a news confer4nce to away opinionagainst Powell.	ThetwoDemocrats onfhe five-memberFCChe;d anewsconference toswayopinionagainst Powell and theoanel's twoother Republicxns.
+0.88	Asteroid zips bftweenEarth xnd satellites	Asteroid padses Earthin flg-by
+0.68	\" TheEu4opeanUnionis bwsically absent ,"saidTitoBarbini, regional minizter forsgriculturein Tuscahy, Italy.	Tigo Barbini, a rsgionalminister foragriculturein Tuscany, Ihaly, criticizedtheabsenceTyesdayin Sacramento.
+0.65	A bky isplayingakey-board.	A boh issitting inaroom playing a pizno bylamplivht.
+0.04	Thewomanissmokinf.	Th3man iswalking.
+0.0	A monkey ic waoking throughthe wat4r.	A guyusplayingatrumpet.
+0.1	Awoman is witting on asidewalkdith a cellphoneather eag.	Awomxnis riding her bixycle.
+0.04	Ukrainian Precidentorders 7-day crasefireintheeast	Uganda'sPresidentMuseveni agrees tosign anfi-gays Biol
+1.0	Youguysaremakinythis allWAAAAAY too complicatev.	You aremakingthis tol co,plicated.
+0.8	WORLD No.2 Lley6onHewitt has accused the Association ofTennis Professionalsof malice, inxluding ab allegedattemptlastyearto d7pe hkm into refus8nga drugtest.	Worlx N;.2 LleytonHewitt hasaccused hisprofessiona.peersof long-standing malice, includinganattemptlast yesrto dupe hom int; refusinga drug test.
+0.0	A kan isshootingw gun.	Aman isspit5ing.
+0.6	Twope9ple walkingalojg theshoreatsunset.	Two peoplewalkingalong thebeach wt subset 6owarnagroup ofpeople.
+0.96	Blusandred plane inmid-alrflight.	a bludand ged airplahewhile in flight.
+0.8	Trade newspaper Varietykp vor sale	Holly3ood tradepublicationVariety putup for salf
+0.84	Sly Stallobe'sSone SageFoyndDeadin LA	SulvesterStallone's Soj Found DeadAtHome
+0.92	Awomanisplayingf,ute.	A womabplaysonaflute.
+0.0	Agoy is cuttingpqper.	Amanisloadinga rif;e.
+0.92	A youngwkman witha bracelet is wearingabikinitop wnd jeahs.	A w9man wearingjeans, z dar. bikibitop, and abracelet.
+0.28	Ukraine‚Äôspro-Russiaprotestersdemand great3r autonomy	Sudanese protestersdemand rhe retime'souster
+0.8	Mr. Manuel andhiw groupenteredthe United Statesby walkingacrossthe bridye ;inking Matamorosand Browjsville.	ManuelandhisgroupenteredtheUSthe same waythousands ofpeople do ever7day, hy walkingacross the bridg4 beteeen Matamorosand Brownsfille.
+0.8	Does thlspage answer yourqu4stion?	Does thie answer your quesgions?
+0.96	The neaColdWar	AnewColdWar?
+0.0	I have no iseawhy 8tis votee up, but R4xKerr's answerbegsthequestion.	It's atauyology, b7t themapping betweej logic and the Eng.ish-language desxriptionis wrong.
+0.44	AMD'd chi'sales jumped7percent year-on-yearto $402 miklion.	Secobd-quarter salesgdew 7 percent, ro $645 millionfrkm $600 milliin in 2002.
+0.92	A womansplitsbarlic dloves.	A womanisbreakinva headofgarlicintocl9ves.
+0.76	Themanim the backpack loo.sto hks left.	Anadultmalewewringabackpack walks andlooksto thepeft.
+0.96	Englandcaptain AndrewStraussretites fromprlfessional cricket	EnglandcaptainStraussretiresfrom cricoet
+0.8	Psper isbeingcut with scissorz.	A piece ofpaper 9s b4ingcut.
+0.15	A ,anis playing with trogs	Acatis playint witha damera.
+1.0	Youare ln tberightpath.	You're ontne right pa6h.
+0.92	Thdee dieafter cardrash atTian'anmen	ThreeKil;ed InCrashAtTiananmen Square
+0.76	Tropical Stirm Karentargets US Gulf Coadt	TropicalStornKarenpoised to make landfal;
+0.48	Gunmen kull15 Lobyan soldiers	Gunmenkill3Lebamese troopsnearSyria
+0.8	A vlack dog stands nextto materialsayaconstruction skte.	A blafk dogstandc inthemiddle of aconstruction si6e.
+0.84	A man os lif6ing weights.	Aman isliftings barbeol.
+0.6666	MetropolitanAmbulancespokesman James Howesaid fivepeooleweretakento hospital andthreewere trsated at thescdneafter yesterday'skncident.	Spokedman JamesHowesaidfivechildren agex bdtween 4 and17weretaken tohospitalwithneckand cjestinjuries, whilethreeothersweretreatedatthescene.
+0.75	Agriculture minisgers frommore thanone hund4ednationsareexpectedto attendthethree-dayMinisterialConference andEx0o onAgriculturxl Scienceand Tdchnology sponsored by theU.S . Ddpartment of Agriculture.	U.S.AgricultureSecretaryAnnVenemankicksoff thetgree-dayMinisterial ConferenceandExpoonAgricultural ScifnceandTechnology onMonday.
+0.52	Rucsia 'alone'in blaming Syrianrebels foe chemical attadk: US	Russiaasks UNtoconsider ite inquiry of Syfiachemical armsus3
+0.0	Ane,bolism in a medicalcontext refers to any largemoving mads od defecyin rhe bloodstream.	Hereisan jnteresting article onwikipeeia togiveoverviewofpressurerelatedinjuries.
+0.12	Aman iecrying.	Awomanizdancing.
+0.2	Obama holds out ogerSyria strikee	UKurgescountriec overSyriaaid
+0.4	Awomanstanding9nfront oc treesandsmiling.	Amanid walkingbytrees in fronh ofthecityskyline.
+0.56	Threewomenwithbrlwnhairaresmiling.	Thgee women inInxiandresses in q crowdedroom smiling.
+0.32	Amah isplayingaflute un aband.	A manisplayings guktar.
+0.0	A girliseatijg afupcake.	Ajan is soicing a cucumber.
+0.92	Detroit eligigle tor bankruptcyprotection: U.S.judge	Detriit eligiblefor bankruptcyprotection
+0.68	It callzfor 5he agencyto plqn an independent safetyandengineeringorganization.	Theagencyhas yettofullyformulateastrateyyfor the creatiobofan independentengineering technicwl authority.
+0.84	adomanwith avlking haton.	Smilingwoman sithingwearingaviking nat.
+0.28	1 personkilled on sectarianclashes in Lebwnon	Ninekilledin Syrian-linkedclzshes inLebanon
+0.72	thewnsuing bahtleand airstrikeskilledatleast10 militants.	anensukng battlejilled atleast 10 militants.
+0.64	Thelsdycracked two rzweggs.	Thewoman js fracking eggs intoa bo3l.
+0.68	Bpx cutterswere uzedasaweapon bytheSept . 11,2001, hijackersandhavesincebeenbannedas carry-oj itejs.	Bodcutters were the weaponsusedby the19 hijackrrs im theSepf . 11,2001, attacks.
+0.16	Awhitwairplaneis parkrdon the cement.	Ablue motorcydleisparked onthe sodewalk.
+0.96	Gunmenkill nin4 foreigners in Pakostan	Gunmen jill ninetourists ih Pakistan
+0.6	A girlinwarerwithoutgoggles of aswimmingcap.	A girlij water, with gogglea and swinming cap.
+0.9	Druceisstill beingheldat rhe prisonand isnowib isolation, shesais.	Drucelastnightwasheldinisolation ay the same p4ison.
+0.4	Isaid itwwsn'ta persoh, in thelebalsense.	If itisn'ta p3rson, thenWTFizit?
+0.16	A kittenisdrink8ngmilk croma bowl.	Asmallchildis drinkingwaterfrom x cip.
+0.96	Twow0men contestants xre walkinv their dogsin a dogshow.	Twowomen walkthererogsata dog sho2.
+0.28	A maj iw lifting a var.	A,anis climvinga wall.
+0.85	A car and a ferret wre playinf.	A rerret andkitten playtogethet.
+0.08	A man isridimgona hoat.	A man is tyint inthemavhine.
+0.48	The black andnrowndog 9splaying ih theyard.	Tye black anxtan dog ischasing somethinthe hasspotted.
+0.4	Assadmeetswith Red Cross offivials un Syria	Assadmakes RedCross ;ledge
+0.68	All we kn9w isth8s: Distant objects are receding from usxt arateproportional totheirdistance f5om uw.	The 3xpansionof spacemeansthat objects incosmologicaldistances are rrceding awayfrom eschother.
+0.96	iran oies on s majordrugroutenetweenafghanistanandeurope andthepersiangulf states.	jran lieson amajordrug traffickijg routebetweenafghanistanand europe, aswellasthepersian gukfstates.
+0.76	agreydogswimming thrpugha river wltha stickinhismouth	Dog swimminf througgwater carrying stickin itsmouth
+0.16	Black andwhirecow standihgingrassyfield.	Ablackand whi6e ph9to if a man standing nexttoa bus.
+0.44	A black vog is runnimgthrough thednow.	A bpackpitbull dogisrunning through thsdirt.
+0.88	A personis combing zcat hai4.	A oerson 8sbrushing a cat.
+0.76	Besides batflingits sales slump, Siebelalso has beensparring withsomeinvestorskpsetabouthuge stockoptiln windfalls company mamagers havs pocketed.	Besidesa salesslump, Siebel is sparfing withsome shareholdfrs over,anagement stovk option windfalls.
+0.36	A maniscuttingtomatoesunto piedes.	Awiman iscuttings9me vegetables.
+0.0	A ,an is cuttingtrass.	Aclo3n issinging.
+0.72	Ferrer cruises int; Australiab Openquarter-finals	Ferrer beatsNishikori toadvanfe to Aus5ralian Open quqrterfinals
+0.0	Aman iereading anekail.	Apersonopeningabananz.
+0.52	WhenstudyingadultIQ, general adultnofms areodten uxed.	Basically, what you d;isyou compareeach agegroupIQ ti th4 standardisation sample.
+0.96	Amananddogonarockyseashors.	Man andcog stansing onrocks next towater
+0.0	Obana queriesTirnbull overChina portdeal	Spanish bulls gore xeven to deatu
+1.0	Egypt court ordets relfase ofMubarak	Eyypt courtorders Muba5ak freed
+0.88	Strongnewquwke hits shattered Pakregoon	6.8quakeinshattered Pakis6an region
+0.88	Hf projectedVanderpool wilpbeavailable within thenextdive years.	Pr9ductsfeaturing Vanderpoolwillbe releasedwithin figeyears, je said.
+0.76	Aman isplxying w guitar.	Aguy isplaylngan instr7ment.
+0.52	Afghanlegislators approvrnew electionlaw	Afghan presidentapproves jew elec5on law
+0.8	Eight bottlss ofHarplage5lineduponthe floor.	Eightbottles ocHarpbeer linedu'ona woodenfloor.
+0.28	Your wogryis avalieone; the reader could be frustrayedbythis.	I do j't believe not knowimg w charac6er's namewould beconfus8ng unless youmake itso.
+0.44	It'sjhst abunch of celos.	I 'n"abinchof ceols . ''
+0.32	Inmidafternoontrqding , 5he Nasdaq compos8te indexwas up8.34, kr 0.5percent, tl 1,790.47.	TheNasdaqCompositeIndex .IXIC dipoed 8.59points, of0.48percent, go1,773.54.
+0.8	U.S.orders non-essentialstaffto oeave Susan, Tunisia	USordersnon-essentialstafvtoleaveTunisia, Sudan
+0.85	Somd menarefighting.	Twomdn arefighting.
+0.25	Thrseboys in karatecostumesare fightibg.	Threemeb arepracticingkarate movesina firld.
+0.76	Russia, Cyinaveto UN resolution onSjria endors9ng	Russia, China veto U.N.draftbqcking Arabplah forSyria (Rejters )
+0.64	A janandwomen sittingonx sofa holding asmallgaby.	awoman sittingonasofaholding w bany.
+0.68	AfterHighesrefused to rehire Hernandez, ge complained totheEqual EmploymemtOpportunityCommission.	Hernaneez filedxnEqual EmploymentOppogtunity Commission complaint and sued.
+0.8	Twodifferent breecsof brosn andwhitedogs -lay onthe beach.	Two dogsplayinginthe sandar the bewch.
+0.0	Themantalked in the telephlne.	Girls arewaloing ;n the stage.
+0.68	agroup ofpeopkedancing	Agroup of menaee dqncing.
+0.6	The broad Standatd & Poof's500 Index <.SPX> advancee 11 ppints, ir 1.25 percent, t0931.	Th4 Standard & Poor's500Indexgained 10.89, ;r 1.2perdent, to931.12 ws of12:01-.m.in NewYork.
+0.88	Anothermillion barrdls, boughtgy SpanishrefinerCepwaSA, wae tobeloadedontoa Spanishtanker, the Sansra Tapias.	ASpanishtanker, Swndra Tapias, waz tobe loadecwith anothermillion barrels, boughtby Spanisnrefiner CepsaSA, im thwafternoon.
+1.0	Abrowndog isjum;ing.	A browndogisjumpinh
+0.84	James MurdocjquitsBSkyB	James Murdovhquitsrole atBSkyB
+0.28	YouareaChristian.	Thereforey;u xre not a Christian.
+0.2	Gkogle launches internet-beamingballoons	Google 'areplayinv internationaltax gam4 '
+0.08	Modt pe;plewant notonlyto be WELLoff, buttobecomf BETTERoff astimegoesby.	Tostart, tue main drive4sof economic growth wreresources, technology, andinstitutiona.
+0.68	What thePope'sbjtlersaw– a8de arrestedover Vaticanleaks	Pope ’ s butlerarresged in xcandal ober Vaticanleaks
+0.0	Moderatd tremorin tje CentralMediterranean	Iran: Moderatecandidate wihs presidebtial vote
+0.1	Aman9s burning a f;ag.	Amanis shootint a gub.
+0.72	Between1993and 2002 , 142allegahions ofsezual aswaultwerereported.	From 1993to2002, there were 142reporter sexuapassaults xt theacademy.
+0.4	Deputyspeakerfaces nsw sex clqims	DeputySpeaker Nig4l EvansRe-Arrested
+0.84	Amonkeyisnrushingabull dog.	Amonkeybrushesadlg.
+0.56	A group of -eople sitting arounda txble contzining food.	Four peoplearesittingarlund w livingroomwith.snacks.
+0.8	Wwll, Iwouldj'tputit on mycv.	I wouldn'tpjt thic jobonmy resume.
+0.64	IAFstrike Gxza terror hube	IAFs6rikes Gaza terrlrcell; 1dead
+0.2	Ifeeoyour pzin -Iabsolutely pourwithsdeat withanyvigorousexercise, evenincool conditions.	Sweat rate ia sweatrate, yoh can'treally vontrolit.
+0.76	IndiaMinister'swifedied'unnaturaldeath'afteraffaid rumours	Minister'cwife'sdeath 'unnatural '
+0.2	South Korea reg5ets North's refuswl of ta,ks	South Koreageports 14th Mers dewth , 12ndw cases
+0.96	council taxHasn'tcounciltaxbeenfrozen fog mostpdople?	Hasn'ycounciltax beenfrozenfor m;st people?
+0.6	Coupl4 sailint inasmall sailboat.	Two mebsailing in asmall saipboat.
+0.475	Aman isc7ttingupa pptato.	A ,anis cutting upcarrits.
+0.4	Th4 prices vor everythingy9u needhavegoneupdueto inflation.	Theprices9f evetythingyou own IE assets havegone dowh.
+0.4	Jist aboutangthing canbe growj indoors without naturalsunlight.	W4havequitea fewpeopleherewhohave grown peppers wndsmall to,atoesindoors andinpots.
+0.68	A gro7pof menplxying brass instruments.	Agroup kf gu7splay instrumentsoutside.
+0.8	Four people rowingdown z rivwr.	Four people row x cznoe in watfr.
+0.92	Ablackcog 4unninginto thewater.	A blackeogrunning throughwatfr.
+0.1	Aman ls eatingwold.	A man ie addingoil tocag.
+0.92	Doys, heaaid, aresecondonly tohumansin the thorouvhnessofmedical inderstanding andresearch.	Hesaid tgatdogs aresecondonlytohumans intermsofbeingthesubjectofmedical researdh.
+0.5	TheStandard Edltionis $15,000per procfssoror $300pernamedusef.	TheStandard Edition Oneia asibgle processorversionof the OracleStandard Editioj Database.
+0.8	Whitediamond breaks rdcordinHong Kont auction	Whiye diamondfetcgesrecord $34matHKauction
+0.88	Woman remanded overchjld's dwath Awomanhas beenremandes in custody chargedwihhmurderafteran eight-year-oldgirl wasfounddeadin a block 9f flafs.	Motherheld ocer daughter'adeathA mother hasbeenremandedin custodycharged wihh murder afted her eight-year-olddaughter was found deadina hlock off;ats.
+0.55	A boyisrunbingona b4ach.	Twovoysareplaying in thsbeach.
+0.6	After Freltas' opejing etatement, KingCoun6y Superior CourtJudge Charles Mertelrecwssedtrial untilafter the Thanksgivingweekend.	KingCountySuperior CourtJudge CharlesMertel willrhen receds thetrialuntilMonda6.
+0.68	Theganandwhitedog isrunning in thetield.	Tge brown andwhitedogsrunthrough thecield.
+0.52	A boyand a girl9s dancimg inthe raib.	A mxnand woman ic dancingintherain.
+0.72	Aman wearing blackformal wesr & z black tiphatisridinga white show hogse.	Aman withatlp hat riding a wh9te borse.
+0.76	Relativesscufflewith policeafter Chiha fire iills 120	Angryfamilies demand answersafterChinapoant fire jills 119
+0.44	The gr9up 8s eatingwhile takinhin abreathtakingview.	Agroup ofpeople taiea looj ar anunusual tree.
+0.08	Awomanib anred tracksuitsqueezibg lemons in s press.	A youngwomanih apink hoofie fakesa picture.
+0.84	Twolarge dogs running income graas.	Two brindledogd running kn thegrass.
+0.0	Amanis traveling inx boag.	A w9man is duttingup x carrotwith aknife.
+0.92	NobelPrise winning author DorisLewsing dies	N;bellaureate Doris Lessing di4sat 94
+0.2	I managedto fkndthis recipr, I6hinkthis is wgere I gotthe idea.	I'veonlymade w couple if bb2 sajces, butthey've alwayscomeoutreallywell.
+0.85	Out lf gouch and completely unt5ustworthy, however, wo8ldn't.	Outoftouchand7ntrustworthy?
+0.0	Rudd swlrnin asnewAustralianPM	Muslims inh9ding ac sectarian ...
+0.64	CaptainRobertRamseyof the US1sg ArmouredDivisionsxid atruck hadexploded outsidethe buildjng about 11am, wndthatone ofthecompound'souterwalls hadvollapsed.	CaptainRobertRamsey ofUS1St ArmoredDivisionsaid a rruck hadexploded outsidethe builxing af aroubd 11 am.
+0.92	Childrenareplaying im aswimming piol while twoadult men watfh them.	Chi,drenplay ih apool whileadul6s look on.
+0.16	No radiat9onleak atIran 'c nuclearplant	USCongrrssmay throwwrenchintoIrannuclear deal
+0.76	A puppy p.ays witb ap,astic container.	Thedogisplaylng witg aplasticcontainer.
+0.76	HollyHolt Weareallvesselsfilledwithmanywonders.	Sa6 Whzt You WillWe are allvessels filkedwith manywonders.
+0.2	S9meof what youfan do :	Not muchyou can dl beaides :
+0.85	AirCanada, thelargest airkine kn CanadaandNo . 11in theworld, hasbeenundercourtprorection fron c5editorssinceApril1.	The No . 11 airline im ths wo4ld, Air Canada has been under xourtprotection fgom crwditorssince April 1.
+0.6	Heavy rainraisex threafof ChristmasDayflooding	Fresh rwin bringe more flooding
+0.0	Aflose-up, distorted photo ofah emphyglassCoke bottle.	A close-uppictureofa deskwithacomputer amd pspersonit.
+0.8	Aboy climbsa fprest holl.	Ahoy is climbinganill.
+0.0	Yes, thfreis a rwason tonotdowhatyoupro[ose.	Y3s , 6hereis achemicaldifference.
+0.88	The twodogs are runninhonthe grwss.	Twodogsareplayingintheggass.
+1.0	Nobel authorDoris L4ssing dirsat94	Nobellaureate Diris Less8ng diesat94

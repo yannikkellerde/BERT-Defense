@@ -3,6 +3,7 @@ import numpy as np
 import pickle
 from tqdm import tqdm
 import sys
+from functools import lru_cache
 sys.path.append("..")
 from util.utility import fast_allmin,load_pickle,get_full_word_dict,load_dictionary, softmax, smallest_n_permutations
 from util.letter_stuff import annoying_boys,letters,small_letters,numbers,all_chars
@@ -10,7 +11,7 @@ from util.letter_stuff import annoying_boys,letters,small_letters,numbers,all_ch
 class Sub_dist():
     def __init__(self):
         self.vowls = set("AaEeOoUuiI")
-        self.sim_matrix = np.load("../binaries/vis_sim.npy")
+        self.sim_matrix = np.load(os.path.join(os.path.dirname(__file__),"../binaries/vis_sim.npy"))
         self.letter_map = {x:i for i,x in enumerate(small_letters+numbers)}
         self.full_word_dic = get_full_word_dict()
         self.morph_dic = load_dictionary(os.path.join(os.path.dirname(__file__), "../../DATA/dictionaries/bert_morphemes.txt"))
@@ -103,6 +104,8 @@ class Sub_dist():
 
 
     def find_best_hypothesis(self,cur_comb,cur_dist,combo_parts,best_hyps):
+        if len(cur_comb)>5:
+            return best_hyps
         fill_dist = cur_dist + len(combo_parts)-cur_comb[-1]
         if fill_dist < best_hyps[-1][1]:
             self._insert_into_hyps(cur_comb,fill_dist,best_hyps)
@@ -174,15 +177,19 @@ class Sub_dist():
                             if comb_parts[c[0]][targ_in]<true_dist:
                                 continue
                         comb_parts[c[0]][targ_in] = true_dist
-        distance = np.zeros(len(self.full_word_dic))
+        distance = np.ones(len(self.full_word_dic))*100
+        mindist = np.inf
         char_distrib,unknowns = self.get_char_distribution(source)
         for i,sample_word in (tqdm(enumerate(self.full_word_dic)) if progress else enumerate(self.full_word_dic)):
+            if not no_vowls and len(sample_word)-len(source)>mindist+1:
+                break
             dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)
             fill_cost = len(source)-max([x[1]-x[0] for x in comb])
             real_dist = dist + fill_cost
             if fill_cost > 0:
                 enter_combos(comb,dist,sample_word,False)
             distance[i] = min(real_dist,self.score_anagramness(source,sample_word,char_distrib,self.char_distribs[sample_word],unknowns))
+            mindist = min(mindist,distance[i])
         combo_words[(0,len(source))] = [distance,self.full_word_dic]
         for sample_word in (tqdm(self.morph_dic) if progress else self.morph_dic):
             dist,comb = self.one_dist(source,sample_word,no_vowls,appearance_table)

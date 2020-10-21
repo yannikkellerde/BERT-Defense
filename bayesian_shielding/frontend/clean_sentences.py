@@ -1,6 +1,7 @@
 import sys
 import numpy as np
 sys.path.append("..")
+from tqdm import tqdm
 from context_bert.bert_posterior import BertPosterior
 from edit_distance.substring_distance import Sub_dist
 from edit_distance.multiprocess_distances import multiprocess_prior
@@ -8,15 +9,22 @@ from util.utility import get_full_word_dict,get_most_likely_sentence_multidics,p
 
 class Sentence_cleaner():
     def __init__(self):
-        self.context_bert = BertPosterior()
+        self.context_bert = None
         self.dist_handler = Sub_dist()
-        self.hyperparams = self.context_bert.hyperparams+self.dist_handler.hyperparams
+        self.hyperparams = self.dist_handler.hyperparams
 
     def set_hyperparams(self, **kwargs):
+        self.load_bert()
         self.context_bert.set_hyperparams(**kwargs)
         self.dist_handler.set_hyperparams(**kwargs)
 
+    def load_bert(self):
+        if self.context_bert is None:
+            self.context_bert = BertPosterior()
+            self.hyperparams = self.context_bert.hyperparams+self.dist_handler.hyperparams
+
     def clean_sentence(self, sentence, progress=False,verbose=False):
+        self.load_bert()
         tokens = preprocess_sentence(sentence)
         if verbose:
             print(tokens)
@@ -38,7 +46,23 @@ class Sentence_cleaner():
         print(f"\nFinal cleaned sentence: {posterior_hyps[0][1]}")
         return posterior_hyps[0][1]
 
+    def batched_clean_given_prior(self,priors):
+        self.load_bert()
+        all_posterior = []
+        all_posterior_hyps = self.context_bert.batch_bert_posterior(priors)
+        for hyps in tqdm(all_posterior_hyps):
+            all_hyps = []
+            for i,(prob,content) in enumerate(hyps):
+                prior = [x[0] for x in content]
+                word_dics = [x[1] for x in content]
+                post_sent = get_most_likely_sentence_multidics(prior,word_dics)
+                all_hyps.append((prob,post_sent))
+            posterior_hyps = self.context_bert.gtp_hypothesis(all_hyps)
+            all_posterior.append(posterior_hyps[0][1])
+        return all_posterior
+
     def clean_sentences_given_prior(self,prior,progress=False):
+        self.load_bert()
         all_posterior = []
         for hypothesis in prior:
             all_hyps = []

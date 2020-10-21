@@ -1,9 +1,14 @@
 import sys,os
-sys.path.append(os.path.dirname(os.path.realpath(__file__)))
+basepath = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(basepath)
+sys.path.append(os.path.join(basepath,"..","bayesian_shielding"))
 from phonetic_attacks.phonetically_attack import Phonetic_attacker
 from visual_attacks.viper_dces import Viper_decs
 from simple_attacks.simple_attacks import simple_perturb
 from simple_attacks.segmentations import manip_segmentations
+from util.utility import read_labeled_data
+from tqdm import tqdm
+import random
 
 class Adversarial_attacker():
     def __init__(self):
@@ -29,17 +34,29 @@ class Adversarial_attacker():
         :param attacks_with_severity: List of tuples containing method and severity
         :return: The attacked sentence
         """
-        for attack, severity in attacks_with_severity:
+        for i,(attack, severity) in enumerate(attacks_with_severity):
+            if attack=="rand":
+                attack = random.choice(self.methods)
+                while attack=="intrude" and i!=len(attacks_with_severity)-1:
+                    attack = random.choice(self.methods)
             sentence = self.do_one_attack(sentence, attack, severity)
         return sentence
 
+    def multiattack_document(self, infile, outfile, attacks_with_severity):
+        """Attack all sentences in document with a set of attacks
+        :param infile: A file expected to be in the STS-B format.
+        :param outfile: The output will be written to this file, with a comment about
+                        the attacks in the first line
+        :param attacks_with_severity: List of tuples containing method and severity
+        """
+        scores,first_sentences, second_sentences = read_labeled_data(infile)
+        pert_first = [self.multiattack(sentence,attacks_with_severity) for sentence in tqdm(first_sentences)]
+        pert_second = [self.multiattack(sentence,attacks_with_severity) for sentence in tqdm(second_sentences)]
+        with open(outfile, 'w') as f:
+            f.write("# "+str(attacks_with_severity)+"\n")
+            f.write("\n".join(f"{sc}\t{fs}\t{ss}" for sc,fs,ss in zip(scores,pert_first,pert_second)))
+
 if __name__ == "__main__":
     attack = Adversarial_attacker()
-    """for method in attack.methods:
-        res = attack.do_one_attack(sys.argv[1],method,1)
-        print(res.count(" "),method,res)"""
-    
-    #attacks_with_severity = [('keyboard-typo',0.2),('intrude',0.5),('segmentation',0.6)]
-    attacks_with_severity = [('visual',0.5)]
-    res = attack.multiattack(sys.argv[1],attacks_with_severity)
-    print(res.count(" "),"multiattack", res)
+    attacks_with_severity = [(x,0.05) for x in attack.methods]
+    attack.multiattack_document("../evaluation/test_400_sentences.txt","../evaluation/attacked_documents/all_attacks.txt",attacks_with_severity)

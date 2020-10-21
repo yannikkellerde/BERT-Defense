@@ -9,9 +9,11 @@ from edit_distance.substring_distance import Sub_dist
 def distance_words(sentences: list, lev_handler: Sub_dist):
     results = []
     pid = multiprocessing.current_process().pid
-    for sentence in tqdm(sentences):
-        tokens = preprocess_sentence(sentence)
-        results.append(lev_handler.get_sentence_hypothesis(tokens))
+    with open(f"logs/{pid}.txt","a") as f:
+        for sentence in tqdm(sentences):
+            tokens = preprocess_sentence(sentence)
+            results.append(lev_handler.get_sentence_hypothesis(tokens))
+            f.write(sentence+"\n")
     return results
 
 def multiprocess_prior(lev_handler: Sub_dist, sentences: list):

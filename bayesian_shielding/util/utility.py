@@ -97,6 +97,7 @@ def get_full_word_dict():
     number_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_number_begin.txt"))
     punct_dic = load_dictionary(os.path.join(os.path.dirname(__file__),"../../DATA/dictionaries/bert_punctuations.txt"))
     full_word_dic = letter_dic + number_dic + punct_dic
+    full_word_dic.sort(key=len)
     return full_word_dic
 
 def each_char_in(haystack,needle):
@@ -156,15 +157,17 @@ def mylower(word):
 
 
 def read_labeled_data(link):
-    text_to_read = open(link, "r", encoding="utf8")
-    scores = []
-    first_sentences = []
-    second_sentences = []
-    for line in text_to_read:
-        point = line.split("\t")
-        scores.append(float(point[0]))
-        first_sentences.append(point[1].strip())
-        second_sentences.append(point[2].strip())
+    with open(link, "r", encoding="utf8") as text_to_read:
+        scores = []
+        first_sentences = []
+        second_sentences = []
+        for line in text_to_read:
+            if line.startswith("#"):
+                continue
+            point = line.split("\t")
+            scores.append(float(point[0]))
+            first_sentences.append(point[1].strip())
+            second_sentences.append(point[2].strip())
     return scores, first_sentences, second_sentences
 
 def fast_allmin(a):

@@ -1,0 +1,201 @@
+# [('rand', 0.3), ('rand', 0.3)]
+0.8	A brwn dg is rnnng thrgh th fld.	a brown dog with his tunoge nigagwg as he unsr ghutrho a fleid
+0.28	Egyp's Muslim BrotherhooRefuse toBackDown	Egyptiioon crtt sntnss Muslim Brotherhood ldr ta leife yn prrizond
+1.0	À mán iʂ pɫaẏing ǟ keʎboǟʀᵈ.	Ǻ m㏟<n plays ǡ ᵏ=ⱻɏ=boa=rd.
+0.12	A man is pciñghop Ⓑƭrẗűė nōit a ᶝöntaйnĕr.	A woma is cutting shrimp.
+0.88	A squirrel ran araound im cicles.	A sqȓʴᶪ is mvng in crͨlᶊ.
+0.84	Person with 2to skea pohhls skying done einh snowy hil.	A persôn skĩnǐng dowᵰ ɐǟ sonwy ḥйll.
+0.84	Senate confimação Janet Yellen ad chair hf Us Federal Reserce	US Senate Confirms Janet Ylln as NwCentralBank Chf
+0.96	A grpoup on hourses grazing In ein filed.	Gorup of horsesgnazirg in gasrsy field.
+0.28	Amanis riding a horse.	A mn is drvng a cr.
+0.88	Tw'o böy|s ṥit facïng ońe anotheʴ ͣŧ a taḅle ąɲd ơn=ɜ poͥnts ǎ_t thĕ oth~ē~r.	Two ₚleope ṧit fınacg each ǒehŧr at a tlabȇ aß ǒne ⒫oiǹʇᵴ ǟt ṭȟe ohětr.
+1.0	Three dogd pullint a mxn os g byicle through ther dnow.	Ṯhȅ dôgs ârè ₚůlɭng a mn ön a type oⅎ bk, thʳɡh tħ snőẘ.
+0.88	A god is jumping overararrieb at a iyiaglt temnoiitpco.	A dgo jnpgmiu oevr an cbltoeas course fncee.
+0.8	Th unridej were taken to htsaipslo in nJfrfs ytiC nd uaomilCb, a cllg ntw bt 30 ismle to th north.	The injur3d werf taken to yospitals in Jefferson Cityxnd Columgia, about 48km north; thejr conditionswere notimmediately available.
+0.4	Rev's lyrea esrda: arcmh 2	Rev.sse Earlis Reads: Psept . 3dr , 2015
+0.7	In t<h<e w_eeƙ_ś ɬǝading up tô th.e exěcutìoᵰ, sev{eř{ȧl Fɫorîda ȭⓕfici㏟ls ɼ.ɝceivèd ȁnơnym?õus threâteninᶢ letŧers.	SeveralFlorid officialsconnecte to the casehavereceived threatening letters, accompaniedbyrifl bullet.
+0.44	The NeMuRoedst's-ats fraFordiy May24 , 2013	Thy Notê's Mǘst-Reads ffor ㎌reiḍay, Aɡȭst 23 , 2013
+0.2	ron@z victim doune Gott an_y pr?o?oph?	ṕaɻãŅôĩͩ Goṯ ãny ᴘṚooᷫ?
+0.28	Filipinas holds second senator overt corruption	Philippines rhicovoryng augter powerful typhoon
+0.84	A graw c+a+t laying u-n a b%row%n tebla.	Agrey cay ,ying on a wopden table.
+0.45	Ṱḧe brown tɼaïn is sitʇíng oń ʈhe raȋlroaᷘ trɐↀks.	Th withe train ia sitting an th trcks.
+0.0	Ǹo, yōư ᵈo tn' ndee ṭo eʰva knaet acslses oɾ nḏǝřeǟ a degrⱻe ïn youȓ areă.	I hv xn qt a bjt od technical writjng for healthcarr nfrmtn systms.
+0.4	Russian nla4p rreptdeylo crashes im Egypt	Pilo6 klelid as US jet csrheas ih Eanlgnc
+0.48	Teh tch-ldd Nasdaq composite osre 20.96 nstp to 1595.91, indgen at st hghst vll for 12 mnths.	Th tchnlg-lcd Nsdq Cm [st ndsx <.XC> c; imbed 19.11 pointx, o5 1.2 percent, to 1,615.02.
+0.52	Syri 'to declzre ch3mica weapon and sign conventuon '	saiRsu, syra Work im Ceorcn'et' Quimical Weapons Panl
+0.44	South Korea Syas North Feird Missiles	hrNto Korea nhauescl short-range missiles
+0.16	Flash floodes klll 58 im eastren [[afghanastan	Bom wounds16 in eastern Afghanista
+0.56	wT9 yfars l3atr, the insurance coverage udolw begin.	Unde eht rmnetaee, Medicar vgoecrae for grdu benefit would begi in 0620.
+0.28	Two boys inblack swimming trunks areholding another boyby hisarmsand legsona beach.	Man in witeh shirt fpinilpg ynoug boy in the wrtea wtih rofu roeth bsyo nroguudrsin tehm.
+0.68	Obamaurgesdecisiveactionon Europedebtcrisis	Obqma urfes Europe t; axt quickl6 ln crisis
+0.85	Awoman ischoppingbroccoli.	A waomn es cipnhpog brcqckllea with a. kfine.
+0.75	riCtics say the wla ilsoevta liicv sreebitli, something soueH Judiciary Ctmeomtie Cahraimn James enesenebrrnSn, R-sWi., sysa he is sensitive to.	ḢouseᴶǜdíciaȓyCoᶆṃittɛɝᶝhaïɾmaƞJǻmȅs Senseŉbrĕnnɜɿ, R-Wis.,ᶳǎys hȇ is sɝnsitive to cìvīllibērtieᶊ coṃplainṱᷥ.
+0.8	rguloiies etismrxem continyes in pakistan xpieste the banning of mikitant grpoks.	rlgsxtrmsm continues npkstn despite thbnnng of mltntgrps by the pakistanigovernment.
+0.84	Vehucles ablaze in collapsed J0n tnnl	Vrhicles 'left burniny' az smok emit fro Japan tunnel
+0.88	A eoctor predcribes mecucine h; a patient.	A otcord ebsrspceri a medicine.
+0.36	A womanischopping an onion.	A woma is chopping garrlicc wite ae knif.
+0.64	A guẏ or a ẅitʯe hǭȕrsę.	Aman ridingawhite hors inan aren.
+0.15	A woman ir plyng is yh cn.	A woma is parnprgi imrsh to okoc.
+0.16	China gives USregulator acces to audi records	Chinah opposesus rrms sailz totaiwan
+0.56	Banglades Aanners . Factor Victimes	Rêƭaіɬers bąᴄk Ƃąņᷛɫaḓêšh fȁctorʎ ṣafēty ᵖãḈȶ
+0.76	Packistand tta aleeres otms saenure faanhg Traliban presonor	Pakistan e rls seniour Tlbn commander On Strdy
+0.08	ALgeroa presidente gefs therapu after stroke: stat media	Bŭᶫᵍǟriǡn prėȿideǹƫ ʁtīˢe tô reǡbḱ ělectįoᶯ mlǡtɘseta
+0.6	Artiᷥtß arĕ ẉorʀįė tʮe pla ʍould har ṭhòse who něed ʰêƚ most - pɜrformèȑṡ wʱȫ haⱱ a diⓕficul tim ᶪıninɠ uᴘ shows.	Tg_e ar~t~ists saying the plan will har]m Frie\nch cultrue and p)unish tose lw}ho need hilp m\ost - performers w#ho heve a had time li_n_ing up work.
+0.12	Ⓕirſᵗoᵮalᷞ,let me saytͪatthere seeᴟs to ᴃe 3 maintʶaiẗᶊ tocɐstinĝ a spell.	I ͣlwaឹsthȫũght thatHarrysɇemeɗ to learńᶂroɱtʱȩHal⒡-Bᶩooᶁ Princę ʙɛtter thȁnhe dìɖ ⅎrom ȏțher ṧoúrces.
+0.16	Ae mhan is rinunue on a setret.	A mannpletz the gitauhr.
+0.4	I wolud sah y;u can do ir, but it wloud n'r be avsidee.	rlPõnˡýseǡ, I dwȭᷞū aȳᵴ not uɳlëss it śuits ǔoy.
+0.68	Tge tw Decotrams on che five-member FCC penal hept a nwes conferance too sawy onipoin aainsgt Powell.	The two Democrat on the five-membe FCC hel a new conferen to swa opini again Powe and the pane's two othe Republican.
+0.88	Asterøid žîps ƃeṯweenEarth aƞd satǝłlĭẗeᷤ	Asteroid pases eayh ih fly-by
+0.68	\" The Ęurȫpèaƞ Union is vȁsɨcaƚly abšent ,"sẅiḏ Ṱito Ḅaʳᴃini , 4êᵹiôńǎl minicƫȅr fpɾ agricultuŗᶳ in Ṱuscany, Įtalh.	Ti6o Barnini,w regional ministerforagricultureln Tuscany, Italy,crit9cized tne absence Tuesday in Sacramento.
+0.65	A ybo is niyalgp a ka-edybro.	A boỴ îs sǐttѝn in a rȏom pᴌayin a piân by lám ᴌiğʰ.
+0.04	The woomen are smorking.	Theman os walk.
+0.0	A mnokey is walkingthogruhthewtaer.	A gůy is plȃyᴺg å ťrᴍpɘt.
+0.1	A woman is sttng on ein sdwlk iwth o cll fone ay hr r.	A womonn is ɽîdige her bicyʗlè.
+0.04	Ukrainian Peirsendt esdrro 7a-dy rieceafes in hte east	Ugand's Presiden Museveni agrees to siiein antai-gay Bill
+1.0	ou guys are takingthis oll WAAAAAY toocomplicated.	Yyou arr bayiue this to complecated.
+0.8	WORLDNo.2 Lleyton Hewitt hasaccused theAssociationofTennisProfessionalsof malice, includinganalleged attemptlast year to dupe himinto refusinga drug test.	Woeld No.2 Lleyyon H4witt has afcuded hiz professional p4ers og long-stanxing malice, including an attempt las5 year to du0e hio into refusing z dfub gesg.
+0.0	A amn is noigstho a ngu.	A mn ɪs spttᴎg.
+0.6	Tou people wallking alogh theshore ate sunset.	Tẘo peǿplè walkinğ ałonǧͭhɛbeach at sunset towaʀn agroup ofpeople.
+0.96	Bluw andh reeadd plaign is . midd-air fleigt.	a bllux aend red airplaine whil in pfligte.
+0.8	Traƌe newṡpaper ⱽarȋe5y up for sžle	Hollywood trad publicatio Variet rut p ro sale
+0.84	Sly Soltnale's Son Sga Fnoud Dea in LA	slSteyevr Sloaltne's Son Fuond deaD At emHo
+0.92	A wom is playing flu.	A waomn plyas on a ftlue.
+0.0	Ä boy îe cutƫiᵰg ᷮaṗed.	A man is loadin a rifl.
+0.92	A yoong woman wirh a bracelet ix wearinig a buquini to hd jeane.	A wmn wrng jns, a drk bkn tp, nd a brclt.
+0.28	Ukraine‚Äôs pr-Rss protesters demandgreater tnmy	eSnusade sos6reptre demand fhe regime's eysrto
+0.8	Mr.Manuel and his group enteredthe United Statesb walkingacrossth bridge linkin Matamorosand Brownsvill.	Manueland hisgroupentered theUSthe samewaythousands ofpeopledoevery day,bywalkingacross the bridge betweenMatamoros and Brownsville.
+0.8	Does tihs pgae answeryuorquestion?	Dess thisanswer your questions?
+0.96	Thenew Coll War	A newCldWr?
+0.0	I hev no ida why it ic vote ap, but Rex Ker's ance beg the cuestion.	It's a ttlgy, bt th mppng btwn lgc nd th nglsh-lngg dscrptn is wrng.
+0.44	Adm's qip sleas jumped 7 necrpte rr-eye-aonya teah $402 millia't.	Second-quarter lsesa rwge 7 persent, tm DOLARES 546 ililnom fre dolare 060 lniolmi im 2002.
+0.92	A wmoan splts garlic lvcs.	Ae woǿmuň iz ḅrȧkiߒg a headd ȭv garlïc inƭø chloves.
+0.76	Tȟe man in the bckpck ɭᵏs tõ hɪs ᷝft.	An adult alm irwnae a bcpakkca walk and looks to hte lef.
+0.96	Ǝᵭᶅannĝ câptaĭn edAnwɍ Sẗrausʂ ētȓersi from pɿofessíonăl ℂricket	Engla captain Strauss retire fro cricket
+0.8	Pe=ip=r=e i '#s b+ei+n+g cut wihe sayzers ..	A pie of pap is bei cut.
+0.15	A mand ìs polaying whith frogs	A cat ynigiaspl with maarcae.
+1.0	Y r on th rght pth.	Y 'r on th rght pth.
+0.92	Thrit dihe afutr car crassh at Tamanein'n	Tyr Kpld In Crwsh At Tiananmen Sqr
+0.76	Tropical Storm renak targets US ogl ostC	Tropical Stprm Karrn poised ho nake landfall
+0.48	nenuGm kill 15 Liabynsoldiers	Gnemnue kill 3 Liebn's' troupse near Sierirza
+0.8	A kcbal gdo ãntdss ⱻxnṯ to materiȁls at á consȶrucᵵion siᵵɘ.	A blȧᶜ ᷘoĝ ṥtand in ṱhe middle of a coᶯsẗructįo siẗ.
+0.84	A mn is lefting wghts.	A nka is gcnilit q bbrelal.
+0.6666	Metropolitan Ambulance spokesman Jemas Howe said fvie pwleeoepre taken to hospital andthree wree taeterd at teshence after yesterday'sincident.	Spokesman James Hwsd five children gd btwn 4 nd 17 wr taken thsptl with neck nd chestinjuries, while threeothers were trtd at thescene.
+0.75	Agɻićultúrě ₘĩnisᵗer ᷫŕo ᵯore than onɝ hundred ǹaṫɨøns aʶɛ expecte to atten tʮe three-dȧ Miȵiᵴtȇʶĩal Ƈonferɛᴻc anᶁ Ëₓpo on Áᷚricǚᶅŧuȓa Sĉienc anƌ Techᶮoĺogy spȫnsore by the U.S. Ƌepͣrt⒨ent of Ǎᶢrïculțur.	U.S. AgarhĩcuȴḈher Sĕℂǫreagᵵaȓʸ Ãᶇe ⱽɜneṃan kiic⒦'ſ auf the ƭhrɝe-day Minɲeṣsteriͣe Kon-ᶠraiᶮz āund Expot ũᶇ Ägᷚrecȧulturaᷞ Scĭanc aūƞd Tɇçẖnology ōn ℳôndäy.
+0.52	Ṙųŝsïa 'aloᴻĕ' in bɳiaɫmg SɿẎain řbeles ⅎor ℂhɜmical atatck: ȔS	Rss acsk'es Un to cncsydr tz inqury ov Ciria chemical armes s
+0.0	An eilsobmm in a mciadel ctoenxt reerfs to eany large mvoig mass oder dcfeet im the bood srream.	He<re is a?n?inter?e?s?t?i?nga?rti?cl?e onwikipediato g@ive overview of pres(su(r(e related injuries.
+0.12	A mab is cɼy9ng.	A womqn 9s dancig.
+0.2	Obama hoods put over Syri strike	UK urges c;oun;tries ove|d Syroa aid
+0.4	A ẅomansṭaƞdinʛ iņ ᶠronť of trees and șᶭıļiƞg.	A nma is nkailw by tree in frno of the tci skyline.
+0.56	Tḣreɘ ẘmoen wtih brown hǎĭŕ àɼe silming.	Thrree wome in Indian dreesses in acrowdedroomsmiling.
+0.32	A man is naypli a ltuf in a anb.	Aman is ngilpya grtaiau.
+0.0	A grl is tng a ccpk.	A man is siicln a cuemcub.
+0.92	Detroit eligible for bankruptc proctetio: u.s judge	Detroĩt eľigible fur bͣnkʵuptḉẏ ᷮrōtecṫion
+0.68	I}t ɕa{l{ɬ{s foʵ the agǝǹcɏ ť~o plan a~n indepɘndeƞt safety a!n!d eᴎǵɪɴėêŗinᵹ organižatiǭŉ.	Tͪe aģency has ƴɜ5 to ƒullỷ forkuľate a stʶategy flr ʈʱe cfǝaʈion ǒf ㏟n inↀeᴘendent eńgineering ͭeͨħnicak ȁuthlriȶʎ.
+0.84	g wonem iwth is viking hat o.	Smlng wmn sttng wrng a vkng ht.
+0.28	13 pepeo killed i sectaria clashe in Lebanon	Nin ekdli in a-ekryldSinin sacshe in Lebanon
+0.72	theensuing battls abd airstrikes killed at peast 10 militqnts.	an nsng bt]t]l k.illed at least 1-0 mltnts.
+0.64	Tᶣe ᶩáḏ cɹačké tʍo raw eĝḡ.	T+he woman is cracking eg=gs i]nto a bowl.
+0.68	Bǿx cuʈtērs werw ȕsed us at veapon bye thel ⦞ept . 11 , 2001, hiᴊackeʁś AND hãve ſince beǝn baᶯnɜd ass ċ㏟rry-on itɘɯs.	Box ceurtts wree ther wenpaos uesd bye thre 19 hjickares im withe sep 11 , 2001, aacktts.
+0.16	A whiţe ǟàrplaƞe is pȧrkeɗ ôn tʱe cement.	A bƚue motorcycle ǐ paɍkeᴅ in dë sidëwaŀk.
+0.96	Gunmen lilk inen forfigners ij Pakistan	Gunmen klil inne tourists is Pkistan
+0.6	A bir in wzter withou goggle ;r x swimmin cap.	Ǻğȉrᶪ iᵰwaẗeʳ, witᶣ gogglesǻnd swimmîng cap.
+0.9	Ducre is sitll bnieg held at the psrion and is now in italioson, she said.	Drucelastight wass held in isolation aythe sam prison.
+0.4	I sai it wsn't a prs, in the lg sns.	Ifut isn't xpereon, thenWTF us it?
+0.16	A kitte isdrinkingmilkfrom a bow.	A sall chil is drinking whoter form la cap.
+0.96	T%u womane cant-esst-zent"s are w@hauking there dog{h{s i/n a d@'o@g show.	Two wamen wlk thr dogs at al dg showe.
+0.28	A man ie kiftin w car.	A mnis clmbng awll.
+0.85	A ctnda ferret are plyng.	A ferets wnd kirten pay tofether.
+0.08	A man ix riding ;n s voat.	A manis rying in themachjne.
+0.48	T;hd black and br#o#qn dog i*e playing ln the yar\d.	The blackandtandogis cinashg something hthetsepoasd.
+0.4	ssd meeetes wth Rheada Cross ffcls in Searia	Assad make[s Red Cr.o.ss pledge
+0.68	All we know ks thi: Distan object are receding vro us at a date pro'ortional to thdi disranc feo us.	hTe esxiponan of scaep mnaes taht objects in cmioalcgoosl distenacs are reicnedg away mrfo heca etrho.
+0.96	iran lie on a majl dru ro7t between afghanistan and 3urope ahd tue persian g8l state.	i(arn l[ei[s on a maj$or durg t&ifirna&k&cfg route b*etween afghanistan and e'u'rop'e, as wle+l as the prseian gulf sattes.
+0.76	a grȇy dog șmwᵯniiɠ thuɍogh a riveŗ wᶵih ㏟ stiȼk in hiṧ mutőḫ	Dogswimming throughwatercarryingstick initsmout
+0.16	Black ahd wtihe vow snndtoag in grassy felid.	A balck ande wtihe ptoho of a man sindtang nxet tah ay bus.
+0.44	A lkacb dg is nnrgn rhhgout the snw.	Ay blck pidt bull daog is running thrgh th drt.
+0.88	A perso is nmobic a act ahi.	A peorxn ia bsrihung w cat.
+0.76	Beside batteling its ssils slump, Siebe alsoo has bee sparrin whit sone investors upseted abou huge stock optio windfalls compan menagers heve pockete.	Besiděs å saalṧ slȗᴟp, Sĩėbɘɭ ɨs șpͣrʳnng witḫ ſòme șʱarehǿlders over mͣnageᴍnntt stalk opȶioŉ windfaĺȴs.
+0.36	Ae mann is ᷗutṭeng ȶo.ɱatoes inṭo piecés.	A woman id ugtcniy emao etsgeaeblv.
+0.0	A manis cuting gras.	A clougn si sining.
+0.72	Ferrer cruises nt strl Open quarter-final	Ferrer beats Nishikori to nvnasad aht Austraeyljean Opin sarriunealftq
+0.0	Aman is rniedag an eiaml.	A personopening a banana.
+0.52	Whe studyin adul IQ, genera adult norms aru ofte sused.	Basically, wthq 7ou do is ouy pameocr each wag ruogp IQ to tue rianddzstt9aaon samppe.
+0.96	A man and god on a kcor esarhos.	Man anddogsanidtng on rckosnext to weatr
+0.0	Obama ɋueɺies Ț⸧rᴺbuĺȴ ȭver ᷗhiᶇa pořt ḏeaȴ	Spanìşh bulls ɢr seven to dth
+1.0	Egyᷮt cŏunƫ ㈞rdɘrṡ rělease aȓ Ɯuᷨãrak	Egy;ptcourt orders M{u{ba{rak freed
+0.88	Snotrg nw qk htis strteeahd Pak rgn	6.8 qúãke ȉn shaʈtēreᵭ Pksṱn rgn
+0.88	H4 projected Vanderpool will be avai,able w9thi the nex fiv yead.	Prodices feachryng Vandoerpoole wall be reliest whithian five years', he psede.
+0.76	A ,an ks playimg a gihta..	㏟ guy is payᶇlīg ǟn iǹstunermt.
+0.52	Afhgan legislators apr'ove jew election law	Afghan presidente ap'proves n@ow electon law
+0.8	Eightbottles of Harp lager lineduponthe floor.	Eigh ɓottʟes of Ḫarp ḃeeʀ line ǖp ōn a ⒲oȫde ᶠƚoo.
+0.28	Y9ur w0rry ks a vz, id on3; tbd reader could bd frustrated v7 this.	I don't belveie nt kwnng a crhtcr's name wld be csuoinnfg nlss y mkae it so.
+0.44	It'sjsut a bcunh ofclles.	Ҋ' ₘ``a bḉhߒǔ of ᴌᶜseˡ . ''
+0.32	Ihn midaftěrnȏȏn tʶadinɡ, the Nâsdaq cauͫpoˢiṱę inde⌧ wąs upp 8.34, or 0.5 perkǝnƭ, to 1,790.47.	The Nasadq Composife Iddnx .IXIC dpiepd 8.59 pojnts , 0r 04.8 percent, t; 153.7,74.
+0.8	Us .. oedrrs non-essential satffs to leafe Sudan, Tisuina	US ordres n-aeenitsoanl staft fo lveae Tunisia, Sudan
+0.85	Sₘoȩ men are fghntiig.	Two men are fihnigtg.
+0.25	Tḫʴe bŏy in karate coṥẗűɯɝs are fĭghtin.	Three men are sncgcrtpii karate obsme in z lfdei.
+0.76	Rssuia, China vt UN rsltn on Siyra ndnrsg	Russian, C^hi^na veto U.?N?. dr{afer backing Arabi bi,lan fot Syria (Reute|rs )
+0.64	A man and wojeb sitting og a sofq holding s smwll gaby.	awojan sitgingon a sofaholding z baby.
+0.68	Aften Heuhgs rsefeud ot rehire Heanrendz, he complained tu the Equil Eepynlmmt Opportunity Cmmoiossin.	Hernandez filed am'' s Equil Emplyment Opportunity Comision compain amd sued.
+0.8	Two different bdeers of bowrn and whtie dgos play on the baceh.	To dogs playing in teh dans ate iht beach.
+0.0	The nma dtea,k on tje neephle0t.	Girls rr wlknn on thy stg.
+0.68	ǡ gʀoűp of ppl däncng	A grup ar mem sre dande.
+0.6	eTh baord Srntdaad & rooP's 005 Iednx <S.XP> cnadaedv 11 pinots, or 2.51 percent, to 913.	The Sdanartd & Poor's 500 Inedx gneaid 108.9, or 1.2 percent, to 9311.2 as of 120:1 p.m. in New York.
+0.88	Unother milliu barrels, bauh by Spantece refyenu Ceps Sa, wha to bey loade aunto a Spanish tancdke, they Tsanndra Tepaea.	A Spanizh ranker, Sandra Tapiss, das 69 ve lpaded with anoyher millipn bzrrels, bought bj S0snish refiner C3psa SA, on the afternlon.
+1.0	Ae bronw d'ag izz jamping.	A bwrom ogd is jujping
+0.84	Jmz Mufdoch qts BSkyB	James Murdoc quitsrole at BSky
+0.28	Y ar$e a Ch@r@stn.	Therĕfȍr you are nȍt a Chrisţïã.
+0.2	G0og@le launcues internet-beaming bal&lo&o&n&s	Googl 'are playin interna#ti#onal t<ax g]a]m '
+0.08	㎧oˢṯ ṗeoƥlê wȧᶮȡ ᶄŉǫṫ ǫnlᷚḫ ṫo bey Ⓗuelɘ öᶠf, buṱᵵᴛ ẗȫ béċome Běttɜr off eȿ tȃīᴟe gôêes by.	To strat, the miah dvrirrs ;f efonomic gtorwh are rrocusees, techn0logy, and ionjtiiuttss.
+0.68	Wha the Paphs butler saw – aed arreste ove Vatichawn leaks	Pope ’sbuter arristed is scandaloverVatican leaks
+0.0	Moderat trmeo in the Carentl Mediterranean	rn: Mdrt candidate wrs presencial vote
+0.1	A man i(s bn]u]irn]g a f[alg.	A nm is gnhst a gn.
+0.72	Betwee 1993and2002 , 142 allegations of sexua assault wer reporte.	rFm 1993 to 0220, thr erew 142 rtdrp sexual stlaassu at th cdmy.
+0.4	Deutpy speaker fceas enw esx claims	Ḓǝputʏ Sákepeŗ Ngɛil Evans Re-Aʴɿȅᷤᵗed
+0.84	A Maȵƙey íȿ brusиng ã buļᶩ dag.	A monkey esuehsb w gdo.
+0.56	A ᵍroup of pɛopʟĕ iingstͭ unroađ a leṱaᵬ cǒntȁiniƞg odfo.	Fr peopl r sittin rnd a living roo with.snacks.
+0.8	Well, Iuowldn't put iotn mcyv.	I w9uld h't ᴘút ťḣis ᶡob on ᴻy rèʂǚme.
+0.64	IȂF ſtɿì%k%e Gáᷦa tě.rɹ.oŕ hubs	F sikrets Gzaa trrr clel; 1 dd
+0.2	I ᷫeeƚ yoưr ⓟaiń - I bᶵưsłleyoå uȍpr iƫwʱ sweǡƫ with ȃny vigoroȗs șieerxec, neve iᴺ ƚooc coᶇdȋtions.	Sweat rate 9s sweat rate, you cq b't reslly con6rok .t.
+0.76	Ynida Ministrss' weife dide 'unnatural dtaeh' aretfe afere rhourmes	M8nister '{s wi/fe ':s dsath 'unnat8ral '
+0.2	SouthKorearegretsNorth'srefusalof tlks	uhotS Kore}a oerstpr 14th Me)r)s de@at@h , 12 wen cases
+0.96	coǚᶮcĭl ȶäx Hasᵰ' ᶝouncil tax beȅ ⓕroʑe for ⒨osᶵ peȏpl?	Hasn't coucil tax bean fezron far msot plopee?
+0.6	Cpuloe slinaig in a small sailoabt.	Tow mans aailing un * small sailboat.
+0.475	A men is cnutig up ein pottao.	A mn iz cttng kp crdts.
+0.4	The praicez for everything juh nid have gaune updue tae inflahiin.	Th prices of nyrhtgv oyu wn IE assets heav ogen dwn.
+0.4	Just abou nythn cn be grwn indoors withou natura snlght.	We haⱱe quit a ⅎew pëoⓟl her who haⱱe grǿʷn ᴘepₚeř ąnd ᷤṃaʟl tomatoe inḋoórṡ aᵰd iᴺ ƥot.
+0.68	A grp of mens pilayng brss nstrmnts.	A yrp of gys ply instrumentx outsice.
+0.8	Fr pol ro2ing d0wn a rvr.	Fr p [le r0w a cn in wat4r.
+0.92	A blxc d9g runnin into the wa5e.	A blc\k dg running th;r;o;ug;h w}t}r.
+0.1	A mn is tnng wood.	A mn isadding l to cr.
+0.92	Dpgs, he said, are second only t0 humans inthethoroughnessofmedical understandibg ane researfh.	He said that dgos are doecnd olny to jumans im temrc of being tue sebjuct ov midaecl research.
+0.5	Thw Stndrd stn ix $15,000 per processor or $300 or nmd s4.	The Standar Editio One is a single processor vetsio lf tue Oracle Stanear Edition Dagabas.
+0.8	Wihte diamond bkeras recoard In Hong Knog aoutcin	Withe diamend fcethhes reorcd $34m at Hk auction
+0.88	Woman remanded over childs veath A womens hqs b4en remanded in dustody charged with merdder after xn eigbt-yeaer-old giro doss pfound dewd ian a bloclk of flats.	Mothe5 heldofer daughter's death Amother has neen remandev in custody chatged with mugderafter her eight-year-olddaughterwas fo7nd dead ln a block of flwts.
+0.55	A boy is runni on a bea.	Two ybo era playin in eth beac.
+0.6	After Frtd' opening sttmnt, Kng Coumty Superi9r Crf Judge Charles Mertel recessed trl untjl after the Thnksgbng wkmd.	Kite Co8nti Supeareer Court Juge Charl's Mertel sil tyen recess tji triahl ontill Muondae.
+0.68	VThe tan ǎnd whitě dag iṥ rǘȵnĭņǧ ͥɲ there fiëᷝd.	The wrbo and twhi dogs rnu throug the field.
+0.52	A bơʎ ǻnↀ a ġril ȋſ ᶁcäning in the rɨǡn.	A mn adn womam is dancing in THR rn.
+0.72	A mahhn weareyng blake fooremel huerr & a. blaq toop hadt iz reiding a whiht chao haurtse.	A mah wtih q to; hat rijidg a wtihe hsroe.
+0.76	Rltvs scuffle wtih plc tfr China frie kills 120	Angry families demande answers after Chian plant firekilles 119
+0.44	eȾh ᵷrōuᴘ iᶳ nɛġƭiǎ ihwle takйnᶃ in a breɐtḫtąkiƞg eivw.	A gourp ôf ᵽoᷝepe tkae a ʟȏȭk ǎt aǹ unusual tere.
+0.08	Awomajin xnredtracksuit squeezing lemons ij apress.	A yuno wmao in a pink hdooi take a ptircue.
+0.84	To lrg doog's rntng in sm gras ..	tow brindle doogs runnning in tp gras.
+0.0	A man istravelihg8n a noat.	A ⒲oman as cuᵗting aů a ͨarroŧ wйtↀɦ ein kߒife.
+0.92	Nobelprizewinning authordoris Leesssing dyese	Nobel loryor Doreus Lfssinn dis qgt 94
+0.2	I janaged t; fi<nd tnis rec~i~pe, I thi!n!l fh[is i!s where I goy the ide&a.	I ve' onl emad a upclo of bbq sauce, but the've aalyw mco out leryla well.
+0.85	Out of tuoch and cseuuyoehnrwmttlptltroy, heoevwr, wuoldn't.	Out of touc annd untrustworth?
+0.0	Rud swor in as new Australia PM	Msuilms ın hиɴidg as sectɐɍian ...
+0.64	Cptn Rbrt Rmsy of th US 1st rmrd Dvsn sd a truck hd xpldd outside the bldng bt 11m, nd tht n of th cmpnd's outer wlls hd cllpsd.	Captain rRebto Rsmaey of US t1S Armored inDivosi dsia a trcuk had exodelpd outside hte igidubln at rnouda 11 am.
+0.92	Cilldreuns are playing in ay swhimming pil whipe two addote nean wafhe tho'm.	Chldrn ply in a pl whl dlts lk on.
+0.16	No radiatɪon lăĕk at Ìarn's naeȗclr ⓟlant	ȔS Coɴᶢřęsʂ maỴ ʈͪṞow wɺeᶇḉh įnto Iräň ᴻ⸧ĉᴌeaɍ dęãȴ
+0.76	A pppt plays wfh a plstv container.	The dog iz playhing whihe a polastaikh can'tenre.
+0.76	Ȟ㈞ʟȴỶ Holẏ Wⱻ aʵê aŀl vessełs fǐlled wіᴛh ḿañy woߒdèrš.	Say Wha You Wil We areall vessels fille with many wonder.
+0.2	Ṣome of ⒲h/a/t ȳ<ou caŉ ᷘ*o :	Not much eu candobesides:
+0.85	Air Canad, the lraegs ariiln in Cnaad and No . 11 in the wrol, has bee udne cuort pecrooittn fro ceiodrrts sinc Airpl 1.	The No . 11 ǟirȴine ѝᴻ the ẇrold, Aiʴ Cdnâaa has been uđenr co⸧rt pẗícrotoȅn fȍrḿ cɹɺйetods scine Apriƚ 1.
+0.6	Heavy rain raises teraht of Cmartihss Day flodinog	Freshrian bringsmore fdnlooig
+0.0	A close-u, eistorted photo of am empty g;as Coj bottl.	A uepsc-l pcuriet of a des wit a urmcpot nda reppa on it.
+0.8	A booy clims a faerrest hyll.	A boy is cmilnig ae hlyl.
+0.0	Jes, ther is a. rieshen ho not don whhat hu proppose.	Yes, theris achemicadifferenc.
+0.88	The two do@gs are runnin|g on t^h^e grass.	Tw dgs r plyng in th grss.
+1.0	lNleb ortsuh riDos Lessing dies a6 94	NoeⒷl lȧūřeate Diros Lɇssing deis ǟt 94

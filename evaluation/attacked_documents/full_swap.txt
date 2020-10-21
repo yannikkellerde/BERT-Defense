@@ -1,0 +1,201 @@
+# [('full-swap', 0.3)]
+0.8	A ronbw dgo is running through eht field.	a brown dog wtih his etonug ggawngi as he runs thhrguo a field
+0.28	ytEpg's Muslim Brotherhood Refuses to caBk Dwon	gnatyiEp court stnnceees Muslim Brotherhood leader to leif in prison
+1.0	A mna is lanpygi a dkyrabeo.	A nma plays a aerbydok.
+0.12	A man is ohinpcpg butter iotn a nnecitoar.	A woman is guttinc mprhsis.
+0.88	A equlrris ursn around in slcrcei.	A urirsqel is noimgv in ericslc.
+0.84	resonP htiw two ski loesp skiing down a snowy lhli.	A person gniksi ndow a snowy lhli.
+0.84	eetaSn imrcosnf Janet Yellen as chair of US erFalde Reserve	US Senate Confirms aJten eeYlln as New tnaerlC Bank Chief
+0.96	A urgpo of rsoesh aigrngz in a field.	oGrpu of horses zniggar in grassy deilf.
+0.28	A nam is ngidri a srohe.	A amn is ginvdir a acr.
+0.88	Tow boys sit facing one another at a table nad noe ptsino at the hrote.	Two people tis facing hcea ohert at a table as noe points at eht other.
+1.0	hrTee dogs lgilpnu a man on a bicycle htourgh the nwos.	The osgd are pulling a man on a ptye of bike, thrhguo het wnso.
+0.88	A dog is jumping vero a eirbarr at a latyigi tonocptemii.	A dog jumping over an baoeltcs cersuo cnfee.
+0.8	ehT rundiej reew taken to hospitals in Jefferson Ciyt nda Columbia, a college town about 30 miles to eth othnr.	Teh injured were taken to lospsahti in neJffesor City dan Columbia, about m4k8 north; ertih dintosnico were not immediately available.
+0.4	evR's Early Rsaed: hrcaM 2	veR .'s alEry deRsa: Sept. 3rd , 2015
+0.7	In the ekwes leading up to the oeeuctinx, several Florida laffiicos iercedve aunsyomon nategnhitre letters.	Several Florida officials condenect to teh esac have eeredvci threatening etslrte, accompanied by rlief bullets.
+0.44	eTh Note's Must-Reads for ayFdir May 24 , 2130	Teh eotN's Must-Reads for yaFrdi, Asutug 23 , 2013
+0.2	runs ictvmi dnwo Got nya proof?	paranoid otG any oropf?
+0.28	ieiihpspPln holds second senator over copotrirnu	Philippines recovering after epwrfuol notypho
+0.84	A gyar atc laying on a ornwb table.	A regy tac ygnli on a wooden table.
+0.45	The nwbor train is sitting on het driaarlo tracks.	Teh wieht train is tsiignt on the tracks.
+0.0	No, yuo do 'tn deen to have taken ssalsce or earned a gredee in your eara.	I eavh done quite a bit of nicecahtl niwitrg orf hetelacarh information systems.
+0.4	Rsasuin napel reportedly crashes in Egypt	itloP edilkl as US etj crashes in England
+0.48	eTh -ecdodletah Nasdaq composite rose 2906. psnito to 1595.91, iegndn at its highest level for 12 smtnoh.	The aegeylolcn-dohct daqsNa eiosoCmpt Index <.IXIC> mcdbeil 19.11 points, or 1.2 cetnepr, to 15.0126,.
+0.52	Syria to' declare chemical wspenao and nisg convention '	Russia, ryaSi oWrk on 'Concrete' Chemical Weapons lnPa
+0.44	Stuoh Korea Says North Fired islMsies	torNh Korea launches ehnsogtrar- missiles
+0.16	lashF ldsfoo kill 58 in eastern sAnahgiafnt	Bomb wounds 16 in stranee nasfatnghAi
+0.56	Two years retal, the necsarniu coverage would ibegn.	endrU the agreement, ieeadrcM gecveroa for drug einbftes uowld begin in 2006.
+0.28	Two boys in ackbl swimming trunks aer ogihldn another boy by sih arms dna legs on a baehc.	Man in eitwh shirt flipping nougy boy in eth water ihwt four oreht oybs surrounding them.
+0.68	Obama urges decisive aotinc on Europe dbet ricssi	aOmba urges Europe to tac lqcikyu on crisis
+0.85	A nmwao is chopping bocrloci.	A onwma is chopping oocbrcli whit a knife.
+0.75	ticrisC sya the law otiesval civil liberties, something uHseo iyrdJuiac Committee Craminha amesJ Sensenbrenner, R-Wis., ayss he is sensitive to.	Hoeus Judiciary Committee Chairman James renesSrnnbeen, -Ris.W, says he is siitsneev to vilci liberties otamcsnilp.
+0.8	religious ertxeimsm niocuntes in pakistan despite teh banning of militant ruospg.	religious sreixtmem ueiosntcn in apkntais tiseped the banning of malitint groups by the pakistani government.
+0.84	Vehicles ablaze in ocslldpae Japan tlneun	Vehicles 'left burning' as smoke temsi from Japna ltenun
+0.88	A ocordt psrrsbecei nimediec to a patient.	A doctor ispbserrce a iecdienm.
+0.36	A namwo is gnpicpoh an onino.	A nmaow is chopping lrcagi with a knfei.
+0.64	A ugy on a hietw erhos.	A nam ignrid a white horse in an aearn.
+0.15	A wanmo is playing in het enoac.	A wamno is preparing prhmis to kooc.
+0.16	nhaiC vesgi US regulators access to autdi records	nahiC opposes US msra aelss to Taiwan
+0.56	Bangladesh oHsnor Frcytao Victims	Retailers cakb Bangladesh ayrcfot safety pact
+0.76	Pakistan to release most senior Agfhna aailTbn iosrrpen	ntskaiaP to leeresa senior bnialaT commander on Saturday
+0.08	Algeria nrdeitpse gets therapy after osktre: estta media	Bulgarian president tries to kbrea ectilone etmaeslta
+0.6	Artists are worried eht plan luowd harm sthoe who edne pleh most - performers who have a difficult time niglni up hsows.	eTh artists yas the alnp liwl harm cernFh teulcur and punish those ohw dene help most - performers who have a hard emit lining up work.
+0.12	First of all, lte me say taht teerh eesms to be 3 main traits to nagtsci a pelsl.	I yalwsa ghtohut that Harry seemed to learn from het Half-Blood creinP ebrtet tanh he did from other sources.
+0.16	A nma is niungrn on a sretet.	A nam plays het guitar.
+0.4	I dluow asy you can do it, tub it uoldwn't be viasdde.	Personally, I wldou sya not unless it tuiss uyo.
+0.68	The wto Democrats on the eemrbmfiv-e CCF lapen ehld a news conference to sway opinion against weloPl.	heT two Democrats on the -efrbmiveme FCC held a news conference to sway onniopi against Powell nda teh palne's two ehort lbcaeRsunpi.
+0.88	diosAter szip between Earth and satellites	Asteroid passes rEtha in bylyf-
+0.68	\" Teh European Union is basically tbnsea ,"said Tiot Barbini, nolgreia risintme rof agriculture in nuascTy, Italy.	Tito Barbini, a regional minister for cuuiategrrl in yTnasuc, tylaI, criticized hte neaebcs Tuesday in nrecSaoamt.
+0.65	A yob is ygpilan a k-yoardbe.	A ybo is itnsgti in a room alipngy a pnioa by pmla light.
+0.04	The waonm is kgsinmo.	ehT man is gnkiawl.
+0.0	A ymoekn is lginakw ghuohrt the water.	A ygu is lagnypi a tmtrpue.
+0.1	A nwaom is sitting on a aeilsdkw tiwh a ellc phone at her rae.	A awmno is idrnig ehr bicycle.
+0.04	rkniniaaU President orders d-y7a ceasefire in hte east	Uganda's President veuisenM agrees to sign ytn-asaig lBli
+1.0	You guys are gkanim this all AAAAYWA oto complicated.	You are making htis oto cedaimoltpc.
+0.8	LRDWO No . 2 Lntloye Hteitw has accused eth tocisAnasio of Tennis looPnfarssies of eicalm, including an alleged attempt last yera to dupe him into refusing a urgd sett.	lWrdo .N2o Lleyton Hewitt ahs acdusce his professional peers of -gdlnasngotni ilmcae, diungncli an pteattm slat year to dupe him into refusing a drug test.
+0.0	A anm is gtnshoio a ngu.	A anm is tptsgini.
+0.6	Two people nlkwiag along het shore at nusest.	Two leoppe walking agonl het beach at sunset ownatr a group of ppeoel.
+0.96	Blue and red laenp in idai-mr hgfilt.	a lueb adn red airplane while in lgftih.
+0.8	arTde newspaper Variety up rof sale	Hollywood raedt cbatiniolup eaVrtyi put up for sale
+0.84	Sly aSnoetll's eonS Sage Found Deda in LA	srSteevyl Stallone's oSn Found Ddae At Home
+0.92	A wonam is playing elftu.	A mnoaw yaslp on a etflu.
+0.0	A ybo is cutting papre.	A amn is iolgadn a ielfr.
+0.92	A nuoyg woman with a etberalc is wearing a bikini pto adn njeas.	A oanmw wearing eansj, a dark inkiib opt, dan a bracelet.
+0.28	raUôiÄek‚sn riuo-asRsp protesters demand greater autonomy	esnaeudS protesters manedd the regime's rseuot
+0.8	rM. Manuel and ish group entered the United States by walking across eht rdeigb linking Matamoros nda slnelrwvoBi.	Manuel nda sih group erneedt the US the msae ywa thousands of people do every day, by walking across teh birdge between orsMtmoaa nad Brownsville.
+0.8	Does this paeg answer yrou esuonqti?	Does this earwns your osnteiusq?
+0.96	hTe new Cold aWr	A wen Cold rWa?
+0.0	I vhea no aide hwy it is vdeto up, but Rex Krer's answer begs eht question.	It's a utolytoag, but eth gappnim between oglci and eth English-language iintdpocesr is wrong.
+0.44	AMD's icph easls pudjme 7 percent a-nyoaryee-r to $402 million.	qreutn-deaSocr sales grew 7 tncreep, to $645 million mrof $060 inlmoli in 2020.
+0.92	A woman stilsp grailc cloves.	A woman is kbrgeian a head of carigl onit vscloe.
+0.76	The mna in the backpack lsook to his fetl.	An adult male awiegrn a backpack walks nda kolos to the tefl.
+0.96	nlgEnda icpnata Andrew Strauss rtriees from professional cricket	England captain aSsurts retires from citreck
+0.8	Paper is ibeng tcu hitw scissors.	A eicep of paper is igenb tcu.
+0.15	A amn is playing twhi frogs	A cat is ialnpgy hitw a amcrea.
+1.0	uoY aer on the hritg path.	uoY er' on het right path.
+0.92	eerhT ide ertfa car crash at Tian'anmen	Three ilKdel In rahCs At Tiananmen ueqarS
+0.76	lrTacipo romtS Karen targets US fulG Coast	roilTcpa otrSm Karen depios to make landfall
+0.48	Gmunen kill 15 Lainyb soldiers	nGnemu likl 3 Lebanese troops nare Syria
+0.8	A black ogd asdnts etnx to materials at a construction etis.	A klbca dog tasdns in the imdeld of a construction tise.
+0.84	A man is liingft ithwegs.	A nam is ftginil a blarleb.
+0.6666	aioMeplnrtot mnlbaAcue knsmseapo James Howe said vefi people were atken to otahilsp adn three wree treated at the scene after yesterday's incident.	Spokesman James Howe asdi eivf children aged etbwene 4 and 17 were kenta to hospital whit neck and chest injuries, while ehtre others eewr treated at hte sceen.
+0.75	grricuAluet ministers from more thna oen nhruded nations are tpxeedec to attend het -ayetdhre Ministerial rcefenCeon and Expo on Agricultural Science and Technology sponsored by eht U.S. mtenrpDaet of Agriculture.	U.S. Agriculture rSteayrec nAn Veneman kicks off the three-day Ministerial erfneoenCc and Epxo on riurallugcAt Science and cghlTyonoe on yandMo.
+0.52	Russia aeno'l' in blaming ySrnai rebels for amilcche ttakca: US	uissRa asks UN to consider sti yirqniu of Syria chemical rmas use
+0.0	An embolism in a mlceaid context refers to yna large moving assm or edfcet in het odlob stream.	rHee is an interesting article on wikipedia to igve eovervwi of psusrree redtela injuries.
+0.12	A amn is cryngi.	A owanm is cnndagi.
+0.2	Obama holds out evor Syria ktssrie	UK sgeur scnrtieuo over Syria aid
+0.4	A woamn standing in front of teser and iinmlgs.	A amn is kliwgna by trees in rtfno of the city lnekisy.
+0.56	Three women whit onwbr hair ear smiling.	Three women in ainndI deesssr in a rdcwedo romo smiling.
+0.32	A amn is ylniapg a felut in a band.	A nam is yplngia a agrtui.
+0.0	A lirg is anteig a cckuepa.	A nam is gnislci a emurcubc.
+0.92	Detroit bgeiliel for bankruptcy nepotcotri: ..SU judge	Detroit eligible for abunryptck perottnoci
+0.68	It cllas for teh agency to plan an dpneidnteen taefys nda engineering organization.	The agency has tye to lfylu auleorfmt a strategy for hte creation of an pddennietne inneeregngi technical authority.
+0.84	a oanmw thiw a viking hta on.	imSilng woman sitting wearing a gikvin tha.
+0.28	1 npoers killed in raseictna eachlss in Lebanon	eNni kileld in Syrian-linked clashes in bnoenLa
+0.72	teh ensuing battle and airstrikes ilelkd at eslta 10 atinsimtl.	an snniueg eatblt killed at least 10 iisttamnl.
+0.64	The ylad cracked two rwa segg.	The omwan is cracking gges into a owlb.
+0.68	oxB cutters were dseu as a wnapoe by hte Sept. 11 , 2001, hijackers dna have since bnee banned as nrorca-y simet.	oBx estctru were teh weapons used by eth 19 hijackers in hte pteS. 11 , 2001, attacks.
+0.16	A tehwi airplane is parked on het enemct.	A ubel tecrcymloo is parked on the aweldiks.
+0.96	Gunmen ilkl enni foreigners in Pakistan	Gunmen lkli nine tourists in aaPsnikt
+0.6	A ligr in water ituowth goglegs or a swimming cpa.	A rigl in water, thiw goggles and imgsminw acp.
+0.9	Druce is ltlis engib dleh at the prison dan is onw in isolation, she sdai.	Druce slta hitng was held in isolation at teh esma prison.
+0.4	I sdai it wsa t'n a person, in the legal nsese.	If it is nt' a opners, etnh WFT is it?
+0.16	A etitnk is drinking milk romf a obwl.	A small hildc is nirgidkn water from a puc.
+0.96	Two women tastnntceso are walking their sgdo in a ogd hwso.	owT emonw walk hrtee dogs at a dog show.
+0.28	A nam is ilifgnt a arc.	A anm is giinmclb a lawl.
+0.85	A cat dna a efretr rea playing.	A rfeert and nttkei play grohttee.
+0.08	A nma is ndirgi on a btoa.	A nam is ytgin in the ehcamni.
+0.48	Teh black adn rwbno dog is playing in the yrda.	heT black and nta dog is chasing something he hsa dostetp.
+0.4	Assad meets with Red osrsC iclsffaoi in raSyi	Assad makes Rde sorsC pledge
+0.68	All we nkwo is this: tainDst btsecjo are irecdnge mrfo us at a rate pnotolarproi to their daicents from us.	The npsaoinex of space means ttha bocejts in cosmological scasidnet are edcierng waay from each other.
+0.96	nari lies on a major rgud route eenwbte afghanistan nda opereu and eth persian gulf states.	ainr lies on a major udgr igikrfcaftn route wbnetee afghanistan and reopue, as lwle as eht persian gulf states.
+0.76	a eygr dog wnimgsmi oghhutr a river with a icstk in his mouth	Dog swimming through water iryacngr skitc in tis mouth
+0.16	Black and wihte cow dnsntgia in grassy eidfl.	A black dan hwtie photo of a anm gnndsita texn to a bus.
+0.44	A black odg is running gouhtrh the nswo.	A clabk pit bull dog is running ouhthgr eht rtid.
+0.88	A enrpos is ngobcim a cat hira.	A sernop is gihusnbr a cta.
+0.76	Bdeessi battling its sales smpul, Siebel laos has nebe sparring with some investors peuts about huge stock onipto faldslnwi apocnym managers have pocketed.	Besides a sales slump, Siebel is sparring hwit eosm harsheesodlr rove management stock opoint alsdifwln.
+0.36	A amn is nittcug tomatoes tnoi pieces.	A woman is intutcg mose avgeltebse.
+0.0	A man is tctigun rgssa.	A cwoln is sginign.
+0.72	Ferrer cruises into Australian nOep tieufqnal-rrsa	Ferrer baets Nishikori to evnadac to Australian Onep quarterfinals
+0.0	A mna is eadrign an iamel.	A porsne opening a annbaa.
+0.52	When studying adult IQ, general dtula rmnso rea often edus.	Basically, htwa you do is yuo compare each age orugp IQ to hte rsintnatdadoazi elsapm.
+0.96	A nma and dgo on a rocyk seashore.	Man and gdo standing on cksor next to weart
+0.0	Obama queries buTunrll reov China topr deal	hipsanS bulls gore evnes to death
+1.0	Egypt court erorsd release of raauMbk	Etpyg court orders Mubarak drefe
+0.88	nogrtS ewn eaquk hits shattered Pak region	6.8 akequ in shattered naitsPak region
+0.88	He eorjecptd oplndroaVe will be available wiinth teh next five years.	Products featuring lodeVrnoap will be dsaelree within ievf years, he iads.
+0.76	A anm is nlipgya a rgitua.	A uyg is pyanlgi an nitnrsumet.
+0.52	hganAf legislators approve ewn election law	Afghan prsneetid apevsrpo new electon law
+0.8	Eight blsetot of raHp eglra lined up on eht floor.	Eight bottles of Harp erbe dlien up on a odwoen rofol.
+0.28	ruoY oryrw is a valid eno; het reader dlcou be frustrated by this.	I do nt' believe otn oninwgk a arthccear's name lduwo be confusing unless uoy make it so.
+0.44	It's jtus a hnbcu of clles.	I'm``a nhbcu of lclse . ''
+0.32	In dmornfneaoti trading, teh Nasdaq composite ndeix saw up .843, or 0.5 npreetc, to 1,790.47.	ehT Nasdaq Composite ndxeI .IXIC dpeidp 8.59 otinsp, or 0.48 percent, to .7571,43.
+0.8	US.. orders tenein-anosls tffas to leave Sudan, Tunisia	US sdrroe non-essential staff to evlea inuTsai, Sudan
+0.85	eSom mne are fighting.	Two nem rae fighting.
+0.25	Three boys in karate outmsesc ear gifntgih.	Three nme are practicing karate eomsv in a defli.
+0.76	aiRuss, China teov UN resolution on Syria noegrndsi	iuRass, hnCai veto U.N. rtfad backing Arab plan ofr Syria (eutrRes )
+0.64	A man nad eomnw sitting on a faos holding a small abyb.	a woman ngtstii on a sofa hdoinlg a byba.
+0.68	After Hughes refused to rehire eHendznar, he ipcmedlano to eth Equal mynmlEtope pouytpntriO Commission.	adnnHzeer filed an Equal Employment ptupOyitron mismoCnsio nctioampl and sued.
+0.8	Two rndeeiftf rdebes of brown and white gdos lpay on the beach.	Tow dogs playing in eht ansd at the beach.
+0.0	The nam kdtlae on the etopleenh.	lGirs are walking on teh tesag.
+0.68	a roupg of people nidgcan	A rgoup of enm rea dancing.
+0.6	ehT broad addntaSr & oPro's 500 dIxen <.SPX> ecavandd 11 sptoin, or 1.25 eertcpn, to 931.	eTh dStrdnaa & Poor's 500 Index gained 198.0, or 1.2 ecprnet, to .91231 as of 0121: p.m. in eNw Yrko.
+0.88	nAhotre million rlbasre, ubhgto by ihaSsnp rrenife Cepsa SA, asw to be loaded onto a Spanish kraten, the nrdaSa Tapias.	A asniShp atenkr, rndaaS Tapias, aws to be ldedao iwht another million barrels, bought by Spanish refiner easCp SA, in het toofennar.
+1.0	A ownbr god is jumping.	A rbown dog is mugpnji
+0.84	James duMrhco quits BkySB	Jemas Murdoch quits role at BkByS
+0.28	You era a snitCrhia.	Therefore you aer otn a aitsnhriC.
+0.2	Ggeolo launches tnineigaenmt-bre balloons	eoGglo 'ear aniyglp international tax game '
+0.08	Most people tanw not nloy to be WELL fof, but to ceboem RETTBE off as tmei goes by.	To srtta, hte main ridvrse of economic growth rea resources, technology, dan tssintnoitiu.
+0.68	What the Pepo's butler saw – aide seartdre over atanVic sklae	Pope ’ s tlbure arrested in scandal over aintVac salek
+0.0	odatMree tremor in the talnCre Mediterranean	Iran: reMdatoe adnteiadc wins tnrdpileseia vote
+0.1	A nam is rnbgiun a fgal.	A amn is hotsgnio a gnu.
+0.72	eteenBw 1993 nad 2002 , 142 allegations of lsaeux asatusl were reported.	From 1399 to 2002, there were 124 ptdoreer uelxas assaults at teh academy.
+0.4	Deputy kapeers faces new sex cmslia	eyputD eekrapS Nigel Evans Re-Arrested
+0.84	A monkey is suhgbinr a ulbl dgo.	A monkey hrubsse a odg.
+0.56	A pougr of epeplo sitting urdoan a table containing odof.	uroF people are sgititn around a igvlni room with.snacks.
+0.8	ellW, I dwluo nt' tpu it on my cv.	I dwulon't put isth job on my eumsre.
+0.64	IAF eritks azaG terror hubs	AFI strikes zaaG terror llec; 1 dead
+0.2	I feel your pain - I absolutely pour itwh sweat twhi yna rvogsoui exercise, vene in cool intdnscoio.	Sweat rate is aewst reat, you ca 'tn really rncootl it.
+0.76	dnIia eMnrtiis's wife died au'ltnunar dheat' after affair rumours	Minsiter's ewfi's tahed 'unnatural '
+0.2	huoSt Korea eetgsrr North's refusal of tlkas	hSotu reKoa reports 14th Mers death , 12 new esasc
+0.96	council tax aHs tn' council tax nbee frozen for somt people?	Has 'tn olcnciu tax eben frozen for most people?
+0.6	Couple gsainli in a lmals otsilaab.	woT men gilaisn in a small oalsiatb.
+0.475	A amn is gttcnui up a apoott.	A anm is ntgciut up tarocsr.
+0.4	The prices for everything uyo need heva neog up eud to inflation.	eTh crieps of everything you own IE assets haev ngoe down.
+0.4	stJu about anything can be gorwn indoors iwthuto natural tligushn.	We have uiqte a efw oelpep here who vhea grown peppers adn small oasmttoe indoors and in pots.
+0.68	A purog of nem playing brass rtntismenus.	A opugr of guys play misttsuennr outedis.
+0.8	oFru olepep rowing down a irvre.	Four oeplpe wor a canoe in watre.
+0.92	A black gdo gnnnuri into the rtaew.	A black odg gnnniru hrtugho water.
+0.1	A anm is ingaet wood.	A nma is dnaigd oil to acr.
+0.92	Dogs, he isad, era second only to nshuma in teh sonhsuhrtego of dlamiec understanding and research.	He asdi htat dogs aer second only to nmsauh in terms of being the subject of dmealic hrreesca.
+0.5	The Standard dnEtoii is $15,000 per eorcpsosr or $030 epr named usre.	The Standard Enoitdi enO is a single processor version of hte Oracle addartnS ioindtE Database.
+0.8	eithW anodmid breaks record in gnoH Kong auction	hWeti admiodn fetches record $m43 at HK auction
+0.88	Woman adnmerde over hlidc's death A nwoma ahs been remanded in ostycdu adcgher tihw murder after an eight-year-old lrig was found dead in a blcko of flats.	Mother hlde oerv daughter's death A mother sha been nmaddree in dtcysou charged with murder after her l-doehi-eagrty daughter wsa found dead in a clbok of astlf.
+0.55	A yob is nnirnug on a cehab.	oTw boys are playing in het aebhc.
+0.6	After Freitas' opening statement, inKg Cutony uiropSer Court Judge shaleCr Mertel recessed trial lunti after hte Thanksgiving neeewkd.	King County pruoieSr Court dgeuJ aerlhsC Mertel liwl nhte recess the trial until Monday.
+0.68	The nta and etiwh god is ngrunin in the field.	heT brown and white dogs unr through the ifdel.
+0.52	A boy dan a girl is cgandin in teh nria.	A man nda amwno is dancing in teh rain.
+0.72	A man winerag ckalb aorflm wear & a black top hat is giirdn a wthei show sohre.	A nma thwi a top aht gindir a white horse.
+0.76	Relatives scuffle with police eaftr China fire lskil 210	ngryA families demand sransew after China plant fier kills 119
+0.44	hTe gopru is gaenit while taking in a breathtaking vewi.	A ourgp of elppoe ekat a look at an unusual erte.
+0.08	A owamn in an der stcriatku squeezing eosmnl in a press.	A nyguo oawmn in a pink oheido kaets a picture.
+0.84	owT eglra dogs unrignn in some grass.	Tow brindle dogs nngnrui in the srags.
+0.0	A nam is glvertnia in a otba.	A woman is tiguctn up a rtacor thwi a fneki.
+0.92	Nobel Prize nnwigin ruoaht Doris sseLign dies	Noebl lutareea Doris sLngesi dies at 94
+0.2	I nagdame to fnid hist cireep, I think this is where I otg het idea.	I've only emda a couple of qbb sauces, but they've slyawa ecom otu really llew.
+0.85	tuO of oucht and lypmetolce tsouhnturrtwy, however, wouldn't.	Out of touch nad wrtsuntrohuty?
+0.0	udRd wsnro in as new laAutinasr PM	musMlsi in hiding as cnetairas ...
+0.64	Citpnaa Rbrteo Ramsey of eht US 1st ordeAurm Division said a truck had exploded outside the building outba ma11, and htta one of the ucnomdop's etour walls ahd collapsed.	aptCnai Robert Ramsey of US t1S edrmrAo iionivsD isda a truck had exploded outside the biulidgn at rdanuo 11 am.
+0.92	Children are playing in a sinwgimm olop wihel wot adult men achtw them.	Children aply in a pool leihw sldaut look on.
+0.16	No andoatiri kale at Iran's cranule plant	US Congress may throw hncerw iont rIan nuclear deal
+0.76	A pppyu plays twhi a plastic teornnaci.	eTh ogd is playing hitw a plastic container.
+0.76	llyHo Holy We era all vessels filled twih ynma wonders.	Say Wath ouY Wlil We are all vessels filled iwth many wonders.
+0.2	Some of hwta uoy nca do :	tNo much you nca do eeisdsb :
+0.85	Air Canada, the etaglrs arleini in aCanad and No . 11 in the world, has eneb under cutro toitopcrne mfro creditors sinec Airlp 1.	heT No . 11 rneaili in the world, rAi Canada sha been edurn court protection ormf creditors since prAil 1.
+0.6	Heavy rain raises tareht of Crsthsima Day ifldoong	Fresh rain inbsgr more oinofldg
+0.0	A close-up, rtoiestdd photo of an empty gassl eoCk btelto.	A scuel-po putcrei of a desk hitw a epmrouct and pepras on it.
+0.8	A oyb clsimb a forest hlil.	A oby is nmicglbi a hlli.
+0.0	Yes, tehre is a reason to ton do what uoy opospre.	seY, etehr is a cliecham difference.
+0.88	ehT otw gsod are running on the grass.	Tow sdog are playing in the srgas.
+1.0	Nobel huraot roiDs Lessing eisd at 94	Nbelo aratleue Doirs Lessing dies at 94

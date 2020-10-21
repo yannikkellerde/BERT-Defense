@@ -1,0 +1,201 @@
+# [('disemvowel', 0.3)]
+0.8	A brown dg is rnnng through th field.	a brown dg with his tng wggng as he rns through a field
+0.28	Egypt's Mslm Brotherhood Rfss to Bck Down	gyptn court sentences Muslim Brotherhood ldr to lf in prison
+1.0	A mn is plyng a kybrd.	A man plys a kybrd.
+0.12	A mn is chopping bttr nt a container.	A wmn is cttng shrimps.
+0.88	A sqrrl rns around in crcls.	A sqrrl is mvng in crcls.
+0.84	Prsn wth tw ski poles skng down a snowy hill.	A person skng dwn a snwy hill.
+0.84	Senate confirms Janet Yellen as chr of US Fdrl Rsrv	US Senate Confirms Jnt Yellen as New Cntrl Bnk Chief
+0.96	A grp of horses grzng in a fld.	Group of hrss grazing in grssy fld.
+0.28	A mn is rdng a hrs.	A mn is drvng a cr.
+0.88	Two boys st fcng n another at a table and one pnts at the thr.	Two people sit fcng ch thr at a tbl as one pnts at the other.
+1.0	Thr dgs pulling a man on a bicycle thrgh th snow.	The dgs are pllng a mn on a type of bk, through th snow.
+0.88	A dg is jumping vr a brrr at a glty competition.	A dog jumping vr an bstcl crs fence.
+0.8	Th njrd wr taken to hsptls in Jffrsn City and Columbia, a college town bt 30 mls to the north.	The njrd were taken to hospitals in Jefferson City and Clmb, about 48km nrth; their cndtns were nt mmdtly vlbl.
+0.4	Rv's rly Rds: March 2	Rv .'s rly Reads: Spt. 3rd , 2015
+0.7	In the weeks leading up to th xctn, several Flrd ffcls received nnyms thrtnng letters.	Several Florida officials connected to th cs have rcvd thrtnng lttrs, accompanied by rifle bllts.
+0.44	The Nt's Must-Reads fr Friday My 24 , 2013	The Nt's Mst-Rds fr Frdy, August 23 , 2013
+0.2	rns vctm down Got ny proof?	prnd Got ny proof?
+0.28	Philippines holds scnd senator over crrptn	Philippines rcvrng ftr powerful typhoon
+0.84	A gry ct laying on a brwn table.	A gry ct lyng on a wooden table.
+0.45	Th brown train is sitting on th rlrd tracks.	Th wht train is sitting on the trcks.
+0.0	No, y don't need to hv taken clsss or rnd a degree in yr r.	I have done qt a bt of tchncl writing for hlthcr nfrmtn systems.
+0.4	Russian plane rprtdly crshs in Egypt	Plt killed as US jet crshs in nglnd
+0.48	Th tch-ldd Nsdq cmpst rose 20.96 points to 1595.91, ndng at its highest lvl for 12 months.	Th technology-laced Nsdq Composite ndx <.IXIC> clmbd 19.11 pnts, or 1.2 prcnt, to 1,615.02.
+0.52	Syr 't declare chemical weapons nd sign convention '	Rss, Syria Wrk on 'Cncrt' Chemical Weapons Plan
+0.44	South Korea Sys North Frd Missiles	North Korea lnchs shrt-rng missiles
+0.16	Flsh floods kill 58 in strn fghnstn	Bomb wnds 16 in strn Afghanistan
+0.56	Tw years later, the nsrnc cvrg would begin.	ndr th agreement, Mdcr coverage fr drug benefits wld begin in 2006.
+0.28	Tw boys in blck swmmng trunks are holding nthr boy by hs rms and legs on a beach.	Man in white shirt flppng yng by in the water with fr thr boys surrounding thm.
+0.68	bm urges dcsv ctn on Europe debt crisis	Obama rgs Europe to ct qckly on crisis
+0.85	A woman is chppng brccl.	A woman is chppng broccoli wth a knf.
+0.75	Crtcs say the law vlts cvl liberties, something Hs Jdcry Cmmtt Chrmn Jms Sensenbrenner, R-Wis., says he is sensitive to.	House Judiciary Cmmtt Chairman Jms Snsnbrnnr, R-Wis., sys he is sensitive to cvl liberties cmplnts.
+0.8	religious xtrmsm continues in pkstn despite the bnnng of militant grps.	rlgs extremism continues in pkstn dspt the bnnng of militant groups by the pakistani gvrnmnt.
+0.84	Vhcls ablaze in collapsed Japan tnnl	Vehicles 'left burning' as smk emits frm Japan tnnl
+0.88	A dctr prscrbs medicine to a ptnt.	A doctor prscrbs a mdcn.
+0.36	A wmn is chppng an nn.	A wmn is chppng garlic wth a knife.
+0.64	A gy on a wht hrs.	A mn rdng a white horse in an rn.
+0.15	A wmn is playing in th cn.	A wmn is prprng shrmp to cook.
+0.16	Chn gvs US regulators access to dt records	Chn ppss US arms sls to Taiwan
+0.56	Bangladesh Honors Fctry Vctms	Retailers back Bngldsh factory safety pct
+0.76	Pakistan to rls mst senior fghn Taliban prisoner	Pakistan to rls snr Taliban cmmndr on Saturday
+0.08	Algeria president gts thrpy ftr stroke: state media	Bulgarian prsdnt trs to break lctn stalemate
+0.6	rtsts are worried the pln would harm ths who need hlp most - performers wh have a difficult tm lining up shws.	The artists sy the pln will hrm French culture nd punish those who need help mst - prfrmrs wh hv a hard tm lining up work.
+0.12	First of all, lt me say that thr sms to be 3 mn traits to cstng a spll.	I always thght that Harry seemed to lrn from the Half-Blood Prince better thn he did frm thr srcs.
+0.16	A mn is rnnng on a strt.	A man plys the gtr.
+0.4	I wld say y can do it, bt it wldn't be dvsd.	Prsnlly, I would say not nlss it sts y.
+0.68	The tw Democrats on th fv-mmbr FCC pnl held a news cnfrnc to sway pnn against Powell.	The two Dmcrts on the fv-mmbr FCC hld a nws conference to sway opinion gnst Pwll and th pnl's two other Republicans.
+0.88	Asteroid zps between rth and satellites	Asteroid psss rth in fly-by
+0.68	\" Th European Union is bsclly absent ,"sd Tt Barbini, regional mnstr fr agriculture in Tscny, Italy.	Tito Brbn, a regional minister fr agriculture in Tscny, tly, crtczd the absence Tuesday in Scrmnt.
+0.65	A by is plyng a ky-brd.	A by is sttng in a rm playing a piano by lmp lght.
+0.04	The wmn is smkng.	The mn is wlkng.
+0.0	A mnky is walking through th wtr.	A gy is plyng a trmpt.
+0.1	A wmn is sttng on a sidewalk wth a cell phn at her r.	A wmn is riding hr bcycl.
+0.04	Ukrainian President orders 7-dy ceasefire in th st	Uganda's President Msvn agrees to sgn anti-gays Bll
+1.0	You guys are making this ll WAAAAAY t cmplctd.	Y are making ths t complicated.
+0.8	WORLD No . 2 Lleyton Hwtt hs accused the Association of Tennis Professionals of mlc, including an llgd attempt lst year to dp hm nt refusing a drg tst.	Wrld N.2 Lleyton Hewitt hs accused his prfssnl prs of long-standing malice, ncldng an ttmpt lst year to dupe hm into refusing a drug test.
+0.0	A mn is shtng a gn.	A mn is spttng.
+0.6	Two people walking lng th shore at snst.	Tw people walking along th beach at snst twrn a group of ppl.
+0.96	Bl and rd plane in md-r flight.	a bl and rd airplane whl in flight.
+0.8	Trade newspaper Vrty up fr sale	Hollywood trade publication Vrty put up fr sl
+0.84	Sly Stlln's Sone Sg Found Dd in LA	Sylvstr Stallone's Son Fnd Dd At Home
+0.92	A woman is plyng flt.	A wmn plys on a flt.
+0.0	A by is cttng paper.	A mn is ldng a rfl.
+0.92	A yng wmn with a bracelet is wearing a bkn tp and jns.	A wmn wearing jeans, a drk bkn top, nd a brclt.
+0.28	krn‚Äôs pr-Rss protesters demand greater autonomy	Sdns prtstrs dmnd the regime's ouster
+0.8	Mr. Manuel nd his group entered th ntd Stts by wlkng across th bridge linking Matamoros and Brownsville.	Mnl nd his group entered the US the same wy thsnds of ppl do every dy, by walking across the bridge btwn Matamoros nd Brwnsvll.
+0.8	Does ths pg answer yr question?	Ds this answer your qstns?
+0.96	Th nw Cold War	A nw Cld War?
+0.0	I have no idea why it is vtd up, bt Rx Krr's nswr begs the qstn.	It's a ttlgy, but th mapping btwn logic nd the English-language dscrptn is wrng.
+0.44	AMD's chip sales jmpd 7 prcnt yr-n-yr to $402 mlln.	Scnd-qrtr sls grw 7 prcnt, to $645 million frm $600 mlln in 2002.
+0.92	A woman splits grlc clvs.	A wmn is brkng a hd of garlic into clvs.
+0.76	The mn in th backpack looks to his lft.	An dlt male wearing a bckpck wlks and looks to th left.
+0.96	England captain Andrew Strauss rtrs frm prfssnl cricket	England cptn Strauss rtrs from cricket
+0.8	Paper is bng cut wth scssrs.	A piece of ppr is bng ct.
+0.15	A mn is playing with frgs	A ct is playing wth a cmr.
+1.0	Y are on the rght pth.	Y 'r on the rght path.
+0.92	Thr die after cr crsh at Tian'anmen	Thr Killed In Crsh At Tiananmen Sqr
+0.76	Tropical Strm Karen trgts US Gulf Cst	Tropical Storm Krn poised to mk lndfll
+0.48	Gnmn kll 15 Libyan soldiers	Gnmn kill 3 Lebanese trps nr Syria
+0.8	A black dg stands next to mtrls at a cnstrctn st.	A black dog stnds in th mddl of a cnstrctn site.
+0.84	A mn is lftng weights.	A mn is lftng a brbll.
+0.6666	Metropolitan mblnc spksmn James Howe said five people wr taken to hospital and thr wr trtd at th scene ftr yesterday's incident.	Spokesman James Hw sd five children aged between 4 and 17 were taken to hsptl wth nck nd chst njrs, while three others were treated at the scn.
+0.75	grcltr mnstrs from mr than n hundred nations are expected to attend th three-day Mnstrl Cnfrnc and Expo on grcltrl Science nd Technology sponsored by the U.S. Dprtmnt of Agriculture.	U.S. Agriculture Secretary Ann Veneman kcks off th thr-dy Ministerial Conference nd xp on Agricultural Science nd Tchnlgy on Monday.
+0.52	Russia 'alone' in blmng Syrian rbls for chmcl ttck: US	Rss asks UN to consider its nqry of Syria chmcl arms s
+0.0	An embolism in a mdcl context refers to ny large moving mss or dfct in the bld strm.	Hr is an ntrstng article on wikipedia to gv overview of pressure rltd njrs.
+0.12	A mn is cryng.	A wmn is dncng.
+0.2	Obama holds t over Syria strks	UK rgs countries over Syr aid
+0.4	A woman standing in frnt of trs and smlng.	A mn is walking by trs in front of th cty skyline.
+0.56	Thr wmn with brown hair are smlng.	Thr wmn in ndn drsss in a crowded room smiling.
+0.32	A mn is plyng a flute in a bnd.	A mn is plyng a gtr.
+0.0	A grl is tng a cpck.	A mn is slcng a ccmbr.
+0.92	Detroit lgbl fr bankruptcy prtctn: U.S. judge	Detroit eligible fr bnkrptcy protection
+0.68	It clls for th agency to pln an independent safety nd engineering rgnztn.	The gncy has yt to fully formulate a strtgy fr th creation of an ndpndnt engineering technical authority.
+0.84	a wmn wth a vkng hat on.	Smiling woman sttng wrng a viking ht.
+0.28	1 prsn klld in sectarian clashes in Lbnn	Nn klld in Syrn-lnkd clashes in Lebanon
+0.72	the nsng bttl and airstrikes klld at least 10 mltnts.	an nsng battle killed at lst 10 mltnts.
+0.64	Th lady cracked tw rw eggs.	Th wmn is crckng eggs into a bowl.
+0.68	Box cutters were used as a wpn by th Spt. 11 , 2001, hjckrs and hv snc bn banned as carry-on tms.	Box cttrs were the wpns sd by th 19 hijackers in th Sept. 11 , 2001, ttcks.
+0.16	A wht airplane is parked on th cmnt.	A bl mtrcycl is parked on the sdwlk.
+0.96	Gunmen kll nine frgnrs in Pakistan	Gnmn kill nine trsts in Pakistan
+0.6	A grl in wtr wtht goggles or a swmmng cap.	A girl in wtr, wth gggls and swmmng cap.
+0.9	Druce is still bng hld at the prsn and is nw in isolation, sh sd.	Druce lst night was hld in sltn at the sm prison.
+0.4	I said it wsn't a prsn, in th legal sns.	If it isn't a prsn, thn WTF is it?
+0.16	A kttn is drnkng mlk from a bowl.	A smll chld is drinking water from a cp.
+0.96	Tw wmn contestants are wlkng their dgs in a dog show.	Two women walk there dgs at a dg shw.
+0.28	A mn is lftng a cr.	A mn is clmbng a wll.
+0.85	A ct nd a ferret are plyng.	A ferret nd kitten ply tgthr.
+0.08	A mn is rdng on a bt.	A mn is tyng in the mchn.
+0.48	The blck nd brwn dg is playing in the yard.	Th blck and tan dog is chasing smthng he has spttd.
+0.4	Assad meets with Red Crss ffcls in Syr	ssd makes Rd Cross pledge
+0.68	ll we know is ths: Distant objects r receding from us at a rate prprtnl to thr dstnc frm us.	The xpnsn of space mns that bjcts in cosmological distances r receding away from ch thr.
+0.96	iran ls on a major drg route between fghnstn nd rp nd the persian gulf states.	rn ls on a mjr drg trffckng route between fghnstn and europe, as well as the persian glf states.
+0.76	a grey dg swmmng through a river wth a stick in his mth	Dog swimming through wtr crryng stck in its mouth
+0.16	Blck and wht cow stndng in grassy field.	A blck nd white pht of a mn standing next to a bs.
+0.44	A black dg is rnnng thrgh the snow.	A black pit bll dog is rnnng through th drt.
+0.88	A person is cmbng a ct hr.	A prsn is brshng a ct.
+0.76	Besides battling ts sales slmp, Sbl also has been sprrng wth some investors upset about huge stck option wndflls cmpny managers have pocketed.	Besides a sales slmp, Sbl is sparring wth sm shrhldrs vr management stock option windfalls.
+0.36	A man is cttng tomatoes nt pcs.	A wmn is cttng sm vegetables.
+0.0	A man is cttng grss.	A clwn is sngng.
+0.72	Ferrer cruises into strln Open qrtr-fnls	Frrr beats Nshkr to advance to Australian Open qrtrfnls
+0.0	A mn is rdng an ml.	A prsn pnng a banana.
+0.52	Whn studying adult IQ, gnrl dlt norms are often sd.	Bsclly, wht you do is you cmpr each g grp IQ to the stndrdztn sample.
+0.96	A mn and dg on a rocky sshr.	Mn nd dg standing on rocks next to water
+0.0	bm queries Trnbll over Chn port deal	Spanish bulls gr seven to dth
+1.0	Egypt court rdrs rls of Mubarak	gypt court rdrs Mubarak freed
+0.88	Strong nw qk hits shttrd Pak region	6.8 quake in shattered Pkstn rgn
+0.88	He projected Vndrpl will be vlbl within the next fv yrs.	Products ftrng Vanderpool wll be released wthn five yrs, he said.
+0.76	A mn is plyng a gtr.	A gy is plyng an nstrmnt.
+0.52	Afghan legislators pprv nw election law	Afghan prsdnt approves new electon lw
+0.8	ght bottles of Hrp lgr lnd up on the floor.	ght bottles of Harp beer lnd up on a wdn flr.
+0.28	Yr wrry is a valid one; th reader could be frstrtd by ths.	I don't believe nt knwng a character's nm wld be cnfsng unless you mk it so.
+0.44	It's jst a bnch of clls.	I'm``a bnch of clls . ''
+0.32	In mdftrnn trading, th Nsdq cmpst ndx was up 8.34, or 0.5 prcnt, to 1,790.47.	The Nasdaq Composite ndx .XC dppd 8.59 pnts, or 0.48 prcnt, to 1,773.54.
+0.8	.S. orders nn-ssntl staff to leave Sudan, Tns	US rdrs non-essential staff to leave Tns, Sdn
+0.85	Sm mn are fighting.	Two mn r fighting.
+0.25	Three bys in krt costumes are fghtng.	Three men are prctcng krt mvs in a field.
+0.76	Rss, Chn vt UN resolution on Syria endorsing	Russia, Chn vt .N. drft bckng Arab plan for Syria (Reuters )
+0.64	A man and women sttng on a sf hldng a smll baby.	a wmn sitting on a sofa hldng a bby.
+0.68	After Hughes rfsd to rhr Hernandez, he cmplnd to th Equal Employment Opportunity Cmmssn.	Hernandez filed an Equal mplymnt pprtnty Commission cmplnt nd sued.
+0.8	Tw different breeds of brwn nd white dogs play on the bch.	Two dogs plyng in the sand at th bch.
+0.0	The man tlkd on th tlphn.	Girls r wlkng on the stg.
+0.68	a grp of ppl dancing	A group of mn r dncng.
+0.6	Th brd Stndrd & Poor's 500 ndx <.SPX> dvncd 11 pnts, or 1.25 prcnt, to 931.	Th Stndrd & Pr's 500 ndx gnd 10.89, or 1.2 prcnt, to 931.12 as of 12:01 p.m. in Nw Yrk.
+0.88	Another mlln brrls, bght by Spanish rfnr Cps SA, was to be ldd onto a Spnsh tanker, th Sandra Tapias.	A Spnsh tanker, Sndr Tapias, was to be ldd wth another mlln barrels, bght by Spanish refiner Cps SA, in th ftrnn.
+1.0	A brown dg is jmpng.	A brwn dog is jmpng
+0.84	James Mrdch qts BSkyB	Jms Mrdch quits role at BSkyB
+0.28	You r a Chrstn.	Therefore y r not a Chrstn.
+0.2	Ggl launches ntrnt-bmng balloons	Google 'are plyng ntrntnl tax gm '
+0.08	Most ppl want not nly to be WLL off, but to bcm BETTER ff as time gs by.	To start, th mn drvrs of economic grwth are resources, technology, nd nstttns.
+0.68	Wht the Pope's btlr saw – d rrstd over Vatican leaks	Pope ’ s butler rrstd in scandal vr Vtcn leaks
+0.0	Moderate tremor in th Central Mdtrrnn	Iran: Moderate cnddt wins prsdntl vt
+0.1	A mn is brnng a flg.	A mn is shtng a gn.
+0.72	Btwn 1993 nd 2002 , 142 allegations of sexual assault wr rprtd.	Frm 1993 to 2002, there were 142 rprtd sxl sslts at th academy.
+0.4	Deputy spkr faces new sx claims	Dpty Spkr Nigel Evans Re-Arrested
+0.84	A mnky is brshng a bull dg.	A mnky brushes a dg.
+0.56	A grp of people sttng rnd a table containing fd.	Fr ppl r sitting around a living room with.snacks.
+0.8	Wll, I wldn't pt it on my cv.	I wldn't pt this jb on my resume.
+0.64	IAF strike Gaza trrr hbs	IAF strikes Gaza trrr cll; 1 dd
+0.2	I fl your pain - I absolutely pour with swt wth any vigorous xrcs, vn in cool cndtns.	Swt rate is sweat rt, you can't rlly cntrl it.
+0.76	nd Minister's wf died 'nntrl death' after affair rmrs	Mnstr's wf's dth 'unnatural '
+0.2	South Kr rgrts North's refusal of tlks	South Kr reports 14th Mers dth , 12 new css
+0.96	cncl tax Hasn't cncl tax bn frzn for most people?	Hasn't cncl tax bn frozen for mst people?
+0.6	Cpl slng in a small slbt.	Two men slng in a smll slbt.
+0.475	A mn is cttng up a ptt.	A mn is cttng up crrts.
+0.4	The prices for vrythng you nd have gn up d to inflation.	The prcs of vrythng you own IE ssts have gone dwn.
+0.4	Jst about nythng cn be grown indoors without ntrl sunlight.	We hv quite a few ppl here wh have grown ppprs nd small tomatoes indoors nd in pots.
+0.68	A group of mn playing brss nstrmnts.	A grp of guys ply nstrmnts outside.
+0.8	Fr ppl rowing dwn a river.	Four people rw a cn in wtr.
+0.92	A blck dog rnnng into th water.	A blck dog rnnng thrgh water.
+0.1	A mn is tng wood.	A mn is adding l to cr.
+0.92	Dgs, he sd, r scnd only to hmns in the thoroughness of medical understanding nd research.	He said tht dgs are second only to hmns in terms of bng th sbjct of medical research.
+0.5	Th Standard dtn is $15,000 per prcssr or $300 pr nmd user.	Th Standard Edition n is a single prcssr version of the rcl Stndrd Edition Database.
+0.8	Wht dmnd breaks record in Hong Kong ctn	White diamond ftchs rcrd $34m at HK ctn
+0.88	Wmn remanded vr chld's death A woman has bn remanded in custody chrgd with murder after an ght-yr-ld girl ws fnd dead in a blck of flats.	Mother hld over dghtr's dth A mthr has been remanded in cstdy charged with murder after her eight-year-old dghtr ws found dead in a blck of flts.
+0.55	A by is rnnng on a bch.	Tw boys are plyng in th beach.
+0.6	After Freitas' opening sttmnt, King Cnty Sprr Court Judge Chrls Mertel recessed trial until after th Thnksgvng wknd.	Kng County Superior Court Judge Charles Mertel wll thn rcss the trial ntl Monday.
+0.68	Th tan nd white dg is rnnng in the field.	The brown and white dogs run thrgh th fld.
+0.52	A boy nd a grl is dncng in the rn.	A man and wmn is dancing in th rn.
+0.72	A mn wrng blck formal wear & a black tp hat is riding a wht shw horse.	A man with a tp ht rdng a wht horse.
+0.76	Relatives scffl wth police ftr China fire kills 120	Angry families dmnd nswrs after China plant fire klls 119
+0.44	Th group is tng whl taking in a breathtaking vw.	A grp of people tk a look at an nsl tr.
+0.08	A woman in an rd tracksuit sqzng lmns in a prss.	A yng wmn in a pink hd tks a picture.
+0.84	Tw large dogs rnnng in some grss.	Two brndl dogs running in th grss.
+0.0	A mn is trvlng in a bt.	A wmn is cttng up a crrt wth a knife.
+0.92	Nobel Prize wnnng thr Drs Lessing dies	Nbl lrt Drs Lessing dies at 94
+0.2	I mngd to fnd ths rcp, I thnk this is where I gt the idea.	I've only made a couple of bbq sauces, bt thy 'v lwys cm t really well.
+0.85	t of touch nd completely ntrstwrthy, hwvr, wouldn't.	t of touch nd untrustworthy?
+0.0	Rdd sworn in as nw strln PM	Muslims in hdng as sctrn ...
+0.64	Cptn Robert Ramsey of the US 1st Armoured Division said a truck had xpldd tsd the building bt 11am, and that n of th cmpnd's tr walls hd cllpsd.	Cptn Robert Rmsy of US 1St rmrd Division said a truck hd xpldd tsd the building at rnd 11 am.
+0.92	Children are plyng in a swmmng pl while two dlt mn watch them.	Chldrn play in a pl while adults lk on.
+0.16	No rdtn leak at Iran's nclr plnt	US Congress may throw wrnch into Iran nclr dl
+0.76	A pppy plays wth a plstc container.	Th dg is playing with a plastic cntnr.
+0.76	Hlly Hly We r all vessels flld with many wonders.	Say What Y Will We r all vessels filled wth mny wonders.
+0.2	Sm of wht you cn do :	Nt mch y can do besides :
+0.85	Air Cnd, the lrgst airline in Canada nd No . 11 in the wrld, hs bn under crt protection from crdtrs since prl 1.	Th No . 11 airline in th world, r Canada has bn ndr crt protection from crdtrs since April 1.
+0.6	Hvy rain rss threat of Chrstms Day flooding	Frsh rn brings more flooding
+0.0	A cls-p, dstrtd photo of an empty glass Ck bttl.	A cls-p pctr of a dsk wth a cmptr and papers on it.
+0.8	A boy clmbs a frst hll.	A by is clmbng a hll.
+0.0	Ys, thr is a reason to nt do wht you propose.	Ys, thr is a chemical dffrnc.
+0.88	The tw dgs are running on th grass.	Two dogs are plyng in th grss.
+1.0	Nbl author Drs Lessing ds at 94	Nbl lrt Doris Lssng dies at 94

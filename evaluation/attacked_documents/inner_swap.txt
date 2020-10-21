@@ -1,0 +1,201 @@
+# [('inner-swap', 0.3)]
+0.8	A bworn dog is running trohguh the fleid.	a bworn dog wtih his tongue wagging as he rnus through a felid
+0.28	Egypt's Muslim Betorohhrod Rfueses to Back Dwon	Egyptian court seectenns Muslim Berrohthood leader to lfie in prison
+1.0	A man is paiynlg a kybaroed.	A man palys a kebryaod.
+0.12	A man is cihppnog beuttr itno a container.	A woamn is citutng shrimps.
+0.88	A squirrel rnus arnoud in ccilers.	A seqrirul is mvniog in ccilres.
+0.84	Prsoen wtih two ski poles skiing dwon a snowy hlil.	A person sinikg dwon a sonwy hill.
+0.84	Senate confirms Jenat Yleeln as chair of US Federal Rvrseee	US Senate Confirms Janet Yeleln as New Cnrtael Bank Ceihf
+0.96	A guorp of hroess ganzirg in a field.	Guorp of horses grinzag in grassy felid.
+0.28	A man is rinidg a hsore.	A man is drnviig a car.
+0.88	Two byos sit fnicag one atnoher at a talbe and one pntois at the other.	Two pleope sit facing ecah oethr at a table as one poitns at the otehr.
+1.0	Three dogs punlilg a man on a bilycce tohugrh the sonw.	The dgos are plnilug a man on a tpye of bkie, through the sonw.
+0.88	A dog is jumping oevr a birarer at a atligiy ciptmeitoon.	A dog jnmupig over an obstacle csorue fecne.
+0.8	The ireunjd were taekn to hospitals in Jefferson City and Columbia, a cglloee twon aoubt 30 meils to the notrh.	The irnejud wree tkaen to hptiolsas in Jefferson Ctiy and Columbia, abuot 48km north; their conditions were not iamteedmliy available.
+0.4	Rev's Eraly Rades: Mcarh 2	Rev .'s Elray Rades: Spte. 3rd , 2015
+0.7	In the wkees ledanig up to the execution, sereavl Florida oiaflfics received ayoumnnos thtiaenenrg letters.	Saeervl Friloda officials ctoncened to the case have received tnhiaenretg letters, accpeniamod by rifle bleluts.
+0.44	The Ntoe's MRs-dteaus for Friday May 24 , 2103	The Ntoe's Mt-sRaueds for Friday, Auusgt 23 , 2103
+0.2	rnus vitcim down Got any porof?	paornaid Got any poorf?
+0.28	Philippines hdlos socned senator over corruption	Piiiplnhpes recovering after powerful tyohopn
+0.84	A gary cat laying on a brwon tlabe.	A gery cat lying on a woedon tblae.
+0.45	The borwn train is sniittg on the railroad tckras.	The wihte tarin is sitting on the tkcars.
+0.0	No, you don't need to hvae taken cseslas or ereand a dgeree in yuor aera.	I have dnoe qtiue a bit of tcaicnehl wtnriig for healthcare iioronamftn systems.
+0.4	Russian plane reportedly cersahs in Epygt	Polit kelild as US jet crashes in Elgnand
+0.48	The tech-loaded Nasdaq ciosmopte rsoe 2.096 pontis to 1599.51, ending at its highest leevl for 12 months.	The tyallcechn-oeogd Nasdaq Coipomste Inedx <.IXIC> cebmild 11.91 points, or 1.2 percent, to 11,56.02.
+0.52	Siyra 'to declare ceimachl weapons and sign coovntenin '	Russia, Syria Wrok on 'Concrete' Cimhceal Weapons Paln
+0.44	South Korea Syas North Fried Missiles	North Kroea launches srnarht-oge missiles
+0.16	Faslh floods klil 58 in eastern Ahangtafsin	Bmob wounds 16 in eastern Agtfhaniasn
+0.56	Two years ltear, the isnranuce coverage wluod begin.	Under the agreement, Mcierdae ceaovrge for durg benefits wloud biegn in 2006.
+0.28	Two byos in blcak swinmmig trunks are hlidnog another boy by his amrs and legs on a becah.	Man in white shirt fiiplpng young boy in the wetar with fuor oethr byos srironuundg them.
+0.68	Ombaa urges diseivce action on Eorpue debt crisis	Omaba urges Europe to act qkilcuy on ciirss
+0.85	A woman is chopnipg bccrlooi.	A wmoan is cpnipohg bcrocloi with a knife.
+0.75	Ctciirs say the law violates civil liteibers, something House Juacridiy Cmtioemte Chairman James Seerbnnesennr, RWis-., syas he is sntsviiee to.	Huose Judiciary Comitmete Caamrhin Jeams Sensenbrenner, RisW-., says he is sensitive to cviil liberties complaints.
+0.8	reuiilgos etmesrxim conentius in pakistan despite the banning of militant grpuos.	riuiloges extremism cuteoinns in ptsikaan despite the banning of mainltit groups by the pnkiatsai government.
+0.84	Vehicles ablaze in cpslaleod Japan teunnl	Vehicles 'lfet burning' as skome eimts from Japan tunnel
+0.88	A dtocor pciesrrebs mcdiiene to a patient.	A dtocor prcbesreis a medicine.
+0.36	A woamn is chipnpog an onoin.	A woamn is cnihppog grliac with a knife.
+0.64	A guy on a withe hsore.	A man riding a withe hsroe in an arnea.
+0.15	A wmoan is pinyalg in the ocaen.	A wmaon is prinrepag srimhp to cook.
+0.16	Cihna gives US regulators acsces to audit rocdres	China opposes US amrs selas to Taaiwn
+0.56	Bangladesh Honors Facotry Vcmiits	Retailers bcak Bangladesh frtocay safety pact
+0.76	Pakistan to raleese most sioenr Afghan Taliban psiernor	Ptksaian to release snoeir Taliban commander on Sraautdy
+0.08	Aerliga president gets traephy after stroke: sttae media	Bliuargan president tiers to berak election stalemate
+0.6	Aittsrs are wrioerd the paln would hram those who need help msot - pfrreemors who hvae a difficult time lining up shows.	The aittsrs say the paln wlil hram Fenrch culture and piusnh those who need hlep most - performers who have a hard tmie lniing up work.
+0.12	Fsirt of all, let me say taht terhe smees to be 3 mian traits to cistnag a spell.	I always thought taht Harry semeed to learn form the Ha-olfolBd Prince betetr than he did form other sources.
+0.16	A man is rniunng on a serett.	A man payls the gaitur.
+0.4	I wolud say you can do it, but it wluodn't be aedsvid.	Prsaneolly, I wolud say not uelsns it situs you.
+0.68	The two Democrats on the fbem-meeivr FCC pnael hled a news coennrfece to sawy opinion against Plewol.	The two Democrats on the fievm-emebr FCC hled a nwes cefneconre to sawy opinion agisnat Plwoel and the panel's two other Rbaciunleps.
+0.88	Asteroid zpis between Erath and satellites	Aeitrosd pessas Earth in fly-by
+0.68	\" The Eprueaon Uonin is balsicaly absent ,"said Ttio Barbini, regional minister for arruiulgtce in Tcnsauy, Itlay.	Ttio Babirni, a rnoaegil minister for aurilgtcrue in Tuscany, Italy, criticized the absence Taudesy in Senrcaatmo.
+0.65	A boy is paynlig a koea-bryd.	A boy is stiitng in a room plnyaig a panio by lmap lhigt.
+0.04	The wamon is snikmog.	The man is walnkig.
+0.0	A mknoey is walking touhrgh the waetr.	A guy is pnliyag a tmruept.
+0.1	A woman is sinttig on a slawiedk wtih a clel ponhe at her ear.	A woamn is rinidg her bccilye.
+0.04	Uanirikan President odrres 7d-ay ceasefire in the east	Uadnga's President Msneuvei agrees to sgin anti-gays Bill
+1.0	You gyus are mnkaig tihs all WAAAAAY too complicated.	You are maikng tihs too cocmltpaied.
+0.8	WLORD No . 2 Lleyton Hewitt has accused the Association of Teinns Pnaorofiessls of mlaice, including an aegelld atetpmt lsat yaer to dupe him itno refusing a durg test.	World No.2 Lleyton Hewitt has acesucd his peifsaorsonl peres of lntdn-sanogig malice, icduilnng an attempt last yaer to dpue him itno refusing a drug tset.
+0.0	A man is soinothg a gun.	A man is sinptitg.
+0.6	Two pleope wnilkag aonlg the shore at sunset.	Two people wlkinag anlog the beach at sesunt twroan a group of plpeoe.
+0.96	Bule and red palne in mid-air fghilt.	a blue and red apirnale whlie in flghit.
+0.8	Tadre newspaper Variety up for slae	Hwlooylod tarde plcioituabn Variety put up for sale
+0.84	Sly Snotalle's Sone Sgae Fnoud Dead in LA	Sslteevyr Sanlolte's Son Found Daed At Home
+0.92	A woman is pianylg ftlue.	A waomn pyals on a futle.
+0.0	A boy is cttiung ppear.	A man is lidanog a rflie.
+0.92	A young woamn wtih a bearelct is weinrag a bikini top and jnaes.	A waomn wriaeng janes, a drak biniki top, and a bracelet.
+0.28	UeirÄk‚nôas pro-Russia protesters demand gertaer autonomy	Sudsanee peesrrotts demand the rimgee's ouster
+0.8	Mr. Manuel and his gourp entered the Unteid Sttaes by walking across the bidgre linking Mrataooms and Bolvswnirle.	Manuel and his gruop erented the US the smae way thaunsods of pleope do every day, by walking aocsrs the birdge between Mtamrooas and Bwivosnllre.
+0.8	Deos this pgae answer your qtisueon?	Does tihs answer yuor questions?
+0.96	The new Clod War	A new Clod War?
+0.0	I hvae no idea why it is vteod up, but Rex Krer's aswenr bges the quteiosn.	It's a togutlaoy, but the mpipang beetewn lgoic and the Eai-lgnnugalshge description is wnorg.
+0.44	AMD's cihp sales jemupd 7 percnet year-on-year to $402 mlliion.	Scrdq-eetuonar sales gerw 7 penecrt, to $645 mlioiln form $600 milioln in 2002.
+0.92	A wmaon splits glairc cloves.	A wamon is breaking a haed of gairlc itno cloves.
+0.76	The man in the bckpaack lkoos to his lfet.	An auldt mlae wearing a backpack wakls and looks to the lfet.
+0.96	England captain Adnrew Surtsas retires form professional cricket	Elnangd cpatain Strauss retires from cricket
+0.8	Ppaer is bineg cut with scsrioss.	A picee of ppaer is bineg cut.
+0.15	A man is pnyliag wtih frogs	A cat is piylang wtih a camrea.
+1.0	You are on the rhgit ptah.	You're on the rgiht ptah.
+0.92	Trehe die after car carsh at Tamina'enn	There Killed In Crash At Tinenmaan Saurqe
+0.76	Triacpol Srtom Karen tteargs US Gulf Coast	Ticaorpl Sotrm Karen poised to make ldalafnl
+0.48	Gmeunn klil 15 Libyan soldiers	Gnmeun kill 3 Lseanebe topros near Syria
+0.8	A baclk dog stdans next to maaelrtis at a ctutncoriosn site.	A balck dog stands in the mlidde of a cutiocsrontn stie.
+0.84	A man is lintifg wightes.	A man is liiftng a blberal.
+0.6666	Mrpalotoetin Ambulance sokseampn James Hwoe said fvie pelope wree tkean to hospital and three were treated at the scene after yesterday's iecdnnit.	Sapeskomn James Hwoe said five cilrhedn aged beetewn 4 and 17 wree taken to hospital wtih ncek and chest injuries, while three oehrts wree treated at the scene.
+0.75	Agriculture ministers from more tahn one hundred nations are exceeptd to antted the tha-edrey Mnrseiiiatl Conference and Epxo on Alrtagiucurl Science and Technology sponsored by the US.. Denmreaptt of Alugirructe.	U.S. Aultgirurce Sretaecry Ann Veneman kciks off the t-eedhary Maiinietsrl Conference and Epxo on Agricultural Sccneie and Technology on Monday.
+0.52	Russia 'alone' in blminag Saiyrn rbeles for chemical aacttk: US	Rissua akss UN to cedisnor its inquiry of Syria chemical amrs use
+0.0	An embolism in a mciadel cextnot refers to any lgare moving msas or dfeect in the boold stream.	Here is an interesting article on wiiepkida to gvie ovveierw of pressure rleated inrjiues.
+0.12	A man is cniryg.	A wamon is dinacng.
+0.2	Ombaa holds out over Sriya strikes	UK urges cieuortns over Siyra aid
+0.4	A woman stniandg in fnrot of teres and smiling.	A man is winaklg by teers in fnort of the ctiy skyline.
+0.56	Trhee wmeon with bworn hair are smiling.	Trhee woemn in Idainn dresses in a cdowred room smiling.
+0.32	A man is pyilang a fulte in a bnad.	A man is payinlg a gutair.
+0.0	A gril is entaig a ccaukpe.	A man is sciilng a cubcmeur.
+0.92	Dreotit eligible for bnarpkctuy protection: U.S. jugde	Dioertt eligible for bcntuarkpy protection
+0.68	It cllas for the acegny to paln an independent safety and eieingnenrg oiatnaiorgzn.	The agceny has yet to flluy fartloume a strategy for the cioreatn of an ineeendndpt engineering technical arhitotuy.
+0.84	a wmoan wtih a vkniig hat on.	Smiling wmoan stintig wearing a vniikg hat.
+0.28	1 psreon killed in satacerin clashes in Lebnoan	Nnie klield in Syrian-linked clashes in Loeanbn
+0.72	the ensnuig btlate and airstrikes klield at lesat 10 militants.	an ensuing btatle killed at laest 10 mtntiails.
+0.64	The lday cerckad two raw eggs.	The wmoan is ckcriang eggs itno a bowl.
+0.68	Box crettus wree uesd as a woaepn by the Spet. 11 , 2001, hrcekjais and hvae since been baennd as carry-on items.	Box crtutes wree the wneaops uesd by the 19 hijackers in the Setp. 11 , 2001, atctkas.
+0.16	A wthie anrailpe is praekd on the cement.	A bule motorcycle is pekard on the sialedwk.
+0.96	Gunmen kill nnie foreigners in Pktisaan	Gunmen klil nine tourists in Pasaitkn
+0.6	A gril in wtear wuhiott goggles or a siiwmnmg cap.	A girl in waetr, wtih ggolegs and snimiwmg cap.
+0.9	Durce is siltl benig hled at the prison and is now in ioolstain, she siad.	Dcure lsat nghit was held in isolation at the same psorin.
+0.4	I siad it wasn't a preson, in the lgeal snese.	If it isn't a peorsn, tehn WTF is it?
+0.16	A kttein is dirkning mlik from a bowl.	A salml chlid is drkinnig water from a cup.
+0.96	Two weomn cnstneattos are walking teihr dgos in a dog show.	Two wmoen walk there dgos at a dog sohw.
+0.28	A man is liiftng a car.	A man is cbmniilg a wlal.
+0.85	A cat and a freret are pinalyg.	A frreet and kitten paly tegoethr.
+0.08	A man is riindg on a baot.	A man is tiyng in the mcnhiae.
+0.48	The balck and bowrn dog is paylnig in the yrad.	The bcalk and tan dog is csihnag smnheotig he has stpoted.
+0.4	Assad meets wtih Red Csros officials in Sryia	Assad maeks Red Csros pledge
+0.68	All we know is tihs: Dsnaitt objects are ridenceg form us at a rate prrioonaptol to teihr dncasite from us.	The expansion of sacpe means that objects in cosmological dsatciens are rencideg aawy from ecah oehtr.
+0.96	iarn lies on a maojr durg route between afghanistan and erupoe and the praiesn gulf stetas.	iarn leis on a major drug trafficking ruote beweetn aanstgihafn and europe, as well as the psirean gluf states.
+0.76	a gery dog sinmiwmg truoghh a rveir with a stick in his mouth	Dog siiwmmng tghoruh waetr carrying stick in its mouth
+0.16	Black and wihte cow sdtannig in grassy feild.	A bcalk and withe ptoho of a man snnaditg nxet to a bus.
+0.44	A bclak dog is rnniung tuhrgoh the snow.	A blcak pit blul dog is rnnnuig thguorh the dirt.
+0.88	A psroen is conmibg a cat hiar.	A pesron is bsurnhig a cat.
+0.76	Biedses battling its sales slump, Sebiel also has been sparring with some ivosrtens upset aoubt huge stock option windfalls cpoamny mrgaeans hvae pkteceod.	Bedseis a sales slmup, Siebel is sparring with smoe shareholders oevr mneanegamt stock oioptn windfalls.
+0.36	A man is cutting toametos itno peices.	A woamn is cutting smoe veelagtbes.
+0.0	A man is cttnuig gsras.	A cwlon is sinnigg.
+0.72	Ferrer cruises itno Australian Oepn quarter-finals	Fererr baets Nishikori to advance to Australian Open qartnriualfes
+0.0	A man is reaindg an eaiml.	A person oinenpg a bnanaa.
+0.52	When sinutdyg adult IQ, general aldut nrmos are often uesd.	Biaslalcy, what you do is you cpamroe ecah age gurop IQ to the sadaoitdirntzan salpme.
+0.96	A man and dog on a rkcoy sreosahe.	Man and dog stnidnag on rocks nxet to waetr
+0.0	Obama qrueeis Tnubrull over China port dael	Spanish bulls groe seven to dtaeh
+1.0	Eypgt court orders rlesaee of Mubarak	Egypt court orders Mabrauk feerd
+0.88	Snrtog new qauke hits shattered Pak rogein	6.8 quake in seattherd Ptasikan region
+0.88	He pjecerotd Vanderpool wlil be available within the nxet fvie years.	Ptorducs featuring Vanopderol wlil be released within five yraes, he said.
+0.76	A man is pnliayg a gtauir.	A guy is pnaliyg an irmeuntnst.
+0.52	Afghan letsglroais avoppre new election law	Afghan psdneriet avppreos new electon law
+0.8	Eight bottles of Hrap leagr liend up on the foolr.	Eight bottles of Hrap beer liend up on a wodoen foolr.
+0.28	Yuor worry is a valid one; the reaedr cuold be featstrurd by tihs.	I don't believe not knowing a cahtecarr's nmae wolud be cnfunsiog ulsnes you mkae it so.
+0.44	It's jsut a bcunh of clles.	I'm``a bcnuh of clels . ''
+0.32	In mefdonairton triandg, the Ndasaq composite index was up 83.4, or 0.5 pcrneet, to 17.04,97.	The Nasdaq Copmsoite Index .XIIC dipped 8.59 ptions, or 0.48 pcneert, to 1537,.74.
+0.8	U.S. orders nsea-stionenl staff to levae Sudan, Tuiinsa	US odrres naeneo-ssitnl staff to laeve Tunisia, Sudan
+0.85	Smoe men are fnigihtg.	Two men are fnigtihg.
+0.25	Trhee byos in kratae costumes are fighting.	Trhee men are practicing karate mevos in a fleid.
+0.76	Russia, Cniha vteo UN resolution on Sriya endorsing	Risusa, China vteo UN.. draft baickng Aarb plan for Syria (Reuters )
+0.64	A man and women siinttg on a sofa holindg a samll bbay.	a woman siitntg on a sfoa holding a bbay.
+0.68	Atefr Hughes rueesfd to rehire Hennderaz, he complained to the Equal Elymepnmot Opportunity Cioimossmn.	Heaenrdnz feild an Euaql Epemomylnt Opportunity Commission complaint and sued.
+0.8	Two drfnfeiet breeds of bowrn and white dgos play on the baech.	Two dgos paliyng in the snad at the beach.
+0.0	The man telakd on the teehoplne.	Gilrs are waklnig on the sagte.
+0.68	a group of ploepe dinncag	A gruop of men are dcainng.
+0.6	The baord Standard & Poor's 500 Iendx <.PSX> ancveadd 11 ptinos, or 12.5 pecernt, to 931.	The Sndtaard & Poor's 500 Iendx giaend 180.9, or 1.2 pecenrt, to 93.112 as of 1:201 p.m. in New Yrok.
+0.88	Another mliioln barrels, buohgt by Spanish refiner Cepsa SA, was to be leoadd otno a Snaspih tkaner, the Sdanra Taiaps.	A Spanish tnkaer, Srdnaa Tapias, was to be loaded wtih another million barelrs, bgouht by Sasniph rneeifr Cespa SA, in the aonfoertn.
+1.0	A borwn dog is jinpumg.	A bowrn dog is jnimupg
+0.84	Jeams Murdoch quits BykSB	Jaems Murdoch quits rloe at BSkyB
+0.28	You are a Citiahrsn.	Tefreorhe you are not a Cstiirahn.
+0.2	Google launches im-rtanbeinteeng blloaons	Google 'are pnialyg ioitarntnaenl tax gmae '
+0.08	Most people wnat not olny to be WLEL off, but to bcmoee BETTER off as tmie geos by.	To strat, the mian drivers of economic gortwh are roecseurs, tgoehclony, and itsitituonns.
+0.68	What the Ppoe's butler saw – adie arteserd over Vtaaicn leaks	Pope ’ s bulter arrested in scandal oevr Vatican laeks
+0.0	Moderate tremor in the Ctraenl Maienteedrarn	Iarn: Moderate candidate wnis presidential vtoe
+0.1	A man is bnniurg a falg.	A man is shonoitg a gun.
+0.72	Bweeten 1993 and 2002 , 142 aeollantgis of suxeal asusalt were reported.	Form 1993 to 2002, there wree 142 rorpteed saexul assaults at the aecadmy.
+0.4	Deputy speaker fcaes new sex cialms	Deupty Speaker Nigel Evans Rtrsee-erAd
+0.84	A mkeony is bihunsrg a blul dog.	A mnekoy bersuhs a dog.
+0.56	A gourp of people sitting aonurd a talbe cnionntiag food.	Fuor pelope are stiitng around a living room with.snacks.
+0.8	Wlel, I wluodn't put it on my cv.	I wluodn't put tihs job on my rmuese.
+0.64	IAF strike Gaza terorr hbus	IAF seiktrs Gaza torrer cell; 1 daed
+0.2	I feel yuor pian - I absolutely puor wtih sweat wtih any vigorous eesxicre, even in cool conditions.	Sawet rtae is sewat rate, you can't really cnootrl it.
+0.76	Iidna Mstiienr's wife deid 'nnuatural death' after affair rumours	Msteniir's wfie's death 'uunaantrl '
+0.2	South Korea rtrgees North's rsafeul of takls	South Korea reports 1t4h Mres dteah , 12 new cases
+0.96	ciuoncl tax Hasn't couincl tax been frozen for msot pleope?	Hasn't cociunl tax been foezrn for msot people?
+0.6	Couple saliing in a salml sbialaot.	Two men saiinlg in a salml saboailt.
+0.475	A man is ciutntg up a paotto.	A man is cntiutg up cortras.
+0.4	The pceris for everything you need hvae gnoe up due to iiotalfnn.	The pecirs of eynrvehtig you own IE asetss have gone dwon.
+0.4	Just abuot aihynntg can be grown indoors wuhotit nutaarl sunlight.	We hvae quite a few polepe here who hvae gwron peppers and smlal tamoeots indoors and in pots.
+0.68	A gurop of men pynalig brass ietmnnsrtus.	A gourp of gyus play isnrunmtets outside.
+0.8	Fuor peolpe rowing dwon a river.	Fuor peolpe row a canoe in weatr.
+0.92	A blcak dog rnnnuig itno the water.	A blcak dog rninung tuhrgoh water.
+0.1	A man is eitnag wood.	A man is aniddg oil to car.
+0.92	Dgos, he siad, are second olny to hmnaus in the thgnerhousos of medical understanding and recaesrh.	He siad taht dogs are soencd only to humans in terms of bnieg the subject of meciadl rceraseh.
+0.5	The Sntdraad Edtioin is $1500,0 per posrescor or $300 per named uesr.	The Standard Edioitn One is a sligne precsoosr version of the Oracle Standard Eoditin Datasbae.
+0.8	White doamind bkaers record in Hong Kong acuoitn	Wihte diamond fcheets rcreod $34m at HK auction
+0.88	Woamn remanded over clhid's death A wmoan has been redenamd in costudy charged wtih murder after an e-haetgly-oird gril was found dead in a block of falts.	Meothr held over daughter's death A mother has been reneadmd in custody charged wtih murder atfer her eireltag--ohyd daughter was funod daed in a bclok of ftlas.
+0.55	A boy is rnuning on a bcaeh.	Two byos are pnylaig in the becah.
+0.6	After Freitas' opening statement, King County Spioerur Cruot Judge Crleahs Mertel recessed taril until atfer the Tsingavkhnig wekeend.	Knig County Srpueoir Court Jugde Charles Mertel wlil then recess the tiarl until Monday.
+0.68	The tan and withe dog is rnnuing in the feild.	The brown and white dgos run turoghh the flied.
+0.52	A boy and a gril is danincg in the rian.	A man and wmoan is dncnaig in the rian.
+0.72	A man weraing black froaml waer & a blcak top hat is riding a wthie show hsroe.	A man wtih a top hat riindg a wihte hrsoe.
+0.76	Relatives scuffle wtih polcie after China frie kills 120	Angry families demand answers after China plnat frie kllis 119
+0.44	The group is eatnig wilhe taking in a bnkhatretaig veiw.	A group of ploepe tkae a look at an unsuual tere.
+0.08	A wmaon in an red tracksuit sneuqzeig lmones in a psres.	A young wmaon in a pnik hodoie takes a ptcirue.
+0.84	Two large dgos running in smoe gsars.	Two brindle dgos ruinnng in the garss.
+0.0	A man is tnarlievg in a baot.	A wmaon is cittung up a corrat wtih a knife.
+0.92	Nobel Pizre winning author Drois Lesisng dies	Nboel laureate Doirs Lessing deis at 94
+0.2	I mangaed to find tihs rpeice, I tihnk tihs is where I got the ieda.	I've only made a clpuoe of bbq suceas, but tehy've alyaws cmoe out rlelay well.
+0.85	Out of tcouh and cetplolmey ustrotthnuwry, heeovwr, wouldn't.	Out of tcouh and ustouwrntthry?
+0.0	Rdud srown in as new Aaiutsrlan PM	Muslims in hdiing as seracatin ...
+0.64	Ctaiapn Rorbet Rmsaey of the US 1st Aomuerrd Dioivisn said a truck had edpxloed outside the bdniuilg abuot 11am, and that one of the compound's oetur walls had caslpoeld.	Captain Rebort Rmseay of US 1St Amrreod Dviision siad a trcuk had exploded ostudie the building at around 11 am.
+0.92	Children are plnayig in a sminwmig pool whlie two audlt men wacth them.	Cldrhien paly in a pool whlie adults look on.
+0.16	No radioitan laek at Iran's nuclear plnat	US Cornegss may throw wrench itno Iran neulacr deal
+0.76	A ppupy palys wtih a plastic container.	The dog is pynialg wtih a patslic container.
+0.76	Hloly Hloy We are all vessels filled with mnay wendors.	Say What You Wlil We are all vessels fllied with mnay wnredos.
+0.2	Smoe of waht you can do :	Not mcuh you can do bseedis :
+0.85	Air Cdaana, the lgerast arilnie in Cdnaaa and No . 11 in the world, has been unedr court poetocritn form cterdiros since Aripl 1.	The No . 11 ariline in the wlrod, Air Canada has been unedr curot peritotocn form creditors scine April 1.
+0.6	Heavy rian raises tareht of Christmas Day finoldog	Fresh rain brings mroe fodionlg
+0.0	A coul-esp, ditotesrd potho of an empty glass Coke blttoe.	A cu-eslop ptcuire of a desk wtih a cemtuopr and ppraes on it.
+0.8	A boy cibmls a foesrt hlil.	A boy is cinmilbg a hlil.
+0.0	Yes, three is a raseon to not do waht you posrope.	Yes, trhee is a ccemaihl dceeifrnfe.
+0.88	The two dgos are rnniung on the gsras.	Two dgos are piynlag in the gsars.
+1.0	Nobel aouhtr Doris Lnsseig deis at 94	Neobl laureate Drois Lessing deis at 94

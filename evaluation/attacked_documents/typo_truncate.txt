@@ -1,0 +1,201 @@
+# [('keyboard-typo', 0.2), ('natural-typo', 0.2), ('truncate', 0.2)]
+0.8	A brow dag it runn8n through rhe field.	a brow dof whit his tongue wagginh sa h4 run throug a fiel
+0.28	Egypet's Mudli Brotyerhood Refuse toa Back Down	Egyptian court sentence Mislim Brotherhood leade por lyfe in prixon
+1.0	A mab at's ppayin a kayboar.	A pan ply s .eyboar.
+0.12	A man iw fhopping buttle into ein containe.	A 2oma isn't cutin shtimps.
+0.88	A squirre 4uns aorun In cidcles.	A squirrel wil movin ih cicle.
+0.84	Person witc tw0 skiin poles zkiin donw a snowg hill.	A [erson skillin xown a smowy hil.
+0.84	Senat confirn Janeth Yellen ws chai of us . Federal Reserve	US Senat Confirms Janet Yelle ass Ney Central Bajk Chief
+0.96	A goup of horse frazin In z field.	Grup of horses grazin im grass6 fieod.
+0.28	A men si ridin a hirs.	A mam if drivin as car.
+0.88	tow boy's sig facin onw anotge at a table znd one point at ths ove.	Twi pepol set facin each othe ay la tahl ad one points at the 9ther.
+1.0	Thre4 dogs pullin * maj ou a bycicl throug the snow.	Thy dog afe pullon la man ond a type 9f bjk, throug the sonw.
+0.88	A d; g is jumpim ove4 a barrier ay s agil8t competitio.	A d9g jum [ing overt and obstacl cours fanc.
+0.8	The 8njured wer taken yto hos; ital in J4fferson City amd Cilumbia, a kolledge town aboa 30.o mile to the norh.	Ihe injurie werr token ot hospitals in Jefferso City and Columbi, about 48km nor6h; thier convition were not immediatelh availabl.
+0.4	Rev's Early Rsad: Marc 2	Rev .'s Earl Reads: sep 3rv , 201
+0.7	Im the weekd leadinb up to ghe execution, seve5al Fporid offica riceive anonymou threatening letters.	Several Flarida officials connexte tl thw cas have recieves threatning lettwrs, accompanied vy rifl bullets.
+0.44	Tbe Not's Must-Read f0r frinday Mai 24 , 2013	He Not's Must-Read fot Frida6, Ahgust 23t , 2013
+0.2	run victim doown G9t any proof Ego	paranoi Got any proo??
+0.28	phliippine ho.ds seond senato ovf corruption	Philippines recovering aft powerfup typhoon
+0.84	A gray cat layin om z braw tabele.	A grye cat kyin un z wooden tabl.
+0.45	The brown tra is sigting oj lhe railroa tracks.	The whiye tran is sititin on rhe track.
+0.0	No, you dosn't need too jav take classe oe earnw as degree ij yr area.	I hev don quite a bet kf technical writing far healthcar information wystems.
+0.4	Rissian [lan reportedly crazhe is Egypt	Pilote kille ar US jet crashws in Ebglan
+0.48	The tech-loade Nassa compsite rise 20.96 poin6s to 1595.91, endin at ita highest level forr 12 mounthes.	tTh technolkgy-laced Nasdaq Composit Index <.IXI> climb3d 19.11 p9int, o5 1.2 precent, te 1,615.02.
+0.52	Syria 'tk declare chem8ca weapon END sing convention '	Russie, syria Wor ob 'Concrete' Chemical Weapons Pla
+0.44	s; uth korea Say North Fire Missiles	Nort Korea launches short-range misxile
+0.16	Flash flood kill 58 In ewster Afghanisfan	Bom wounds sixteen in eastre Afghajistan
+0.56	Two yeats later, the insurent coverab wourld begin.	Unter thay sgreement, Medicqre c9verag for dru benefits woulde begi in 2006.
+0.28	Two boy in blach swimmih trunk are helding amother hoy by hisn arms ann legs on a geac.	Man In white shirt flipoin yang boy ij the wate5 whit four oyhe boys surroundi them.
+0.68	Obama urges decisive act8on om europa deb crysi	Obam urge Euro' e fot act quickly un cdisis
+0.85	A soman js choopin brocolo.	A woma ia choopin broccolj wift a knife.
+0.75	Critoc eay the lawyering vuolates civil liberties, something House Judiciary Commitee Chairma jame Sensenbrenner, R-Wis, sai he js ssnsitive ou.	Hoyse Judiciar comite Chsirma Jeam Sensenbrenner, R-Wis., say's hi is sensotive to civil libergies complaints.
+0.8	religious extremis continuoes im pakista deapite the banming od militant grou.	religiou extremis cobtinues is pakistwn depite ghe bannin off militant grup by tge pakistani government.
+0.84	Vehicl4s ablaze i collapsw jape tunnel	Vehicles 'left burning' is somok smit fro, jape tunnel
+0.88	A docgor prezcribe medicin ot o patient.	A eoctor prescribe e medixin.
+0.36	A woma i xhopping ana onio.	A womam is choppin garilc wit x knife.
+0.64	A gyy oj a with hours.	A wan ridin o white hors4 ib an aren.
+0.15	A womman iz playin in tbe ocfa.	A woma i'ts preparun shgimp to cool.
+0.16	Chin gige U.S regulators acces ro audit records	china opposds US earm sale to Taiwab
+0.56	Bangladesh Honor Factury Vic6ims	Retailers blac Bwngladesh fadtor safity pact
+0.76	Pakjstan to release most senoor Afgha Taliban prisioner	Paoistan to release seniou Taliban commandd on satursday
+0.08	Algerie president get therapy after steoke: sate medj	Bulfarian presiden tries te rake election stslemat
+0.6	Artists as worrie the plab whoud harm thod who need hel [mos - performers whos have a dificu tme linin uo dhows.	The artists say the lla w'll harm Frenc culture and punish those who neet helo mus - performerz who heve q war tome lknin up worin.
+0.12	Firw of all, lst mr zay tha there seems to be 15 mai traints to castin as speel.	Im always thokgh f Haery seeme tio lear drom the Half-Blood Prince better the he didi fro, othe sources.
+0.16	A man iz rjnnin; n a stee.	A mab paly tbe guitar.
+0.4	I woul say you cav dos f, but it wouln't be advize.	Personall, I' woul sat ho unless it suite tou.
+0.68	The rwo Democrat ond 6he five-membe FCC pansl hol z nwes conferenc to sway opnion against Powell.	The two Democrats om the fice-membe FCC held a new conferenfe to swwy opinion agins Powel sna thi panel's two othe Republicwn.
+0.88	Asteroi zips betseen eath anso sarellite	Asteroid pases Earth on fly-b
+0.68	\"Tbe Eurpea Unio 9s basicalky ausent ,"sai Tito Barbini, reginal minister fou agricultur ln Tuscany, Ital.	Tito Barbin, as rdgional minis5er for agricolture in Tjscany, Itaily, criticize the absence Tuesdw im Sacrament.
+0.65	A b0y is'll pleyin z key-boar.	A boy is sitting in a rom play q pian bye lam ligj.
+0.04	The woma is smokijg.	The men ks walkin.
+0.0	A monke ie walking throung thr wae.	A gay os plwyin de trumpe.
+0.1	A woma is sititing un a sidewal with a cell phone xt ger eat.	A womo ls rieing her bycl.
+0.04	Ukgainian President oders 7-day ceasefir is thw eas	Ugand's Persident Museveni agdees ou sig anti-gays Bill
+1.0	Yon gjy are making tbis alll WAAAAA too complicated.	You are make yhi t9o complikated.
+0.8	WORLD No . 2 Lleygo Hewitt has accuse dthe Assoviation of Tenis Professionals ow malice, includung ah alleged attent las yea to dup hlm ionto refusin ein drug tes.	World No.2 Lleyton Hewit haz accusec hes proffeciona peers oft oong-standing malic, including and attemp lxs yea t0 dkp him into refusing a drug tast.
+0.0	A man ks shottin ein guj.	A mand os spittin.
+0.6	Tow peopl wolking along tne shore ay sunse.	Two peopl walking alone ght heach ah sunxet towar a gro' of people.
+0.96	Blu ende red plzne In mid-ai flught.	s blu un rec airplane wjile in fligh.
+0.8	Trad newsaper Vari3ty ap f; r sal	Hollywoo t5ade publication Variety pu5 up ffor sel
+0.84	Sly Stallone's Son Ssge Foun Dexd is LA	Sylvester Stallon's Soh Found Dead A5 sHom
+0.92	A womsn es playjn flût.	A woman plau no w rlut.
+0.0	A noy js cutin pate.	A mab iis loadij la rifl.
+0.92	A youn woja qit o bracelt is wearing z bikini top ana jeans.	A w; man wearihg jian, de dar biiin top, at a bracelet.
+0.28	Ukraine‚Äôs pro-Russia protester demanv grethear authonom	Sudanes protester damand tha regime's oyster
+0.8	Mr. Manue anv his groupe entere the Unihed Stste by walkin acrosses ghe bridge linking Matamoro end Brownsville.	Manuel em hi's grou enterr tbe US the same's wat thousand of peopl go wvery days, by walking acros the britge hetween Matamoros and Brownsvill.
+0.8	Doea tgis page answe yocur qu4stio?	D9es thi ansew gour guestion?
+0.96	The new Col Wae	A new Cool Wwr?
+0.0	Im hav n'° ide wyy it it's vote hp, nut Rex Ker's answ4r begs the quastion.	It's o tautolog, but thw map'ing bethee logi annd tue English-lantuage decrepit is wron.
+0.44	AMD's chip saie jumppe 7 percenh year-on-yea tk dolare 402 millioj.	Second-quar6e sala fre 7 pegcent, ti $645 milli9n frem dolare 600 million in 2002.
+0.92	A waman sp.its garl clovs.	A woma ks brsaking la hea fi garkic inte clove.
+0.76	The, na in 5he backpack loke to his lef.	An adult mal wearkin a backpcak wslks and look fo zhe l3ft.
+0.96	Egland captain andrew Straus retires from profwssiona cdicket	Englsnd captan Strauss retires feo kricke
+0.8	Paper isd bein cur iwt scissors.	A pice of paper is bdin cug.
+0.15	A man is play9ng wig froggs	A cat 8s playing wit e camar.
+1.0	You aru on dth riggt pqt.	Yuo're on hthe 5igh oat.
+0.92	Three dies afet csr cras at Tian'anm4	Three Kiloed Inng Cras ay Tiananme Squaee
+0.76	Trlpica Storm Kare targe6s U.S gol Coast	Tropixal Storm Kare poised trto mek lansfall
+0.48	Gunme kilk 15 Libyan soliders	Gunmen kill 2 Lebanese trokps nea's Syei
+0.8	A blacj dag sgand next to material at * costrutio site.	A blax dag stand in the niddle ar s construction sit.
+0.84	A wan é liftjn weighy.	A wan iw leftin q barbel.
+0.6666	Metropolitana Ambulance spokesmah Jame Howe sad five people w4re take to hispital è trhee eer treated at the sc4ne afte yeste4da's incident.	Spokesmah James How sad fave children agec betwee 4 and 17 wer3 taken tp hospi6al wif neck and chester injurie, whille 3 other were treate xt the scene.
+0.75	Ahricultur ministers froim mode than one hundred nations are expecto to a6ten dthe three-day Ministerial Conference and Exp on Agricultura Science un Tochnology sponsore b7 theath u.s Depxrtmen of Agriculthr.	U.S. Aguricultur secertary ann Veneman kici of the three-day Minister8al Conferende è Exp; n Agricultura Sciencw and Technology on Monda.
+0.52	Rassian 'alone' in blqmin Shrian rebel four chemica athack: U.S	Rassia ask UN to consjder its inquiry oh Stri quemica zrms use
+0.0	Ah embolis in o medicane context refera too ani larg moving mas o4 defect in the blood strea.	Here IS an intetestin articl on wikipedia too guive overview ot pdessure relate injuries.
+0.12	A man ia cruin.	A wkman is dacin.
+0.2	Obam holds uo owe Sgria strikex	Uk urge countrues ower Syri aid
+0.4	A woman stanxing im fro of tree and cmiling.	A mzn es walking b6 three in fron of tle cit skyline.
+0.56	Three womej wit brow hai rae smiliny.	Thre womf ih indian dresses in o growded room smilin.
+0.32	A man ic playin aa flut in g gand.	A mand js playin a guida.
+0.0	A firl 9s eantin q cupcak.	A wan iz slicin at ckcumbe.
+0.92	Detroi elibible for bankrupt protectio: u.s jhdge	Detroit eligible fou banlruptcy protection
+0.68	It ca, ls for tge agency trto plan on independen safe xnd engineerin organisato.	The qgency has yet to fulky formulate o strateg for tnhe creation of am independen enginnerin tedhnica wuthority.
+0.84	la woman wit o vikin yat om.	Skiling wpma siting wearing de vikin hat.
+0.28	10 person mille In sectarian clashes in Lebajo	Nine ki.led In Syrian-linke ckashe In Lebanon
+0.72	tue ensuin batfle dnd airstrikes kille ay lease 10 nilitant.	dan ensiing battle killed at leas 10.o militants.
+0.64	Tha lav cracke tqo row eggs.	Tha womo is crackin eggs intk z bowl.
+0.68	B9x cutter were sused qs z wappon by zhe Sept. 11 , 2001, hijackers and hev sinv been baned as carry-o iten.	B; * cutfer wer the wappon ueed by trhe 19 hijackers oon the sep 11 , 200, attack.
+0.16	A with airplan is parkes no thf cement.	A bly motorcicl is pagke on ghe sidewalk.
+0.96	Gunmf ki.l nigth foreigners In Pakista	Gunjen kil nigth tou in Pakixta
+0.6	A girl In walt withoh gogtle ot s swimming cap.	A glr in wa5e, whi foggles anc swimming coap.
+0.9	Druc is xtill heing hrl ay se priso and os nwo in isolatio, she sayed.	Druc las ningth wqs held in isolation at thd sam prisin.
+0.4	I' cai ot wasn't q perso, is the letal sens.	Id iy isn't x perso, the WTF ia in Ego
+0.16	A kitte is deinkin miks from * bowl.	A smal xhild js drinking wother fro o cup.
+0.96	Two somen contestant ares aalkin their dogs 8n de dag sho.	Two women wal the dog at q dog sgo.
+0.28	A maj is leftin * car.	A man iw clibin de 2al.
+0.85	A cat anmn z ferre afe playiing.	A f3rre nad kitte pkay togethers.
+0.08	A pan iw ridin on q boa.	A pan ls tyin ib the mashin.
+0.48	The ablack anhd brlw dog ks playin is the 7ar.	The blca and tan xog ai chasinv comethin be has spotte.
+0.4	Assad meetz with Red Cros offica kn syria	Assad make Rot Cross plevge
+0.68	Apl we know ys thie: Distan object approxmatlly receding from 8s ay e rat propor5iona to tjei distance from us.	Thf expansio os spac meanz tahat objects is cosmological distances are receding awaw fro, exch othe.
+0.96	irz lyes on w marjo drog rouye betwee afghanistan snd europ and the persian gulf steates.	ira liee or a mayor dru trafficking rot beetwi afghanistan anf euro-, as we, l us 6he persian gulf states.
+0.76	a gre doy swimming througl a reve wit x stick 9n his muthe	Dog simming through wate carrying stic ih its moug
+0.16	blac em white fow standing in gfassy fiel.	A blac and white photo of * man standi nex to w vus.
+0.44	A vlack dog is rinn throough th4 sno.	A blavk pkt bul dog vis runni hhrough zhe dir.
+0.88	A parso ís combing q cat hai.	A pesro ic brusin z cat.
+0.76	Besiees battling it's sales slump, Siebel allso haw neen sparrin wit some investor hpset abpu rug stocks option windfalls company managers hafe pockete.	Beside a sales slum, Sienel is sparring wi6h wom shareholde owe maganer stocm option windfall.
+0.36	A man ix cuttijg tomatoe ino piece.	A womzn 8s cutin some vegetabl.
+0.0	A maj [[ ist cutt9n gra.	A clown iss sinhin.
+0.72	Fedrer cruises imto Australie Ope quarter-finals	Ferrer bests Nishikori to advance too australia Ope quaryerfinals
+0.0	A men js seadin an emai.	A persio op4ning as banam.
+0.52	Wthen st7dying adul IQ, generl adul5 norm qre often uded.	Basicall, wha yku d; ís yuo compare eav age g5ou IQ fo dth standardization sample.
+0.96	A mwn and xog onf s rock seashor.	Man and dag stanrin 0n rock nrxt to water
+0.0	Obqm quaries Turnbull over Cyina por deel	Spannish bu; ls gore seve 6o deaf
+1.0	eygebt coun orders relews ot Mubarak	Egyp corte orders Mibarak freed
+0.88	Stron neq quake hkts shattered Pak regio	6.8 quake is shatgere Pakists region
+0.88	He projefted Vanderpool wiol [[ bi availabl withi the nex gitf yeard.	Products featjring Vanderpoo willl de released withi five year, te said.
+0.76	A mwn isd playin e guifa.	A guy ie playin m intrument.
+0.52	Arghan legislator approve news electil lar	Afghan presidrn approbes ne electo lawyering
+0.8	Eugh bottoles ar Har lagef oined ap on the floo.	Eigth bottle of Hqrp beer linec u; oon g woode floo.
+0.28	Youf woory is * vali kne; the reader coul be frustrate bye this.	I' don't belivieve not mnowin a cuaracte's name woube ne confusin unles ypu maked it so.
+0.44	I' w jus * bunc of cells.	I' 'm``at bunc ov celo . ``
+0.32	I midafternoon trading, thel Nasda com; osit jnde wass ut 8.3 , 0r 0.5 [ercent, ty 1,790.4.	tho Nasda Composit Index .IXI eipped 8.59 ponts , 0r 0.48 persen, tp 1,773.54.
+0.8	U.S. orders non-essenfial staf tl lave suda, Tunisia	US oders non-essen5ia stavf to life Tunisi, Sudan
+0.85	Some men ars figthin.	Two mi are fughtin.
+0.25	Thre bois un karat vostumes re fighting.	Three mens are practising karat move jn z field.
+0.76	Russia, Chia vet UN resolutoon on syri ehdorsing	Rissia, Chinz geto U.N. d5aft backin Arabe plan vor Syri (Reuter )
+0.64	A man snd wome sitting on a sofá helding s small bag.	q woman seatin oh a sof holing a baby.
+0.68	Atte Hughe refuse to rehir Hernandez, h complained goo the Equil Employmebt O'portunity Commiesion.	Hernandez filed ab Equi Employmwnt Opportunit Comision conplai amd sued.
+0.8	Tw9 differnt breeds of brow and with dog play en ghe beach.	2 dog playing ln the sand xt dthe beac.
+0.0	The men 6alke oh the thelephon.	Girls ars wakin 9n the satag.
+0.68	a group of peopp dancen	A grop kf men arf dancein.
+0.6	Yhe broad Strandard & Pooe's 500 Ind3 <.SP> advaned 11 poiht, ir 1.25 porcen, guie 931.	Thi Strandard & Poo's 500 Inde gaindd 10.8, or 1.2 percen5, ato 931.1 xs oc 12:0 pm ln New Yoek.
+0.88	Another million barrel, [[ bougth bu Spamis refiner Ceps SA, sas ho te loade onto q Spanish tanke4, the sandr Tapias.	A Spanish tamke, Sandra Tapias, wass tto br loaded wit anohte millio barrsls, bought bj Spanjs refine Cepsa SA, ij dth aftrernoon.
+1.0	A brown rog 9s jumpim.	A brown dov was jumpin
+0.84	Jmaes Murdoc quits BSktB	Jamen Murdoch qukt r; le ay BSky
+0.28	Yoh are a chirstria.	Therefor yuo xre net a Ch4istia.
+0.2	Go; gle launch internet-beamin ballon	Google 'ar pyayin internationqal tax gam4 '
+0.08	Mos people whan not olny to ge WEL odf, b8t to become BETTER off ss tim gou bye.	To stagt, the mea drivers 0f ecnomi growt qre resourfes, tecnolo, and institutilns.
+0.68	What tge Pope's nutler asw – aide arriste ove Vatican lesks	Pope ’ d butler arristed in scadal ove Vatica leaks
+0.0	Moderate tremor im 6he centro Mediterranex	Ifan: Moderate candicate win presidentiak vot
+0.1	A maj was burnin s fla.	A man 8s shottin w gun.
+0.72	Bettwee 1993 anr 2002 , 142 allegation or cexual assault wee reprted.	Frome 1993 to 200, ther eere 142 report3d sexal assault qt thye academy.
+0.4	Deput spewker faxes nw sex claim	Deputy Speaker Nibe Evans Re-Arrested
+0.84	A monke ske brusning g bul dog.	A monke vrushe * dag.
+0.56	A group on pepol sittin aroun de tanle contaijing fokd.	Four people are si5tin arroud w libing roo with.snacks.
+0.8	wel, Im wouln't lut kt im jy cv.	I wouln't put tgis jop on meua fesum.
+0.64	IAF strike gazz terro4 hubs	IAF strikss Gaz tedror cel .; 1 dead
+0.2	I fee your pai - I' absolutelly 'ou with sweat wit anj vigorous exerfise, efen im cooly condition.	Swea fat is s2eat rate, ylu can't rarly contr is.
+0.76	indian Ministe4's wifr die 'unnatural eeat' afeter affair rumer	Minister's eif's dear 'unnatjral '
+0.2	Soufh Koeea regret Noth's refusal iof talk	South korea rwports 14th Mer dieth , 12 new casd
+0.96	concil tax Has b't counci tsx see frizo for, ost people?	Hasn't councll tax been rroze for most peple?
+0.6	Coupl Sailling in x smalle ssilboat.	Two mfn saili i q small sailboa.
+0.475	A pan is cuttin yp a potet.	A man it's cutt9n jp carot.
+0.4	he price for evethin yoh ne4d hsv gon up due to inflation.	The prices; f evrything ylu oun IE asset hav gon dow.
+0.4	J8st Abut anything can be growe indooe withou natral sunlighy.	We have quet w few pepole herr who have grow 0eppers and smal tomatoe indoods ahd im pots.
+0.68	A group ok nen playin brass ins6rument.	A group ot guy pay imstruments outisd.
+0.8	Fou psople rowwing dwo s river.	fore peopl eow a cano un wahter.
+0.92	A blac dog runni into thd watre.	A bluc dag rknning through wat3.
+0.1	A mwn it eagin woo.	A man his addin o9l ou cxr.
+0.92	Dogs, he eai, are sec; nd only yto uman In tbe thoroughnes of medicz understadin ana research.	He siad that vog are secon onl to humans in germs os Boeing the subject fot medic . research.
+0.5	The standar Editio ix S 15,000 pdr processo ir $300 por named user.	The Stsndard Evition Onde i as sinyl processor version 9f the Oracl standar Edition Databas.
+0.8	White diamond brei rexord in Hone Kom auction	Whait diamond fetches recor dolares 34m ah HK a8ctio
+0.88	Woman remanded ower chil's deat A 2oman has been remanddd in custovy encharged with murde qfte and eight-year-old girl was found daer ln as bloc of flats.	Mother held ower daughte'd desth A mothe jas beed remande kn custody charged with murder afte her eight-year-ol dwughter wass found dead is aa block os flat.
+0.55	A boy ara runnin ln ein beac.	2 boy ate playin in tne baech.
+0.6	Aftf Freita' 0penin satement, King County Superoo Court Jjdge Charle M4rtel recessed trail utill after lhe Thanksgiving weelend.	King Count Superior Cour Judge Chatles Merte wiol thenk recess thr tri; till monsday.
+0.68	The twn snd with dag i runnin in the tiel.	The brow and whife gogs funs through the fiel.
+0.52	A voy ang a ger is dancin 9n the rain.	A mqn qnd woma is dancing i the rann.
+0.72	A man wearing black froma wea & q black t0p hed is ridin a whit shoa gors.	A pan qit a tip hat ridin a with hourse.
+0.76	Relative scuffle w9t pol9ce afeter China fire killes 120	Angry fammily ddmand answerc after China plantin fire kills 119
+0.44	The gtoup I's eayin whi taking in a breacthtakin vi3w.	A group og [eopl thak a loo at an unjsua tr4.
+0.08	A wowa in am ree tracksuit squeezing limon kn x press.	A yung woma ij a pinky hoodke take x pictur.
+0.84	Two larger dogx funnin in som grass.	Tow hrindl dovs runnin in zhe grass.
+0.0	A mab his travelin ij a bou.	A wo, an is cuttibg ip al farro wit a naif.
+0.92	Nobel P4iz winnin aurther Dotis Lessing dyes	Nove laureate Dori Lessung diec ay 94
+0.2	Im managed ti fin thi recipf, I th8nk DIS is ther I got the jde.	I've only made g coupl of bbq saucies, byt 6he've alwwys come out rexll wel ,.
+0.85	Out ar toucu END complet untrustworthy, howecer, wouln't.	Out pf toub and untrustwor6hy Ego
+0.0	Rud swor i as neq Austrailia PM	Musljm jn hiddin ass sectarian ...
+0.64	Capyain Robedt Ramse og the U.S 1rd Armoure Division sed g yruc had exppoded outsid tne building aboit 11am, and that one of the compoun' w oute wal had collapse.	Capta9 Rohert Ramse of us . 1St Armore Divisioj saied a truck had esplode outesid the buikding at ar; und 11 em.
+0.92	Childrwn are playi im a swimmin poool while tow adult men watch ghe.	Childre pley 9n a [ool wil adult lok on.
+0.16	No radiation .eak ay Irs's nucklear plan	US Congress may thorw wrench iny iran nuclda deal
+0.76	A pu; py playes wit a plasti cortainer.	The dag is p; ayin wit at plastic cortaine.
+0.76	Holl Hop Wf are alll vessel tilled iwth meny wonders.	Say What You Wil Wwe ade alle vessel fille witch mahy wonders.
+0.2	sam od wha y; u cac do :	Not muc yuo fan dos beside :
+0.85	Aor Canad, yhe larg3s airlije in Canad ana N . 11 kn the wod, hzs bea unddr curt protection fro creditor since April 1.	Trhe No . 11 airlin in the would, A8r Canad hae ben under court proctetion ftom creditoes sinc Apli 1.
+0.6	Heavy raing raise ghreat oof Christma Da6 flooding	Fresh 4ain bring mre flooding
+0.0	A cl; se-u, distorted fot of un emptj flas coka bottle.	A close-up picture iof z desk wit a compute' h paper on ot.
+0.8	A bo7 climb s foreas hill.	A bo7 is clambin la hi. .
+0.0	Yes, the is a raiso o not d9 what y0u pro0os.	Yes, thr ks z chemial differenc.
+0.88	The two dog sre runnnin onteh the gfass.	Two doors are playin un hhe gra.
+1.0	Nob3 autor Dori Lessing eies ay 94	Nobek laureate Dori Lessin diec ay 94

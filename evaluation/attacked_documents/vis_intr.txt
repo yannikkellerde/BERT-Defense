@@ -1,0 +1,201 @@
+# [('visual', 0.3), ('intrude', 0.3)]
+0.8	A ⒝#ɿown doğ įs ȑunnѝnḡ ᴛʰrouǧʰ ʇ>ᶣe ᶂi<el<d.	a ᵇrown dơɠ ẅ>iṫh his t㈞ŉɠǚe ⓦȧggiƞg a"s h%ɜ ɾưnȿ thʁouᵹʮ a f#ieŀd
+0.28	Egƴpt' ᶊ Musli)ṃ ℔-r-otħ-ëŗh-o-od Ref⸧sés ŧȍ Bacʞ D}øwn	Eᶢypťian cǒ⸧ʶt s?enteߒceß Muslim B%roth%er%ʰo%o%d l.ȩader tö life in prisoᶮ
+1.0	Á ɯ`an i?ś plͣyîᴻg a key`board.	A man ₚˡ|ayᶊ a keyb%ǫa%rd.
+0.12	A ⒨a_n ĭs cₕo'pᵽinᶃ butͭër into ǡ con\tainĕ\r.	A ㎼oᶭa[n i&s cutting sħɽіᶭⓟs.
+0.88	A ß#quĩrre#l ruňs aȓõund i/n c<ircles.	A šqưйrrel i)s m㈞+vinǵ i@ƞ cͥɹcĺes.
+0.84	Peʁsoɴ wiṭh ťwo s(kī poles ski.i.ng ď>own ǻ snówƴ h!ill.	A pⱻrŝon ᶳķiĩng d\own a sn!o!ẃy h~ï~ʟl.
+0.84	Șenǻtè c%ǭnf%i%rm%s ǋanet Yeɬlȩn ㏟|s čḫair of U-S Ḟedėʀal Ŗeseɻve	ŰS Şɛ.ǹǻʈe Con㎌irms ǈǎnet Yelɫën as Nɜ-ⱳ Cěntɻal Ƀank Ȼ=h=ĭe=ḟ
+0.96	㏟ grǫ<up of hoŕseᷥ gɾ<ǡz<й<ƞǵ иn a fɪel.ḑ.	Group ǫ-f hors`ɘṧ graʑing iᴺ g^r^a^ṧᵴy fielɖ.
+0.28	A ͫ~a~n is rid`inᶢ a ḧǒr:se.	A mą-n i\s dɿiⓥing ǡ c\aʳ.
+0.88	Two ƀoys sͥţ fã'cѝᶮg one âᵰ^ȫthe^r at a ṫable a\ᴻ\d ǭne poïnts at t"he o:t:h:er.	Ṱw*ò p#e#opŀe sit fā*ci*n*ᶢ eacʱ otɥ\er at a table a~s ône poinƭs aʈ the otḩer.
+1.0	Three dogs pȗlliᵰg ā m$a$n ó<n a ᵬi~cýcl~e tʮrough t,he sńŏᷱ.	The ďògs are p\ullin\g a m}aᴻ ó\ƞ ȧ typè ȭ<ḟ ᵇɨ/ʞe, tḩrougḫ tħe ṣᴻow.
+0.88	A dŏᵷ į`s jumpйnɡ ㈞]vě]r a bårrѝer at a agiliṯ@y compe}t}it}ion.	Ā d\oɢ jumpiᶮᶢ ȏver ä%n obstacɭē c<our<sɇ fence.
+0.8	The injuɾed were ƫakǝn to höspɨtalȿ i<n Ⓙe^ff^er^s^㈞n ℭįţʏ an)d Columbia, a colᷝèɢe toᷱň åb(o(ut 3\0 ᷟiles to ͭ}hɇ nǿ]rth.	The i`nj`uɻ`eͩ ẘ\ȩ\re tã|kên to ḩoś%pi%t%ä%ĺ%ᵴ īn Jefferson C`i`ty ańͩ Columbia, ab?ǫu?t 48ķm ɳorth; thȅir c_onditiõɲs wėre not ïᶆṁȅdiͣtely ǻvailaᵬle.
+0.4	Ȑ&e&v '+s Ǝ)arl)ẏ Reads: ㎨arcʱ 2	Rev .'s Ęa(rl(y Readṥ: Sep#t. 3ŗd , 201_5
+0.7	I)ň thɇ wǝeks l=eǡᷘ=i=ng ȕ-p t!o the execǘtіon, sɘvɘral ℱłoriďa ofᶂiƈiaľś rɜceйⓥȩd anǒƞẙmous th+ɻeateƞ+ï+n+ġ ɬetᵵeʀ`s.	Ⓢeveraļ Flôrіdã ó)ffȉci)aᶫ)s cȫnnëcted to ťʰȅ c㏟sě ha[ʌe ɺɜc:ei:ved tḧre>ateŉin>ɡ ˡetteŕs, ǟ&ƈ&co&mpanie&ᶑ ƃ&y rifļȇ ƀulʟets.
+0.44	T+h+e N|oȶȩ' ᶳ M?ü?st?-Ɍeads ᶂoȑ Ƒriday Maʸ 24 , 2"0"13	T<he Noᴛⱻ '+s ㎛uŝʇ-Řeǡds f+o+r ℱr,i,daỴ, Augusʈ 23 , 2013
+0.2	ɺunṥ viʗʇiḿ down Go}t a~n~y p'ŕo'ȍ'⒡?	ⓟarȁnöid Ǵot a#ƞ#y pro}o}f?
+0.28	Pʱilîᵱp?ïnɘȿ hȏᶪds seḉǒńḏ seną(t(õ(r ôver corrǖṕtɨon	Ƥḥilͥ#p#p#i#neᵴ reḉoveriɴ@g after poweɍful tỷphõon
+0.84	A gɿãỲ caʈ l'a'yin'g ȭ>n a bròwn t"ab"ˡe.	A gʁey cat l}yin}g ȫ]n a w)ooᴅ)en taⓑle.
+0.45	Ṭhe brown tŕain йš sǐ!t!tí!ng o`n tḣe ʴaíˡr,o,ȃd ţraćks.	Tħë ẁ-hi-te tʵ,ai,ŉ is sɪtting on țhē t~ra~c~ᵏᶳ.
+0.0	No, ʸo_u ḑo n';t need to hãv:e takèn ćˡa"ȿsɘ"s or ɛàrned a dɝgree i[ߒ ŷouɍ ar-eă.	Ѝ hàᵛe dȍn*e qųɪte a ᴃit ő+f ŧ*e*c*ɥniḉa*l ŵri`t`ing for heaᶩtḫcare informāᶵion sys{tems.
+0.4	Ruᵴsiaɳ pᶫ)ɐne reportǝdlỶ ċrashes i<n Egypț	Pī=lǫt kill~eḑ aṣ ǕS jet crashe<ş ȋn Englaŉd
+0.48	T~ḣe ṱech-ᶅǫadėḑ Nasdaq comṗosite rǿse 20.96 pointṥ t]ö 1>595.>91, ēndinǵ ǎt its hiɠʱesẗ ᶫ]ȅve]l f&ŏr 12 mónͭh^s.	The t*eℭhń*õloᶢy*-*ł*å*ȼeď Naʂdaq Ȼoͫpósite Ĭ|n|dex <.IXЙC> cɫi;ṁ;beↀ 1]9.]11 p}oiñᴛs, oɼ 1.'2 pȅrcenṯ, to 1,615.02.
+0.52	Śyɺia ''ƭő ᶑeɕlàre cɦemiᷗaᶩ weàṕoᶇs a)nd sigǹ coᶯ>ve>n>tȉ>on '	R'uˢsiā, Syr/ia Worₖ o#n 'Cõᴎcreẗe' Cḫemйcal ᵂeaᷮǒns Pᶪaᶮ
+0.44	South Korëa Såy&ᶊ Nǿrʈh Ⓕir)ed Ḿiᶊsiles	Nōɍtḥ Kor)ea ˡaunches shorț-ɻänᵹɘ mi*s*sileš
+0.16	Ḟlasͪ f|lood|s ⓚill 5&8 in easᵗ&e&ʀn Afghaǹiśtan	Boᵐb ᷱőu/ƞ/d/s 1!6 in easterń Afghaniʂtan
+0.56	Two yⱻaɾs ľater, th\ǝ inşuȓancȩ ĉovȇragê w-ôulƌ ᵬe%g%in.	Under ṱhē agreeɱent, Mɘdicăře čovĕɍaᵍè f_or ḑrug b,êᴺefiṭ,s wou=łd ḃɇgīń ï:ᶯ 2+0+06.
+0.28	Ṭwo boys ǐ-ň ℬlǻck swimming trůn"k"s aʀɜ ʮoldиng ǎnother boy by h>îs arms a$ᴺd ļēgs o_n ȁ bȇ>a>ch.	M{a{n i|n ʷhitè shiŗt f?ᴌ?i?pp?inᶃ yȍunʛ boy in thⱻ ẃater with ⓕ+ȏur othęr ᴃo^ys surroundıng t<hem.
+0.68	Obama urᵹȇs d:e:c:îs:ive a:ction on Ȇưrope debt cʴ]i]si]s	Ŏ}ḃa}ma u?rgȇs Euɺope ṯo âct q<uic<kly oȵ ᴄȑiᵴis
+0.85	A wo~man is cḣơppińg b^rǿccȍl^i.	A w\oman is c]hoᷮping broçcoƚі with a ķ'ᴎiⅎ'e.
+0.75	Cɽiticṥ s/a/y ţhe l_aw vïolaʇeᶳ cɪviľ ˡiḃɝrti_e_s, soᴟȇṱₕinǵ ℍøu#se Juđíℂîary Comᶆittee Cȟaírmaᶮ Jaɰes Seᶇsenbŕenner, R-Wis-., ṣayș hȩ i]s ˢ:ǝņš:i:ţi:vɝ ṱ$o.	Ḩouśe Judicȉaɻʏ ᴄom⒨ittee C/hăi/ʵ/ma/n Jɐmȇʂ Ṡęᶯᷥ;enbrɘ;ñnɇr, R-Wí>ſ., s>ays he is s-ëɳšiᴛiv-e ƭo civil ᷝѝberᵗıes ʗo^mṕla^ȉ^ntᵴ.
+0.8	religiõǖs exṯreᵐism cȭntinuéš iᴺ pakiˢtaᴺ dêṣpite t@hè ℬanninɠ o+f ᶆil,itaᴎţ gro)ups.	ʵeᴌigious ɜ☒ƭremism coŉṱinues in p@ak@isţ@an dešpѝte ṯhe ⒝)anning oᵮ mil?i?țan?t gʴouƥs ḅy tᶣɘ pa`k`istǻni gȫverƞm;eᵰ;t.
+0.84	Vehi&cl&e&ṧ abľaᶻë in ƈoŀ-ļąp-seͩ ᴶapan tunnel	Vëḥicᷞɇs '&le⒡t ℬȕ%ʴ%nin%g' âs ṧmoke eᶬ+iṯß from Jąpaņ tunnel
+0.88	Â d=õḈtoʳ ᴘɽesᶜribeṣ m/ⱻ/di/ciɴe t\ȫ ä ƥatȉēņƫ.	A doctor p)rⱻsc)rǐbe)s a medicin'ĕ.
+0.36	A woman i"s ḉ:höᴘp:i:ňg ǎn oŉ!ïơɲ.	A ᴡȏ/m/a/n i<ᷥ choppйƞg gȁɻlic ⓦɨth a ḳᶮɪf:ë.
+0.64	A ǥ/ûỶ o/n a w\hitè horse.	A m}ȁn rɪding ǟ ẅhit&ę horᶊⱻ i%n an arena.
+0.15	A wǿmǟ{n is playing in t=he øc#eañ.	Ā womå;n ís p{rɛ{ᵽ{a{rĭ{ɴ{g sẖrimp t~o cook.
+0.16	China gìv}eʂ US rėǥulȧtors aĉcess to ȧ:ùȡi:ț rec}ořds	Chiɴa oppǭṥeś U!⫡ ārmᶳ sales t\ô Taı]w]an
+0.56	Banģläↀeṣh ℋonoɽs Fac`to`ry V"içt"ǐ"m"s	Ɍɛṱail-ers bâc㏀ B㏟ngĺadesh fͣctorỴ såfetỵ p}äct
+0.76	ᴾakist|a|n to relɝase moşt ᷤeᴻior Âfǧhaᶮ ᵀɐlѝba.n pʀ@ison@eʵ	Pakißṱăn to relęâſe seᶇįor Ƭà)l)ibān commăɲḑeʵ o,n Sɐtȕ(rday
+0.08	Ålgeʶia pɹ<ėṥidén<t gets tḩ,eɼā,py aftȇr šţ;ɽokɜ: state media	Bűlgariaɲ preşideņt tʳies t<o ᵇre㏟#ᶄ elecᶵioᴺ sṱa-ɬe-mat-e
+0.6	Artĭstȿ ɐre worried t'he plaņ woúᶪd harᶭ tḧǫse w%h%o n=eed heȴⓟ most - perᶠoȓmers who ₕ%ăve a dйᶂⅎ_i_c_ȗlt ƭi)m)e liniƞg up shoᷱ`s.	T`he a]ɾti]s]t]s say the plan wi@ll haȑm F_reǹc_ḥ cǚlƭure and pǚnĩsh thöse who n@eed helᵖ most - peŕᶂorᵚērs w)hö hɐv~e a harɗ ʇi-me ᶅińing ǔ!p wǒrk.
+0.12	Fírʂt of ǟ%lᶪ, lȅt mȅ s+aỶ t-ʱat theré sĕ/eₘs to be 3 mai/n tɻaits to casting ȧ ˢₚ|ell.	I aɭwăʏš tho:ught țhͣt H?ar?ry ᷥeɜmeđ to ľɝá]rn from the H:ͣᷞf:-Bɬ:ood Priᵰce bettęr ṯhan h-e ďid from ㈞theɼ so:urͨeš.
+0.16	A m,a,n i\s run*ni*ng on a stɾěëṫ.	A m]a]n ᵖlays tħe guita,ʁ.
+0.4	Ī woǘl]d sây ỷ>oũ can ḏo i}ȶ, but i~t woũļɗǹ't be ad+ᶺi+sed.	P>e>r>sőnɐl>lʏ, Ì ʍȫųᴌd saẙ n'o't ú%nleᷥs it suͥts yo.u.
+0.68	Tͪe t'wo Ḓemòcʀȁts ő~n țhė ⅎ/īv/e-me⒨b/er FC}C ᵽaneᶩ heʟd a nɛws co)n)feŗ)eȵce ṯo sway oᷮɪnion ǎgainst P)owėll.	Tḣė tw^o Demoᶜrats on tʯe fѝvǝ-memⓑeɿ ℱĈ\Ç ₕe`lɗ a ɲews Ḉòn㎌erencɇ t@o swa<y opini#oň ȁɢainst Pöwęll and the panɛl's two oͭh{e{r Rȩpú&błiȼå&ns.
+0.88	A>ste>roi>ď zips ᶀeṱweeņ Eąrᵗh â}ᶮ}d saƭellitɝs	Āsteroid pā\ss\eᷥ Ȩàʳth in f(l(y-(by
+0.68	\" Ṫhe Europëan Ūn{íon i=ſ b)ăsic)al)ļỷ à-b-sënt ,"ṧai&ɖ Tīto Ⓑarbińi, regional ᶬiᶯister foʶ agʵǐcúltǖre ȋ]n T\u\ᷤ\ća\nẎ, Italy.	Tito B㏟ʵbini, a règi@o@nal ᴟinîšteɹ fòr agrɨ{cult{ŭ{r{ĕ i=ń T-usɕ-an-ឹ, Iʈal:y, ćr)iʇ)iᶝizĕḓ thɝ ãℬšencė Ƭűesday iƞ Sǡcɿamenŧo.
+0.65	A b]oỴ is ⓟlay}îȵg a k`ey-`ɓo`ȁɽᶁ.	A ℔-o-y i!ᶳ sittiᴺg in a r㈞o⒨ plaýiᶇg a ᴘͥȁᶇo b,ɏ lǡm@p lȉʛh*t.
+0.04	Ṫh,e ẇøman iᷤ ʂmó\ķin\g.	Tɥe man i.s w|alking.
+0.0	A m,o,nkɝ,y is ẅálkıᶇǥ tẖro.ugh the wa,t,êr.	A g?u?y i{s plå^ʏɨn^g a ȶrúṃpēt.
+0.1	A womaŉ is sitͭīng ő~n a sid~ew~alk wiȶh a cell p~honɝ ǡ<ŧ her ea.r.	A ẉom;ãɳ i!s ɻiding hȇ"r ʙicyʗle.
+0.04	Ukraiņиąȵ Pʁeșidɝnŧ ő~rder~ŝ 7-ͩa$y ceașɜf@irⱻ ɪn ƫͪe ěast	Uganda' ś Ṗrësɪdȅnt Mu:seᶹe:ní agrȅes t=o sign anti-ģays B~ill
+1.0	Yŏu g"uys are ma⒦ıng ʇhiᷥ ͣll W:AAAȺAY t*ǒò coᴟplicated.	Ỷoú áre maķing t]h]іś to]o c,ǭm⒫l,ic,a,ṯëd.
+0.8	WORLD No . 2 Lƚĕy%t%oƞ H}ewi}t}t has accus:e:ͩ țhe Ȃ&s&ᶳ&ő&cȉ&atiȏᴎ of Ṫeᶇǹis Pȑofȅṥᷤioᴻals oᶠ ṁalȋcȩ, ɪŉçlūƌinᵹ aƞ al>l>egȅd aț:tem:pʇ ᷝ"asţ ʏ@e㏟@r to ᶁupē ḩīm ɨnᴛo r#efusi#n#ᶃ a ɗrûǵ ȶe-st.	W=ør=ld N:o:.:2 Ⓛleytoƞ Ḥewitt ʱas acƈuseɗ hɪ~s profeᷤsioᶯal peers ô|ḟ lonɠ-sŧaɴdiñḡ mǟlice, incluđïng àɴ aᴛtemp#t las!t year ṫö du~p~ɜ hǐm inť|o rɘfusing ă dɼug țɘs]t.
+0.0	A man i/ʂ sho\ot\in\g a g`u`ň.	A ma"ñ i<ṧ spiƭting.
+0.6	Tẃo ᶈēõple ᴡalₖйng alo-ńģ the sẖorê a%t su/ns/ȇt.	T=wo peopᴌe ẁ㏟lᶄīnᶃ a>lȭng t%he beacʰ at sunset towaʀn ǻ gr/ōup öᶂ p\eopᷞe.
+0.96	Bᷝue and rēd płaɲ+e in mͥd]-]ai]r f)lig)h)ᶵ.	a ḃ-l-u-e aᶯđ ɼed aiʴplͣňe ⱳhilę ǐ^n f{liĝht.
+0.8	Trȁde nɛẃspȁpȅr V@㏟ɍïėt@ʎ up ḟoʵ ſ`ale	Höllyŵood trȧƌe puⒷlicátioߒ Vaȑiety p,uᶵ ⸧}ṕ for s{alĕ
+0.84	SlẎ Sṯalɫǭnɜ's Soᶮė Ş@age Fo@ũ@ɳ@d Deǡ[d iᶇ LA	Ŝylvȅstër Stállone's S%o%n ㎌>ound Dea`d Ăt Hoᵚɜ
+0.92	A womaᶯ i@s pl;a;yiᶇg ᵮlute.	A w-omaᶯ ṕ-lȁ-y-s o;n a flute.
+0.0	A bő(ȳ is cutṯinᵷ p>ȃp>er.	A ṁan i>ṡ ļ:ōaḓiǹ:ḡ ā ʳ,i,f,ᶅɝ.
+0.92	A young ʷomän ẅįƫh a Ⓑraćeᶩe"t i;ſ w/e/arin/g ä bik!iȵǐ tȏ|p anḏ ᶡeãns.	A woman weaʳ:ing ĵ_ean_s, a d^ark bi,kȋní ŧ?õᶈ, and a bracɘleᵵ.
+0.28	Uǩraįnē‚Äȫᷤ pʶó-Růsšia pɍ?ot?esțe?r?s dęɯͣᶇd greȃter ȁûto|no|m|y	Suͩaɴeṣe p{ʴo{t{esᶵe{ŗs ᴅemaɴd tĥe rėᵹǐ=me's o`uŝ`ᵵēr
+0.8	Mr. ㏟änuel ǻnd h`iß group eňteȓeͩ th`é Ǔᵰѝteɗ Ⓢta*t*es by waɭking â_ćrośˢ ᶵhɇ bridge liᵰ|ᵏiƞ|ǧ Matamorǿs aɳd B(r(o(w(ȵşỽ(iᶅl(e.	Manuėl aᴺd hîs grơup entɜred the ǙṠ t:ḣ:e ȿaᷟȇ w㏟y ţ(hoũṥan(ds o?f ₚ&ⱻ&öple d\o every da~y, b/Ỳ walking acrosŝ ᵗhe bridge ʙetweèn Ɱaṫamorơs a\ߒd Bro{wnsv{ill{e.
+0.8	D,oȅs t~his pag^e ânswɜr your quesțion?	Dŏes t:ₕiś aɴsᴡer yōur q\ues\ƭiȭns?
+0.96	The ᴻ_ê_ẅ Cold ᵂ(a(r	A ᶮ{ew Co?l?d Ŵaȓ?
+0.0	Й ha㎶e ȵ+ȭ iḋēȧ ⱳhy iʈ i]s voted u=p, būt ṜeẌ Ke\rr '-s anṥᴡēr bɜ(ʛ(s tẖe questîōǹ.	I\t's a tɐutology, b@ǘt tḥe ɯaᵽpiǹg bêtẘeěn ĺog{i{c an?d the Englisḫ-languağe deṥᶜȑѝᵖtйon ı@s ŵɾon;ĝ.
+0.44	À/MD's c;hi;p sǎlȩß jumpeḏ 7 perceȵᴛ year[-óᶮ-y[eȧʁ tô $4/02 mĭᷝlion.	Seco(nḓ-qúart(e(ʳ ᶊaleȿ gr:ȅⱳ 7 pěrcent, to $64=5 m/иllion from $600 millioɴ į^ñ 20[02.
+0.92	A ㎼oṁ-an spˡiʇs g}ar}li}c cᶪơvés.	A wǫmaᴎ is ḃ\ȓ\eaḳйᶯg ɐ héăd o{ᶠ ĝaʁli`c ɪňto cȴǿ'vĕ'ṡ.
+0.76	The ᴟa}n iñ tẖǝ backpack looƙs to hi^s ʟė*ft.	Aᵰ ȁḏŭl|t male w.eari.ng a bäcǩpacᵏ ʍaȴks and lȫoᷜᵴ t"o ţ)ɥ)e left.
+0.96	Englȁnd c^aptȃi^n Ⱥńᶁřew Stʴauss rètiɾës f%roᵐ prơfeşsional ͨric,ḵe,ť	Eᴻglaɳd ɕaptǡin Ṩ<ͭɿȃús<ş rȩtirěs fro@m çŕicǩet
+0.8	Papeɹ і,s ḅêing cuȶ ᷱit"h sc(i(s(ṣ(o(r(s.	Ā pie|ḉ|e of pap*ǝɍ iṥ bei'nğ cuᴛ.
+0.15	A ḿǟn i&s pl㏟yįng witḣ f`ro`ᵹṡ	A ᷗât is p$laỵ$inᶃ ẉ!ıth a cam^e^ra.
+1.0	You ㏟ȓ-e on t)he ɾight p.ath.	You'ŕe ǒn t>ħȇ rĩg<ht path.
+0.92	T-hȑ-ee ͩie àḟter car ĉ+ʀ+a+sh ãᶵ Tian_'an_meȵ	Tᶣ(re(ê Kiˡled I\n Cʁash Ąƭ Ƭianaᶯmǝn ẞ@quaŗe
+0.76	Tropical Ṥtorm Kar'en targēts US G]ulf C\őǡ\st	Tr@opiᷗal Storm ㏀aren po"іse"d t:o mɐke lǟndƒaᷞl
+0.48	Guņ~ɰe~n ƙill 1$5 Ƚibyan ṥolᵈiers	Gunmeᶇ ⒦!i!ᷞ!ȴ 3 ⓛɇḃ$aᴺ$e$s$e trơops near S+y+ria
+0.8	A blacⱪ ḓ"o"ǧ ṧ;ta;ɳ;d;s n,e̽,ʈ to ᶬaᵵěȓiâls a>t a ćònstʵucti㈞n sîte.	A bl|ack doᶃ ştands i?n ƭhe ᴟĩ>ddlè oᶠ ɐ ċõ$nst$rǚↀ$tio$n site.
+0.84	A m(ân іs líƒtѝňg w>eigh>t>ſ.	Â m^ãn ѝs lɪfᵗ;in;g a b!arbǝll.
+0.6666	Ⓜéṭɽoᷮólitân Ȃ⒨bulance ȿp㈞kesmǟn Jámes Ḧowe ş/aiḍ fіvȅ ƥeoⓟle we&r&ė tak/ê/n ț`ǭ h,o,s,pit,a,ᷞ anↀ ṯhree wére ṭreatȇd at tħȅ scɜńe afţe}ɼ y!e!ſƭȅʁȡ!a!y's i]nċiḑe]nt.	Sṗok!ɇsm!an ǈ㏟ḿȩs Ho⒲e s>ai>ↀ five chйldreņ ągeđ between 4 ɐnd 17 ẉe.re t=ak=en tò ʰ&oȿᶈ&i&ṱal with ňēɕḱ añd cₕɘ(st in)juʶǐes, wɦile ṭẖʳêɜ ǭthers w@e@r@e treaŧed a"t tĥe scenȇ.
+0.75	Ȧgɍicǘɭture mini*ś*ters fɼoᵐ moɺe than őnē h,uᶮᶑȓed ᴎ^ͣ^tȉoᴺs aře éx/pe/cte/ᵭ t.o attɛnd tᶣ$e thr&ee-da&ȳ Ministɝrîal Ȼonᶠerençe and Ȩxpo on Ą"gɾɨcul"tȕřâl ∾cīenᶝe a\ŉ\d Ṱǝchnoᶩǭgy sponșoreḓ bỷ ẗₕe U.S. Deᵖaȓṫmênt ơf Agrį|cű|ᷞt|urê.	U.S. AgʳıḈulṫure Ṡėċrėtary Aņn Veᴻemǻn kìcks ơfᷫ thɘ thrȩe-da$y ㎧ınister|iaᷞ Ĉȭ)nⓕ)e)ɽ)eᴎ)cě ǎ&ᶇᶁ E*⒳*p*ǿ on Ǻɡrȋcûltŭral Ș[ḉ[ı[e[nc[e a`ᴻd Ⓣecɦnølogy on Mȫňdaÿ.
+0.52	Ȑusŝia '\ǻļ\o\ň\e' iᶯ ƀlaᴍing Syrian rebe~lß f[or ċħemi{cȧl aȶtack: US	Rûs"ȿй"a aȿks Ưᷠ ṫo co%nsiᶁ%er į}ts inq⸧ɨʶy of Syriá cȟemĩɕal ärm@s use
+0.0	Ān eᵯbolîṥm in ā me?dical ç@on@t@ex@ʈ refǝrs to any large movinġ mas:s ȏɼ deᶠe:ct ĩ<ᶮ tʱɜ b~lǫo~d stɼěam.	H~e~ɺe is a)n interȇṥting artiͨɭe on w<и<kipȅdiă to gi㏞e ö(ᶹe(rʌ(iew oⓕ p~r~ę~sᷤur~ǝ related in⒥urіes.
+0.12	A m#an ǐs c[rʸі[ᵰg.	A ŵ'oⓜ'aɳ ǐ:s ͩańcinᵷ.
+0.2	Obama hol<d<s oũʇ oⱴer Ṧ$yrͥ$ǻ strìᶄeᵴ	U@K ur`ge`s coȗntríȅs ovⱻr Syriá aɨᶑ
+0.4	A wom|an ṡtandiņg in fro-ȵţ ǫ;f tʶeeṣ anᵈ smilinǵ.	Å ᵐan iʂ walking ᵬy tɺees in ⅎro%ň%t oḟ t_hⱻ ɕ|i|ty ᷥ|kỵline.
+0.56	Ⱦħree ʍ)ö)m)e)ᶇ witɦ b\ɿown ĥ\a\ir are smĭling.	Tɦreè w@o@me@ň in İ;ndian d!r!esᶳes ín å croⱳded ro%ǫ%m smilıng.
+0.32	A m!an ís ᵱ'l'㏟yinᵍ ǎ ⅎlutɛ ѝ\n ȧ ʙand.	A ma;n й-s p>lǎ>ying a guĭtɐr.
+0.0	Ä girl i's eat-i-ߒᷛ a cůp}ᶝâₖ}e.	A ᵐȧn i"s sɫи}ƈ}íᶯᵹ a cucu/mb/ⱻɻ.
+0.92	Deŧʀòît e>lig>i>ble f@oɻ ⒝aņkɿupẗcʏ pr:ǫtection: U.S. juḑge	Ḍetr[ŏit ȇᷞĭgiʙle ḟoɹ båɳᷜ*ɾ*uptcy protɜcᵵioƞ
+0.68	I.t calᷞs f\ǭɹ t!ẖ!e agenḈy ƫo plan a!ᶯ independɇnͭ safȩt(y and eƞɠineèrͥnġ oŕɠanizatĭon.	T]hɘ a?ge?nᶝy hȁš yeᵵ to fǚɫly ㎌ormulațe ͣ straᵗegy f]or ŧh=e cręatiǒɳ õf ȧɳ inᵭepȇndent eɳginɝeʶĩnᶃ tec;ɦnical aǘ)ʇhor)iṭy.
+0.84	a woma&n ⒲i,ŧh a vikinǥ ha"t oň.	Smiᶩin,g wȍman ᷤiᵵʇing w>ɇȧrin>g a vиkiɴᷛ h!ąť.
+0.28	1 ᵱers㈞=n ƙ[iᶪłeͩ ĭn ȿeḈtāɿian cl&ȧ&s&hēs in ⅂ebáɳon	Nǐ\n\e kȋlleď in Ṧyrɨaᶮ-lıɳked clasheś i;n Lɛ.b.aᵰ.ő.n
+0.72	thè enśuing battle aᴺd airᶊťrikes kil_lɝd at l=eås=ṱ 1<0 mi^li^ta^ߒts.	aᴎ ē"ns"űi"ńg b)ă)t)ẗle kɪll+eḑ át least 10 ⒨ilîᶵǻntᷥ.
+0.64	T&he laḑy craℂk(eȡ ṫwo r-a-w eggs.	The woᴍan is c}ra}cǩ}in}g e\gg\ſ into a ƀ*øw*ᶪ.
+0.68	Bo*x cűttérs ẇere u?seↀ å%s ã wĕāᵖòn by tḩe Sĕpᶵ . 11 , 2001, hȉjaᶜķers an?ᵈ ha#v#e s'inᶝe been ᵬanɳēd âṡ carr{y-{ȏǹ item?s.	℔ȭx cùṯters ⱳere the weăponß ūsɘd b"y th(e 1{9 hiⓙacḱeɍs i[ɲ t]h]e Sepʇ . 11 , 2,00,1, ȧttackṧ.
+0.16	A w(hit(e a@i@r@pl@āne is pȃrᶄēd oɴ ẗh|e čemenʈ.	A bƚue ṃotorḉyƈlǝ i:s paȑ#ked ón tẖĕ sѝ?d?ew?alǩ.
+0.96	Gúnᵯ$en ᴋilȴ nine foɾeigners in Paki/ş/t/a/ɲ	Gu~ňᵐe~ǹ kĭlᶩ ᴎine tour&i&ṧ&ts in Pakĩstaň
+0.6	A girl in wate&ʳ w}i}ƫ}h}ǭut gog<ġ<leᶊ ȭ,r a swȋmmiᶇg cãp.	A g]i]rl iᵰ w|ater, w^ith goggles aƞd swͥ⒨minġ c)ap.
+0.9	ᴰruce йs s}tiɬľ being helḋ a&t the ᷮŗi:son anƌ i/s ᶇ[o[w i)ᶮ ȋsőlaȶiōƞ, sɦe saîᶑ.	Druĉe lȁšʇ n$ȋᵍhʈ was h$elᶁ in йsòl)aʈi)ŏ)ņ a/t tḫe same prișon.
+0.4	I sa|id it w'as'n' ț a ᷮerṣǫƞ, i=ᴻ t/he ᶩegał s-ense.	I]f į.t isn' ţ a pér!ṧon, thēn W.T㎌ ɨs it?
+0.16	A ki_t_tȩᴻ is ɗ?ŕįnk?į?ng mil;k fŕom a bøwɭ.	A sm)ałᷞ cʜild iᵴ drinkiᴺg water f+ɼom a c:ǔ:p.
+0.96	Two wõmȇn ȼonṭēsṭants aɽɜ wal>kȋ>nǵ tʰeir ↀǿgs i+ñ ǎ d?oģ sh]ow.	Tw㈞ w(oᶬen walk ʇḣeȓȅ d#og#s à@ᵗ a dog šhow.
+0.28	A m]an ì)s li)ḟt)iᴎg a car.	A m<an i/s cl\im\bi\n\g a wǟll.
+0.85	Ã c+at a?n?d a ferr:et arě plǻyįņģ.	A fȇrret an^d kitteƞ pl\ay t@ogeᵗ@ħ@er.
+0.08	A m㏟ŉ is ɾ#i#di#ņg o*n a bo/ā/t.	Ȁ man ĩ[s tying i"n thē mac{hi{ne.
+0.48	Tɦe bl?aᷗk a>nd brőẇn do"g iṡ pᶩaẎiŉg in ṯhe Ỵ[arđ.	The blacᵏ a,nᷘ tan dog î<s ch]ąſing šơᶬɜthiᵰg ʜe ɦ,a,s ṧpottêd.
+0.4	Ass>ǟ>d ᵯ{ee{ȶs witʰ Rêȡ ᶜŕoss őfficиalᶊ in Sȳr&i㏟	Åsˢad makes Re;d Ċr*oss plédᶃe
+0.68	Aᷝl ẇe ķnǭⓦ i"s tͪiȿ: D{ist{aɳ{t øbjectŝ are recèdinğ ƒ-rõ-m ú|ṡ aṫ ǡ ʳatɝ pr=o=port=i=öᵰąl ʇ!o ᴛheir diſtance from u"s.	T/he exƥȧnsion of ſpǡce means that oⒷjects i_ᴻ cosmologicaᶫ ᶑìßʇancǝʂ ɐr$ë rëc*ȅdiᶇᶢ awäƴ ᶂr(oḿ eaᴄh õt>he>r.
+0.96	iràn líes o\ñ a màɟ=őʵ ᵈɍug rou:te betwęen afᵹ(haߒ(iᷤtan a;n;d eǖrope ȃnd tᶣe peɼˢian gu*lf sţates.	ɪrǡ/n li-es on a maǰor d]ruᵹ ʈraffiᶝkińg ro;uƫ;e between åfgʜanistán anᶑ eûroƥe, ȧ+ṥ wȩ)l)ĺ as ṫhe ᵱersian guɫf st!ȧ!te!s.
+0.76	a gɍêy dog sw(immiߒg t;hŕ;őug;h a riʌɜr ᷱitḫ a ᷤƭiɕk i:ߒ h(is mouth	Dog swiᶭming thro~ugh wàţ+er carryîng stic⒦ i_ɳ its mǫûtȟ
+0.16	Black ãnd wḫ!ite ȼoᷱ sᵗaᴻdîng i#n grasšy ᵮì>ěld.	Ȧ ʙlacḵ aᴺ_d wh%ite pʮôto o<f a man s-ᴛandinᵷ next ṱo à ḇu=s.
+0.44	Ȃ błack dog iš runnǐng tḩrö@u@ɡḫ t$he sn}ǫ}ẃ.	Ǎ blaͨƙ ᵽi,t ᵇuᷞl ᵭ-ơg is rȕɲņing tḣroȗgẖ th*ȇ d#ir#t.
+0.88	Ȃ përșon i/ᵴ ℂòmbй)ng ă c@a@ᴛ hȃɪr.	А pe,rˢ㈞n i~s br}us}h}й}ng a cat.
+0.76	B\eśide\s baƫᵵlȉng ìts ᷥa"ɭes sƚuɯp, Si:e:℔el alsȭ haṣ beeᴻ ṥpārɻínᶃ wȋͭh some investors ǔ{ṗset ȁbout ʱuᵍe ᷥt~ȍck oƥt,iőn w?in?ḏf?a?lls coᵐpany manageʶs ʮáᶌe poć⒦@e@ƭe@d.	Besides a såľeș sˡuḿp, Sieɓēᴌ i,ṣ spaȓring ẘiẗh soṃe sha$rɝholders o~ve~r m=ànǟ=ge=ᷟɘn=t s't'ȍck optiøŉ wȉn-ᷘ-f-㏟ll-s.
+0.36	A m㏟_n i_s cuttiŉᷚ tomătoȇs into pȉeᶝɇ<s.	Ǟ w(o(m(a(ñ i\s cûᶵting ßo,m,e veᶃetabᶫêŝ.
+0.0	A mañ i`s c_utting grass.	A clǭ,w,n i@ᶳ siᶯgйȵg.
+0.72	F,er,re,r ċruiṧes into Ausʇrɐᷝïǡń Op=ȇn qu㏟ŕtȇr-ᵮinaĺs	Fer{ɼê{r Ⓑeaț+s ᶰ:i:sh:í:kor:i tò advance to Aųstrǡlіån Opėn qúarʇer⒡inaƚs
+0.0	A ᴟǡ-n i]s read<ing an ěmail.	A ṕers*øń õpeߒinǵ a b(ǟn(a(na.
+0.52	When ṣṫùdƴing aɗuᶩt IQ, gȅnerǎl ȃd|⸧|ᶪt ᶮorɱ{ᶳ ar{e ōᶠt[en uᶊed.	B(ası(ȼãŀl(ƴ, whaẗ yo:u ↀo iṣ Ỷ"㈞u cȍmp~a~re each äge grǒůp I,Q to ͭḧe stąnᷘà:ɼd:i:zatîoᶯ ᶊamᷮˡe.
+0.96	Ȁ m^an an}ↀ dǒg o<n a ɿŏcky sɘåshȫre.	Mɐn añᵈ døg standing o]n roȼk!s ᴺext t_ő ⓦaẗer
+0.0	Ô~ba~m~a qùěȑies Ṱurn_bulᶩ over C.hīȵ.a porẗ deaŀ	⫡panish bū)ƚls g'o'rė sɝⱴĕn tø đėȃtĥ
+1.0	Egyᵽt court ŏŕdeɾ's ʵ.ĕleă.ſe of Muᵇarak	E.ᵍy.⒫t courṯ oȓ"derş Müᶀaɹak frȅed
+0.88	Sťro)ng nëw qu(a(ke hitȿ şḧatᵗɇreḑ Ƥ>aḱ regiǭn	6"."8 quͣke in s=h=attęređ Pakistan reģiõɴ
+0.88	Ⱶ.ɇ p}ro}jeḉţed Vanḍerp?ool wиll be availa℔le within ťhe next five ƴê#ar#s.	Ᵽrodúcts fɇaẗurinʛ Vaňdeŗpo+ȭ+l wiᶫl b{e r_e_le㏟sed ⓦitẖiȵ ⅎivĕ years, he ᶳǟ\ɪd.
+0.76	A m"an i/s pl_ay_i_nğ ą guitar.	A g|u|y i?s playiᴎg a`n inṣtrument.
+0.52	㏟ƒɠhăn legislatoʳs aᶈᶈrovë ᶯ.ǝẁ ĕᶫȇction la@ẃ	A!ḟ!ghan pŕesideᶮt apṗroᶺeᶳ nęw electon ᷝa[⒲
+0.8	Ei)gh)ʇ botțles of Haɿp ʟaᵹer l#iŉe#d u{p ȭɲ t|h|e flŏôr.	Eigḧẗ ḅotͭles o:f Ⱨąʵṗ b[e[er l=i=ne=d up o}n a ẇooᶁen ⅎloor.
+0.28	Your woʀry is a valid o{ne; the ɿeͣdér c+oǖ+ļḓ ḇ~e f+r+ustr+a+t+è+d by ṭh+is.	Ɨ d%on't b]ɜlй]èv]e ɲoŧ ʞ<nòw<иn<g à ċẖaracter' ṧ name ŵő⸧ld be confųsing u-ȵlëṡs y(où ᶬ㏟ke ıt s-o.
+0.44	I+t's jǚst ā b#ǔnch õf ͨɘ%lls.	I'm``a bunch ȏ@f celȴ~s . '{'
+0.32	Iŉ midafternǭon t_radȉng, the Nasdaq coᵯ]p]osite iᴻͩe✗ ᴡǻᷥ u}p 8.34, o'r 0./5 pěrᶜeᴎt, țõ 1\,79\0.\47.	Ţ:h:e Nā{s{ᶑ{aq Ȼoᶆp'o'ˢi't'é Inḓe=x .ÏⓧIC diᴘpe;d 8.59 poınts, oř 0.48 perceńṫ, to 1,773.54.
+0.8	U.S. orderȿ ᵰon-ɇssentìal stafᷫ t%o leavⱻ Sudă^n, T;uƞis;i;a	US or}dⱻrṡ noņ-essentiͣľ ŝẗ㏟ff t,o lęaᵥ?e Tưɳisйȁ, Suɖan
+0.85	Ȿome ɯe!ň are f?ig?ɥ?tĩ?ng.	Two men ā!r!e f@ig@ₕ@tiń@ǥ.
+0.25	Three ḇ?oys in ka?rͣťe coᶊtȗmɇṥ a^re ᵮightiᴎɢ.	Thrêɛ meņ āȓe ᶈʀaçticinᵷ kaɻaᵵe m.o.ṽes ɪ\n ɐ f"i"el"d.
+0.76	Ŕûˢsйa, Ĉhɨn?a v;e;țo UN resõȴuŧion on S\yrï\a eᴎdǿrsiņg	Rû-ss-i㏟, Ċhî]n]a veṭo U~.N~. dʁ{aᵮŧ ɓaɕkinɠ Ār}ab plaɲ foʶ Syria (Reuƭers )
+0.64	A maᴻ ȁᴎd wŏmǝn si?t?t?i?nᵷ ô+ń a so&f㏟ holding a sᷟaļᶩ b(abʎ.	a woᵚan sittiñg ǭn a so|⒡ǻ hó.ĺ.di.ng a ᴃå-b-y.
+0.68	А㎌ẗer Hugheſ re㎌usⱻd tø rehіre Hⱻr}nan}dȅ}z, ʯ/e ɕomplɐïᴺeↀ to tɥe E*qua*ȴ Empl?oy?mēᶯt Øpp-oʀt-un-ity Comᶆissіon.	Hernan~ďeʑ filed an Ėquàl Empᴌoyⓜɝnţ Ɔpportưñiʇy ↄóm$m$issiơɲ c㈞ᴟplaint a#nd su$e$d.
+0.8	Tw[o ᴅif=feren=t bɿɘeds of ℬrown and ᷱh_i_tɛ d(ŏ(ᶃs ᶈlǟỲ on tḧe beaℭh.	Two ďoɢŝ playing in țh&ɜ sând â&ț th;e beąch.
+0.0	Th%e man talḵȅd o(ň the ʇe+leph㈞+ᶇê.	Gìɻȴs ą~re waᴌking o%n thé șẗa<ǵ<e.
+0.68	ă g^rou^ṗ ȭf ᵽ]e]o]p]l]e ᷘaᴺcing	A ğʵoüp o.f men ǟ-re d$anc$ing.
+0.6	Ṯhɝ b^ʶǿa^d Sͭ>a>nda>rd & P=o=or '?s 50^0 Iᴺ|dɜx <.SⱣẊ> aɗᶹanced 11 pointᵴ, oʀ 1.25 pɛrcȇn:ť, to 931.	Ŧḩe Sᵗąñḑȧrd & Poo,r '&s 500 In"dex gaineḏ 10.89, o^r 1.2 p;e;r;cent, t'ơ 931.12 a[s óf 12:01 p.m. іn N{ĕʍ Yorǩ.
+0.88	Anotheɾ millıòƞ barreȴs, ⓑ@oų@gḧʇ ḃý Ⓢpanish rɝ^f^ine^ɼ Cepsá S.A, was t%o be loa;de;d ȫᶇṭo a Sƥaɴisʮ ȶa'nk'e'r, ť_ɦ_e Ȿaߒdra T#api#a#ș.	A Šⓟańіᶊ[h tan⒦eʶ, Sänↀrǟ Tapͥas, ⱳaſ ț!o b=ɛ l%ô%ad%ed with aȵotẖėr ɯiᷝȴȋőn b㏟rrels, boưɢh~t Ⓑy Span?is?h ʵefi;ner Cep_sa ṠA, in thɇ a~ftëʶnoon.
+1.0	A ᶀʀown dog ï@ᵴ jumpi}ng.	A b+rowǹ dog ĭ?s ȷumṕińg
+0.84	Ɉ+a+meș Murdoch qú{it{s ᴮSkỳB	Ja"m"ɜṧ Murdocₕ quiᶵȿ røl.e at BSᴋyB
+0.28	Y"㈞u aʴ?e ǡ Christiàn.	Thɘrefõre ẙõ}u ɐrê ɴ/ot ȃ Cĥrɨṡʇi,ǻ,n.
+0.2	G[oog[le ᴌaunçheß ìnteʳnët-beāṁing bal,l,o,oƞᵴ	G%o%o%ʛle 'aɿe plaẏing i\nterǹa\ᶵ\ioɳ\a\l ta{x gamȅ '
+0.08	Mos>ţ peopŀě wǡnt n%ôt o<nly ᵵo be W{EL{L off, bȗt ṭ"ȏ bečomȩ BETƬÉR óff as tim=ɇ ĝȭes by.	Ŧ-o s_ţǻr_t, ʇ{h{e ma=in driⓥeŕs ōf e-co-nȏ-ᵯic gʀo㎼ṭh are resouɺʗes, tecħnology, a-nd ȋnstįtutìons.
+0.68	W>hăṯ the P%ǿpe' ʂ bǖṱlěr sa%w – ǎide ɐr\ȓȇs\țed ǫveɹ ㎶ɐtican leaks	ᴾope ’ ᷥ ᵬ"utɭ"er ařʵeȿtɝ\ᴅ in s:can:ↀaᶪ ȭver ㏞aʈicaɳ leakș
+0.0	Modé/rätę tremor in thǝ C.eņtral Medѝterraᴺean	Ira(n: Ṁodĕ`rat`e ĉanᶑidate wi{ns ᴘrɛsidéňtiaȴ vơte
+0.1	Â m~an i^s ℬ!ǘ!rᶯ!i!ng a fˡag.	A m"a"n ìs sh^oot^iɲᵹ a gu}n.
+0.72	Be~tweeᴺ 1`993 an$d 2002 , 142 ͣllȇgatioᴎs o'f ṣĕxuaļ assauˡŧ wêŗe repőrʇed.	Ḟȓo%m 1993 to 20;02, ͭheŕe w<ǝʵē 14:2 repoʵtɜd sɝxuǡl ásṣ/ȃu/ᶩtș at the academʎ.
+0.4	Dęputy speakɇr faceś nɇ*w s{ǝx clàiᴍs	Ḋɜⓟůty Speaᴋer N|i|ĝel Evans Ṙ#e-Arrest#ɇ#d
+0.84	A monķey îs bɹ\uśḣ\i\n\g ͣ bȕ%ll d^o^ᶃ.	Ⱥ ͫȭ~nⱪ~ɜy bɿuŝhes a d}o}g.
+0.56	A grou{p of peo+ᵱ+ƚɇ ßiẗtinᷚ a!rȭ!u!ᴎd a taᷨle co<n<ᵗa<и<n<îᶇg foőd.	Four ᷮeople ǻr(e siẗ<ti<ng around ā ĺѝᴠing roǭm wıth.sna?c?ks.
+0.8	Ŵⱻ$ll, I ㎼öuľd n'"t put i't òn m{y cv.	I ẉo⸧_ldᴻ' ᵗ ᴘu|ʇ thi|s ᶡȍb on m*Ỵ reᶳume.
+0.64	I/AF ṣȶrɨke Ga/ᶎ/a terŕor hubs	IA;F str~ȋ~ⱪe~s G㏟zȁ ťɝrȑor cēʟĺ; 1 d}e}a}đ
+0.2	I ㎌eē]ᶅ y[o[uɽ p]aiņ - I absŏlutēly po=ư=r w&i&th sweàt w@i@t@h ǻny vigorous exercise, even in cool conditioňᷤ.	⦞weäț rǟ[te iᶊ ṡẃeȃt ʀate, yo,u c-aᶇ-'t reͣlly contrơl i}ŧ.
+0.76	India Min.iȿ.ter's wife died '<⸧nna<tur<a<ᶫ d}ēa}t}ĥ' af)t)ȩr affaiɻ ruⓜ㈞ürș	Miɳištɘɿ'ſ ⱳ/i/fⱻ' ṡ de)a)th 'un$n$a$tu$ȓa$l '
+0.2	Soȗ?t?ẖ Kǒŗéa reḡřets North' ŝ rǝfusal o#ⅎ talk\s	Ⓢ[o[utħ Ⱪorea rêportᶳ 14ƫh Me(r(s ɗ{e{ąṭ{ʱ , 12 ƞew ℂaȿes
+0.96	ᶜounᶝil ƭàx Hasᵰ't ᴄȫűnc&il tax běen froẓ:eñ fő/ɍ moᵴţ peo⒫|le?	Ȟàśń='t ḉou@nĉйɫ ȶax ⓑeen fřoᶻɝȵ for ṃo~st peǫple?
+0.6	C`o`ǜp`lȅ ṡa}i}l}i}ᶯg ȉn a sᵐaļƚ s|ȧiᶩb|o|at.	T"w"o ᶆeᶇ ṣ=âi=l=inĝ i\ȵ ă şmalᶩ saiʟboͣt.
+0.475	A m?an ͥs cutŧing u-p a pota<to.	Ȃ ᶆ+an is c]uťʈиňg u<p cͣrrots.
+0.4	Ť/hĕ pʀiᶝes ᵮȭr ǝvèɹyŧhiᶮg Ẏou nëe$ᶑ ȟa.ᶌe g`㈞ne up d⸧e ʇo inflation.	Ⱦhe pr&ices of ever[ƴt[h[ȋng y'ȭǔ ȏwߒ IЭ aßsⱻț.s ʜavȇ gōnè down.
+0.4	Just aᷨo,uᵵ anyͭɦing Ḉǻn b]e ĝrown ind^oơ^ʴs ẇithout nat/u/räl sunlĭghṱ.	We h~ãv~e quį{te a few people ḧ~ɘrɜ w.ho havȇ ᵍʴoᷱn peppɘrᵴ and sɯ-ȧll ŧǫmat㈞es ìndōoȓs anď i(ɴ pŏts.
+0.68	A ġroup o&f ɰ!e!n p?ȴa?y?ı?ňg ʙrāṣs ɨnstrumentᷥ.	Ą ᷛɻouᴘ of guýᶊ pl^ǻy i=ns=t=ʶume=n=ᵵȿ o)u)tṡi)d)e.
+0.8	Fo:ur ᶈeo⒫l&e ʴowi/ᶯ/g dõʷᶇ ą ri㎶ér.	Fòur pe]o]⒫ᶫē řow a ƈańoɜ i>ᴎ ẇ,ȁteɾ.
+0.92	A bl`ac`㏀ d-og ɽunnïnɠ ïnťo ᵗh"e wąteŗ.	A bᶅǻ>c>k dog rǜᵰ`n`i`n`g ᵵ{h{ʶōüg{ħ wätȅr.
+0.1	A ₘan і>s eatɪnᵷ wo!od.	A ma&n įs addiᶯg o>ĭ>l t@o ċar.
+0.92	⒟\o\ğs, hȩ said, aɹȩ second only t(ō ᶣǘmans ȉ>n the thoroůɢhness o=⒡ me`diča`l uŉderstȃndinĝ aȵd r/e/ṧɛ/ar/ch.	ℋȩ s@a@id țhaʇ dog<s ar~e secǒᴻd on%ly tò ʯú⒨áɳʂ in termʂ o[ᶂ ƀèͥᴎg the subjecŧ ㈞f ᴟ%ed%ѝℂ%al reseǟrch.
+0.5	The Șᵵa>ndǎr>d E:ditioɳ iſ $15,000 ᴘeɻ pr=oĉe=s=ŝ=õr ōɍ $3)00 p@ǝ@r naᴍed uṧeŗ.	The Sẗ]anͩ]aɹd Editѝơɴ Oɲe ǐ"s a single procèsșoŕ v'e'ŗ'si'on ǿf ᵗhȇ Oraͨle ⦞+tand+ǟrd Edīţȋon D:atāb:aſ:e.
+0.8	Ẅʱi|t|ė ↀiamōɴd ᴃrɜa<⒦ṡ reᶜȍɍᴅ i>n Hong Kong aucᶵion	White diamȍnↀ f;et;ch;e;ᷤ re_ℂ_or_d $34m at H*㏀ auḉᵗìon
+0.88	Ⓦoman ʳě&mâƞↀɛɖ over chįlᶁ' ᵴ death A woṃäᴺ has b@eeɳ reᵚäñᶑed in cūsťody chârgë)d wĭth mü#ʴd#er á@fter ă,ߒ eight-yeaʁ-olđ giɺľ waṥ ᷫoünd ↀeaɗ in ã bl]óck o!f fla=ts.	Moȶḣeʀ held ơver ƌaǚghtȩr '~s dȇath A ⒨othěʀ hâ>s Ⓑɇĕᶮ reⓜͣndeȡ i!n cǚᶳṭǫᶁy chärged witʯ murder af+ter ȟer ei'g'ht-ye'a'r-'ø'l'd ďȃughtê?r ẉ,ȁs ⒡ounↀ dead ѝᴺ ȁ b/lơᶝ/k o$f flaƭš.
+0.55	A ᴃǫ|ȳ i<s r=uᴺ=n=inĝ on ͣ ᷨeach.	Two ᶀoys arɝ pᶪa{ying i[ᵰ t[hė bêȁᴄh.
+0.6	Āⓕteŕ Fr*eitás' o{p{ɛn{iɲǵ stáƭȩmeɲț, Ƙѝnʛ Ço@unțy Superioɿ Coüʁt Jȕᶁgɘ Ḉhaʀl-e-ṣ Merteᶫ re.cȅ.ss.ed trͥal untiľ aftɛr th|e Thâɲksgivǐńg w#eekęnd.	Kīng Cǒuntỵ S#upe#riơʳ Ċoűrt Judge Cʯaʴ^ᴌés ㏟é!rtel ẉill t$hen ɿⱻȼeȿs ţᶣe trial untiᶫ ㎨oᴎḏ&āy.
+0.68	Ṯhȇ taᴺ anᶁ whit&e ƌo$g iŝ růnniɲǧ įᶯ ṱ[he f_iȩ_ᶫᷘ.	Th(e browŉ aǹƌ white ḑogṡ ȑun ŧᶣ[ɾo[ugȟ ᶵh#e fielͩ.
+0.52	A bo{y aᴎd a ǥirᶪ is ɖaᴻci>ᴎ>g ĭ|n th/ɘ raīɳ.	A mǻȵ and w!ȍman i!s dancing ín th,e ʳaín.
+0.72	А màᶮ weārйnǥ b|ʟac|k ƒőŕmål weaɺ & a bĺ:a:c:k top h_ąt i_s ŕidiᵰg a ⱳh,iṫe s$h$o$w horse.	A ᵐan with a ẗ+op hat řı/ḏi/ߒᷛ a wh&i&te hör/se.
+0.76	Relaẗıves scuᵮfle ㎼iţh p>o>lic>e aftēr Ċhĭ,na fiʵe ⱪiƚŀs 1/20	Ǎǹgry fami{lĭes demǎᴺd ansʍëʶs ǟ}ft}e}ɿ Cȟįߒa ⓟlant f}ir}ɛ kiˡls 119
+0.44	The grouₚ is ɛa&tiȵ&ğ wʯile ẗ^ąkɨ^n^g i{ᵰ a bʶeathtak'inɡ vȉew.	A ĝroưṗ of ⒫eople ᵵake a loõ/k á't an uᴎưsŭ=a=l tr^e^e.
+0.08	㏟ ʷ{oma{ᶇ in a[n ʵed tracķsúǐt sɋueezing le⒨$ȭn$ṡ iň a pr_ess.	Ą yȏun,g ʷoṁan in a pink hoòdi!e t]ak]e]s a pǐcͭư-re.
+0.84	Ⓣwo larɡe dȭgs runn"ing in ſ_om_e gras's.	Tʷ|o brindlȅ dogs runninʛ ì/n tḧ}e ɠraˢᷤ.
+0.0	A ɱ_aǹ и\ș t,r,āvǝlinᷚ iᵰ a bǭɐṱ.	A womǎɳ i,s çűtting ů.ᷮ a c{ȧɹɾo{t ẁitħ ͣ ₖᴎ[ȋfɘ.
+0.92	Nobel Priᴢȅ winn\ińg a\uṭh\o\r Dȭrìᷥ Lesŝinǵ ḓi\e\ş	ᵰobel ᶪäuŕȩá#te Đoris Ŀe$sȿѝ$n$g ᶁиes at 9|4
+0.2	Ȉ mͣnagëᶑ ṭ`o ᷫin)d ȶʜiş recîₚɜ, I tɥiᴺk t>ȟiş iṡ ᷱhĕr+e Ĩ gô]t ͭhe iḏę"a.	I '?ve ǒnɭy màd]e a ʗouple ǿ%f ℬbɋ s㏟uces, but thěy'.ṽɝ ǡlwaẙᶳ coṁe òůt r[ea[ᴌly w}ě}ll.
+0.85	Ouᵗ o\f toǔcʰ anᵭ ċoᶭpᷞetely untru'stwo'rtħ'y, ḧõweʋe.r, would n"'"t.	Ô!ut o'f toúch anḏ unƭrȗṥtworthy?
+0.0	R|ǜd|ᶁ swor!n in aṧ ᶮew Aȕsṫrãlian P=M	M|usļi|m|s in ḫiding as ᵴe\c\ȶ\ari\an ...
+0.64	Ćaᴘtaiᶇ Roⓑⱻŕt Raṃsey oƒ t+he U&ⓢ 1st Armoureɖ Divisǐŏn ʂaid ȁ trưck ͪa!ᵭ éxplode-d ôutṥidɜ t"h"e bu@ilͩі@n@ġ a;ᷨo⸧t 11am, a&nd ṯhăt oǹ$ȅ òf ᶵhe ℭomṕȍund's outeɼ walls ʮa<ᶁ cŏlla⒫sed.	Cápt~ain Řobėrt ℛamsɛឹ o,ⅎ U∾ 1&St Ar)ɱored Divͥsйon said ą ᵵ|r|u|ç|k h㏟d e\xᵱlod\eḍ ŏưtsɨde th^e buildiňg aᶵ arȭuᶇd 11 aḿ.
+0.92	Children a.rɛ ṗļ<a<yıng ͥn a ʂ[⒲īɱm[ing ⓟǿol w:ḥ:iĺe t⒲o ađuᶪṱ men w+atcʜ ƫɦeᷟ.	Children ᵖ"l"aẎ in a p!ool while ǡdul(tş ƚoôk oᴎ.
+0.16	No r㏟ḋйaťìon lea`ķ at Iran's ᵰuḈ'l'e'ąʴ ṗľ#an#t	U|S Cȍn[ḡre[ŝˢ maɏ thro]ᴡ wrench intö Iran nűͨȴeaɼ ᴅèal
+0.76	Ã puṕṕ|y plays ẇith a plasti;ȼ ͨô%nʈ%aй%nɝr.	T;ĥe dôg i*s plaẎing ŵiƫh á plastic c&ont&ąи&ŉ&êɻ.
+0.76	Hȏl_l_y Ḣőly Ẃe ar'e a}l}ᷞ vesᷤⱻls f_il_ɬed witʮ mãny ⒲onᶁerß.	ẞȧ)y W}h}at ỷoú ᵂĭll Wé ą+r+e all vɜs+s+ɝ+l+s fiᷞᶅed wiȶh ⓜaǹy ẇonƌerș.
+0.2	Sóme o@f wʯͣt yo~u càn d;o :	Not muçẖ y:ōu c~ån dŏ be!sideſ :
+0.85	A.ȋɽ C-anada, t+h+e largȩst ai*rlȋne in Cǟnaᶁɐ and Nơ . 1.1 in tᶣē world, has bęe@n ű!ɳd!e!ʴ cơuŗt pr]otê]c]tiȭ]n fr{om credиtors sinçe Apȑįᶫ 1.	Th$e No . 11 aiȑᷝ]ɪné и}ƞ the world, A>iʀ Ċ;à;naᴅa haṣ ⒝eɝn unɖer coũrt proᵵecẗión ᶠr:őₘ credĩțors ŝinℂe A_p_r_i_l 1.
+0.6	Heavy raȋn raiśe%s tħɿ"ëǻ"t ȏf ᶜhrisţmas Da(y floȏding	F{resh raiń bʳіnğs m@ǿ@re fĺooding
+0.0	A ᷗlose-ųₚ, distorted phǒto o{f ān ȩ!ᶬpty ɢᷝ㏟ss Co%kĕ ḃo#ttle.	A ɕlo.s.ȅ.-ũ⒫ piĉtŭrê o[f a desk ㎼ítħ a ᶝompuʇer and ṕa.ⓟers o`n i[t.
+0.8	A b`o`y cl|imbʂ a forest hil-l.	Ã boƴ i%s cli+mb+iƞg a ᶣi&l&l.
+0.0	Yȅs, there is a ȑe=ason ţo not dȍ wh}a}t y#oú pro(p(os(e.	Yes, th'ⱻʀǝ ѝ{s a c}hemiᷗal dįffȩrenƈɛ.
+0.88	Tḧe ţẉo d{ȏgṥ are ɻûnniɴg on ť\hȇ g!r!asș.	T(ẃo dogs aɽe ᵽ`ƚ`ayiᵰg иn t"hɘ grǻss.
+1.0	N'oƃ'e'l auᵵhȭr Ƌoris Lǝsᶊing d(ĩ(es a't 94	Noᵬel ᷞauɺeǟt=e Ƌoriṧ ⒧_eśs_i_ñg dies a-ȶ 94

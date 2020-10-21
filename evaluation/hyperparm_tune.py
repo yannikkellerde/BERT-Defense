@@ -52,8 +52,9 @@ class Tuner():
             if stsb:
                 self.posterior_embeddings = simple_sentence_embedder(self.roberta,posterior)
                 l = len(self.posterior_embeddings)
-                cosine_sims = [cosine_similarity(x,y) for x,y in zip(self.posterior_embeddings[:l/2],self.posterior_embeddings[l/2:])]
-                tune_entry["stsb"] = sum(cosine_sims)/len(cosine_sims)
+                # This is wrong!
+                #cosine_sims = [cosine_similarity(x,y) for x,y in zip(self.posterior_embeddings[:l/2],self.posterior_embeddings[l/2:])]
+                #tune_entry["stsb"] = sum(cosine_sims)/len(cosine_sims)
             for gt,post in zip(ground_truth,posterior):
                 tune_entry["bleu"].append(metrics.bleu_score(gt,post))
                 all_rouge = metrics.rouge_score(gt,post)
