@@ -62,7 +62,7 @@ for method in df["method"].unique():
 tables = {}
 for ev in evals:
     table = MyEasyTable(ev)
-    table.setOuterStructure(" ", " ")
+    table.setOuterStructure("|", "")
     table.setInnerStructure("|", "-", "|")
     table.setData(table_data[ev])
     tables[ev] = table
@@ -72,7 +72,7 @@ with open("tables.txt", "w") as f:
     sys.stdout = f
     name_table = MyEasyTable("names")
     name_table.setData([name_map])
-    name_table.setOuterStructure(" ", " ")
+    name_table.setOuterStructure("|", "")
     name_table.setInnerStructure("|", "-", "|")
     print("## Abbrevation map")
     name_table.displayTable()

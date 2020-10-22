@@ -76,47 +76,40 @@ To figure our which of the 2 Hypothesis we should finally choose, let's put the 
 GTP decided, that the sentence ending with `a chair` is much more likely than without the `a`. After combining likelihood with prior to Posterior, we only have to choose the MAP now, to get our final cleaned output sentence: `a small white cat with glowing eyes standing underneath a chair.`.
 
 ## Evaluation
-## Abbrevation map
-                                                                                                            
-visual|phonetic|full-swap|inner-swap|disemvowel|truncate|keyboard-typo|natural-typo|intrude|segmentation|rand 
-------|--------|---------|----------|----------|--------|-------------|------------|-------|------------|---- 
-  vi  |   ph   |   fs    |    is    |    dv    |   tr   |     kt      |     nt     |  in   |     sg     | rd  
-                                                                                                            
-
 ## mover
-                                                                                                            
-      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3 
-------------------|------|------|--------------------|------|------|-------------|-------------|------------- 
-       ours       |0.795 |0.588 |       0.577        |0.822 |0.831 |    0.687    |    0.816    |    0.643     
-ours (only priors)|0.657 |0.419 |       0.307        |0.689 |0.843 |    0.538    |    0.68     |    0.451     
-   no cleaning    |0.317 |0.265 |        0.19        |0.291 |0.307 |    0.154    |    0.012    |    0.162     
-                                                                                                            
+
+|      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
+|------------------|------|------|--------------------|------|------|-------------|-------------|-------------|
+|       ours       |0.795 |0.588 |       0.577        |0.822 |0.831 |    0.687    |    0.816    |    0.643    |
+|ours (only priors)|0.657 |0.419 |       0.307        |0.689 |0.843 |    0.538    |    0.68     |    0.451    |
+|   no cleaning    |0.317 |0.265 |        0.19        |0.291 |0.307 |    0.154    |    0.012    |    0.162    |
+
 
 ## sts-b
-                                                                                                            
-      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3 
-------------------|------|------|--------------------|------|------|-------------|-------------|------------- 
-       ours       |0.776 |0.654 |       0.587        |0.802 |0.818 |    0.63     |    0.799    |    0.654     
-ours (only priors)|0.788 |0.556 |        0.52        |0.744 |0.872 |    0.698    |    0.715    |    0.53      
-   no cleaning    |0.473 |0.588 |       0.581        |0.402 |0.574 |    0.573    |    0.33     |    0.322     
-                                                                                                            
+
+|      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
+|------------------|------|------|--------------------|------|------|-------------|-------------|-------------|
+|       ours       |0.776 |0.654 |       0.587        |0.802 |0.818 |    0.63     |    0.799    |    0.654    |
+|ours (only priors)|0.788 |0.556 |        0.52        |0.744 |0.872 |    0.698    |    0.715    |    0.53     |
+|   no cleaning    |0.473 |0.588 |       0.581        |0.402 |0.574 |    0.573    |    0.33     |    0.322    |
+
 
 ## bleu
-                                                                                                            
-      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3 
-------------------|------|------|--------------------|------|------|-------------|-------------|------------- 
-       ours       |0.515 |0.339 |       0.293        | 0.54 | 0.55 |    0.398    |    0.531    |    0.365     
-ours (only priors)|0.392 |0.173 |       0.044        |0.434 |0.568 |    0.238    |    0.384    |    0.179     
-   no cleaning    |0.149 |0.098 |       0.016        |0.155 |0.154 |    0.008    |    0.002    |    0.016     
-                                                                                                            
+
+|      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
+|------------------|------|------|--------------------|------|------|-------------|-------------|-------------|
+|       ours       |0.515 |0.339 |       0.293        | 0.54 | 0.55 |    0.398    |    0.531    |    0.365    |
+|ours (only priors)|0.392 |0.173 |       0.044        |0.434 |0.568 |    0.238    |    0.384    |    0.179    |
+|   no cleaning    |0.149 |0.098 |       0.016        |0.155 |0.154 |    0.008    |    0.002    |    0.016    |
+
 
 ## rouge-1
-                                                                                                            
-      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3 
-------------------|------|------|--------------------|------|------|-------------|-------------|------------- 
-       ours       | 0.9  |0.748 |       0.733        |0.902 |0.913 |    0.843    |    0.91     |    0.781     
-ours (only priors)|0.829 |0.648 |       0.538        |0.846 |0.928 |    0.761    |    0.835    |    0.675     
-   no cleaning    |0.603 |0.514 |       0.404        | 0.6  |0.623 |    0.322    |    0.144    |    0.357     
+
+|      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
+|------------------|------|------|--------------------|------|------|-------------|-------------|-------------|
+|       ours       | 0.9  |0.748 |       0.733        |0.902 |0.913 |    0.843    |    0.91     |    0.781    |
+|ours (only priors)|0.829 |0.648 |       0.538        |0.846 |0.928 |    0.761    |    0.835    |    0.675    |
+|   no cleaning    |0.603 |0.514 |       0.404        | 0.6  |0.623 |    0.322    |    0.144    |    0.357    |
 
 ## Comparison to other work
 We compared to the following other work [https://github.com/danishpruthi/Adversarial-Misspellings](https://github.com/danishpruthi/Adversarial-Misspellings): This implementation is only targeted at defending swaps, additions, drops and keyboard typos, but even for this kind of errors it only barely works. For example, their demonstration example is `nicset atcing I have ever witsesed` => `nicest acting i have ever witnessed`, but already for something slightly different, generated by our natural-typo adversarial attack (strength: 0.2) `nicest acting i have evere withnessed` it fails and produces `nicest acting i have every witnessed`. For complicated stuff like `A sma|ll w#hiteca:t witg,l,o,win,g e[h[e[sstajdinginderneath ac*h*a*ir.` for which to be fair it was built for, it does not work at all: `a small w#hiteca:t witg,l,o,win,g e[h[e[sstajdinginderneath ac*h*a*ir.`.
