@@ -35,12 +35,12 @@ class Sentence_cleaner():
             word_dics = [x[1] for x in content]
             if verbose:
                 print(f"Hypothesis {i+1}, Probability: {prob}, Prior:{get_most_likely_sentence_multidics(prior,word_dics)}")
-            posterior = self.context_bert.bert_posterior_for_hypothesis(prior,word_dics,len(prior),orig_prior=prior.copy(),verbose=False)
+            posterior = self.context_bert.bert_posterior_for_hypothesis(prior,word_dics,len(prior),orig_prior=prior.copy(),verbose=verbose)
             post_sent = get_most_likely_sentence_multidics(prior,word_dics)
             all_hyps.append((prob,post_sent))
             if verbose:
                 print(f"Hypothesis {i+1}, Prior prob: {prob}, Posterior: {post_sent}")
-        posterior_hyps = self.context_bert.gtp_hypothesis(all_hyps,verbose=verbose)
+        posterior_hyps = self.context_bert.gpt_hypothesis(all_hyps,verbose=verbose)
         if verbose:
             print("All posterior hypothesis",posterior_hyps)
         print(f"\nFinal cleaned sentence: {posterior_hyps[0][1]}")
@@ -57,7 +57,7 @@ class Sentence_cleaner():
                 word_dics = [x[1] for x in content]
                 post_sent = get_most_likely_sentence_multidics(prior,word_dics)
                 all_hyps.append((prob,post_sent))
-            posterior_hyps = self.context_bert.gtp_hypothesis(all_hyps)
+            posterior_hyps = self.context_bert.gpt_hypothesis(all_hyps)
             all_posterior.append(posterior_hyps[0][1])
         return all_posterior
 
@@ -76,7 +76,7 @@ class Sentence_cleaner():
                 all_hyps.append((prob,post_sent))
                 if progress:
                     print(f"Hypothesis {i+1}, Prior prob: {prob}, Posterior: {post_sent}")
-            posterior_hyps = self.context_bert.gtp_hypothesis(all_hyps)
+            posterior_hyps = self.context_bert.gpt_hypothesis(all_hyps)
             if progress:
                 print("All posterior hypothesis",posterior_hyps)
             print(f"\nFinal cleaned sentence: {posterior_hyps[0][1]}")
