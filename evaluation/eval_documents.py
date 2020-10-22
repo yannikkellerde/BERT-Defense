@@ -54,6 +54,6 @@ def eval_many(ground_truth,documents,outfile):
 
 if __name__ == "__main__":
     ground_truth = "test_400_sentences.txt"
-    documents = [os.path.join("cleaned/bayesian_shielding",x) for x in os.listdir("cleaned/bayesian_shielding")]
+    documents = [os.path.join("attacked_documents",x) for x in os.listdir("attacked_documents")]
     #documents = [os.path.join("cleaned/priors/txts",x) for x in os.listdir("cleaned/priors/txts")]
     eval_many(ground_truth,documents,"evaluation.csv")

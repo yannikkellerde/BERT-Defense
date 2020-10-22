@@ -1,0 +1,67 @@
+import pandas as pd
+import sys,os
+from easy_table import EasyTable
+import re
+
+name_map = {"visual":"vi","phonetic":"ph","full-swap":"fs","inner-swap":"is","disemvowel":"dv","truncate":"tr",
+            "keyboard-typo":"kt","natural-typo":"nt","intrude":"in","segmentation":"sg","rand":"rd"}
+
+def attack_map(attack_str):
+    out = ""
+    singled_attacks = re.findall(r"\([0-9a-zA-Z,'\-\. ]*\)", attack_str)
+    for i,s in enumerate(singled_attacks):
+        name = name_map[re.findall(r"'.*'",s)[0][1:-1]]
+        number = re.findall(r"[0-9\.]+",s)[0]
+        out+=f"{name}:{number}"
+        if i!=len(singled_attacks)-1:
+            out+=","
+    return out
+
+df = pd.read_csv("evaluation.csv")
+df = df[~df["document"].str.contains("all_attacks")]
+methods = []
+attacks = []
+for i,row in df.iterrows():
+    doc = row["document"]
+    with open(os.path.join("attacked_documents",os.path.basename(doc)), "r") as f:
+        attacks.append(attack_map(f.readline()[2:]))
+    if "bayesian_shielding" in doc:
+        method = "ours"
+    elif "priors" in doc:
+        method = "ours (only priors)"
+    elif "attacked_documents" in doc:
+        method = "no cleaning"
+    methods.append(method)
+
+df["method"] = methods
+df["attacks"] = attacks
+
+evals = ["mover","sts-b","bleu","rouge-1"]
+
+table_data = {x:[] for x in evals}
+
+for method in df["method"].unique():
+    for key in evals:
+        table_data[key].append({"method":method})
+    only_method = df[df["method"]==method]
+    for i,row in only_method.iterrows():
+        for ev in evals:
+            table_data[ev][-1][row["attacks"]] = str(round(row[ev],3))
+
+tables = {}
+for ev in evals:
+    table = EasyTable(ev)
+    table.setOuterStructure("|", "-")
+    table.setInnerStructure("|", "-", "|")
+    table.setData(table_data[ev])
+    tables[ev] = table
+
+name_table = EasyTable("names")
+name_table.setData([name_map])
+name_table.setOuterStructure("|", "-")
+name_table.setInnerStructure("|", "-", "|")
+name_table.displayTable()
+
+for name,table in tables.items():
+    print("\n",name,"\n")
+    table.displayTable()
