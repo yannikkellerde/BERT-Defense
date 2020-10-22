@@ -4,7 +4,6 @@ import numpy as np
 import math
 import pickle as pkl
 import sys
-import progressbar
 from PIL import Image
 import multiprocessing
 from itertools import chain

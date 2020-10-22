@@ -1,7 +1,6 @@
 import sys,os
 sys.path.append("..")
 import torch
-import psutil
 import numpy as np
 from typing import List,Tuple
 import math
@@ -197,7 +196,6 @@ class BertPosterior():
         return attention_mask,weights_tensor
 
     def batch_bert_posterior(self,priors_hypform:List[List[Tuple[float,List[Tuple[np.ndarray,List[str]]]]]],batch_size:int=128) -> List[List[Tuple[float,List[Tuple[np.ndarray,List[str]]]]]]:
-        print("Begin Function",psutil.Process(os.getpid()).memory_percent())
         priors_nd_word_dics = sum([[content for prob,content in hyps] for hyps in priors_hypform],[])
         priors:List[List[np.ndarray]] = [[x[0] for x in hyp] for hyp in priors_nd_word_dics]
         all_word_dics:List[List[List[str]]] = [[x[1] for x in hyp] for hyp in priors_nd_word_dics]
@@ -208,7 +206,6 @@ class BertPosterior():
         all_bert_dics:List[List[List[int]]] = [[[self.tokenizer.vocab[word] for word in word_dic] for word_dic in word_dics] for word_dics in all_word_dics]
         with torch.no_grad():
             for i in trange(max_prior_len):
-                print("Begin iteration",psutil.Process(os.getpid()).memory_percent())
                 likelihoods = []
                 all_mask_ids = []
                 for i in trange(0,len(priors),batch_size):
