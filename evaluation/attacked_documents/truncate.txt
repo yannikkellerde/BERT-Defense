@@ -1,0 +1,201 @@
+# [('truncate', 0.3)]
+0.8	A brow dog is runnin throug the field.	a brow dog with his tongue waggin as he run throug a field
+0.28	Egyp's Muslim Brotherhoo Refuse to Back Down	Egyptian cour sentence Muslim Brotherhood leader to life in priso
+1.0	A man is playin a keyboar.	A man play a keyboar.
+0.12	A man is choppin butte int a container.	A woman is cuttin shrimp.
+0.88	A squirre run aroun in circles.	A squirre is movin in circle.
+0.84	Person with two ski pole skiin down a snow hil.	A perso skiing dow a snowy hil.
+0.84	Senate confirm Jane Yellen as chair of US Federal Reserv	US Senate Confirm Jane Yellen as New Central Bank Chie
+0.96	A grou of horses grazin in a fiel.	Grou of horse grazing in grassy fiel.
+0.28	A man is ridin a hors.	A man is drivin a car.
+0.88	Two boy sit facin one anothe at a table and one point at the othe.	Two peopl sit facin eac othe at a tabl as one points at the other.
+1.0	Thre dog pulling a man on a bicycle throug the sno.	The dogs are pullin a man on a typ of bik, throug the sno.
+0.88	A dog is jumpin ove a barrie at a agility competitio.	A dog jumpin over an obstacle cours fenc.
+0.8	The injure were take to hospital in Jefferso Cit and Columbia, a colleg tow about 30 miles to the north.	The injure were taken to hospitals in Jefferson City and Columbia, abou 48k nort; thei conditions wer not immediately availabl.
+0.4	Rev's Earl Read: Marc 2	Rev .'s Early Read: Sept 3rd , 201
+0.7	In the week leading up to the executio, severa Florid officials received anonymous threatenin letter.	Several Florid official connecte to the case hav receive threatening letters, accompanied by rifl bullets.
+0.44	The Not's Must-Read for Friday May 24 , 201	The Not's Must-Read for Friday, Augus 23 , 201
+0.2	run victi dow Got any proof?	paranoi Got any proo?
+0.28	Philippines hold second senator ove corruption	Philippine recovering after powerfu typhoon
+0.84	A gray cat layin on a brow tabl.	A gre cat lying on a woode tabl.
+0.45	The brow trai is sittin on the railroad tracks.	The white trai is sittin on the track.
+0.0	No, you don't nee to have take classe or earne a degre in you area.	I hav done quit a bit of technica writing for healthcar information system.
+0.4	Russia plane reportedl crashes in Egypt	Pilo kille as US jet crashe in England
+0.48	The tech-loaded Nasda composit ros 20.9 point to 1595.9, ending at its highest level for 12 months.	The technology-lace Nasdaq Composit Index <.IXI> climbe 19.1 points, or 1.2 percen, to 1,615.02.
+0.52	Syri 'to declare chemical weapons and sig conventio '	Russia, Syria Wor on 'Concrete' Chemica Weapon Plan
+0.44	South Korea Says Nort Fire Missiles	North Korea launche short-rang missiles
+0.16	Flash flood kil 58 in easter Afghanistan	Bom wounds 16 in eastern Afghanista
+0.56	Two years late, the insurance coverag would begi.	Unde the agreement, Medicare coverag for dru benefit would begi in 2006.
+0.28	Two boys in blac swimming trunk are holdin anothe boy by his arm and legs on a beac.	Man in white shir flippin young boy in the water wit fou other boy surrounding the.
+0.68	Obama urges decisiv action on Europ deb crisis	Obam urges Europ to act quickl on crisis
+0.85	A woma is chopping broccol.	A woman is choppin broccol with a knif.
+0.75	Critics say the law violate civi liberties, something Hous Judiciar Committe Chairman James Sensenbrenner, R-Wis, say he is sensitiv to.	House Judiciar Committe Chairma James Sensenbrenner, R-Wis, say he is sensitive to civil libertie complaints.
+0.8	religiou extremis continues in pakistan despit the banning of militan groups.	religiou extremism continue in pakistan despit the banning of militan groups by the pakistani governmen.
+0.84	Vehicle ablaze in collapsed Japan tunne	Vehicles 'lef burning' as smoke emit from Japa tunnel
+0.88	A docto prescribes medicin to a patien.	A docto prescribe a medicine.
+0.36	A woma is choppin an onio.	A woma is choppin garlic wit a knife.
+0.64	A guy on a whit hors.	A man ridin a white hors in an aren.
+0.15	A woma is playin in the ocea.	A woma is preparing shrim to coo.
+0.16	Chin gives US regulator acces to audit records	Chin opposes US arms sale to Taiwa
+0.56	Bangladesh Honor Factory Victim	Retailers back Banglades factory safety pac
+0.76	Pakista to releas mos senior Afghan Taliban prisoner	Pakista to release senio Taliban commander on Saturda
+0.08	Algeri president gets therap after stroke: stat media	Bulgarian president trie to break electio stalemat
+0.6	Artists are worried the pla would harm thos who need hel mos - performer who hav a difficult time lining up show.	The artists say the plan wil harm Frenc culture and punish thos who nee help mos - performer who have a har tim lining up wor.
+0.12	Firs of all, let me say tha ther seem to be 3 mai traits to casting a spel.	I alway thought that Harr seemed to learn fro the Half-Bloo Princ better tha he did from other sources.
+0.16	A man is runnin on a stree.	A man play the guita.
+0.4	I woul say you can do it, but it wouln't be advise.	Personall, I woul say not unles it suit you.
+0.68	The two Democrat on the five-membe FCC panel hel a new conferenc to sway opinio against Powell.	The two Democrats on the five-member FCC hel a new conferenc to swa opinio agains Powel and the panel's two other Republican.
+0.88	Asteroid zip between Eart and satellites	Asteroid passe Eart in fly-by
+0.68	\" The Europea Unio is basicall absent ,"sai Tito Barbini, regiona ministe for agricultur in Tuscany, Italy.	Tito Barbin, a regional ministe for agricultur in Tuscan, Italy, criticize the absenc Tuesday in Sacramento.
+0.65	A boy is playin a key-boar.	A boy is sitting in a roo playin a pian by lam ligh.
+0.04	The woma is smokin.	The man is walkin.
+0.0	A monke is walkin through the wate.	A guy is playin a trumpe.
+0.1	A woma is sittin on a sidewal wit a cel phone at her ear.	A woma is ridin her bicycl.
+0.04	Ukrainia Presiden order 7-day ceasefire in the east	Uganda's President Museven agrees to sig anti-gays Bil
+1.0	You guy are makin this all WAAAAA too complicated.	You are makin thi too complicate.
+0.8	WORL No . 2 Lleyto Hewit has accuse the Association of Tenni Professionals of malic, including an alleged attempt last year to dupe him int refusin a dru tes.	World No.2 Lleyto Hewitt has accused his professiona peer of long-standing malic, including an attemp last year to dup him into refusin a dru tes.
+0.0	A man is shootin a gun.	A man is spittin.
+0.6	Two people walkin alon the shor at sunset.	Two peopl walkin along the beac at sunse towar a group of people.
+0.96	Blu and red plane in mid-ai fligh.	a blu and red airplan whil in flight.
+0.8	Trad newspape Variety up for sale	Hollywoo trad publicatio Variety put up for sale
+0.84	Sly Stallon's Son Sage Found Dea in LA	Sylveste Stallone's Son Foun Dead At Hom
+0.92	A woma is playing flut.	A woma play on a flut.
+0.0	A boy is cuttin pape.	A man is loadin a rifl.
+0.92	A youn woma wit a bracele is wearing a bikin top and jeans.	A woma wearin jean, a dark bikin top, and a bracele.
+0.28	Ukraine‚Äôs pro-Russia protesters demand greate autonom	Sudanese protester demand the regim's ouste
+0.8	Mr. Manuel and his grou entere the Unite State by walking across the bridg linking Matamoro and Brownsville.	Manue and his group entere the US the sam way thousands of peopl do every day, by walking acros the bridg betwee Matamoro and Brownsvill.
+0.8	Does this pag answe your questio?	Does this answe your question?
+0.96	The new Col War	A new Col War?
+0.0	I hav no ide why it is vote up, but Rex Ker's answer beg the questio.	It's a tautolog, but the mappin betwee logi and the English-languag descriptio is wrong.
+0.44	AMD's chi sale jumpe 7 percent year-on-year to $402 millio.	Second-quarter sale grew 7 percen, to $645 millio fro $600 millio in 200.
+0.92	A woma splits garlic clove.	A woma is breakin a hea of garlic int cloves.
+0.76	The man in the backpac look to his lef.	An adul mal wearin a backpack walks and look to the left.
+0.96	England captain Andrew Straus retire from professional cricke	Englan captai Strauss retires from cricket
+0.8	Pape is being cut wit scissor.	A piec of pape is bein cut.
+0.15	A man is playin with frog	A cat is playin wit a camer.
+1.0	You are on the righ pat.	You're on the righ pat.
+0.92	Thre die afte car crash at Tian'anme	Thre Kille In Cras At Tiananmen Square
+0.76	Tropica Storm Karen target US Gulf Coas	Tropica Storm Kare poised to make landfal
+0.48	Gunmen kill 15 Libya soldier	Gunme kil 3 Lebanese troop near Syria
+0.8	A blac dog stand next to materials at a constructio sit.	A black dog stand in the middl of a constructio sit.
+0.84	A man is liftin weight.	A man is liftin a barbel.
+0.6666	Metropolita Ambulance spokesman Jame How said fiv people were taken to hospita and three wer treated at the scen after yesterda's incident.	Spokesma Jame Howe said five children aged between 4 and 17 were take to hospita wit neck and chest injurie, whil thre others were treate at the scene.
+0.75	Agriculture ministers from more than one hundred nation are expecte to atten the three-da Ministerial Conference and Expo on Agricultura Science and Technolog sponsore by the U.S Departmen of Agricultur.	U.S Agriculture Secretary Ann Veneman kick off the three-da Ministerial Conference and Exp on Agricultura Scienc and Technology on Monda.
+0.52	Russi 'alon' in blamin Syria rebels for chemical attack: US	Russi ask UN to consider its inquiry of Syri chemical arm use
+0.0	An embolism in a medica contex refers to any larg movin mass or defec in the bloo stream.	Her is an interesting articl on wikipedi to give overvie of pressure related injurie.
+0.12	A man is cryin.	A woma is dancin.
+0.2	Obama holds out ove Syri strikes	UK urge countries over Syri aid
+0.4	A woma standin in front of trees and smilin.	A man is walking by tree in fron of the cit skylin.
+0.56	Thre wome with brow hair are smiling.	Thre women in India dresses in a crowded roo smilin.
+0.32	A man is playin a flut in a ban.	A man is playin a guita.
+0.0	A gir is eatin a cupcak.	A man is slicin a cucumbe.
+0.92	Detroit eligible for bankruptc protectio: U.S. judg	Detroit eligibl for bankruptcy protectio
+0.68	It call for the agenc to plan an independen safet and engineerin organization.	The agency has yet to full formulat a strateg for the creation of an independen engineering technica authorit.
+0.84	a woma wit a vikin hat on.	Smilin woma sitting wearing a vikin hat.
+0.28	1 perso kille in sectarian clashes in Lebano	Nin killed in Syrian-linked clashe in Lebano
+0.72	the ensuing battl and airstrike killed at leas 10 militant.	an ensuin battl killed at least 10 militant.
+0.64	The lad cracke two raw egg.	The woman is crackin egg int a bowl.
+0.68	Box cutter were use as a weapo by the Sept 11 , 2001, hijackers and hav sinc bee banned as carry-on item.	Box cutter were the weapons use by the 19 hijacker in the Sept 11 , 200, attack.
+0.16	A whit airplan is parke on the cement.	A blu motorcycl is parked on the sidewal.
+0.96	Gunme kill nine foreigner in Pakistan	Gunmen kil nin tourists in Pakistan
+0.6	A gir in water withou goggle or a swimmin cap.	A gir in water, wit goggle and swimmin cap.
+0.9	Druc is stil bein held at the priso and is now in isolatio, she sai.	Druc las nigh was held in isolation at the same priso.
+0.4	I sai it wasn't a perso, in the lega sens.	If it isn't a perso, the WTF is it?
+0.16	A kitte is drinkin mil from a bowl.	A smal child is drinkin water fro a cup.
+0.96	Two women contestants are walkin thei dog in a dog sho.	Two women wal ther dog at a dog show.
+0.28	A man is liftin a car.	A man is climbin a wal.
+0.85	A cat and a ferre are playin.	A ferre and kitte play togethe.
+0.08	A man is ridin on a boa.	A man is tyin in the machin.
+0.48	The blac and brow dog is playin in the yar.	The blac and tan dog is chasin somethin he has spotte.
+0.4	Assad meet with Red Cros official in Syria	Assad makes Red Cros pledg
+0.68	All we know is this: Distan object are recedin fro us at a rate proportional to thei distanc fro us.	The expansio of spac mean that objects in cosmological distance are receding away from eac othe.
+0.96	ira lies on a major dru route betwee afghanista and europ and the persian gulf state.	ira lie on a major dru traffickin route betwee afghanistan and europ, as wel as the persian gulf states.
+0.76	a grey dog swimmin throug a river wit a stic in his mouth	Dog swimming throug wate carrying stick in its mout
+0.16	Black and whit cow standin in grassy fiel.	A blac and whit phot of a man standin nex to a bus.
+0.44	A blac dog is runnin throug the snow.	A blac pit bul dog is running throug the dir.
+0.88	A perso is combin a cat hai.	A perso is brushin a cat.
+0.76	Beside battling its sales slum, Siebel also has been sparring with som investors upset abou huge stock option windfall compan manager hav pocketed.	Beside a sales slum, Siebel is sparring with some shareholders ove management stoc optio windfall.
+0.36	A man is cuttin tomatoe int pieces.	A woma is cuttin som vegetables.
+0.0	A man is cuttin gras.	A clow is singin.
+0.72	Ferrer cruises into Australian Ope quarter-final	Ferre beat Nishikori to advanc to Australian Open quarterfinals
+0.0	A man is readin an emai.	A perso opening a banan.
+0.52	When studying adul IQ, genera adul norms are often use.	Basicall, wha you do is you compar eac age group IQ to the standardizatio sampl.
+0.96	A man and dog on a rock seashor.	Man and dog standin on rock next to wate
+0.0	Obama queries Turnbull ove Chin port dea	Spanis bulls gore seven to deat
+1.0	Egypt court orders releas of Mubara	Egyp court orders Mubarak free
+0.88	Stron new quake hit shattered Pak regio	6.8 quak in shattere Pakistan region
+0.88	He projecte Vanderpool wil be available withi the next fiv years.	Products featurin Vanderpool will be release within five year, he sai.
+0.76	A man is playin a guita.	A guy is playin an instrumen.
+0.52	Afgha legislators approve new electio law	Afgha presiden approves new electon law
+0.8	Eight bottle of Har lager line up on the floo.	Eigh bottle of Har beer line up on a wooden floor.
+0.28	You worry is a vali one; the reade could be frustrate by thi.	I don't believ not knowing a characte's name woul be confusin unles you mak it so.
+0.44	It's jus a bunc of cell.	I'm``a bunc of cell . ''
+0.32	In midafternoon tradin, the Nasdaq composit inde was up 8.3, or 0.5 percen, to 1,790.4.	The Nasda Composit Inde .IXI dipped 8.59 point, or 0.48 percent, to 1,773.54.
+0.8	U.S. order non-essential staff to leave Suda, Tunisi	US orders non-essentia staf to leav Tunisia, Sudan
+0.85	Som men are fightin.	Two men are fightin.
+0.25	Thre boys in karat costumes are fightin.	Thre men are practicin karat moves in a field.
+0.76	Russia, China veto UN resolutio on Syri endorsin	Russia, Chin vet U.N. draf backing Ara plan for Syria (Reuter )
+0.64	A man and wome sitting on a sofa holdin a smal bab.	a woma sitting on a sofa holdin a bab.
+0.68	Afte Hughe refused to rehire Hernandez, he complained to the Equa Employmen Opportunit Commission.	Hernandez filed an Equa Employmen Opportunity Commissio complaint and sue.
+0.8	Two differen breeds of brow and whit dog play on the beach.	Two dogs playin in the san at the beac.
+0.0	The man talke on the telephon.	Girl are walkin on the stag.
+0.68	a grou of peopl dancing	A grou of men are dancin.
+0.6	The broa Standar & Poo's 500 Index <.SP> advance 11 point, or 1.25 percen, to 931.	The Standar & Poo's 500 Index gaine 10.89, or 1.2 percen, to 931.1 as of 12:0 p.m in New Yor.
+0.88	Another million barrel, bough by Spanish refine Ceps SA, was to be loaded ont a Spanis tanker, the Sandr Tapia.	A Spanis tanker, Sandra Tapia, was to be loade wit anothe millio barrel, bought by Spanish refiner Ceps SA, in the afternoo.
+1.0	A brow dog is jumpin.	A brow dog is jumpin
+0.84	James Murdoc quit BSkyB	Jame Murdoch quits role at BSky
+0.28	You are a Christia.	Therefor you are not a Christia.
+0.2	Google launche internet-beamin balloons	Googl 'are playin international tax gam '
+0.08	Mos people wan not onl to be WEL off, but to becom BETTE off as time goes by.	To star, the main driver of economi growt are resources, technolog, and institution.
+0.68	What the Pope's butler saw – aid arreste over Vatica leak	Pope ’ s butle arreste in scandal ove Vatican leaks
+0.0	Moderat tremo in the Central Mediterranean	Iran: Moderate candidat win presidential vot
+0.1	A man is burnin a fla.	A man is shootin a gun.
+0.72	Between 1993 and 200 , 142 allegations of sexua assaul were reporte.	Fro 1993 to 2002, there wer 142 reporte sexua assaults at the academ.
+0.4	Deput speaker face new sex claims	Deput Speaker Nigel Evan Re-Arrested
+0.84	A monke is brushin a bul dog.	A monke brushe a dog.
+0.56	A group of people sittin around a tabl containin foo.	Four people are sitting aroun a livin room with.snack.
+0.8	Wel, I wouln't put it on my cv.	I wouln't put thi job on my resum.
+0.64	IAF strik Gaza terro hubs	IAF strike Gaz terror cel; 1 dead
+0.2	I feel you pai - I absolutel pou wit sweat with any vigorous exercis, even in cool conditions.	Swea rate is swea rate, you can't reall contro it.
+0.76	India Ministe's wif die 'unnatural death' after affair rumour	Ministe's wife's deat 'unnatura '
+0.2	Sout Korea regrets Nort's refusal of talk	Sout Korea report 14th Mer death , 12 new cases
+0.96	counci tax Hasn't council tax bee froze for most peopl?	Hasn't counci tax been froze for most peopl?
+0.6	Coupl sailin in a smal sailboat.	Two men sailin in a smal sailboa.
+0.475	A man is cuttin up a potat.	A man is cuttin up carrot.
+0.4	The price for everythin you need hav gon up due to inflation.	The prices of everythin you own IE asset hav gone dow.
+0.4	Jus about anything can be grown indoor withou natural sunligh.	We hav quite a few peopl her who hav grown peppers and small tomatoe indoors and in pot.
+0.68	A grou of men playing bras instrument.	A grou of guy play instrument outside.
+0.8	Fou people rowin down a rive.	Fou peopl row a cano in water.
+0.92	A blac dog running int the wate.	A blac dog runnin throug water.
+0.1	A man is eatin woo.	A man is addin oil to car.
+0.92	Dog, he sai, are secon only to human in the thoroughness of medica understandin and research.	He said tha dogs are secon onl to humans in term of being the subjec of medical researc.
+0.5	The Standar Editio is $15,00 per processor or $300 per name use.	The Standard Editio One is a single processo version of the Oracl Standar Editio Database.
+0.8	Whit diamon breaks record in Hong Kon auction	Whit diamond fetche record $34m at HK auctio
+0.88	Woman remande ove child's death A woman has been remande in custody charge wit murde after an eight-year-old gir was found dea in a block of flat.	Mothe hel ove daughte's deat A mother has been remande in custody charged with murde afte her eight-year-old daughte was found dead in a block of flats.
+0.55	A boy is runnin on a beac.	Two boy are playin in the beac.
+0.6	After Freita' opening statement, Kin County Superio Court Judge Charle Mertel recesse trial until afte the Thanksgivin weekend.	King County Superio Cour Judg Charles Mertel will the reces the trial until Monday.
+0.68	The tan and whit dog is runnin in the fiel.	The brow and white dog run throug the field.
+0.52	A boy and a gir is dancin in the rai.	A man and woma is dancin in the rai.
+0.72	A man wearin blac forma wea & a blac top hat is riding a white show hors.	A man wit a top hat ridin a whit hors.
+0.76	Relative scuffl with polic after China fire kills 120	Angry families deman answer after Chin plant fire kills 119
+0.44	The group is eating whil takin in a breathtakin vie.	A grou of people tak a loo at an unusual tre.
+0.08	A woma in an red tracksui squeezin lemons in a pres.	A youn woman in a pin hoodie take a pictur.
+0.84	Two larg dog runnin in some grass.	Two brindl dogs runnin in the gras.
+0.0	A man is travelin in a boa.	A woman is cuttin up a carro wit a knif.
+0.92	Nobel Priz winnin author Doris Lessing die	Nobel laureate Dori Lessin die at 94
+0.2	I managed to fin thi recip, I thin this is wher I got the ide.	I've only mad a couple of bbq sauce, but the've alway come out reall wel.
+0.85	Out of touch and completel untrustworth, howeve, wouln't.	Out of touc and untrustworth?
+0.0	Rud swor in as new Australia PM	Muslim in hiding as sectaria ...
+0.64	Captai Rober Ramse of the US 1st Armoured Divisio sai a truc had exploded outsid the building about 11am, and tha one of the compoun's outer wall had collapsed.	Captai Rober Ramse of US 1St Armore Division said a truck had explode outsid the building at aroun 11 am.
+0.92	Children are playin in a swimming poo while two adul men watc the.	Childre pla in a pool whil adults look on.
+0.16	No radiatio leak at Ira's nuclear plan	US Congres may thro wrench into Iran nuclea deal
+0.76	A puppy play wit a plastic containe.	The dog is playing wit a plasti containe.
+0.76	Holl Hol We are all vessel filled with many wonder.	Say Wha You Wil We are all vessel fille with many wonders.
+0.2	Som of wha you can do :	Not muc you can do beside :
+0.85	Air Canad, the largest airlin in Canada and No . 11 in the worl, has been unde cour protectio fro creditors sinc Apri 1.	The No . 11 airline in the world, Air Canad has bee under cour protectio fro creditor since Apri 1.
+0.6	Heavy rai raise threat of Christmas Day floodin	Fres rain brings more floodin
+0.0	A close-up, distorted phot of an empty glas Cok bottl.	A close-u pictur of a des with a compute and paper on it.
+0.8	A boy climb a fores hil.	A boy is climbin a hil.
+0.0	Yes, ther is a reaso to not do wha you propos.	Yes, ther is a chemica differenc.
+0.88	The two dog are runnin on the gras.	Two dog are playin in the gras.
+1.0	Nobel autho Doris Lessin die at 94	Nobel laureate Dori Lessin die at 94

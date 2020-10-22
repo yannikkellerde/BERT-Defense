@@ -1,0 +1,201 @@
+# [('segmentation', 0.3)]
+0.8	A browndogisrunning through the field.	a browndog withhis tongue wagging as herunsthrough afield
+0.28	Egypt's Muslim Brotherhood Refuses toBackDown	Egyptian court sentences Muslim Brotherhood leader tolifein prison
+1.0	A man is playing a keyboard.	A manplays a keyboard.
+0.12	A manis chopping butter into a container.	A woman is cutting shrimps.
+0.88	A squirrel runsaround in circles.	A squirrel is moving incircles.
+0.84	Person withtwo ski poles skiingdown asnowy hill.	A person skiing down a snowyhill.
+0.84	Senateconfirms Janet Yellen as chair of US FederalReserve	US Senate ConfirmsJanet Yellen as NewCentralBank Chief
+0.96	Agroup of horses grazingin a field.	Group of horses grazing in grassy field.
+0.28	A man isriding a horse.	A man isdriving a car.
+0.88	Two boys sitfacing one anotherat a table and onepoints atthe other.	Two peoplesit facing eachother ata table asonepoints attheother.
+1.0	Threedogs pullinga man on a bicycle through the snow.	Thedogs are pulling a man on a type ofbike,throughthe snow.
+0.88	A dogis jumping overa barrierata agility competition.	Adog jumping overan obstacle coursefence.
+0.8	The injured weretakento hospitals in Jefferson City and Columbia, a college town about30miles to thenorth.	Theinjured were taken to hospitalsin Jefferson Cityand Columbia, about48km north; their conditionswerenot immediately available.
+0.4	Rev's Early Reads:March 2	Rev.'s EarlyReads:Sept. 3rd, 2015
+0.7	In the weeks leading upto the execution, severalFlorida officialsreceived anonymous threatening letters.	Several Florida officials connected tothe case have received threatening letters, accompaniedby rifle bullets.
+0.44	The Note'sMust-Reads for Friday May 24, 2013	TheNote'sMust-Reads for Friday, August23,2013
+0.2	runsvictim down Got anyproof?	paranoid Got anyproof?
+0.28	Philippinesholds secondsenator over corruption	Philippinesrecoveringafter powerful typhoon
+0.84	A gray cat layingon a browntable.	Agrey catlyingonawoodentable.
+0.45	The brown train is sittingon the railroadtracks.	The white train is sitting on the tracks.
+0.0	No, you don'tneed to havetaken classes orearnedadegreeinyour area.	I have donequite abit oftechnicalwritingforhealthcare informationsystems.
+0.4	Russianplane reportedly crashes in Egypt	Pilot killed as US jet crashesin England
+0.48	The tech-loaded Nasdaqcompositerose 20.96 points to 1595.91, ending at its highest level for 12 months.	The technology-laced Nasdaq Composite Index<.IXIC>climbed 19.11 points, or 1.2 percent, to1,615.02.
+0.52	Syria 'todeclare chemicalweapons andsignconvention'	Russia, SyriaWork on 'Concrete' Chemical WeaponsPlan
+0.44	South Korea Says North FiredMissiles	North Korea launches short-rangemissiles
+0.16	Flash floods kill 58 in easternAfghanistan	Bomb wounds16 ineastern Afghanistan
+0.56	Two years later, theinsurancecoverage would begin.	Undertheagreement, Medicare coveragefor drugbenefits wouldbegin in2006.
+0.28	Two boys in blackswimming trunks are holdinganother boybyhisarms andlegs onabeach.	Maninwhite shirt flipping youngboy in the water with four other boyssurrounding them.
+0.68	Obama urgesdecisive action onEurope debt crisis	Obama urges Europeto act quickly oncrisis
+0.85	Awoman is choppingbroccoli.	A woman ischopping broccoli witha knife.
+0.75	Critics say the law violates civil liberties,something HouseJudiciary CommitteeChairman James Sensenbrenner, R-Wis., saysheissensitive to.	House JudiciaryCommittee Chairman James Sensenbrenner, R-Wis.,says he issensitive to civil liberties complaints.
+0.8	religious extremism continues inpakistan despite the banning of militant groups.	religiousextremism continuesinpakistan despite the banning ofmilitantgroupsby the pakistani government.
+0.84	Vehicles ablaze in collapsed Japan tunnel	Vehicles'left burning' as smoke emitsfromJapan tunnel
+0.88	A doctor prescribes medicine to apatient.	A doctor prescribes amedicine.
+0.36	Awoman is chopping anonion.	A womanis chopping garlicwith aknife.
+0.64	A guyonawhitehorse.	A manriding awhite horsein an arena.
+0.15	Awomanis playing in theocean.	A womanis preparing shrimp to cook.
+0.16	China gives US regulators access toaudit records	China opposesUSarmssales to Taiwan
+0.56	Bangladesh HonorsFactory Victims	Retailersback Bangladeshfactorysafety pact
+0.76	Pakistan torelease most senior AfghanTaliban prisoner	Pakistan to release senior Taliban commander on Saturday
+0.08	Algeria president gets therapyafterstroke:statemedia	Bulgarian president tries to breakelection stalemate
+0.6	Artistsare worriedthe plan would harm those who need help most -performers who havea difficult timelining upshows.	The artistssay the planwill harmFrench culture and punishthosewho need help most- performers who have ahard timeliningup work.
+0.12	First of all, let me say that thereseemsto be3 main traitsto casting a spell.	Ialways thought thatHarry seemed tolearn from the Half-BloodPrince better than he did from other sources.
+0.16	A man is running on a street.	Amanplaystheguitar.
+0.4	I would sayyoucando it, but it wouldn't be advised.	Personally, I would say not unlessitsuits you.
+0.68	The two Democrats on thefive-memberFCCpanel held anewsconferencetoswayopinion against Powell.	ThetwoDemocrats onthe five-member FCC held a newsconference to sway opinion against Powell andthepanel's two other Republicans.
+0.88	Asteroidzips between Earth andsatellites	Asteroidpasses Earthin fly-by
+0.68	"The European Union is basically absent,"said TitoBarbini,regional minister for agriculture in Tuscany, Italy.	TitoBarbini, aregional ministerfor agriculture in Tuscany, Italy, criticizedtheabsenceTuesday in Sacramento.
+0.65	Aboy is playing a key-board.	A boyis sitting in a roomplaying apiano bylamp light.
+0.04	The woman is smoking.	The man is walking.
+0.0	Amonkey is walking through thewater.	Aguy is playing a trumpet.
+0.1	A woman is sittingon a sidewalk with a cell phone at herear.	A womanis ridingher bicycle.
+0.04	UkrainianPresidentorders7-day ceasefirein the east	Uganda's PresidentMuseveni agrees to sign anti-gays Bill
+1.0	You guysare making this all WAAAAAY too complicated.	You are makingthis too complicated.
+0.8	WORLDNo. 2 Lleyton Hewitt has accused the Association of Tennis Professionals ofmalice,including analleged attempt last year to dupe himintorefusing a drugtest.	World No.2 Lleyton Hewitt hasaccused his professional peers of long-standingmalice, including an attempt lastyearto dupe him into refusing adrugtest.
+0.0	A man is shootingagun.	A man is spitting.
+0.6	Two people walkingalong theshore at sunset.	Two people walking along the beach atsunsettowarna group of people.
+0.96	Blue and red plane in mid-air flight.	ablue and red airplanewhile inflight.
+0.8	Trade newspaper Varietyup forsale	Hollywoodtrade publication Variety put upfor sale
+0.84	Sly Stallone's SoneSage FoundDeadin LA	Sylvester Stallone's Son Found DeadAt Home
+0.92	A woman is playing flute.	A woman plays ona flute.
+0.0	Aboy is cuttingpaper.	A manis loadinga rifle.
+0.92	A young woman witha braceletis wearinga bikini topandjeans.	A woman wearing jeans,adark bikinitop,and abracelet.
+0.28	Ukraine‚Äôs pro-Russiaprotesters demand greater autonomy	Sudaneseprotesters demandtheregime'souster
+0.8	Mr. Manuel and his group enteredthe United Statesby walkingacross the bridge linking Matamoros and Brownsville.	Manuel andhis group entered the US the same waythousands of people doeveryday, by walkingacross the bridge betweenMatamorosand Brownsville.
+0.8	Does this page answer your question?	Does thisanswer your questions?
+0.96	ThenewCold War	A new ColdWar?
+0.0	I have no idea why itis voted up, but RexKerr's answer begs the question.	It's a tautology, but themapping between logicand theEnglish-language description is wrong.
+0.44	AMD's chipsales jumped7 percent year-on-yearto $402million.	Second-quarter sales grew 7 percent, to$645million from$600 million in 2002.
+0.92	Awomansplits garliccloves.	A woman is breaking ahead of garlicinto cloves.
+0.76	The man inthe backpacklooks to his left.	An adultmale wearing abackpack walks and looks to theleft.
+0.96	England captainAndrew Straussretires fromprofessionalcricket	England captainStraussretires fromcricket
+0.8	Paper is beingcutwithscissors.	A piece ofpaper is beingcut.
+0.15	Amanis playing with frogs	A cat is playing withacamera.
+1.0	You areonthe rightpath.	You'reon the right path.
+0.92	Three die aftercarcrashat Tian'anmen	Three KilledIn CrashAt TiananmenSquare
+0.76	Tropical Storm Karen targets US GulfCoast	TropicalStorm Karen poised to makelandfall
+0.48	Gunmen kill15Libyan soldiers	Gunmen kill 3 Lebanese troops near Syria
+0.8	A blackdog stands next to materialsat a construction site.	Ablack dog stands in the middle of a construction site.
+0.84	A man is liftingweights.	A man isliftinga barbell.
+0.6666	Metropolitan Ambulance spokesman JamesHowe said five people weretakentohospital and three weretreated atthe sceneafteryesterday's incident.	Spokesman James Howe saidfive children aged between 4 and17 were taken tohospitalwith neckand chest injuries, while three otherswere treatedat the scene.
+0.75	Agricultureministers frommorethan onehundred nations are expected to attend the three-day Ministerial Conference and Expo onAgriculturalScience and Technologysponsored by the U.S. Department of Agriculture.	U.S. Agriculture Secretary AnnVenemankicksoff the three-day MinisterialConference and Expo on Agricultural Scienceand Technology on Monday.
+0.52	Russia 'alone' in blaming Syrian rebelsfor chemicalattack: US	Russia asks UNto consideritsinquiry ofSyria chemical armsuse
+0.0	An embolism ina medical context refers to any large movingmassor defect in theblood stream.	Here is aninterestingarticleonwikipedia togive overview ofpressure related injuries.
+0.12	Aman iscrying.	A woman is dancing.
+0.2	Obama holds outoverSyria strikes	UK urges countries overSyria aid
+0.4	A womanstanding infrontof trees and smiling.	A man is walkingby trees in front of thecity skyline.
+0.56	Three women withbrown hairare smiling.	Threewomen in Indian dresses inacrowded roomsmiling.
+0.32	A manisplaying aflute in aband.	A man isplaying aguitar.
+0.0	A girl is eatinga cupcake.	A man is slicinga cucumber.
+0.92	Detroit eligible forbankruptcy protection:U.S. judge	Detroit eligible for bankruptcy protection
+0.68	It calls for theagency toplan an independent safety and engineering organization.	Theagencyhas yet tofully formulateastrategy forthecreation ofan independent engineeringtechnicalauthority.
+0.84	a womanwitha viking haton.	Smilingwomansitting wearing a viking hat.
+0.28	1 person killed insectarian clashes inLebanon	Ninekilled in Syrian-linkedclashes in Lebanon
+0.72	theensuingbattle andairstrikes killed atleast 10 militants.	an ensuingbattle killed at least 10militants.
+0.64	Theladycrackedtwo raweggs.	The womanis cracking eggsintoa bowl.
+0.68	Boxcutters were used asaweapon bythe Sept. 11, 2001,hijackersandhave sincebeen banned as carry-on items.	Box cutters werethe weaponsused by the 19 hijackersin the Sept. 11, 2001, attacks.
+0.16	A whiteairplane is parked onthe cement.	A blue motorcycle isparked on the sidewalk.
+0.96	Gunmen kill nine foreigners in Pakistan	Gunmen kill nine tourists inPakistan
+0.6	A girlin waterwithoutgogglesor aswimming cap.	A girl in water, with goggles and swimmingcap.
+0.9	Druce is stillbeing held at the prison and is nowinisolation, shesaid.	Druce last night washeldin isolationatthe same prison.
+0.4	Isaiditwasn't a person, inthelegalsense.	If it isn't a person,thenWTF isit?
+0.16	Akitten isdrinking milk froma bowl.	A smallchild is drinking water from acup.
+0.96	Two women contestants are walking their dogsin a dogshow.	Two women walk theredogs at a dog show.
+0.28	Aman is lifting acar.	A man isclimbing a wall.
+0.85	A cat anda ferret are playing.	Aferretand kittenplay together.
+0.08	Aman is riding on a boat.	A manistying in themachine.
+0.48	The black and browndogisplaying in theyard.	Theblack and tan dogischasing something hehas spotted.
+0.4	Assadmeets with Red Cross officialsin Syria	Assadmakes Red Cross pledge
+0.68	Allwe knowis this : Distant objects are recedingfromus at a rate proportional to their distancefromus.	Theexpansion ofspace means that objects incosmological distances are receding away from each other.
+0.96	iran lies on a majordrugroute between afghanistan and europe andthepersiangulf states.	iran lies on amajordrug traffickingroute betweenafghanistan and europe, as well as thepersiangulfstates.
+0.76	a grey dog swimming through a river with astickinhis mouth	Dog swimming through watercarrying stick inits mouth
+0.16	Blackand white cowstandingingrassy field.	Ablack andwhite photoof a man standing nexttoabus.
+0.44	A blackdogisrunning through thesnow.	A black pitbull dogis running through thedirt.
+0.88	A person is combinga cat hair.	A personisbrushing a cat.
+0.76	Besides battling its salesslump,Siebel also has been sparringwith some investorsupset abouthuge stockoption windfalls companymanagers have pocketed.	Besides a sales slump, Siebel is sparringwith some shareholdersover management stockoption windfalls.
+0.36	A manis cutting tomatoesintopieces.	Awoman iscutting somevegetables.
+0.0	A man is cutting grass.	Aclownis singing.
+0.72	Ferrer cruisesintoAustralianOpen quarter-finals	Ferrer beats Nishikori toadvance to Australian Open quarterfinals
+0.0	Aman is readingan email.	A person opening a banana.
+0.52	When studying adult IQ, general adult normsare oftenused.	Basically, whatyoudo isyou compare eachage group IQ to the standardizationsample.
+0.96	A man and dog on a rocky seashore.	Man and dog standing onrocks nextto water
+0.0	Obama queries Turnbull overChinaport deal	Spanish bulls goreseven to death
+1.0	Egyptcourt orders release of Mubarak	Egypt courtordersMubarak freed
+0.88	Strong new quakehitsshattered Pak region	6.8 quake in shatteredPakistan region
+0.88	He projected Vanderpool will beavailable within thenextfive years.	Productsfeaturing Vanderpoolwill bereleased within five years, he said.
+0.76	A man is playing aguitar.	A guy is playingan instrument.
+0.52	Afghan legislators approve newelection law	Afghan president approvesnewelectonlaw
+0.8	Eight bottles ofHarplager lined up on the floor.	Eight bottles of Harp beer lined upon awooden floor.
+0.28	Yourworryisa valid one; the readercould be frustratedbythis.	I don't believe notknowingacharacter'sname wouldbeconfusing unless you make it so.
+0.44	It'sjusta bunch ofcells.	I'm"a bunchof cells."
+0.32	In midafternoon trading, theNasdaq composite index was up 8.34,or0.5 percent,to 1,790.47.	The NasdaqCompositeIndex .IXIC dipped 8.59points,or 0.48percent, to 1,773.54.
+0.8	U.S. ordersnon-essential staff to leave Sudan, Tunisia	US orders non-essential staffto leaveTunisia,Sudan
+0.85	Somemen arefighting.	Two men are fighting.
+0.25	Three boys in karate costumes are fighting.	Threemen are practicing karatemoves ina field.
+0.76	Russia,China veto UN resolution on Syria endorsing	Russia, Chinaveto U.N. draftbacking Arab planfor Syria (Reuters)
+0.64	A man and women sitting on asofa holding a small baby.	awoman sittingona sofa holding a baby.
+0.68	After Hughes refusedto rehire Hernandez, hecomplainedto theEqual EmploymentOpportunity Commission.	Hernandez filed an Equal EmploymentOpportunity Commissioncomplaint and sued.
+0.8	Two different breeds of brown and white dogs play on thebeach.	Two dogs playing in thesandatthe beach.
+0.0	The man talked onthe telephone.	Girls are walking on the stage.
+0.68	a group ofpeople dancing	A group of men are dancing.
+0.6	Thebroad Standard&Poor's500 Index <.SPX>advanced11points,or 1.25percent, to931.	The Standard& Poor's 500 Indexgained 10.89, or 1.2 percent,to 931.12 asof12:01p.m.in NewYork.
+0.88	Another million barrels, bought by Spanish refiner Cepsa SA,wasto be loaded onto a Spanish tanker,the Sandra Tapias.	A Spanish tanker, Sandra Tapias,was to be loaded with anothermillion barrels, bought bySpanishrefiner Cepsa SA,intheafternoon.
+1.0	A brown dog isjumping.	Abrown dog is jumping
+0.84	James Murdoch quits BSkyB	James Murdoch quits roleat BSkyB
+0.28	Youare a Christian.	Thereforeyou are not a Christian.
+0.2	Google launches internet-beaming balloons	Google 'areplaying international tax game'
+0.08	Mostpeoplewant not only tobe WELLoff, but to become BETTER off as timegoes by.	Tostart, themaindrivers of economic growth areresources, technology, and institutions.
+0.68	What thePope's butler saw– aide arrestedoverVatican leaks	Pope’s butler arrested in scandaloverVatican leaks
+0.0	Moderatetremorin the Central Mediterranean	Iran:Moderatecandidate winspresidential vote
+0.1	A man isburning aflag.	A man is shootingagun.
+0.72	Between1993and 2002,142 allegations of sexualassaultwere reported.	From 1993 to 2002,there were 142 reported sexual assaultsatthe academy.
+0.4	Deputy speaker faces new sex claims	Deputy SpeakerNigelEvans Re-Arrested
+0.84	Amonkey isbrushing a bull dog.	Amonkey brushes a dog.
+0.56	A group of people sittingaround a tablecontainingfood.	Fourpeople are sittingaround a living roomwith.snacks.
+0.8	Well, Iwouldn't put it onmy cv.	I wouldn't putthis jobon my resume.
+0.64	IAF strike Gaza terrorhubs	IAFstrikes Gazaterrorcell; 1dead
+0.2	I feel yourpain - I absolutelypour withsweat with anyvigorous exercise, even in cool conditions.	Sweat rate is sweatrate,you can't reallycontrol it.
+0.76	India Minister's wifedied 'unnatural death' after affair rumours	Minister's wife's death'unnatural'
+0.2	South Korearegrets North's refusal of talks	South Korea reports 14th Mersdeath, 12 new cases
+0.96	council tax Hasn't council tax been frozenfor most people?	Hasn't council tax beenfrozenformost people?
+0.6	Couplesailingin a small sailboat.	Twomen sailing in a small sailboat.
+0.475	Amanis cuttingup a potato.	A manis cuttingup carrots.
+0.4	The prices foreverything you needhave gone upduetoinflation.	The pricesof everything you ownIEassets have gone down.
+0.4	Just about anythingcan be grown indoorswithout natural sunlight.	We have quitea few peopleherewhohave grown peppersandsmalltomatoes indoorsandin pots.
+0.68	Agroup of men playing brass instruments.	A groupof guys playinstruments outside.
+0.8	Fourpeoplerowing downa river.	Fourpeople row a canoein water.
+0.92	A blackdog runninginto the water.	Ablack dog running throughwater.
+0.1	A man iseatingwood.	A man isaddingoil tocar.
+0.92	Dogs, he said,are secondonly tohumansinthe thoroughness of medicalunderstanding andresearch.	He saidthatdogs are secondonlyto humans in termsof beingthe subject of medicalresearch.
+0.5	TheStandardEdition is $15,000perprocessoror $300 per named user.	The StandardEdition One is a single processorversion of theOracle Standard Edition Database.
+0.8	White diamond breaks record inHong Kong auction	White diamond fetches record $34m at HK auction
+0.88	Woman remanded overchild's death A woman hasbeenremanded in custody charged withmurder after aneight-year-old girl was found deadin a block of flats.	Mother heldover daughter'sdeathA motherhasbeen remanded in custodycharged with murderafter her eight-year-old daughterwas found dead in a block of flats.
+0.55	Aboyis running on abeach.	Twoboysare playing inthe beach.
+0.6	AfterFreitas'opening statement, KingCountySuperior Court Judge Charles Mertel recessed trial until after theThanksgiving weekend.	KingCountySuperiorCourtJudge Charles Mertelwill then recessthe trial until Monday.
+0.68	The tanand white dogis running in the field.	The brownandwhite dogs run throughthe field.
+0.52	A boyand a girl is dancing in therain.	A manand woman is dancing in therain.
+0.72	A man wearingblack formalwear & a black top hat is riding a whiteshow horse.	A man with atophat riding a white horse.
+0.76	Relatives scuffle with police after China fire kills 120	Angry families demandanswers after China plant fire kills 119
+0.44	The groupis eatingwhiletaking in a breathtaking view.	A groupof peopletakea look at anunusualtree.
+0.08	A woman in an red tracksuit squeezinglemonsin a press.	A young woman ina pinkhoodie takes apicture.
+0.84	Two large dogs runningin some grass.	Twobrindle dogs running inthegrass.
+0.0	A man is traveling ina boat.	A woman is cuttingup a carrot with a knife.
+0.92	Nobel Prize winning author Doris Lessing dies	Nobel laureateDoris Lessing dies at94
+0.2	Imanaged to find thisrecipe,Ithink this iswhere I gottheidea.	I'veonlymade a coupleof bbq sauces, butthey'vealways come outreally well.
+0.85	Outoftouch and completely untrustworthy, however,wouldn't.	Outoftouch anduntrustworthy?
+0.0	Rudd swornin as new Australian PM	Muslimsinhidingassectarian...
+0.64	Captain Robert Ramsey of theUS1st Armoured Division said a truck had exploded outsidethe building about 11am, and thatone of the compound's outerwalls hadcollapsed.	Captain Robert Ramsey of US1St Armored Division saida truckhad exploded outsidethe buildingat around 11 am.
+0.92	Children are playingin a swimmingpoolwhile two adult menwatch them.	Children play in apool while adultslook on.
+0.16	No radiationleakatIran's nuclear plant	US Congress maythrow wrenchinto Iran nuclear deal
+0.76	Apuppy playswitha plastic container.	Thedogis playing with aplastic container.
+0.76	Holly Holy Weare all vesselsfilledwithmany wonders.	Say What You Will We are allvessels filled with many wonders.
+0.2	Some of whatyou can do:	Not much you cando besides:
+0.85	Air Canada,thelargest airlineinCanadaand No. 11 in the world, has beenundercourtprotectionfromcreditors since April 1.	The No.11 airline inthe world, Air Canada has been undercourt protection from creditorssince April 1.
+0.6	Heavy rain raises threat ofChristmas Day flooding	Fresh rain bringsmore flooding
+0.0	A close-up, distorted photo of an empty glass Coke bottle.	Aclose-up picture of a desk with acomputerandpaperson it.
+0.8	A boyclimbs aforesthill.	A boy is climbing a hill.
+0.0	Yes,there is a reason to not dowhat youpropose.	Yes, thereis a chemical difference.
+0.88	The two dogs are running onthe grass.	Two dogs are playing in the grass.
+1.0	Nobelauthor Doris Lessing dies at 94	Nobel laureateDoris Lessing dies at94

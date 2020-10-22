@@ -58,5 +58,5 @@ class Adversarial_attacker():
 
 if __name__ == "__main__":
     attack = Adversarial_attacker()
-    attacks_with_severity = [(x,0.05) for x in attack.methods]
-    attack.multiattack_document("../evaluation/test_400_sentences.txt","../evaluation/attacked_documents/all_attacks.txt",attacks_with_severity)
+    attacks_with_severity = [("visual",0.3)]
+    attack.multiattack_document("../evaluation/test_400_sentences.txt","../evaluation/attacked_documents/visual.txt",attacks_with_severity)

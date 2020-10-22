@@ -1,0 +1,201 @@
+# [('intrude', 0.3)]
+0.8	A bro+wn dog i^s running through th`e field.	a brown dog with his tongue wagging as h#e r;u;n;s t)hrou)gh a fiel,d
+0.28	E&gy&pt's M]u]sli]m Brot(he(r(ho(od Refuses to Back Down	Eg'ypt'ian court sentences Muslim Brotherhoo]d leader to life i/n prison
+1.0	A m:an is pla=ying a key.b.o.ard.	A man p.l.ays a k?eyboar?d.
+0.12	A m+an i:s c'hop'p'ing butter into a container.	A woman is c,ut,t,ing shr>imp>s.
+0.88	A squirrel run_s around i^n circl<e<s.	A squirrel i;s mo^ving i<n circles.
+0.84	Person w]ith two s]ki poles s.k.iin.g down a sn>ow>y hill.	A person s>kiing d~ow~n a s/no/wy hill.
+0.84	S^e^n^ate confirms Janet Yellen as chai{r o(f US Federal Reserve	U~S Senate Confirms Janet Yellen as Ne+w C)en)tral Bank Chief
+0.96	A gro;u;p of h,ors,es grazing in a fi"eld.	Group o;f horses graz;ing i>n grassy field.
+0.28	A man i*s r*id*in*g a h'or'se.	A ma#n i*s driving a ca^r.
+0.88	T/w/o boys s|it facing o%ne another at a tabl~e and one poin(ts at the other.	T^w^o people s/i/t facing each oth*er at a table as one po,ints at the oth?er.
+1.0	Three dogs p:ullin:g a man o:n a bi$cycle thr@oug@h the snow.	The dogs a<re p&u&ll&ing a man on a type o*f b"i"ke, through the sno<w.
+0.88	A d)o)g is jum"pi"ng over a ba]r]r]ier a`t a agility competition.	A do?g jumping over a#n o(bs(tacle course fence.
+0.8	The i`njured w{ere taken to ho$sp$it$als i+n Jefferson City and Columbia, a college tow~n about 30 miles t~o the n|orth.	The injured w.er.e taken to hospitals i+n Jeff#e#rso#n City a@n@d Columbia, about 48km no/rth; their co;nditio;ns were not i/mm/e/d/iat/el/y available.
+0.4	R,ev's E,ar,l,y Reads: Ma]r]c]h 2	Rev .'s Earl*y R}eads: Sept. 3r@d , 2015
+0.7	In t=he w?eeks leading u\p t'o the execution, several Florida officials r-eceiv-e-d anonymous threatening lett"e"rs.	Several F*lor*i*da officials connected to th,e c+a+se have received threatening letters, accompanied b-y ri%fl%e bu)ll)ets.
+0.44	T-he Note's Must-Reads f&or Friday May 24 , 20\13	The N{ote's Must-Reads for Fr+i+da+y, Augus(t 2[3 , 2013
+0.2	runs vict!im down Got a+ny pro!o!f?	paranoi#d Got any p_roof?
+0.28	Philippines holds second senator ov{e{r c}orruption	Philippines recovering af{ter powerful ty'phoon
+0.84	A gr>ay c@at laying o#n a brown table.	A gr'ey cat lying on a w'oo'd'e'n ta\ble.
+0.45	The brown train is sitting o+n th\e railroad tra\c\ks.	The white tr[ain i`s sitting o*n the tracks.
+0.0	N>o, you d\on't nee=d t>o have ta:ken c"la"ss"e"s or earned a degree in your area.	I ha/ve d^one quite a bi&t of technical wr]i]tin]g for healthcare information sy[ste[ms.
+0.4	R+u+ssi+an plane reportedly c]rashes in Egypt	Pi?l?ot k:i:lled a<s US jet crashes in England
+0.48	T&he tech-loaded N#a#s#d#aq composite rose 20.96 points t=o 1595.91, ending at its h)i)g)h)e)s)t level for 1*2 mon;ths.	The technology-laced N_as_d_aq Composite Ind!ex <.IXIC> c[lim[bed 19.11 poin,ts, or 1+.2 percent, to 1>,>61>5.0>2.
+0.52	Syr!i!a 'to declare chemical weap$on$s an=d sign convention '	Russia, Syria Work on 'Co@ncr@ete' Che/m/ica/l Weapons P~l~a~n
+0.44	South K=or=e=a Say#s North Fired Missiles	N@ort@h Korea launches short-range mi=ss=iles
+0.16	Fl}as}h floods kill 58 in e{astern Afg`han`i`stan	Bomb wo{u{nds 16 in eastern Afgha-nist-a-n
+0.56	T'wo years l_a_ter, t<he insurance coverage would begin.	Und$er t'h'e agreement, Medicare cove?rage for d|rug benefits would begin in 200'6.
+0.28	Two boys i|n blac;k swimming tru;nks a&re holding another boy b/y his arms and legs o~n a beach.	Man in white sh!i!rt flipping young boy in the w)at)er wi`th f+ou+r othe^r b-oys surrounding them.
+0.68	Obama u#r#ges decisiv\e action on Europe debt cr)is)is	Obama urges Europe to act qu|ickly o>n c-ri-si-s
+0.85	A woman i/s ch|op|pi|ng broccoli.	A woman is chopping b,roccoli wit;h a k|n|i|fe.
+0.75	Critics say t-he law violates civ"i"l liberties, something House Judiciary Committee Chair=ma=n Jame;s Sensenbrenner, R/-/Wi/s., says h^e i:s se\nsit\i\v\e to.	House Jud=iciar=y Committee Cha"irman J;a;m;e;s Sensenbr<en<ner, R-Wis., s%a%y%s he is sensitive to c'ivil liberties complaints.
+0.8	re/l/i/g/i/ou/s extremism continues i]n pakistan despite the bannin:g o_f militant groups.	religious extremism co_nti_nues in paki&sta&n despite the banning of militant groups by th`e p<akist<ani go>ver>nme>nt.
+0.84	Ve;h;icles ablaze in collapsed J'ap'an tunnel	Vehicles 'left bur\nin\g' a%s smoke emits from Japan tunne@l
+0.88	A do?ct?or p[rescr[ibes medicine to a pat,ie,nt.	A d_o_ctor p%r%escribes a medicine.
+0.36	A woman i>s c;hopping a<n onion.	A woman i>s chopping g(arl(ic w@ith a knife.
+0.64	A guy o:n a wh`ite hor!se.	A man riding a white horse i*n a)n aren@a.
+0.15	A woman i.s play_ing in th,e ocean.	A woman i|s preparing shrimp t}o co{ok.
+0.16	China gives U*S regulators access t]o audit r>ecord>s	China oppo!ses U=S arms sa:les to Taiwan
+0.56	B(a(n(gladesh Ho$n$ors Factory Victims	Retailers b)a)ck Bangl#a#des#h factory safety pact
+0.76	Pakistan to r'el'ease most senior Afgha$n Taliba*n prisoner	P)ak)istan t_o rel]ease senior Taliban commander on Saturday
+0.08	Algeria president ge\ts therapy after stroke: sta~te m-edi-a	Bulg/arian president tri;es to break election stal`e`mate
+0.6	Artists are worried t,he plan would h#arm t$hose w"ho need help most - performers w\ho have a difficult time l"i"ning up sho,ws.	T[he a;rtists s=ay the pl=a=n will harm Fre)nch culture and p!un!i!sh those who need help m&ost - performers w;ho have a har%d time lining up work.
+0.12	F;irs;t of all, let m[e sa]y that there s@eem@s t,o be 3 main trai=ts to casting a spell.	I alw'a'y's thou!g!ht tha*t Harry seemed to learn fro[m the Half-Blood P)rince better than he did fro}m other sources.
+0.16	A man i=s running o'n a st|ree|t.	A man pla&ys t'he guitar.
+0.4	I would say you c'a'n d>o it, but i't w|ould n)'t be advised.	Pe]r]so]n]a]lly, I wo{uld say not u:n:les:s i=t suits you.
+0.68	T=he t=wo Democrats on the five-member FCC panel he'ld a news co{nf{ere{n{ce t?o sway opinion against Pow$el$l.	The two De|moc|r|a|t|s on t;he f`ive-`member FCC h:eld a ne$ws conference t%o sway opinion agains^t Powell and the panel's tw|o other Republicans.
+0.88	Asteroid zi/p/s be&twee&n Earth and satellites	Asteroid passes Earth i]n f}ly}-by
+0.68	\" The Eur)opean U.n.i.on is basically absent ,"said Tito B.arb.in.i, regional minister f`or ag`r`icultu`re i:n Tusc=an=y, Italy.	Ti#to Barb~ini, a re.g.ional minister for agriculture in Tuscany, I*taly, criticized the absence Tu$esda$y i`n Sacramento.
+0.65	A boy i)s playin#g a ke|y-|boa|rd.	A boy i/s sitting in a ro&om playi-ng a piano b"y l;am;p light.
+0.04	The woman i+s smo|ki|ng.	The man i.s wa&lkin&g.
+0.0	A monkey is walking t-hro-ug-h th/e wa=te=r.	A g:uy is p_lay_ing a tr%umpet.
+0.1	A woman is sitting on a sidewalk with a cel*l p@hone a@t h)er ea~r.	A woman is r(iding he=r bicy+cle.
+0.04	Uk?r?aini?a?n President orders 7-day ceasefire in t:h:e eas/t	Uganda's President Museveni a]grees t!o sign an`ti-gays Bill
+1.0	You guys are making t}h}is a=ll WAAAAAY to^o complicated.	You ar~e ma#ki#ng this to~o complicated.
+0.8	WORLD N|o . 2 Lleyton Hewitt has accused th@e Association o`f Ten&n&is Pr[ofe[s[s[ionals o%f malice, including an alleged attempt last y>ea>r t`o dupe him into refusing a dru^g te~st.	W@orld No.2 Ll^e^yto^n Hew]i]tt has accused his prof^e^ssi^o^nal peers of long-standing malice, including an att)e)mpt last y=ea=r to dupe him into refusin*g a d~r~ug t.es.t.
+0.0	A ma!n i|s s!hooting a gun.	A ma/n i*s spitting.
+0.6	T+wo people walking along the shor{e at s#u#nset.	Tw"o people w\alk\ing along the beach a/t sunset t"owarn a group o[f people.
+0.96	Blu&e a#nd red plane in mid-air fli]g]ht.	a blue an<d re^d airplane while i^n flight.
+0.8	Trade newspaper Variety u#p fo/r sale	Ho;llywood trade publication Variety put u\p for s*ale
+0.84	Sly Stallone's Sone Sa_g_e F#ound Dead i{n LA	Sylvest'er Stallone's So)n Fo_u_nd Dead At Home
+0.92	A woman i[s playin$g flute.	A wom_a_n pl:ays o`n a flute.
+0.0	A bo_y i/s cutting paper.	A ma+n i*s loading a rifl(e.
+0.92	A yo[ung woman wi*t*h a bracelet is wearing a bikini t^op a]n]d j[eans.	A woma:n w]eari]ng jeans, a dark bikini t]op, a;nd a br|ac|elet.
+0.28	Ukraine‚Äôs pro-Russia protesters d%em%and greater a}uto}nomy	Suda;nese pr$o$teste$rs dem"a"nd the regime's ouster
+0.8	Mr. Manuel a;nd his group en&t&ered the United State.s b^y walki>ng ac@r@o@ss the bridge linking Matamoros and Brownsville.	M;an;uel and hi]s group ent>ered the US the s"ame w`ay th/ousand/s o(f people do every day, b<y walking across the bridge between Matamoros an&d Brownsville.
+0.8	Does this p@ag@e a=nsw=er y`our question?	Does this an&swer your que)s)t)ions?
+0.96	T%h%e n@ew Cold War	A ne)w Co^l^d War?
+0.0	I have no idea why it is voted up, bu#t R]ex Kerr's an/swer beg[s t-he q>ue>stion.	I't's a tau/tol/o/gy, b$u$t the mapping between logic and t^h^e English-language d:es:cr:i:pt:ion i]s wrong.
+0.44	A{M{D's chip sales ju)mped 7 p'ercen't year-on-year t$o $402 million.	Se<c<ond-<qua<rte<r sales grew 7 per-cen-t, t(o $6>45 million from $600 mil(l(ion i>n 2002.
+0.92	A wo&man splits garli|c cloves.	A woman i$s br>e>a>kin>g a h<ead of garlic in"t"o cloves.
+0.76	The ma,n in the b%a%c%k%pac%k looks t^o his left.	A'n adult mal*e wearing a backpack walks a@n@d looks to the le+ft.
+0.96	England captain An}drew Strauss retires fr]om p)rofess)i)on)al cricket	England cap}tain Strauss reti,res from cricket
+0.8	Paper is be;ing cut wi#th scissor:s.	A pi/ec/e of pap$er i$s being cut.
+0.15	A ma*n is pla_y_ing with frogs	A cat i*s pl|ayin|g wit_h a camera.
+1.0	You are o&n th#e ri[g[ht path.	You '$re o+n the righ#t path.
+0.92	Thre>e d[i[e after car crash a$t Tian'anmen	Three Killed I[n Crash A?t Tiananmen Sq<u<are
+0.76	Tropical Stor$m Karen targets US G@u@lf C@oast	T;ropical Storm Karen poised t}o make land~fall
+0.48	Gunmen kill 15 Li(byan sol_die_r_s	Gunmen kill 3 L_eban_e_se t-roo-ps n=ear Syria
+0.8	A black dog sta&nds ne<x<t t{o materials at a construction s(it(e.	A black dog s@tands in the middle o.f a const_r_u_c_tion s{ite.
+0.84	A man i/s lifting we!i!gh!ts.	A m/an is lif<ting a b(a(rbell.
+0.6666	Metropolitan Ambulance spokesman James Howe said fi`ve p.eople w!e!r!e taken to hos<pi<tal and three wer]e treated a%t t-he scene after yesterday '.s incident.	Spokesman James Howe said five chil&dren aged between 4 and 17 wer'e taken to hospital w(ith neck an>d ches`t injuries, while three others w}ere treated a%t t(he s,cen,e.
+0.75	Ag.ricu.lture ministers from mor(e than one h{undred nations are e?xpect?ed to attend th=e th&ree&-da&y Ministerial Confe$ren$ce a.nd Expo on Agricultural Science and Technology sponsored by the U.S'. Department o/f Agriculture.	U.:S:. Agriculture Secretary Ann Veneman k-ic-ks off the t/hree-day Ministerial C@o@nferen@ce and Expo o}n Agricultural Science and T{ec{hno{l{ogy o$n Monday.
+0.52	Russ>ia 'alone' in blaming Sy'rian rebels f[or chemical a:t:t:ack: US	Russia as}ks UN t"o consider i*t*s inquiry of Sy-ria chemical arms use
+0.0	An embolism i_n a med|ic|al co_ntex_t re_fe_rs to an)y large m?ov?ing mass or defect in the blood stream.	Here is an interesting ar(ticle o`n wikipedia t)o give overview o.f pressure related inj!uries.
+0.12	A ma~n is cry&in&g.	A wo-man i^s dancing.
+0.2	Ob!a!ma holds out over Syria stri?k?es	U~K urges countries over Syria a%i%d
+0.4	A woman standing i}n front of trees a,n,d sm<i<l<in<g.	A ma;n i.s w[a[lki[n[g by trees in front of the city s'k'y'l'ine.
+0.56	T|hree women wit[h brown hair are smilin]g.	Thre>e wome:n in Indian dresses in a c(row(d(ed room sm-i-li-ng.
+0.32	A man i&s playing a f'lu'te in a ban-d.	A man i!s p/laying a g}uitar.
+0.0	A g~i~rl i>s eat*i*ng a cupcake.	A m&a&n is sl<ici<ng a cucumb&er.
+0.92	De-troit eligible for bankr/u/ptcy protection: U.S. jud@ge	Detroit e#li#gible for ban|k|ruptcy protection
+0.68	It calls for the a/ge/ncy to pla%n an independent s_a_fety a<nd engin,e,ering organization.	The a!g!ency has yet to fu.ll.y formul!ate a strategy f^o^r the creation o@f an independent engineering technical autho"rity.
+0.84	a woma<n w'it'h a vi!king hat on.	Smili@n@g woman sitting w|earin|g a viking h|at.
+0.28	1 person killed i+n se:c:t:a:r:i:an clashes in Le{banon	Nine killed i:n Sy'rian-li'nk'e'd cl^ashes in Lebanon
+0.72	the en|sui|ng b(attl(e a[nd airstrikes killed a>t least 10 militants.	an ensui.ng battle killed at least 1>0 m[il[ita[n[ts.
+0.64	The la%d%y cracked two ra?w eg^gs.	T\he woman is cracki!ng eg@g@s into a bowl.
+0.68	Box cu:t:ters w/ere use`d as a weapon by the Sept. 11 , 200[1, hij.ac.ke.r.s and have s~in~ce been ba.nned as carry-on it>ems.	Box cutters we`re t}he weapons used by the 19 hijackers i?n th;e Sept-. 1#1 , 2001, attacks.
+0.16	A whit{e air"plane is parke/d on the cement.	A bl[u[e motorcycle i@s parked on t?h?e sidewalk.
+0.96	Gunmen kill nin^e foreigners in P!ak!is!t!an	Gunmen kill n[i[n[e tourists i$n Pakistan
+0.6	A girl i"n wat}er without gogg?l?es or a swimming c!ap.	A girl in wa)ter, wi$th gogg-l-es and sw)i)mmi)ng cap.
+0.9	Druc_e is still b<ei<ng held at th+e pris[on an}d is now in isolatio^n, she said.	D^ruce la+st night was held i>n isolation a*t the same prison.
+0.4	I said i"t wa#sn't a person, in t#he le-gal sense.	I"f it is n'>t a person, t`hen WTF is i$t?
+0.16	A kitten is d$rink$ing mil^k from a bo{wl.	A small child i-s dri!nking water fro"m a cup.
+0.96	T,wo women contestants are walking the-ir do<gs i[n a dog show.	T-wo women walk there d)o)g)s at a dog sho:w.
+0.28	A ma_n is l(ift(ing a c#ar.	A man i/s cli;m;bing a w\all.
+0.85	A ca>t and a ferret a?re playi_n_g.	A ferre]t and kitten p@la@y to\ge\th\er.
+0.08	A m#an i@s riding o>n a boat.	A man is tying i$n th|e m+achin+e.
+0.48	Th*e black and brown do|g i\s playin`g in the yard.	T&he black and tan do+g is chasin!g something h*e has spotted.
+0.4	Assad meets wit?h Re.d Cross o-ff-ic-i-al-s in Syria	Assad ma>k>es Re%d Cross pledge
+0.68	A+ll we know i=s t+his: Distant objects are rece)d)i)ng fr_om us a|t a rate proportional to their distance f<ro<m us.	Th}e expansion of space m}ea}n}s tha*t objects i-n cosmological d[ist[an[ces are r_e_c_e_din_g away from each other.
+0.96	iran l}ies on a major drug route betwee^n af-gh-anis-tan a~n~d europe and t]he persi^an gulf states.	i$r$an lies on a m>ajor dru(g tr.a.f.ficking route between afghanistan a)nd europe, a#s well as t&he persian gulf states.
+0.76	a grey do[g swimmi?n?g through a river w'ith a stick in his mou`th	Dog sw#imming thro(u(gh water carrying stick in its mout'h
+0.16	Black and white cow stand[ing i*n gr+as+s+y field.	A b(lack an&d wh,i,te photo of a m=an sta.n.ding next to a bus.
+0.44	A black dog i[s running th<ro<ugh the s_no_w.	A black p,it bull dog i(s running throu(gh the dir.t.
+0.88	A person is com,bin,g a ca/t hai:r.	A p_ers_on i$s brushing a ca:t.
+0.76	Besides battling its sales slump, Siebel also has been sparring with so,me in}ves}t}ors upset abo?u?t h*u*ge stock op)t)i)on windfalls com#pany man*a*ger*s have pockete>d.	B=es=id=e=s a sal?es slump, Siebel i*s sparring with s#ome shareholders over management s&tock option win+df+a+lls.
+0.36	A man i[s c*ut*tin*g tomatoes into pi,eces.	A woman i>s cu|tti|ng some veg]etab]l]es.
+0.0	A man is cu?t?ting gr^as^s.	A cl=o=wn is sing-i-n-g.
+0.72	Fer#rer cr=uises into Australian Open quarter-finals	Ferrer beats Nish|ikori to advance to A)us)tra)li)an Ope\n quarterfinals
+0.0	A man i\s readi)ng an emai(l.	A person o@p@ening a b-anana.
+0.52	When stud#y#i#ng a*du*lt IQ, general adult no`rms ar}e often used.	Basically, what y@ou do i<s you compare each age group I_Q t(o t`he sta<ndardiza<tio<n sample.
+0.96	A m`an and d"og o(n a rocky seashore.	Man and d]og standing o(n rocks next t!o water
+0.0	Oba'm'a queries Tur{nbul{l ov@er China port deal	S|pan|i|s|h bulls g}or}e seven to death
+1.0	Egypt cou&rt orders release o:f Mubarak	Egypt co#urt o@rd@e@rs Mubarak freed
+0.88	Strong new q&ua&k&e hits s,h,atte,r,ed Pak regi/o/n	6.8 quake i=n shattered Pakistan re$gi$on
+0.88	He projected Van|derpool will be ava#il#able within th%e next five ye~ar~s.	Products featuring Va%n%d%er%p%oo%l will be released within f}iv}e years, h\e s@aid.
+0.76	A ma-n i$s pla$ying a guitar.	A guy i/s pla^ying a,n instrument.
+0.52	A`fghan legislators approve new e.l.e.ct.ion law	Afghan president approves new el/ecton la(w
+0.8	Eight bottles o%f Ha.r.p lager lined up on th:e fl+oo+r.	Eight bot?tl?e?s o<f Harp be*e*r lined up on a wooden f$lo$or.
+0.28	Y^our wo=rr=y is a val[id one; the reader coul{d be frustrated b_y this.	I d&on't believe not knowing a character '<s n^ame would be confusing unles"s y$ou ma*ke it so.
+0.44	I;t's just a bunch o\f c)ells.	I'm``a bun)ch of c/e/lls . '!'
+0.32	In midafternoon trading, the Nasdaq co#mposi#t#e i+n+d+ex w%as up 8.34, or 0[.5 p@ercent, to 1,?7?90.4?7.	The Nasdaq Composite Index .IXIC dipped 8.59 po-ints, or 0.@4@8 p|erce|nt, t`o 1,773?.?5?4.
+0.8	U,.,S,. orde;r;s non-essential staff t}o leave Sudan, Tunisia	U,S or'd'ers non-essential staff to leave Tu&n&isia, Sudan
+0.85	Some men a+re figh*tin*g.	T%w%o me+n are fighting.
+0.25	Three boys i]n karate cost?u?mes are figh?ti?ng.	Three men are p+r+acticing karate mo@v@es i"n a field.
+0.76	Russia, China veto U|N reso`lution on S@yri@a endorsing	Russi.a, China veto U.N. d.ra.ft bac_k_ing Arab pla'n for Sy=ria (Reuters )
+0.64	A man and women sitting on a sof@a holdi$ng a sm<al<l bab}y.	a wo#man s:it:ting on a sofa holdin+g a baby.
+0.68	After Hughes refused to rehire Hern>a>nd>ez, he complained t(o the Equal Em-p-loy-m-e-nt Op>po>rt>unit>y Co=mmission.	Her'n'andez filed an Equal E/mpl/oy/men/t Opportunity Comm#i#s#s#i#o#n compl%a%int and sued.
+0.8	Two di[f[fer[e[nt breeds o@f brown and wh{ite dogs play on the beac!h.	Two dogs playing i\n the s+and at the bea)ch.
+0.0	Th*e man ta!lk!ed on the t}e}lep}ho}ne.	Girls ar>e walkin?g on t[he stage.
+0.68	a group of peo<ple dan#cing	A grou,p of m:en are da.ncing.
+0.6	Th/e broad Sta(n(dard & Poor's 50,0 Index <.SPX> advanced 1<1 points, or 1".2"5 percen]t, to 9<31.	The Stand$a$r$d & Poor's 50.0 Index gained 10.8!9, or 1.2 percent, to 931.1>2 a&s o|f 12?:0?1 p.m. in New Y\or\k.
+0.88	A:not:her million barrels, bought b}y Spani~s~h refiner Cepsa S@A, was t,o be l#o#ad#ed onto a Spanish tank|e|r, t=h=e Sandra Tapias.	A S)p)ani)sh tanker, Sandra Tapias, wa;s to be loa&ded with another m(i(l(lion barr^els, bought by Spanis}h refiner Cep_s_a SA, i-n the a;fterno;o;n.
+1.0	A br(own d`og is jumping.	A brown dog i(s ju&mping
+0.84	James Mu@rdoch qu~i~ts BSkyB	James M:u:rdoc:h quits role a<t BSkyB
+0.28	You a(re a C/hr/ist/ian.	Therefore y'ou a!r!e not a Chr~istian.
+0.2	Go)ogle l%a%unches internet-beaming balloons	Goo*g*le 'are playi~ng in#ternati#on#al tax game '
+0.08	Most pe?op?le w"an"t not o~nly to b.e WELL off, bu-t to become BETTER off as time goes b|y.	To start, the main d>ri>vers of econo*mic g_r_owt_h are resources, te{c{hno{logy, an(d inst+i+t+u+tions.
+0.68	What the Po$pe's butler saw – ai>d>e arrested over V_atican le\a\ks	Pope ’ s butler arres!te!d i~n scandal ov$er Vatican leaks
+0.0	Moderate tremor in t"h"e Central Me.di.terr.an.ea.n	Iran: Mod+era+te c_a_nd_i_d_ate wi!ns presidential vote
+0.1	A m(an i`s b\urnin\g a flag.	A ma^n is s/h/oo/t/ing a g~u~n.
+0.72	B:etween 1993 and 2002 , 1/4/2 allegations of sex\ual assault were rep;or;ted.	From 1993 to 200<2, there were 1`42 re!p!or!ted sexual assault!s at the a+c+ademy.
+0.4	Deputy speaker fac.e.s ne,w sex claims	Deputy S<peak<e<r Ni,g,el Evans Re-Arrested
+0.84	A monkey i+s brushing a bul~l d#og.	A monkey bru_shes a d~o~g.
+0.56	A gr>ou>p of p@eo@ple s/itt/ing around a table c;on;t;aini;n;g food.	Four peopl*e are sitt^ing ar:ou:nd a living room with.snacks.
+0.8	Well, I wouldn't p]ut i`t o}n m$y cv.	I would n'#t put t/his job on my re)sume.
+0.64	IAF strike G!aza terror h{ubs	IAF strik|es G"a"za t-err-or cell; 1 dead
+0.2	I feel y[o[u[r pain - I absolutely pour with sweat w_ith any vigor*ou*s exerc}ise, even i'n cool con=dit=ions.	Sw&eat rate i*s sweat rat\e, you c)an't really control it.
+0.76	Indi$a Minister's wi$f$e di}ed 'un\n\a\tu\ra\l death' after affair rumours	Min%iste%r '-s wife's death 'unnat{u{ral '
+0.2	South Korea re/grets North's refusal o!f t@alk@s	So@uth Korea reports 14th M$ers death , 12 n;ew cases
+0.96	council tax H%as n!'!t council tax been froze]n for most peo-p-le?	H%as n'&t council tax been froz,en for most people?
+0.6	Couple sailing i"n a s_ma_ll sai?l?b?o?at.	T!w!o m[en sailing in a sm;al;l sailboat.
+0.475	A m:an is cutting u-p a pot;ato.	A man i_s cutting u*p carr(ots.
+0.4	The prices fo/r everything you nee_d have go}n}e up due t+o inflation.	T$he prices of everything y=o=u o#w#n IE assets have gone dow!n.
+0.4	J_u_st about anything can b#e grown ind"oors without natural sunli/ght.	We ha>v>e q>uite a few people he.re who hav=e grow>n peppers and small tomatoes indoors a<nd in pots.
+0.68	A g+r+o+up of men pl\ayi\n\g brass instr-u-m-ent-s.	A group of guy,s p;lay i\nstruments outside.
+0.8	F]our p%eopl%e rowing d'own a river.	Fo:ur p]eo]p]le row a canoe in wat(e(r.
+0.92	A black dog runni>n>g int+o t!he water.	A bl=ac=k dog running t#hr#ou#gh wa/ter.
+0.1	A ma<n is eating w,ood.	A man i{s adding o&il to ca]r.
+0.92	D>ogs, he said, are second on.l.y t/o humans i'n the t"ho"r"o"ughnes"s of medical unders(ta(ndin(g and research.	H}e sai.d that dogs are se^co^nd only to humans i"n terms of b|ei|ng the s(ubject of medical research.
+0.5	The Standard Editi,on is $15,0=00 p[er processor or $300 pe_r named u'ser.	T<he Standard Edi#ti#on On,e is a single processor version o)f the Oracle Standard Edi#tion Database.
+0.8	White diamond breaks r/e/c/ord in Hong K/ong a~u~cti~on	White diamond f<e<tches r)e)co)r)d $3-4m at HK auction
+0.88	Woman remanded over c]hild '#s de%ath A woman has been re]manded in cust@ody charged with murder after a$n eig!ht-!y!ear-o!ld girl was found dea!d in a block o.f flats.	Mother held over dau[ghte[r's de%at%h A mot*her has be_en remanded in custody charge\d wit+h murder after her eight-year-old daughter wa&s found dead in a bloc|k o[f flats.
+0.55	A b.oy i`s running o,n a beach.	Two boy`s are p,lay,ing i-n the beach.
+0.6	After Freitas' opening statement, King Cou=n=ty Superior Court Judge Cha:r:l:es Mertel recesse!d t:ria:l un)ti)l a\f\t\er t#he Thanksgiving weekend.	King County Supe-r-ior Court Jud:ge C?har?l?e?s Merte?l will then recess th=e trial until Monday.
+0.68	The ta-n and white do?g i}s running in the fi.eld.	T.he brown and white dogs run throug`h th]e field.
+0.52	A boy a:nd a g^irl i!s dancing i(n the rain.	A man and woman i%s da"nc"ing i'n the rain.
+0.72	A m}a}n wearing blac#k formal w+ear & a black to?p ha%t is riding a white show h(ors(e.	A m?an w|i|t|h a t-op ha\t riding a white horse.
+0.76	Relatives s}cuf}fle with police afte"r China fire kill's 120	Angry f@am@ili@es d`emand answers after China plant fire ki,ll,s 119
+0.44	Th%e group is eating w)hile taking i>n a b/reath/ta/k/i/ng view.	A g?roup of p.eople take a look a=t an unusual tr)ee.
+0.08	A woman i#n an red tracksuit sq+ueezing lemo:n:s i?n a press.	A young woma.n i:n a pin=k hoodie takes a p!ic!ture.
+0.84	T;wo large d/ogs running in s=o=me grass.	Two brindle dogs r:un:n:i:ng i?n th-e grass.
+0.0	A m*a*n i!s traveling in a bo|at.	A woman i^s cu"tti"ng up a carrot wi>t>h a kni(fe.
+0.92	No|be|l Prize winning aut%hor Doris Lessing die^s	N.ob.el laureate Doris L/e/ssin/g d;i;e;s at 94
+0.2	I managed t%o f>in>d this re/c/ip/e, I thin=k t=h=is is where I g.ot the idea.	I've only m\ad\e a couple of bbq s~a~uces, bu.t the/y ']v]e always come out r^eall^y well.
+0.85	Out o.f tou:c:h and completely unt]r]ustwo]rthy, however, would n':t.	Out o!f touch and un#trus#t#wor#th#y?
+0.0	Rudd swo"r"n i}n as new Australian P'M	Mu's'l'ims in hiding as sectarian ..$.
+0.64	Captain Robert Ramsey o@f th!e US 1st Arm)oured Division said a tr@uc@k had exploded outside the bu^ild^i^ng about 1&1am, and that one o&f th#e c:o:mpoun:d's outer walls h>ad collapsed.	Cap\ta\in R*ob*er*t Ramsey o~f U/S 1St Armored Division said a truck had exploded outside the building at aro&u&n&d 1,1 a=m.
+0.92	Children a|re playing i#n a swimming pool while tw(o a/dult me{n watch them.	Children p=l=ay in a pool while adults l(oo(k o*n.
+0.16	No radiation lea)k at Ir!a!n ''s nuclear plant	US Co$ng$ress may t]hr]ow wrench into Iran nuclear dea*l
+0.76	A puppy plays w[it[h a pla|sti|c c:ont:ain:er.	The do#g is p`layi`ng with a plastic co.n.ta.in.e.r.
+0.76	Holly Holy W@e ar$e a'l'l vessels filled w!it!h many wonders.	Say Wh/at You Wil"l We a.r.e all vessels fil<l<ed with many wonders.
+0.2	S=om=e of w?hat y(o(u can do :	N)ot m`u`ch yo@u can do besides :
+0.85	Air C]anada, th`e largest airline in Can'ad'a and N\o . 11 in the w}or}l}d, has b@een u`n`d`er co%urt protection fr{om creditors since April 1.	Th!e N"o . 1`1 airline in th-e world, Air Canada has been under cou{rt protection from cr;ed;ito;rs s>inc>e April 1.
+0.6	Hea/v/y rain raises threat o@f Chr,i,st,ma,s Day flooding	Fresh ra\i\n brings more f?loo?ding
+0.0	A close-up, di^s^torted photo of a:n empty glas-s Coke bottl@e.	A c@l@ose-@u@p pic=tu=re of a d+esk wit<h a computer and pap,ers on it.
+0.8	A boy clim&b&s a for|e|st h\il\l.	A boy i_s c>li>mbin>g a hi@l@l.
+0.0	Yes, there i;s a re)a)son to n'ot do what you prop%os%e.	Yes, t?h?ere i+s a chemical differe+nce.
+0.88	The tw"o d:o:gs are running on th@e grass.	Two d&ogs are p|la|ying i*n the grass.
+1.0	Nobel a?uth?o?r Doris Les@sin@g dies a[t 94	Nob#el laureate D=or=i=s Lessing dies at 9}4

@@ -1,0 +1,201 @@
+# [('visual', 0.3)]
+0.8	Ä brown ɖoğ is runńing thrõugh tʮe fieᶩd.	ā ḃʵoẁƞ dǒg witĥ hįs tŏnǥue wagᵍiȵᷚ ǻś ȟe ȓunʂ thɾough a fīeʟđ
+0.28	EģỲpt'ᵴ ㏞ũslȋm Ƀɻotherɦood Rȩᶂuˢes ȶō Ḃaḉ㏀ Down	Ɛgẏptiͣn court senteᴻces Ⓜuſliᵐ ᴮrotherhood lɝadⱻr to liḟë iᴻ prisǒñ
+1.0	Ⱥ ᶭan ɪs pľaýing a kėyᵇoaȑḑ.	A ḿan plaȳᷥ a kɘybŏard.
+0.12	Ă maŉ iŝ choppïñg ℬuttēr іȵᶵo ä coǹtāiner.	А woᶭáń is cǘtƫȋng shriḿps.
+0.88	A squiʶrel rũᴺs ärǿund in circʟɛs.	A squirrel is moviȵg in circᶫeˢ.
+0.84	Perſon ŵith twø ski p㈞leᷥ ßkiиng down ă sƞowy hill.	A ⓟȅrṣǫn ŝkѝȋng đőwn a snȏwʸ hilʟ.
+0.84	Sɛnate confirms Jaᴎet Yellēn as ʗhaȋʴ oḟ ÙṨ Ⅎⱻᴅeŕͣl ᴿeseŗve	Ű⫡ Šenȧte Cŏnfirms Jǟňet Ÿȩᶪłen ăs New Cenͭral Bͣnⱪ Cɥiéf
+0.96	A gŗoup òf horses ǵrazińg in a ᷫîeld.	ᴳȓoup ōf horses gʀazınɡ in grassy fɨĕᶩd.
+0.28	A man ĭs ridinġ a ħǭrse.	A maᶇ îś driving a ᶜar.
+0.88	Two b㈞ys sit fȃcing one anothęʀ ȁt a täble and onȩ ᷮoinṭṧ at the ȭᵗher.	Two peóple sit faᶜĩɴg éăcḧ otĥɝr at ȁ ṱablě aˢ one ṗoͥntſ at ṱhè other.
+1.0	Ṯhŕee ḍogs pŭᶫling a ᴟan ön a ⒝iᴄyℂle throügḥ the ſnow.	Thɜ dogs are ᴘuļling ã mǻn oᴺ a type øᶂ bike, througḧ the sᴺǿw.
+0.88	A dog is júmᵖing ȫveȑ à barrieɺ at ȃ agility ℭoɰpetītïȭn.	A dog jumṗinǧ oⱴeŗ aǹ oḅᶳtaͨɫe ↀoursë ⒡eňce.
+0.8	The iɴjureᷘ were ṫa⒦en tõ hospitǡls in Jeᵮfĕrsôᶯ ḉĭty and Columbia, ȁ cöĺlegȇ town about 30 miłes to tẖȩ noʁtʜ.	Tʮe ińǰuɺēd ㎼ere ťaken to hôspiṱals iɲ ǈêfferson ͨiᵵy anḋ Colũmbia, âbouẗ 48ᴋm nǭrtʰ; țhĕir conḑitiôns ẉeré not iᶭmeḑiatelʸ availabᶪe.
+0.4	Reṽ's EarˡẎ Reȃͩṣ: Maɾᶝh 2	Rev.'s Earˡẏ Rèads: Ṧepͭ. 3ɿd, 2015
+0.7	Ɨn the ᷱeɘks lêadinĝ up to tʱę ĕᶍecutiǿn, ᷤeṿĕʳal Ƒļǿridã ŏᶠficȉals recěiveᵈ anǫnŷᵚoȗs ᶵhreaᴛening ĺetters.	⒮êvɝraᶩ Flöʴīᵈä o⒡ficȋals ɕoññectɘd to ʇͪɘ cǟᶳë ḧavę receivĕd threateninǧ ƚettérʂ, aḉcomᵱanied by riflȇ ᶀǖllĕƭs.
+0.44	Thĕ ᴺotȇ'ß Mûst-Reaͩs ᶠoȑ Friday May 24, 2013	The Note's Must-Ŗeadṥ for Ḟɾiᴅãy, August 23, 2013
+0.2	rǜns ᶺͥctım down Goᵗ ȧny proōf?	parąñoѝd Goͭ aƞy proȏf?
+0.28	ᴾhilйppines ḩ㈞lds sècȍnd sɛnāṫor ǒᵥėr corruṕtion	Phìlippinēs rȩƈǭvⱻriᵰg aƒᴛēr poẁⱻrfűl typḥōǒn
+0.84	A gŗay caṫ laɏіng on ǡ bro㎼n ᵵablɜ.	А greʎ caᵗ lẙiᶯǵ oȵ a wooden table.
+0.45	Ṫḣe brøᷱߒ train is sitting ön the ɹaіlroɐd třaćⓚs.	The white train is sitƭiᴻg oᶇ ṫħe tȓaċks.
+0.0	Nő, Ỳơu doᶇ't neeᵈ ẗo hȁvé ța⒦ǝɲ cƚaȿsės or earnǝd a ᴅegrɘe iɴ yoǖɍ aɿeá.	I havɝ doᶯe quȋte ͣ bit ȫf teͨhɳȋᶝal writiɳg for healẗhcare ɪnᵮoŗmaťi㈞n sឹstems.
+0.4	R⸧ssian ᴘᴌanë reportedly ḉrăsheſ iᴻ Eǥypƫ	Pilôt ᶄilɫed aś ÙS jɛt crashes iᴺ Englanȡ
+0.48	Tₕe teͨh-ˡoadĕd Nasᷘaʠ coᷟposite rosǝ 20.96 points ᴛo 1595.91, ending at ìťs hѝᵍhɜȿt ŀeveɬ for 12 ᴟoɴẗhs.	The ᵗeḈhnologẏ-ᷞaced Nåŝdaq Compósite Indeẍ <.ІXIᴄ> clim⒝ed 19.11 points, or 1.2 ᶈeŗcenṱ, ʈo 1,615.02.
+0.52	Sỵɻia 'to ᷘȩclaʀe cheᵚicaȴ ẉeapons aߒɗ siᷚᶯ conveɴtǐoņ'	Rǚsᵴiâ, Syŗia Work on 'Ƈoncrete' Ƈhemɨcaľ Ⓦèɐᵱoᴺş Plan
+0.44	Ŝoǔth Korea Säys ᴎorth Fired Miśsileś	Norͭh Koreǎ launchēs shòrt-ɿaņge ⓜиssіᷝes
+0.16	Ⅎlaŝḣ flooᵭs kiʟľ 58 iñ êaᷤtern Aⓕghaniȿtan	Bomb wounȡs 16 in easƫɘrȵ Áfɠhaŉiʂtaņ
+0.56	Two ÿeaɺs later, ƭhe iᶯsuɿañce ɕoveřaɠe ẘouļd ʙegin.	Ȕnder tħȅ agreėmɛnt, Mediḉäre cõveraᷚe foɍ dʀuɠ beȵefits would bǝɡïņ иn 2006.
+0.28	Țᷱo boyṧ in ḅˡack šᷱimming trunkș ǎʵe holdiňg anȭŧĥeʀ ɓôy bẙ his armṡ aȵd legŝ ǿǹ a bȅacʰ.	Man in whɪtɇ shirt fliṗping young b㈞ẙ iń thɘ wāᵵer wйtɥ four øtḧeʁ bôys șǔrrounɖıng theⓜ.
+0.68	Obamă urges ḓeᷗîsive ǡctioᶇ on Euɺope deḃt ḉrisіs	Oℬaɱͣ ǖrgëᷥ Ɇuroᵖe to act quͥckȴy oᶇ ȼʴiṡĭs
+0.85	A ẘoman is ɕhȍppiᴎǧ broℂcølï.	A wǒmȃn ìṧ chòppɪng bɽoↀcóli witɥ a ḵnиfe.
+0.75	Ċritiᷗᶳ sâẙ the law vioˡäteṧ ℭivil liḇȩrties, sǒmetẖing Hȫuše ᴶuᴅiciɐɺy C㈞ᶆmѝtṭȩɇ Chaïrmaȵ Jǡmeṡ Sěnṥen℔ɹennèʳ, R-Wis., sąỲs ḣê ïs seņsitиvė tõ.	Hoûſȇ Ɉǘȡicįaɻy Ċommitʇee ↀhaiɾman James ⧌ensenᵇrenŉer, R-Ⱳis., sayˢ he ȉs sⱻnᷤɨtɪve tȍ ci㏞il libertieſ coᶆplaȉntˢ.
+0.8	reĺigïous extrėmiᶳm ᶜǭnᴛіnues iȵ ṗȧkistañ despite the banniɳg ǭḟ mįlitanƫ gɽoups.	reŀigious e☒ṯremiŝ⒨ continues in ᵖakɨʂtan despite thɝ ᴃannȋŉg ǭf mȋlitǻnt gröups by the pakistanı governmeñt.
+0.84	ⱽěhiʗᴌeś ǻblȧze iߒ collapsɘd Ɉapaȵ ᴛǔnnel	Vɛḥǐcles 'ɫeᶂt burnïᵰg' ãs smǭ㏀e emіts from Jaƥan tŭnnęl
+0.88	A dȍℂᴛōr pʀeʂͨrĩbęś ᴍėᵭĩcȉnę to a ṕaᴛient.	A ɗŏctȍr preᶊᷗribes a ͫeɗićine.
+0.36	A woₘan ïs čhopᵽiɲg an oñiȍn.	Ȃ wơmaȵ iṣ choppĭng garlic with ǡ ʞniƒe.
+0.64	A ᶢuy on a whitȅ hörse.	A man riding a ẅhйᴛe horse йņ aņ arenȃ.
+0.15	Á woᵯan is playinɠ iߒ tḥe ǿceáɲ.	A ᴡoman īᷥ pɽɛpariᵰᷛ ṧȟrímp to cȏ㈞k.
+0.16	ℭhĩna givɛs ǛS ɾɇguɬatoɼſ accesṥ tõ ㏟udit records	Ȼhɪnɐ oppøses ŰS aŕms ʂâles to Taiwaᵰ
+0.56	Bângłădeᷥh Hȭnorș Facťȫʁy Victĭms	Rétaileŗs ℬacḵ Bɐᶮgladesh factoɺy sáfety ᴘaĉt
+0.76	Paᶄiṥʈȃn ͭȏ releáse mosț seniȭʁ Afgͪán Talibaɳ prißoner	Paⱪiᶊtaǹ ṱo ʁelease senɪór Talïbaǹ ᴄǫmmandɘr oŉ Saturᷘay
+0.08	Aᷞgeria ᵽrĕsiđeňt gëts tᶣȩrapy ǡᵮteʵ stroke: ṥʇaṯe ɯedȋǎ	Bulǧariån ṗręsidɇnt trieṣ ṱǭ break electйoᴺ ᶳtaᴌemɐte
+0.6	Artĩsᵗṥ are worried the ₚlan woưlḓ harm those ㎼ho need heᶅṗ mosͭ - ⒫eɿformers ⱳho ʱave a dйffiḉǖlt tѝme lįǹiᴻg uᵽ shows.	The artistș say tʮè plan ŵiɬl haɍm Ⓕŗęnch cuᷝtuɽē and ᵖunĭsh thosě wħő need help most - ṕerfơrmǝrʂ who ĥǻvɘ â harď ᶵime lȋning up wórk.
+0.12	Fĩrst of aᶅl, let mɛ șay that ͭheȑe seemˢ to be 3 ⒨ͣiň traiᴛš to Ḉastinḡ ā spɜll.	I alwaឹs ṭḥoughț thǻt Ḫarry seeͫɇɖ ᴛø léarn from ȶhe Ⱶalᶠ-Blöod Ṗrincê betƭêʀ ťhǻn he did fŗōm oͭher soûrɕǝs.
+0.16	A mͣᶮ įȿ ɺûnᶯiᴺǵ on ä sŧɽeet.	A maᵰ pᷞays the ᵹuitar.
+0.4	Ѝ ẇould șȁy yoǖ can do it, but it woulḍń't be adᶹised.	Ᵽersońȁlly, I ⱳoŭld say not uᴺlèṧs iț sǘйts you.
+0.68	The ƭⓦö Democɽąŧš on thĕ fиve-membeʀ ℲCↄ paᴺɜl heᴌd a ߒɝws confeɺenĉé to ᶳway opinion agāinst Powɘĺl.	Tḧĕ two Ḍe⒨ȍcrats on tͪe fivǝ-member FↀC hęld a nèws confereᶯce ȶõ sway opìɴȉon ágǟinst Ṕoẃǝˡᷝ anđ thɛ paߒel'ṧ two ȏthɛr Rⱻpublíȼånṣ.
+0.88	Asȶɛʳoȋᴅ ᶽips ⓑɘʈweeñ Earƭh aᵰᵈ sáʈelɭiƭes	Ǡsᶵeɹoid pásses Ѥaʀth iȵ fłẏ-by
+0.68	"Tʰe Eurőpɇǻn Ȗnion iṥ basiᶝȧlɬy aℬsent," ᶳaͥđ Ṭīƭo Baȓbini, regɪǒᴎal minisƭɜɿ for ǻᵹriĉųlture ȉń Ťuscaߒy, Italɏ.	Ťito ℬȁɻbini, a regional ⓜiñistër for ͣgriculṱǔre iŉ Tuşcȃnŷ, Iͭaɬy, ͨrīᵗičɪzɜď the ȃℬsencĕ Tuesday йn Sacɾameɲto.
+0.65	A ℬôɏ iș playing a ₖǝy-ḇoard.	Ⱥ bŏy ȉs siƭting în ä ʶooᶭ plaɏing a piano bẎ lamp ligḩŧ.
+0.04	The woman īs smoⓚing.	The ṁan is walkіnğ.
+0.0	A monⱪey is wǟlking tʜroȗgh the ẘåter.	A guɏ iṡ playîng a ṭrumᶈeṱ.
+0.1	A womãn īs sìťtіɳg on a sidéwālk with a ɕĕll ᵖhone at heɿ ęäɹ.	A wǿṃan is ɼidiŉʛ her bícyͨłe.
+0.04	Ȗkɾainĭȧn Prēᵴiᵭenȶ orđerᵴ 7-day ↀeasefɨre in the êasţ	Ųganda'ŝ ᴾȑêſídeᶇt Museveᶯi agrees to sіgn anți-gays Biᴌl
+1.0	ẏou guẙᷤ are ᶬaḵing thиŝ ąll WAAAAAẙ tȍǭ cȭmₚlicatéd.	ỹou ārⱻ makɨng ᶵhȋs too ɕóᶬpɭicated.
+0.8	WORLḒ Nô. 2 Ľleytoɳ Hewiťt hás accúsȇd ṭhe Ȃᶊśoʗiɐtioń of Těnnis Pʳofessionals of ḿaļiḉɛ, incɭŭͩing ań alɭeged aṯŧemᵱͭ last year ṫo d⸧pe hɪm iɴƭo reᶂusȉng a drùg tesʇ.	World No.2 Lɭeyton Hewítt has áccüṣeᷘ ɥiß prōfeṣsìonal peers of ɬǭŉᶢ-standing maᶩiᴄɛ, ȋncƚuḏiŉg aᶇ aʇtǝᵯpt last year tǿ ᶑupe ͪiᵐ into rȇfusińg a drug teßt.
+0.0	A man is shōǭtïng a gun.	A ⓜąn is ʂṕĩťtйng.
+0.6	Two people walkйnģ along ťhe șͪore aʈ sunset.	Two people waĺkiᵰg ㏟lǫŉᶃ the bȅaᶜh ɐt ˢunset tőwarᴻ a grǫup of peopˡe.
+0.96	⒝ᴌũe and red ⒫lane iŉ ₘѝd-air fliǥht.	a blųe and rêd ㏟irplane whĩŀe in flight.
+0.8	Traↀe nȩẇs⒫ȁpǝȑ Váʶieᵵឹ up ⓕor salǝ	Hǭllywood ṱrade pűblѝcɐŧioň Ỽarîeṯy put uᴘ fór saᶩe
+0.84	Sly ⦞talľoné'ṡ Soᴻe Ṧagê Founḑ Dȩad in LA	Sylveȿteʀ Staɬlǒɴe'ᵴ Ⓢơn ℱoūnḑ Dead Ǻt Homɛ
+0.92	À ⓦomaƞ is ᵖlayińg flutȇ.	A womań plǡyʂ on a fŀutè.
+0.0	A boy is cutṫɨᴺᵍ ᶈâper.	A måǹ is ĺoadīnʛ a ɺifle.
+0.92	A Ỵőung womàn wiƭh a břaceˡɜt iᷤ weͣring ǟ bikiní top and jeans.	A wǒᴟan ẉeaȓiǹᷛ jeañs, a daɽʞ bikińi top, and a braceȴet.
+0.28	Ukraine‚Äôş pro-Ṟusᵴiá pɽoᶵeṧtęrʂ ᵭɘḿand greaŧeŗ auṱōᶇomy	Šudanese proteßters ḏemand ʈhe regime's oȗᷥter
+0.8	Mr. Manǔel ǟnd hйs grou⒫ enẗeʳed ŧhe Ǘniteḏ Stateᷤ by walƙińᵹ aᶜɍoˢs tȟɇ ℔rȉᴅgǝ lǐnkǐnᷚ Mãtamorǭß and Ⓑrownsville.	㎨ͣƞuɜĺ anↀ his group ȩňťêred ͭhę US tʯe same way thöuśanđs oⅎ peȏƥɬę do évēɾẎ ƌay, ᴃy walķìng across the ᶀridge bǝᵵʷeen Mȧtamoros aŉd Broᷱnsville.
+0.8	Ɗőɘs tḫiˢ pãge answȩŗ youɾ questйon?	Ⓓoȇˢ ṯᶣis answèr ƴøur ʠuéstiǒns?
+0.96	Ⱦhɝ ɴew Cold Wɐʳ	A néⓦ Ċolͩ War?
+0.0	I ʯave no ɪđȇå wʰʏ it is votǝd up, but Rex Keȓʶ's ansẘeʳ ʙegş the quesʇͥõn.	It's a tauᴛ㈞logɏ, bůẗ the mȃpping beƭwɛén logic anḋ ʇhe Enᵍlish-languȁge ḍescriₚtioߒ ȋs wroᶮg.
+0.44	AMD's chѝᵱ sales jumpêḏ 7 peɺḉenᵗ Ẏeaʁ-on-yⱻaɾ to $402 milļion.	Second-ⓠuarter sales grew 7 ƥerℭent, to $645 million fʴőm $600 ⓜillion in 2002.
+0.92	Ā womàn șplitȿ ʛaɼliᶜ cloveß.	A ⱳǫᵚan is brēakiɲǵ ǡ heaď o⒡ gaɽlic ìnṱo clovⱻṧ.
+0.76	Tʮe ᶭan iᴻ the ℔ǎcᷜᵱack looks to his lefᶵ.	Ãn áduᶪƫ mâle wɛȁɾіng ǻ backpack wąˡks ånđ ᶅȫoks ȶo the ɫe⒡ẗ.
+0.96	Enᵹlaᴺɗ captain Andɿew Strɐuśs reţiȓȅs ḟʵöm ⒫rȭƒessionăᶪ cřиʗᵏɛt	Enᶢlănḋ cȧpͭåin Strauss ɺetıʳeʂ from ċric㏀ĕt
+0.8	Ⓟapeʳ is bɝìƞg cut witḥ şcișsors.	A ₚiecě of pǡᶈeʴ is beѝᶯg cut.
+0.15	Ǎ ᶆan iˢ ᵖŀåỲіnᶢ ẇith frogs	A caṭ įs ⒫laying witḥ a camɘrǎ.
+1.0	Yo⸧ ㏟re oȵ ṱhe ȓīʛht paṫh.	Ỹou'ʵe on the right path.
+0.92	Three ᵭiɇ after cɐr crasʱ at Ṱian'anmen	Three Kiᶩled Īn Cɍǎsh At Tïānaߒṁen Sqūaré
+0.76	Troƥiɕál Storm Karën targɘṫß ǓS Gülⓕ Cøaśṯ	Tɹȭᵖical Stoɼm Ƙaren pȫiʂɜd ṫǭ ᴟake ᶫanďfaȴl
+0.48	Gunmen ㏀ill 15 Ĺibƴan solḏıers	Gunmen kill 3 Lěbaɴese trooᷮs near Sÿria
+0.8	A bläck dȫᵹ sṫaᵰdᷥ ne✕t ƫo ṃateriąls at a constɍuctiõņ sīte.	㏟ ɓlaᴄk ᶁog staňḑṧ in thɇ middle oᶂ a coņstɺũʗtion sitē.
+0.84	A man ȉș liⓕtîng weigʮtʂ.	A maᶯ ìs liftiŉg a barbɛll.
+0.6666	Metʵ㈞⒫oᶫitan Am⒝ulaᴺce spokesͫ㏟n Jamɛs Howe ßaid fĩʌe ᵱɜopᷝe ʷeɺë takɘń to ḥospitäᷞ ãnƌ thřee ŵǝre ṭreatȇᶁ at thē sčenǝ afteɹ yesterday's iǹᶝideƞt.	Ṡpoⓚeŝmǎn James Hoᴡe šaid fiᴠè chīldren aᶢēd beṱween 4 ánd 17 were ta㏀en to hŏspîtäl with neck and ȼhest iᴎjurieˢ, wɥile tʰrɇe ŏᵵħȇrs weɍê treated at the scene.
+0.75	Aġrïcuᶫtuȓe miniŝteȑs frőm more tʮǟn one ʜundred natįōņs are exᵖecţed ᴛo atteᵰᴅ the three-dāy Mɪnįsterįǟl ᴄőnḟeręncé ȃnͩ Eẍpo on Ǟgricuᴌturaŀ ⫡cîenḈe and Tëchnòᴌoɡy sⓟǒnßoɍed bឹ ṭhe U.S. De⒫artment of Āgriȼulŧǔre.	U.Ś. Ăgɽiᴄulture Sècretary Aƞn Vēneman kicks off the thrëe-dăy Minisṯeɽiaĺ Conferɇńce and Expo on Aᵍrîͨulturăƚ Science āņd Teĉhnõlogʸ ȏn Moɳḓaȳ.
+0.52	Ɽuşsia 'alȍnē' in blaᷟing SỲríǡn rėbelˢ foř ʗᶣeͫɨcal attack: Ù⧌	Ⓡūssia asks UN ṱo ƈonsiḑɇr иʈs iŉⓠuiʶy of Syria cḧeⓜiᷗal arms usê
+0.0	Ån embőŀism ïn a meḓical cøntext refers to ȧᴺy lȃrge moving masṥ oŕ ƌefect ïɲ the bȴoõd stream.	Ḣere is ań inʇeresting ąrtiḉle on wikipěȡią ŧo giⱱe ó㏞erᶹieẁ of ṗressûʀɜ rēlāted iᵰjuŕiǝs.
+0.12	A man is crÿing.	A ẁomaᶯ iś daŉciᴻg.
+0.2	Obǡma holds oǜt ovėr Syriȁ strikes	ŨK ûʀges cöuntʵіes őver Syria ȧĭd
+0.4	A ᴡoman stáᶇȡing iᴻ front oᷫ trɝǝs aňd s⒨ѝling.	A man iȿ walking by trȅɝs in ƒront of the cíty skylͥne.
+0.56	Three womeȵ with ʙrȍwn ₕaйŕ ǡre ᶳᴟílíɲɠ.	Three ẃomėn in Iɳdian ɗrĕsʂés in a crôᷱded room smйᶩiȵg.
+0.32	Ǟ man is playiᴻg a ƒlute in a ⒝and.	A man иŝ ₚɫaỳйng a guitãr.
+0.0	Ă giŗl iṡ eating â cupcake.	A man is sĺɨciñg ã cućumbɘr.
+0.92	ↀȩtɼoit ȩɬigiᶀle ᷫor bankrǖptcy ⒫rōteɕtion: U.S. ǰùɗᵹe	Detrøit ɇligiⒷle for bankruptcy proŧectiǭn
+0.68	It ʗalls for tʰɜ ȧgeᴎčy to ᴘɭan ǎɳ ɨndependeɲƫ såᶂeṫy aɲd engineèrinʛ ȏʳğanĭźatiöȵ.	The ageƞℭy haᶳ yet to fully ⒡ormulate à sͭrȃtɇgy fơr tₕe cɽeätǐ㈞ᶯ ȏf an indeᷮëndenᵗ eņgineering tȇᴄhniᶝal authoriṯy.
+0.84	a wõm㏟n ẇith a vī㏀ͥnĝ hat òń.	Ṡmiliɴg woman sitẗͥnᵹ wearing á ㏞ɨkͥng hat.
+0.28	1 pȅrˢon kîᷞlǝd in secṭàȓįan clasᶣȩᷥ in ⅂ⱻbanon	Nѝne ₖiᶫɬed in Syrͥan-ᴌĩnkeḍ cᶫaŝheṥ ĭn Ƚebanon
+0.72	the ensuing ᶀăṯtle ㏟ᶇᶑ ăirstrikēs kilłed aʈ leȃsȶ 10 militants.	ân ensųiᴻg battle kilȴed ǟt ƚeȃsᴛ 10 mȉlïṯanᴛᶊ.
+0.64	Ţhe ɬady crackeȡ two raw ɇggs.	Thè woman iȿ ĉŕačking eǵgȿ иntô ǡ bowl.
+0.68	Bø̽ ͨutterš were usȇd aṥ a ㎼eąpőn ⓑy the Sêṕt. 11, 2001, hìjaʗkeʵs änd ʮãṿe sйᴺċɜ been baǹneƌ ȃs carry-㈞n items.	Ⓑox cutteɾs werɇ ŧhe weāᷮons useḋ by ŧhe 19 hïʄacķerᵴ ïn ʇhe Sèpṭ. 11, 2001, ㏟ṱtacks.
+0.16	A wʰité aiɾpᶅǻne iᷤ parked on the cemenʇ.	A ɓᴌuȩ moṯorcycᴌɇ is parkëᵈ ón the sidɛẇälk.
+0.96	Ɠuńmen kilˡ ȵйnǝ ⓕoʀeigners in Pakißtaǹ	Gųnmen kɪll ɲine touriṧtṥ ͥn Pakѝstan
+0.6	A giɍl in water wйƫɥout ģogglēſ or a ᵴẉɪmming cáp.	A ğìřl ͥn ẉatèʶ, with goggᷝȇś and sẅͥɯɱing cà⒫.
+0.9	ǅrucē іs still ᶀeińg held at tȟɝ prison aᴎd is now in isǭlaͭion, ᶊhe saіd.	Ḑrùce last niġht ẁas ʯeld ın isolation at the sǡme pŗisōņ.
+0.4	I said it wáṥn't ǻ perṣon, in tʱe legal sënsë.	Iᶠ iȶ isn't a pɛrson, theߒ ㎼TF iš it?
+0.16	A kiẗtĕn is ɗriᵰkinᷛ ͫilk ㎌ɻoᴟ a bowl.	A ŝmall ℭʮild иs drɨnḱinᷛ ⒲ater ᶠʵom a cup.
+0.96	Twȏ ᴡomeņ coņᴛeȿt㏟nṫs aʁe walⓚiᴎg thɘir ↀogˢ iᴎ ǻ dôg ȿhow.	Two woᵚȩn wȃlʞ thȅre ḋoɠs at ǻ dog ṥhow.
+0.28	A man is liftiȵg a ćaʁ.	A maɴ iᶳ cŀimᵬinɡ a walļ.
+0.85	A ᴄat ånd a fęrret are playįɴɠ.	A ƒéʁret aᶯd kͥṱten ⒫lay ʇoʛɘŧher.
+0.08	A man is riḏïnᶢ on a boat.	A m㏟n йs tyĩng in tḥe ɯȧchine.
+0.48	Tͪe blacᵏ and bʁǿwn ᶁog is ᷮlǻỵing iᴎ the yaʀd.	Tħⱻ bläck anᶑ ᵗaƞ ↀog ȋş cḧasiᴎg ᶊomeʇȟing he hǡs sƥǿtṯed.
+0.4	Aȿsǻd ᶆeęts with Ȓeᶑ ℭross öᶂfȉċıáŀs іn Śẙriá	Assad ᶆakes Red Crosᶳ pledge
+0.68	All ㎼ȩ ḱnow ĩs ʇhiᶳ : ↀǐstǎnt objects aɿe ɻecedīng from ųs at a ɿatȇ ᵱrȫpŏrtioņal ƫo theiŕ ȡistancé ⒡ʴoḿ ùs.	ᵀḩe ęⓍpǟnsion ㈞f spȁƈe mǝaɴṣ ťhat oⒷjȅctṥ in cosᴟologͥcal disᴛańceᷤ are receding aẉay ᶠʁőm èach other.
+0.96	ȋran liȅs ōń ȃ mǎjor drǜg ɽoute between afģhȁņȉstan and europe ȃɳd ŧhe perᶊian ᵍǜlᷫ sȶǎṯes.	iran lies on a majoʳ druǧ traffičking rǿute betweȩᴎ ǎfghͣnisȶan aŉᶑ euroᵽe, ͣş ᷱell ǎs ţhe persian gulf stateȿ.
+0.76	ã grey dog sᷱimmįnǧ tħrǒuᶢh ä rиver ᴡitĥ ǻ ſtiͨᷜ ѝn his mouth	Dog șwiṃming ṫhɿǒuɡₕ waȶer çarryinᶢ stĭcʞ ĭɳ iṱs mouth
+0.16	Bļaͨḵ and ⒲hͥte cǿw sᴛanḋіnᷛ in grasṣy ᶂиelȡ.	A blacʞ anḏ wᶣitⱻ pḥoto of a maᶮ standing next to ㏟ bus.
+0.44	A ḅlac⒦ doģ įs rưnning tᶣɻoǜgh the snow.	A Ⓑᷞaℭk pıᴛ ᶀulɭ dog is ȓūnᴎīng thɼőugh tʯe dɨrẗ.
+0.88	A ᵱeɺȿoᶮ is combing a ͨaᵵ ḫair.	A person is bɿushɨnɠ a caț.
+0.76	Beṥideś battling its sales slump, Siǝbeᷝ also has been sparɺing wiᵗh soṁé ȋnvéstors upset abȭut hüge stock opƫion windfaᶅls coᴟpanỷ managerš hǎve pockěȶeḑ.	Besides a ʂaˡes ŝluᴟp, Sieᴃeł is sparɾing ẃıth ᷥome ṥʜarehoľdeɽš õᴠer managemeǹt ᶊtock oƥtion ㎼ĩndfȧlls.
+0.36	A mąn is cuttйnĝ tomatoɇs into pieces.	Ȧ ŵomaɲ iṥ cutting soᶆê ᵥegȇţableᷥ.
+0.0	㏟ măn iᷤ cůᴛtiᴻg ᶢrǡss.	A çlȏwn íᷥ sinᶢing.
+0.72	Ferɼer crűiȿⱻs ѝńᴛo Àustɿǻlian Open quarţeř-finǻls	Fȅrrɇr Ⓑeațs ᵰıȿhikori ƫo adᴠaɳcɇ to Austraƚiån Ǭpȇn ⓠuaɹterᷫinals
+0.0	A maņ is rèading aᶯ email.	A pérson opeňıng a banǻna.
+0.52	When studying ǻdǚlt IQ, gęneʴal adult norms arè ofťen useđ.	Basiᶜalȴƴ, what Ẏoű ᴅo iᷥ you c㈞ɯpâre ɇacᶣ ǎge group IQ to thȅ sţanḍårdįȥation sample.
+0.96	A màn and dog on a ɾocky se㏟ŝȟôrė.	Màn ańđ ᶑoǥ standing on rǿᶜkᶳ nexṫ to wãter
+0.0	Ōbāᶆa queriɛs Ʈuŕŉbull over Ĉħiᶮa port ᵭěal	Spanish bŭllˢ gore seven to ɖeath
+1.0	Eḡyƥt cȏuɻt ôrderß rȅlɜase of Mubařak	Egŷpt couɾt óʴders Můbãrak freɛd
+0.88	ⓢṯrong nė㎼ quake ʮȋts shattêɻȅd Paḵ reᶃiȫn	6.8 ɋuãke iᶯ ˢhattëred Pakistan ʴegion
+0.88	He ṗʳoɉȩᴄtèd Ṽanᴅerpool wɪᶫᶫ be avaiˡɐḅɫe wiṯhin the ȵeẍt fiʋe yęárş.	Ṗrodũcts ᵮɝaturinǧ Văndērpŏ㈞l will ᷨe reȴeased ẁithin five yeaɺs, hɇ șaͥd.
+0.76	A man is ᵱlaying ǟ guitar.	A ᶢuỴ is plaỴɨňġ ͣn instrumenᵵ.
+0.52	Aƒghaᶮ legiṣlaᵗorᵴ apᵱrove něw èlecƭion law	Afghān prɜsйdɜņᵗ aᵽproveş ɲɝw eᷝecton lȁw
+0.8	Eiɠʰt bottleş of Ⱨaŗp ʟaḡeʶ liᴎęd ŭᵱ on ᶵẖe floōr.	Eigͪt bơťtles of Hȁrp beer linëd up on à wȏoḍeᴺ ⓕloor.
+0.28	Ÿȫur wǫrrẙ is a valid ơᶯɜ; tḥȇ ɺeadĕȑ ċouᶅď ɓe fʀuȿtrated ⒝y ƫḩɪs.	I ḍon't believɛ ᶮot knõwing a charãĉŧer'ᶳ năme ᴡoưᶪd ɓe ḉon⒡using unlɜss Ỷŏu make it so.
+0.44	It's jùſt a buňch of ceļls.	I'm "a ḃuncʜ ǭf cells."
+0.32	In ⒨ĭɗȁfťerߒơoǹ tradiᵰg, the Näsdaⓠ compösitⱻ ǐñdex ŵas ũp 8.34, or 0.5 perčeƞt, to 1,790.47.	The Nȃsḏȁq Ćȏmposite Iɳdȇ͓ .IXĮC diᶈped 8.59 ᵱôiᴎts, oȓ 0.48 perƈeᶯt, ᵵo 1,773.54.
+0.8	U.Ȿ. ȫrders ᶇon-ešsential ȿtaff tǭ leãve Sǜɗȁņ, ᵀuɲīsiɐ	UȘ ōrders non-eșsential staⓕf ţo leǻve Tuᶇisia, Sudan
+0.85	Soᵯe mⱻn ㏟re fighting.	T㎼o mēn are ᶠįghting.
+0.25	Țhrȅe Ⓑóys in ᶄaraʈɝ ḉȭstumɘs arⱻ fiᷚhʇiᶇg.	Three mȅn are přactiᶝįng ᴋarͣtė movēs iŉ a ᵮield.
+0.76	ℝusᶳïa, Chiņa veƭȍ UN ȓešolüƫion øn Syriä endorṣͥᴻg	Russia, Chinͣ véᴛo U.N. draᶂt ⓑacḱing Araƀ plȃń ƒor Sỵria (Rêuterᶊ)
+0.64	A ɱaᴎ and wŏᴟeń siẗting on a ŝôfȁ ḩoɭdiǹg a small babʎ.	a woman ˢiƭtinᷚ on a s㈞fa ʜolͩɪng a ᷨǻⒷy.
+0.68	Aᷫter Hughes refȗsed to rehire Hernaᶇdeȥ, he cȫᷟᵖlaineᵭ tǒ ʈhɜ Equaᶩ Emploẏmeᶮt Oppơrtüņįᶵy Commission.	Hernãnđeᶻ ⓕileƌ an Ɇ⒬ǖăᶅ Eᷟᴘloyᶬenţ Opportunity ℂòᴍmīssion complaiߒƭ aᴎɖ sued.
+0.8	Tŵo dɨfferenͭ bʀeeds of brown and white ḑõɠṥ plaŷ õn the bêȧch.	Two dogs pᶫayȉng iᶇ the säᵰd aƭ the ᷨeacḣ.
+0.0	The ⓜan ṫaᶩᴋeᵭ ǭn tͪe ʈeĺɇphonǝ.	Ġirls arĕ ⱳalkìᴺg oᴺ thê śtǻgɇ.
+0.68	ǡ ᶃroup of people danciᴺg	Ⱥ groúp of ṃen aré dancinɢ.
+0.6	Ṫħɛ bròąd ẞtanđarᵈ & Pooʳ'ᵴ 500 Indeᶍ <.SPX> advânced 11 pȭints, or 1.25 pɝŕçeߒt, to 931.	The Stǟndard & Po㈞r'ᷥ 500 Ȉŉdèx gained 10.89, or 1.2 ᵖerceƞᴛ, to 931.12 ǟs oᶂ 12:01 p.ɱ. in New Yorƙ.
+0.88	Anothër miɭlͥon bǟrrelᶳ, boǖghᴛ bỷ Spȁnish ɺɜfıner Ćepsa ŜA, was to ⓑe loaded önŧo a Sₚanish taȵker, ṭḧe Sandɾa Ṱǟᷮiaſ.	A Spaƞish ȶanker, Ṣąňdřa Tapias, wȁs to be lǫadeď wîţh ańothėʶ ɰilliõᴎ baʶreŀs, bôughᶵ by Şpanіsh refinɛr ℂepsa SÅ, in the ㏟ftěrnooᶇ.
+1.0	A browᶯ dog ĩs ɟumṗing.	A browᶇ dôg ís juᵚpĭng
+0.84	ᴶames Ⓜŭʶdoʗh quits ƂŚkŷB	James Muɾdoḉh ɋuitš róle at BSkẙB
+0.28	You arɛ a Chriŝtiån.	Thèřefore ʸou aʴe noŧ ā ℭₕrisẗian.
+0.2	Goǒģlɘ lauƞᴄḧes iᶮᶵerߒɇṭ-beaₘͥᴺg ⒝àlloons	Ĝoöǧlȩ 'ǟre ᷮlâyinɢ iߒterɲátiȏnåᶩ ʈax gamè'
+0.08	㏟ośt peoṗᶪé ẇant nőt ȭȵᶅÿ to be WELL off, Ⓑüᵵ tǫ beḈome ƁȆTTĚR off as tɨmê goes by.	To stǡrt, ᵵhe main ɗrǐverṣ of ecǫnomic growȶh aʶe resŏurces, tecȟńoᶅ㈞gẏ, and ınsṱitutions.
+0.68	Wħat ṯhĕ Ṕòpe's ᷨuŧļeɽ ᶳaw – aiↀȅ ȃrresteɖ ơvɝɽ Vațican ľeaḱs	Pope’s ⓑȗtlèr aȑrestȇd in sℂȁndal oveɍ Vaṯicān ĺea⒦s
+0.0	Moderäẗe ʈremoɽ in the Centɿal Méᶑìʇerʴaᴺⱻan	Iraᵰ: ㏟ódeȑate ɕandidătɛ wıns presidential vȫtě
+0.1	A man is burnînᵹ a flȁǧ.	A maᴻ iŝ shȍøͭing a gun.
+0.72	Bëtᷱeen 1993 aȵd 2002, 142 állɇgatiŏnș of ṥeẍuǟl assaulᶵ were reportȩd.	From 1993 tȫ 2002, there weřê 142 repoʴṯeɗ sexual assǎǚlᶵs aẗ ṭḧĕ ačaᵭèmy.
+0.4	Dȩpuțy speaker fačes nɘw sȇ⌧ cƚaims	ↀeṕutʸ Sƥeaķer Nѝgɝļ Ėvans Re-Aɍrestëd
+0.84	Ȧ mõnkɇŷ ĭs brusʜing a ᵬulᷞ dǫg.	Â monkⱻẏ ḅrúshes a ďoɢ.
+0.56	A grȍùp of pȇopɬe sitƫiᶯĝ ȃroǖnd a ta⒝ᶫe coȵtaining ⒡oőd.	Fǿǘr pêȍᶈle ārė sittȉᴎʛ arouńd a ŀɪṿing rooᵐ ㎼ith.sn㏟Ḉks.
+0.8	Ŵeľl, I ʷouldɴ't put it on my cv.	I wȭuʟᵭn't ᵖut this ʲoℬ on my ɻeśùme.
+0.64	ЙAF strike Gazȃ terɼǭr húbs	Ȉ㏟F stɿѝkeṥ Ḡaza tǝrrǭr ceʟl; 1 ḓėad
+0.2	I feĕl your ⒫ain - I abˢolutely ₚȍur witẖ sẉȇat with aɳy vigøroȕs exerᴄise, evȅɲ iߒ cooɬ condiʈiòns.	Swȩãᵗ raͭe iᶳ sweat rate, ɏǒu cán'ȶ really ḉontɼol it.
+0.76	Iᶇdɨa Minĭster's wi⒡ē diɝd 'ûߒᴺatural dȅath' ǡfter afᶠaįɹ rumóurs	㏟inisteɻ'š wиfe'ᶳ dɝaᶵh 'unńaturǎl'
+0.2	Söuth Korea rĕgɾetȿ Norṭḥ'ʂ reƒȗsaᴌ øᵮ taᶅʞs	Soutʮ Ḳoʳeǡ rėṕorts 14th Ḿers ↀeaṫh, 12 nɜw ᴄaȿes
+0.96	ċōůncil tax Ḣasn't č㈞uñcǐl tax been ƒɺǭzɝn fȍr most peŏpᶩⱻ?	Haşn't ƈōǚnↀīɬ ȶaẊ ɓēeņ frozǝǹ foʳ most peǒple?
+0.6	Cȭǘṗlȇ saĩlįnᷚ in a ŝmȁlɫ saìlboat.	Two men sȁͥlǐnǧ ìñ a șᴟalᶅ ßailbŏat.
+0.475	A man is cuṯtıng uƥ a ṗȭtàto.	A ᵚan iᶊ ɕutting up ᴄaɻrots.
+0.4	Tʰȇ pɾicēs ᷫoř everỶᶵᶣing you ᶮeeḑ haʌe gone up dưȩ to ȋȵflatiôň.	The pricës of everẏthıȵg yȏǚ oẇń IE aṡṡets have ǥone dõⱳƞ.
+0.4	Jūst abôut ȃnỵṫhɨng caᴺ be ᵷrowȵ inᵈǿȫrṥ wiʇho⸧ť ƞaturǎᷞ ˢūnᷞight.	We ʱǡvⱻ quѝtē a few ᵱeople ʱɇre who have grown pep⒫ers aᴺḍ smalɭ tomątoɇs indoors and in poẗs.
+0.68	Ą gɼoup of ᵐèn ᵽᶫaỴinǧ bŗass ĭnstrȕmentʂ.	A gɿoup of ᷚuƴs plaƴ instruments ouᵗsiᵈe.
+0.8	Fouʶ people röⓦinǥ dôwn ȃ riveɻ.	Four pēople ɍow a caɳŏȇ in water.
+0.92	Ȁ blaℭᶄ dog rūnning ǐᶇțô tʮê wȃteɹ.	A black ďog ruᴺᶮiᴺg ťhrouɡḫ water.
+0.1	A man іs eāting woōd.	A man ɨᷤ àddiᴎᵹ őiᷝ to çar.
+0.92	Dogs, he said, are secoǹd onlɏ ᵵo ʮumɐȵs iń the ʈhȍɿǿughñess of mɜᶁical unȡerstǎᶇƌȋƞᷛ and rese㏟rcȟ.	Ⓗe ȿàid thȧt dǭgß are secoɴḓ oᴺly ŧo ḫumanś in ẗɘrms of běinġ the su℔ject oⓕ medĩcal reseaʀch.
+0.5	The Ṩťandard Ĕdiʇion is $15,000 per procesšơȑ oɽ $300 per named uʂer.	The Ṡťandɐrd Editiȭᵰ Onɘ is ɐ singᷞe pŕocesᶊŏr veɼṡion ơf the Oracle ẞtánᵈäɍḍ Ediᴛiơᵰ Databaᵴǝ.
+0.8	Whiţe dɪamond ᴃrëǟƙs rečoŗd iǹ Honᷛ Koᴎg aũctiôᴻ	㎼hîte diǻᷟonḍ fɜtches ʀecord $34ᶭ at ℍK auċtioᶇ
+0.88	Ẃȫman remanᵈed ovɘr chiɬd'ᶳ ᵭȩatʜ A ⓦoɱan has ḅeen rémȁnded in cȗstodẎ Ḉharᵷēd ŵиᶵh murder aⓕter aᶇ ⱻiǥȟᶵ-ɏêar-oĺd gırl ẃǡs ⅎound ɗeâď ĭn a bloćk of fl㏟tš.	Mǫᶵher held oᶹēr ďȃuᵷʰtēr's death A ɱȫtheʁ has been reᵯȧŉdęd ïn custody cɦargeḑ with muɻdeɽ ăfᵗer ᶣeʳ ȩigʮt-ʏeaɍ-old daughter was found déad iᴺ a block oᷫ flats.
+0.55	A bòy is running on a bêacḥ.	Two bǒys are playiɲğ in ʇhe bɜaᶜh.
+0.6	After Ⅎɻeitȁś' ȏⓟening stātement, King Cǫunṭy Ŝupeʵior ḉoúʳt Judge ͨharŀes Merteᶪ reᶝɛſséd ƭɻйal űnȶйȴ àfteɹ ẗhe Ťhanksgiviᶇg weɝⱪǝᴻd.	Ⓚiᶯg Couȵty ∾upȅrior Court Ĵudʛę Chaɺlės Mertɜˡ wѝȴᷞ then ɺecëss ŧhe trial until Moᶮday.
+0.68	Ṭhe taɲ aňd wḥite dog is rųnninǧ iŉ ȶhę fìeld.	Ṱhe brǿwn ànḏ wɥite dogṣ ŗun throuᵍh the fiȩlḓ.
+0.52	㏟ ᶀoy and a ğirȴ is daɴcįᵰg in the rȧin.	A maᶇ ānd ⒲ȫman is dancınǥ in ͭʮe ŗȧin.
+0.72	A ḿan wȅaȓiᴎg bᶪåcǩ foɾɰȧl wěǎr & â ⓑląḈk tȍp hat iş riᶁinᵍ a whіte ȿhów hǿrse.	A ɱaᴻ ẇɪth a top hat ʵïḋing a ⓦhіtë horʂe.
+0.76	Relatîveṣ scuᵮfle ẅith ṕølȋce after China fîrě ƙɨlls 120	Angry families demanď ㏟ǹſwɇʴs âᶂteʁ China pląnt ⓕire kilľᷤ 119
+0.44	Ⓣhê ʛroup íʂ eătîng wḩiᶪe tȃking in ȃ bŕȅaƫhṯakinɢ vįêw.	A gɺȏu⒫ ǿf peoplɘ tàᶄe a loǭk at an unusůàl ŧʁee.
+0.08	A woman iŉ an ręd trackșuіͭ ʂq⸧eeʑïng leɯoɳs iᴺ a prëʂš.	A younɢ womaᶮ in a pink hoȏďìe takes a pîcture.
+0.84	Ƭẁo l㏟rgȇ doᶢs ruƞɲĩᶮg in ȿōɰe ᷚraṡs.	Two ℔rȉndle dogᷤ ruƞninɢ ín the gɾass.
+0.0	A maᵰ ĩṡ ᵵʀăvȇɭing ͥn a boȧţ.	Á woͫǟᶮ иs cuʈtinģ ǜp â carroṫ with a kñi㎌e.
+0.92	ǋơḇĕl Ƥrize winning author Doʶіs Lⱻsßinģ dies	Nobèl laureaťe Doɽȉs Leᵴšiɲg dȋės aᵗ 94
+0.2	Ɨ mānagěd to finᴅ this recipe, I ṭȟѝnk ʇhis иᶳ wᶣere I goƫ the ideą.	Ǐ'ʋe ǒnly made ä couple of bbq sȁȕceȿ, but thȇy've always come ōût reȃlɭʸ ⒲èll.
+0.85	Oưt oⓕ toucɥ ȧņḓ coᶬplɜʇely untʵǚȿtⱳoʶthy, howeveȓ, wȏȕɬdŉ'ᵵ.	Ɵut of ʇoǚch anȡ untrústworthÿ?
+0.0	Rudd ṡworᵰ iŉ ǟs new Âũsƭrȃlian ƤM	Muslims in hiding aʂ sectārian ...
+0.64	Cǟpțain ℝobert Rͣmsey of ţhe US 1st Armoureᴅ Divisí㈞n ᶊaid a tŗuck ḫad exploded outside ṯhë b⸧ilᶁiņᶢ about 11ǎᴟ, anɗ ᶵʜaŧ ǭńe of ᴛhe ĉomṗound's outɘr wǻᶅls haɗ collapsed.	Caᷮtaȉn Robert Ramsⱻy oᶠ US 1ẞť Aɼmoreᵭ Dȉᵥͥsiȏn said ǡ trucᵏ had eˣplodeↀ oȗtsiᵭǝ tḧɇ ᴃuiłᴅıng aṫ arőǚņd 11 ͣm.
+0.92	Chіldren arȩ ᶈlayinᷛ iƞ a swimming pooˡ whilɝ twô ad⸧lt men wātch ʇȟĕm.	Childʵen pᶪaỶ in a ᶈool ẘhile adůltʂ ƚǫók ȫň.
+0.16	Nø radiatĭoᶮ leak aț Irāƞ's ᴻǚcleãr ṗlaǹt	ǓS Congreṣs măŷ thʶoⓦ wreŉcḩ ͥnto Ĩrǟn nucļéɐr dëal
+0.76	A puppy ṗlays witʜ a plaᵴᴛíc ćonƭåiñer.	Thⱻ døg ȉs pᷞāyinğ ẘith a plasŧic coߒƫaineʳ.
+0.76	Holly Holy Ⱳê are all vɇˢsels ᶠilled wiͭh mȃŉy ⱳondeɹs.	Say Whâȶ You Wilŀ We arɜ all ͮeᷥsels ㎌ͥɭleᵭ ʍǐtḩ many wonͩers.
+0.2	⒮őmȇ o㎌ wʰât yǿu caᵰ ȡo:	Ńot ⒨uch you çaᴻ do bɜsidɛs:
+0.85	Åir Canada, thɘ ᶪargeſͭ aĭrᷝíne ѝn Cáɳąda aᴻd Nǭ. 11 in the worłd, has been undęr cơurt prǿtection fɿøm créᴅitorᶊ ᶳīnce Aṗɾiļ 1.	The Nò. 11 aǐrlíne in ᴛʯė worᶪd, Air ᷗanäda håṣ ℔eeߒ ǔɴdeɼ couȑt ⓟrotectiøn fɻom creditȭrᷥ sɨnce Âpril 1.
+0.6	ᴴea㏞ʎ raiᴻ raïséᷥ thre㏟t of Cɥristmaș Day floõᶑȋƞg	Freᶳh rȧȉߒ bʳïɳᵷs mȭre ᶂlooding
+0.0	Ǻ cᶪose-uᶈ, ḋistorteḋ photȏ of aᵰ empty glasˢ Coke bottᷞe.	㏟ cᶪoᵴe-up pictȗɺe oƒ a desk wĭͭh a ᶜoⓜputėr ánᵈ papǝrṧ oƞ it.
+0.8	A ᷨŏy cliɰḅs ă forǝst ḥıɬl.	A b㈞y iś cliɰⒷing ä hìll.
+0.0	Yeß, there is a ʀeason to ńot do whaŧ yöu prőpoŝe.	Yes, there iṥ ǎ chèmiͨâƚ ḍǐfᶠeɽɝᵰᶜⱻ.
+0.88	Tₕɜ tᷱo dogs are rǔnning on the grass.	Two døǥs are ƥlaying iᴻ tħe grass.
+1.0	Noʙel authoʳ Doɻĭʂ Ļessiᶮg dięs aʈ 94	Nobel lͣųreaᴛe Dórīs Lessɪnᵹ dies aᶵ 94
