@@ -3,6 +3,17 @@ import sys,os
 from easy_table import EasyTable
 import re
 
+class MyEasyTable(EasyTable):
+    def displayTable(self):
+        # Get the max length
+        self.getMaxLengthPerColumn()
+        # Print the reader
+        self.printTableHeader()
+        # Print the rows
+        for row_num, row in enumerate(self.table_data):
+            self.printDataRow(row)
+        self.printTableFooter()
+
 name_map = {"visual":"vi","phonetic":"ph","full-swap":"fs","inner-swap":"is","disemvowel":"dv","truncate":"tr",
             "keyboard-typo":"kt","natural-typo":"nt","intrude":"in","segmentation":"sg","rand":"rd"}
 
@@ -50,18 +61,19 @@ for method in df["method"].unique():
 
 tables = {}
 for ev in evals:
-    table = EasyTable(ev)
-    table.setOuterStructure("|", "-")
+    table = MyEasyTable(ev)
+    table.setOuterStructure(" ", " ")
     table.setInnerStructure("|", "-", "|")
     table.setData(table_data[ev])
     tables[ev] = table
 
-name_table = EasyTable("names")
+name_table = MyEasyTable("names")
 name_table.setData([name_map])
-name_table.setOuterStructure("|", "-")
+name_table.setOuterStructure(" ", " ")
 name_table.setInnerStructure("|", "-", "|")
+print("## Abbrevation map")
 name_table.displayTable()
 
 for name,table in tables.items():
-    print("\n",name,"\n")
+    print("\n##",name)
     table.displayTable()
