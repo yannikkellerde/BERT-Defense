@@ -67,13 +67,22 @@ for ev in evals:
     table.setData(table_data[ev])
     tables[ev] = table
 
-name_table = MyEasyTable("names")
-name_table.setData([name_map])
-name_table.setOuterStructure(" ", " ")
-name_table.setInnerStructure("|", "-", "|")
-print("## Abbrevation map")
-name_table.displayTable()
+original_stdout = sys.stdout
+with open("tables.txt", "w") as f:
+    sys.stdout = f
+    name_table = MyEasyTable("names")
+    name_table.setData([name_map])
+    name_table.setOuterStructure(" ", " ")
+    name_table.setInnerStructure("|", "-", "|")
+    print("## Abbrevation map")
+    name_table.displayTable()
 
-for name,table in tables.items():
-    print("\n##",name)
-    table.displayTable()
+    for name,table in tables.items():
+        print("\n##",name)
+        table.displayTable()
+with open("tables.txt","r") as f:
+    text = f.read().replace("\n ","\n")
+with open("tables.txt","w") as f:
+    f.write(text)
+sys.stdout = original_stdout
+print(text)
