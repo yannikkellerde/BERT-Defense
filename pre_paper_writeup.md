@@ -76,6 +76,12 @@ To figure our which of the 2 Hypothesis we should finally choose, let's put the 
 GTP decided, that the sentence ending with `a chair` is much more likely than without the `a`. After combining likelihood with prior to Posterior, we only have to choose the MAP now, to get our final cleaned output sentence: `a small white cat with glowing eyes standing underneath a chair.`.
 
 ## Evaluation
+## Abbrevation map
+
+|visual|phonetic|full-swap|inner-swap|disemvowel|truncate|keyboard-typo|natural-typo|intrude|segmentation|rand|
+|------|--------|---------|----------|----------|--------|-------------|------------|-------|------------|----|
+|  vi  |   ph   |   fs    |    is    |    dv    |   tr   |     kt      |     nt     |  in   |     sg     | rd |
+
 ## mover
 
 |      method      |dv:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|sg:0.5,kt:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
