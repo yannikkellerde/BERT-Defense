@@ -227,7 +227,7 @@ class BertPosterior():
         for hyp in priors_hypform:
             hyp_block = []
             for prob,content in hyp:
-                hyp_block.append((prob,list(zip(priors[count],all_word_dics[count]))))
+                hyp_block.append((prob,get_most_likely_sentence_multidics(priors[count],all_word_dics[count])))
                 count+=1
             hyped_posterior.append(hyp_block)
         return hyped_posterior

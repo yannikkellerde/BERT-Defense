@@ -24,7 +24,8 @@ class Sub_dist():
             "ins":True,
             "sub":True,
             "del":True,
-            "tp":True
+            "tp":True,
+            "ana":True
         }
         self.num_hyps = 10
         self.min_prob = 0.07
@@ -188,7 +189,11 @@ class Sub_dist():
             real_dist = dist + fill_cost
             if fill_cost > 0:
                 enter_combos(comb,dist,sample_word,False)
-            distance[i] = min(real_dist,self.score_anagramness(source,sample_word,char_distrib,self.char_distribs[sample_word],unknowns))
+            if self.cheap_actions["ana"]:
+                ana_score = self.score_anagramness(source,sample_word,char_distrib,self.char_distribs[sample_word],unknowns)
+                distance[i] = min(real_dist,ana_score)
+            else:
+                distance[i] = real_dist
             mindist = min(mindist,distance[i])
         combo_words[(0,len(source))] = [distance,self.full_word_dic]
         for sample_word in (tqdm(self.morph_dic) if progress else self.morph_dic):

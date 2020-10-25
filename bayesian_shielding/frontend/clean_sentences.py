@@ -46,18 +46,12 @@ class Sentence_cleaner():
         print(f"\nFinal cleaned sentence: {posterior_hyps[0][1]}")
         return posterior_hyps[0][1]
 
-    def batched_clean_given_prior(self,priors):
+    def batched_clean_given_prior(self,priors,batch_size=128):
         self.load_bert()
         all_posterior = []
-        all_posterior_hyps = self.context_bert.batch_bert_posterior(priors)
+        all_posterior_hyps = self.context_bert.batch_bert_posterior(priors,batch_size=batch_size)
         for hyps in tqdm(all_posterior_hyps):
-            all_hyps = []
-            for i,(prob,content) in enumerate(hyps):
-                prior = [x[0] for x in content]
-                word_dics = [x[1] for x in content]
-                post_sent = get_most_likely_sentence_multidics(prior,word_dics)
-                all_hyps.append((prob,post_sent))
-            posterior_hyps = self.context_bert.gpt_hypothesis(all_hyps)
+            posterior_hyps = self.context_bert.gpt_hypothesis(hyps)
             all_posterior.append(posterior_hyps[0][1])
         return all_posterior
 

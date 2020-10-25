@@ -1,0 +1,200 @@
+0.8	a brown dog is running through the field.	a brown dog with his tongue waving as he ran through a field
+0.28	egypt muslim brotherhood refuse to back down	egyptian court sentenced muslim brotherhood leader to life in prison
+1.0	a man is playing a keyboard.	a man play a keyboard.
+0.12	a man is dropping butter into a container.	a woman is cut to shrimp.
+0.88	a squirrel ran around in circles.	a squirrel is moving in circle.
+0.84	person with a ski pole skiing down a snow hill.	a person skiing down a snowy hill.
+0.84	senate confirm jane ellen as chair of us federal reserve	us senate confirm jane ellen as new central bank chief
+0.96	a group of horses grazing in a field.	group of horse grazing in grassy field.
+0.28	a man is riding a horse.	a man is driving a car.
+0.88	two boys sit facing one another at a table and one point at the other.	two people sit facing each other at a table as one points at the other.
+1.0	the dog pulling a man on a bicycle through the snow.	the dogs are pulling a man on a type of bike, through the snow.
+0.88	a dog is jumping over a barrier at an ability competition.	a dog jumping over an obstacle course fence.
+0.8	the injured were taken to hospitals in jefferson city and columbia, a college town about 30 miles to the north.	the injured were taken to hospitals in jefferson city and columbia, but in north, the conditions were not immediately available.
+0.4	rees-read, marc ;	rev .' is early read: sept 3rd , 2017
+0.7	in the week leading up to the execution, several florida officials received anonymous threatening letters.	several florida officials connected to the case have received threatening letters, accompanied by rifle bullets.
+0.44	the notes must-read for friday may 24 , 2018	the notes must-read for friday, august 23 , 2017
+0.2	run if you got any proof?	paranoid, and poor.
+0.28	philippines hold second senator over corruption	philippine recovering after powerful typhoon
+0.84	a gray cat lay on a low table.	a grey cat lying on a wooden table.
+0.45	the brown train is sitting on the railroad tracks.	the white train is sitting on the track.
+0.0	no, you do need to have take classes or earn a degree in your area.	i have done quite a bit of technical writing for healthcare information systems.
+0.4	russia plane reportedly crashes in egypt	pilot killed as his jet crashed in england
+0.48	the tech-loaded was composite from 209 point to 1999, ending at its highest level for 12 months.	the technology-based nasa composite index iii climbed 191 points, or 12 percent, to 1650 ;
+0.52	syria, to declare chemical weapons and sid convention.	russia, syria work on' concrete' chemical weapon plan
+0.44	south korea does not fire missiles	north korea launched short-range missiles
+0.16	flash floods kill 58 in eastern afghanistan	bomb wounds: in eastern afghanistan
+0.56	two years later, the insurance coverage would begin.	under the agreement, medicare coverage for drug benefit would begin in 2006 ;
+0.28	two boys in black swimming trunks are holding another boy by his arms and legs on a beach.	man in white shirt flipping young boy in the water with four other boys surrounding them.
+0.68	obama urges decisive action on europe debt crisis	obama urges europe to act quickly in crisis
+0.85	a woman is coming around.	a woman is hopping around with a knife.
+0.75	critics say the laws violate civil liberties, something house judiciary committee chairman james sensenbrenner, lewis, say he is sensitive to.	house judiciary committee chairman james sensenbrenner, lewis, say he is sensitive to civil liberties complaints.
+0.8	religious extremes continues in pakistan despite the banning of militant groups.	religious extremes continue in pakistan despite the banning of militant groups by the pakistani government.
+0.84	vehicle a blaze in collapsed japan tunnel	vehicles, left burning, as smoke exit from a tunnel
+0.88	a doctor prescribed medicine to a patient.	a doctor prescribed a medicine.
+0.36	a woman in chopin and ono.	a woman is chopped garlic with a knife.
+0.64	a guy on a white horse.	a man riding a white horse in an arena.
+0.15	a woman is playing in the ocean.	a woman is preparing him to go.
+0.16	this gives a regulator access to audit records	chin opposes us arms sales to taiwan
+0.56	bangladesh honor factory victim	retailers back bangladesh factory safety pac
+0.76	pakistan to release a senior afghan taliban prisoner	pakistan to release senior taliban commander on saturday
+0.08	algeria president gets therapy after stroke . state media	bulgarian president tries to break election stalemate
+0.6	artists are worried the plan would harm those who need a non-performer who has a difficult time lining up shows.	the artists say the plan will harm french culture and punish those who need help for-performers who have a hard time lining up for.
+0.12	first of all, let me say that they seem to be the main traits to casting a spell.	i always thought that harry seemed to learn from the half-blood prince better than he did from other sources.
+0.16	a man is running on a street.	a man play the guitar.
+0.4	i would say you can do it, but it would be advise.	personally, i would say not unless it suits you.
+0.68	the two democrats on the five-membre fcc panel held a news conference to sway opinion against powell.	the two democrats on the five-member fcc held a news conference to sway opinion against powell and the panels to other republican.
+0.88	asteroid gap between earth and satellites	asteroid passes earth in fly-by
+0.68	" " the european union is basically absent, " said tito barbini, regional minister for agriculture in tuscany, italy.	tito marin, a regional minister for agriculture in tuscany, italy, criticized the absent tuesday in sacramento.
+0.65	a boy is playing a keyboard.	a boy is sitting in a room play in a play by sam light.
+0.04	the woman is smoking.	the man is walking.
+0.0	a monk is walking through the gate.	a guy is playing a trumpet.
+0.1	a woman is sitting on a sidewalk with a cell phone at her ear.	a woman is riding her bicycle.
+0.04	ukrainian president order a ceasefire in the east	uganda president musa then agrees to sign anti-gays bill
+1.0	you guys are making this all way far too complicated.	you are making this too complicated.
+0.8	world no . 2 alberto white has accused the association of tennis professionals of malice, including an alleged attempt last year to lure him into refusing a drug test.	world no .2 lloyd hewitt has accused his professional peers of long-standing malice, including an attempt last year to drug him into refusing a drug test.
+0.0	a man is shooting a gun.	a man is sitting.
+0.6	two people walking along the shore at sunset.	two people walking along the beach at sunset toward a group of people.
+0.96	blue and red plane in midway flight.	a blue and red airplane while in flight.
+0.8	the newspaper variety up for sale	holly was a publication variety put up for sale
+0.84	the small only jon sage found her in ;	sylvester stallones is found dead at home
+0.92	a woman is playing flute.	a word play on a flute.
+0.0	a boy is cutting paper.	a man is loading a rifle.
+0.92	a young woman with a bracelet is wearing a bikini top and jeans.	a woman wearing jeans, a dark bikini top, and a bracelet.
+0.28	ukraine has pro-russia protesters demand greater autonomy	sudanese protesters demand the regime ousted
+0.8	mark manuel and his group entered the united states by walking across the bridge linking marmora and brownsville.	manuel and his group entered the us the same way thousands of people do every day, by walking across the bridge between matador and brownsville.
+0.8	does this not answer your question?	does this answer your question?
+0.96	the new cold war	a new cold war.
+0.0	i have no idea why it is not up, but the very answer begs the question.	its a map to log, but the mapping between log and the english-language description is wrong.
+0.44	and the sale jumped 7 percent year-ender to 42 million.	second-quarter sales grew 7 percent, to 65 million from 60 million in 2008 ;
+0.92	a woman splits garlic clover.	a woman is breaking a head of garlic in love.
+0.76	the man in the backpack look to his left.	an adult male wearing a backpack walks and looks to the left.
+0.96	england captain andrew strauss retired from professional cricket	england captain strauss retired from cricket
+0.8	paper is being cut with scissors.	a piece of paper is being cut.
+0.15	a man is playing with frog	a cat is playing with a camel.
+1.0	you are on the right path.	your on the right path.
+0.92	he died after car crash at tan' an me	three killed in cars at tiananmen square
+0.76	tropical storm karen target us gulf coast	tropical storms are poised to make landfall
+0.48	gunmen kill 15 libyan soldiers	gunmen kill a lebanese troop near syria
+0.8	a black dog stands next to materials at a construction site.	a black dog stands in the middle of a construction site.
+0.84	a man is lifting weights.	a man is lifting a barrel.
+0.6666	metropolitan ambulance spokesman james how said five people were taken to hospital and three were treated at the scene after yesterday incident.	spokesman james howe said five children aged between 4 and 17 were taken to hospital with neck and chest injuries, while three others were treated at the scene.
+0.75	agriculture ministers from more than one hundred nations are expected to attend the three-day ministerial conference and expo on agricultural science and technology sponsored by the us department of agriculture.	us agriculture secretary ann baseman kick off the three-day ministerial conference and expo on agricultural science and technology on monday.
+0.52	russia' alone' in blaming syrian rebels for chemical attack . us	also i ask un to consider its inquiry of syrian chemical arm use
+0.0	an emblem in a medical context refers to any large moving mass or defect in the blood stream.	here is an interesting article on wikipedia to give overview of pressure related injuries.
+0.12	a man is crying.	a woman is dancing.
+0.2	obama holds out one more strikes	we urge countries over syria aid
+0.4	a woman standing in front of trees and smiling.	a man is walking a tree in front of the city skyline.
+0.56	three women with brown hair are smiling.	the woman in india dresses in a crowded room smiling.
+0.32	a man is playing a flute in a bar.	a man is playing a guitar.
+0.0	a girl is eating a cupcake.	a man is slicing a cacumbe.
+0.92	detroit eligible for bankruptcy protection: us . judge	detroit eligible for bankruptcy protection
+0.68	it calls for the agency to plan an independent safety and engineering organization.	the agency has yet to fully formulated a strategy for the creation of an independent engineering technical authority.
+0.84	a woman with a viking hat on.	smiling woman sitting wearing a viking hat.
+0.28	1 person killed in sectarian clashes in lebanon	nine killed in syrian-linked clashes in lebanon
+0.72	the ensuing battle and air strike killed at least 10 militants.	an ensuing battle killed at least 10 militants.
+0.64	the lad cracked two raw egg.	the woman is cracking eggs in a bowl.
+0.68	box cutter were used as a weapon by the sept 11 , 2001, hijackers and a mini were banned as carry-on item.	box cutter were the weapons used by the 19 hijacker in the sept 11 , 2001, attacks.
+0.16	a white airplane is parked on the cement.	a blue motorcycle is parked on the sidewalk.
+0.96	gunmen kill nine foreigners in pakistan	gunmen kill nine tourists in pakistan
+0.6	a girl in water with giggle or a swimming cap.	a girl in water, with giggle and swimming cap.
+0.9	eric is still being held at the prison and is now in isolation, she said.	dr . knight was held in isolation at the same prison.
+0.4	i said it was a person, in the legal sense.	if it is a person, then who is it?
+0.16	a kitten is drinking milk from a bowl.	a small child is drinking water from a cup.
+0.96	two women contestants are walking their dog in a dog show.	two women walk their dog at a dog show.
+0.28	a man is lifting a car.	a man is climbing a wall.
+0.85	a cat and a hare are playing.	a frog and kitten play together.
+0.08	a man is riding on a boat.	a man is dying in the machine.
+0.48	the black and brown dog is playing in the yard.	the black and tan dog is chasing something he has spotted.
+0.4	ahmad met with red cross officials in syria	as she makes her cross pledge
+0.68	all we know is this: distant objects are coming for us at a rate proportional to their distance from us.	the expansion of space means that objects in common logical distance are preceding away from each other.
+0.96	iran lies on a major drug route between afghanistan and europe and the persian gulf state.	iran lies on a major drug trafficking route between afghanistan and europe, as well as the persian gulf states.
+0.76	a grey dog swimming through a river with a stick in his mouth	dog swimming through water carrying stick in its mouth
+0.16	black and white cows stand in a grassy field.	a black and white photo of a man standing next to a bus.
+0.44	a black dog is running through the snow.	a black pit bull dog is running through the air.
+0.88	a person is called a cai hai.	a person is brushing a cat.
+0.76	beside battling its sales slump, siegel also has been starring with some investors upset about huge stock option windfall company manager has pocketed.	beside a sales slump, siegel is sharing with some shareholders the management stock option windfall.
+0.36	a man is cutting tomatoes into pieces.	a woman is cutting some vegetables.
+0.0	a man is cutting grass.	a crow is singing.
+0.72	ferrer cruises into australian open quarterfinal	ferrer beat withi fori to advance to australian open quarterfinals
+0.0	a man is reading a man.	a person opening a banana.
+0.52	when studying dual it, general dual forms are often used.	basically, what you do is you compare each age group in to the standardization sample.
+0.96	a man and dog on a rocky seashore.	max and dog stand on a rock next to kate
+0.0	" queries turnbull of chin . "	spanish bulls are seen to death
+1.0	egypt court orders release of mr baha	a court orders murray free
+0.88	the new quake had shattered the region	68 quake in shattered pakistan region
+0.88	the project vander pool will be available within the next five years.	products featuring vanderpool will be released within five year, he said.
+0.76	a man is playing a guitar.	a guy is playing an instrument.
+0.52	afghan legislators approve new election law	the president approved new election law
+0.8	eight bottles on a large line up on the floor.	eight bottles of hard beer lined up on a wooden floor.
+0.28	your worry is a valid one; the reader could be frustrated by this.	i do believe not knowing a characters name would be confusing unless you make it so.
+0.44	its just a bunch of cells.	a bunch of hell . . '
+0.32	in mid afternoon trading, the nassau composite index was up 83, or 5 percent, to 1704 ;	the nasa composite index . if i dipped 85 point, or 48 percent, to 1735?
+0.8	us . order non-essential staff to leave sudan, tunisia	us orders nonessential staff to leave tunisia, sudan
+0.85	some men are fighting.	two men are fighting.
+0.25	three boys in karate costumes are fighting.	three men are practicing karate moves in a field.
+0.76	russia, china vote on resolution on the end of gin	russia, china and un are backing a plan for syria (reuters )
+0.64	a man and woman sitting on a sofa holding a small baby.	a woman sitting on a sofa holding a baby.
+0.68	after hughes refused to hire hernandez, he complained to the equal employment opportunity commission.	hernandez filed an equal employment opportunity commission complaint and sue.
+0.8	two different breeds of brown and white dog play on the beach.	two dogs playing in the sand at the beach.
+0.0	the man talked on the telephone.	girls are walking on the stage.
+0.68	a group of people dancing	a group of men are dancing.
+0.6	the broad standard, the 500 index must advance 1 point, or 12 percent, to 31 ;	the standard & poor 500 index gained 108, or 12 percent, to 311 as of 2010, in new york.
+0.88	another million barrels, bought by spanish refinery cap sal, was to be loaded onto a spanish tanker, the santa tapia.	a spanish tanker, sandra tapia, was to be loaded with another million barrels, bought by spanish refinery cap sal, in the afternoon.
+1.0	a brown dog is jumpin.	a brown dog is jumpin
+0.84	james murdoch, esq	james murdoch guest role as sgt
+0.28	you are a christian.	therefore you are not a christian.
+0.2	google launched internet-by air balloons	google' a play on international law . '
+0.08	most people want not only to be well off, but to become better off as time goes by.	to start, the main drivers of economic growth are resources, technology, and institutions.
+0.68	what the poor butler saw, and arrested over vatican leak	pope-as butler arrested in scandal over vatican leaks
+0.0	moderate trend in the central mediterranean	iran: moderate candidate wins presidential vote
+0.1	a man is burnt in a fire.	a man is shooting a gun.
+0.72	between 1993 and 2000 , 12 allegations of sexual assault were reported.	from 1993 to 2002, there were 12 reported sexual assaults at the academy.
+0.4	deputy speakers faced new sex claims	deputy speaker nigel evans be arrested
+0.84	a monkey is brushing a bull dog.	a monkey brushed a dog.
+0.56	a group of people sitting around a table containing food.	four people are sitting around a living room with . snack.
+0.8	well, i would put it on my own.	i would put the job on my resume.
+0.64	a skirt by terry bush	a strike of terror then on of dread
+0.2	i feel no pain . i absolutely not not sweat with any vigorous exercise, even in cool conditions.	sweat rate is sweat rate, you can really control it.
+0.76	indian ministers will die' unnatural death' after affair rumours	ministers were dead, unnatural.
+0.2	south korea regrets its refusal to talk	south korea report 1 new death , 12 new cases
+0.96	council tax and council tax are free for most people.	hasn 't council tax been free for most people?
+0.6	coupe sailing is a small sailboat.	two men sailing in a small boat.
+0.475	a man is cutting up a potato.	a man is cutting a carrot.
+0.4	the price for everything you need has gone up due to inflation.	the prices of everything you own in asset have gone down.
+0.4	just about anything can be grown indoors without natural sunlight.	we have quite a few people here who have grown peppers and small tomatoes indoors and in pots.
+0.68	a group of men playing an instrument.	a group of guys play instruments outside.
+0.8	four people got in for a ride.	four people row a canoe in water.
+0.92	a black dog running in the water.	a black dog running through water.
+0.1	a man is eating too.	a man is laid in oil to car.
+0.92	dogs, he said, are second only to humans in the thoroughness of medical understanding and research.	he said that dogs are second only to humans in terms of being the subject of medical research.
+0.5	the standard edition is 1500 per processor or 300 per name use.	the standard edition one is a single processor version of the oracle standard edition database.
+0.8	white diamond breaks record in hong kong auction	the diamond fetch record $34m at the auction
+0.88	woman renamed over child's death a woman has been renamed in custody charge with murder after an eighty day-old girl was found dead in a block of flats.	mother of five daughters dead a mother has been remained in custody charged with murder after her eighty day-old daughter was found dead in a block of flats.
+0.55	a boy is running on a beach.	two boys are playing on the beach.
+0.6	after fritz' opening statement, king county superior court judge called a recess trial until after the thanksgiving weekend.	king county superior court judge charles mertel will then recess the trial until monday.
+0.68	the tan and white dog is running in the field.	the brown and white dog ran through the field.
+0.52	a boy and a girl is dancing in the rain.	a man and woman is dancing in the rain.
+0.72	a man wearing black formal wear and a black top hat is riding a white show horse.	a man with a top hat riding a white horse.
+0.76	relative cuffs with police after chain fire kills 10	angry families demand answers after the plant fire kills 119
+0.44	the group is eating while taking in a breath back in view.	a group of people take a look at an unusual tree.
+0.08	a woman in a red tracksuit squeezing lemon in a press.	a young woman in a pink hoodie take a picture.
+0.84	a large dog running in some grass.	two blind dogs running in the grass.
+0.0	a man is traveling in a boat.	a woman is cutting up a carrot with a knife.
+0.92	nobel prize winning author doris wessing die	nobel laureate kurt lewin died at 94
+0.2	i managed to find the recipe, i think this is where i got the idea.	i only made a couple of barbecue sauce, but these always come out really well.
+0.85	out of touch and completely un trustworthy, how ever he would.	out of touch and untrustworthy.
+0.0	he was in a new australia team	muslim in hiding as sectarian ...
+0.64	captain robert ramsey of the us 1st armored division said a truck had exploded outside the building about noon, and that one of the compound outer walls had collapsed.	captain robert ramsey of us 1st armored division said a truck had exploded outside the building at around 11 a.
+0.92	children are playing in a swimming pool while two adult men watch them.	children play in a pool while adults look on.
+0.16	a radiation leak at a nuclear plant	us congress may throw french into a nuclear deal
+0.76	a puppy play with a plastic container.	the dog is playing with a plastic container.
+0.76	well, we are a vessel filled with many wonder.	say what you will we are a vessel filled with many wonders.
+0.2	some of what you can do.	not much you can do besides.
+0.85	air canada, the largest airline in canada and no . 1 in the world, has been under court protection from creditors since april 1.	the no . 1 airline in the world, air canada has been under court protection from creditors since april 1 ;
+0.6	heavy rain raise threat of christmas day flood in	fresh rain brings more flood in
+0.0	a close-up, distorted shot of an empty glass coke bottle.	a close-u picture of a desk with a computer and paper on it.
+0.8	a boy climb a forest hill.	a boy is climbing a hill.
+0.0	yes, there is a reason to not do what you propose.	yes, there is a chemical difference.
+0.88	the two dogs are running on the grass.	two dogs are playing in the grass.
+1.0	nobel author doris lessing died at 94	nobel laureate kurt lewin died at 94
