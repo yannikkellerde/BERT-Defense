@@ -229,7 +229,7 @@ class Sub_dist():
         unp_hyps = list(zip(*hyps))
         smax = softmax(-np.array(unp_hyps[0]),self.hyp_softmax)
         max_prob = max(smax)
-        hyps = tuple(sorted(filter(lambda x:x[0]>self.min_prob*max_prob,zip(smax,unp_hyps[1])),key=lambda x:-x[0]))
+        hyps = tuple(sorted(filter(lambda x:x[0]>=self.min_prob*max_prob,zip(smax,unp_hyps[1])),key=lambda x:-x[0]))
         return hyps[:self.num_hyps]
 
     def show_hyp_max(self,hyp):
