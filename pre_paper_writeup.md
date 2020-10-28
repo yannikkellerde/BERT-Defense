@@ -79,7 +79,7 @@ Our program performs character level adversarial shielding. Despite the fact tha
 
 ## Evaluation
 ours bp = our method using the basic prior (see Robustness and Generalization)  
-ours fp = our method using the full prior
+ours fp = our method using the full prior  
 For the "only prior" versions, we took the maximum for each word of the most likely hypothesis according to the prior to form a sentence.
 ## Abbrevation map
 
