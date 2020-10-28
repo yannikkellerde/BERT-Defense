@@ -86,6 +86,6 @@ class Sentence_cleaner():
 
 if __name__ == "__main__":
     cleaner = Sentence_cleaner()
-    #cleaner.clean_sentence(sys.argv[1],progress=True,verbose=True)
-    cleaner.dist_handler.cheap_actions = {key:False for key in cleaner.dist_handler.cheap_actions}
-    cleaner.clean_sentence(r"Ȧgɍicǘɭture mini*ś*ters fɼoᵐ moɺe than őnē h,uᶮᶑȓed ᴎ^ͣ^tȉoᴺs aře éx/pe/cte/ᵭ t.o attɛnd tᶣ$e thr&ee-da&ȳ Ministɝrîal Ȼonᶠerençe and Ȩxpo on Ą\"gɾɨcul\"tȕřâl ∾cīenᶝe a\ŉ\d Ṱǝchnoᶩǭgy sponșoreḓ bỷ ẗₕe U.S. Deᵖaȓṫmênt ơf Agrį|cű|ᷞt|urê.",progress=True)
+    cleaner.clean_sentence(sys.argv[1],progress=True,verbose=True)
+    #cleaner.dist_handler.cheap_actions = {key:False for key in cleaner.dist_handler.cheap_actions}
+    #cleaner.clean_sentence(r"Ȧgɍicǘɭture mini*ś*ters fɼoᵐ moɺe than őnē h,uᶮᶑȓed ᴎ^ͣ^tȉoᴺs aře éx/pe/cte/ᵭ t.o attɛnd tᶣ$e thr&ee-da&ȳ Ministɝrîal Ȼonᶠerençe and Ȩxpo on Ą\"gɾɨcul\"tȕřâl ∾cīenᶝe a\ŉ\d Ṱǝchnoᶩǭgy sponșoreḓ bỷ ẗₕe U.S. Deᵖaȓṫmênt ơf Agrį|cű|ᷞt|urê.",progress=True)

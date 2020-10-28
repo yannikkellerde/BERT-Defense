@@ -1,6 +1,6 @@
 __pycache__/
 .vscode
-evaluation/cleaned/priors/pkls/
+pkls/
 safety/
 word_distances.pkl
 word_frequency.txt
