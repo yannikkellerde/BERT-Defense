@@ -34,7 +34,7 @@ methods = []
 attacks = []
 for i,row in df.iterrows():
     doc = row["document"]
-    with open(os.path.join("attacked_documents",os.path.basename(doc)), "r") as f:
+    with open(os.path.join("attacked_documents",os.path.basename(doc)), "r", encoding="utf-8") as f:
         attacks.append(attack_map(f.readline()[2:]))
     if "bayesian_shielding" in doc:
         method = "ours"
@@ -42,6 +42,10 @@ for i,row in df.iterrows():
         method = "ours (only priors)"
     elif "attacked_documents" in doc:
         method = "no cleaning"
+    elif "pyspellchecker" in doc:
+        method = "pyspellchecker"
+    elif "Adversarial_Misspellings" in doc:
+        method = "Adversarial_Misspellings" 
     methods.append(method)
 
 df["method"] = methods
