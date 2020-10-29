@@ -5,4 +5,4 @@ safety/
 word_distances.pkl
 word_frequency.txt
 noto-regular/
-cleaned/Adversarial_Misspellings/
+Adversarial_Misspellings/
