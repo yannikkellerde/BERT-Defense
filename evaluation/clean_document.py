@@ -26,6 +26,16 @@ def clean_document(infile,use_existing_priors=True,cheap_actions=True,batch_size
         prior = cleaner.get_priors(sentences)
         with open(pkl_path, "wb") as f:
             pickle.dump(prior, f)
+    for i,p in enumerate(prior):
+        try:
+            p[0]
+        except:
+            print(i,p)
+            exit()
+        p[0][1]
+        for b in p[0][1]:
+            b[0]
+            b[1]
     prior_cleaned = [get_most_likely_sentence_multidics([b[0] for b in p[0][1]],[b[1] for b in p[0][1]]) for p in prior]
 
     print("hyp_count",sum(len(x) for x in prior))
@@ -49,7 +59,7 @@ def clean_document(infile,use_existing_priors=True,cheap_actions=True,batch_size
             pickle.dump(batch,f)
     del prior_batches
     post_cleaned = []
-    for fname in os.listdir("/tmp/adv_shield"):
+    for fname in sorted(os.listdir("/tmp/adv_shield"),key=lambda x:int(x.split(".")[0])):
         with open(os.path.join("/tmp/adv_shield",fname),"rb") as f:
             prior_batch = pickle.load(f)
         post_cleaned.extend(cleaner.batched_clean_given_prior(prior_batch))

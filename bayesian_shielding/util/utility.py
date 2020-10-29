@@ -131,7 +131,10 @@ def redraw_vec(vec,image_dim = (23,15)):
 
 def softmax(x, theta=1):
     ps = np.exp(x * theta)
-    ps /= np.sum(ps)
+    pssum = np.sum(ps)
+    if pssum == 0:
+        return np.ones_like(x)/len(x)
+    ps /= pssum
     return ps
 
 def calc_mean(means, size):

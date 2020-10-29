@@ -1,6 +1,3 @@
-## Visual similarity
-To asses the similarity of the first 30000 Unicode glyphs with english letters and numbers, we create a 30000x36 similarity matrix. Each glyph is drawn via PIL in 20pt using a fitting font from the [Noto](https://www.google.com/get/noto/) font collection. The bitmap is then cropped to contain only the glyph. Then the image is resized and padded on the right and bottom to be of size (30px, 30px). When comparing the bitmap of a unicode glyph image and a letter/number glyph, multiple versions of the letter/number bitmap are created. For letters, the small as well as the large versions of each letter are taken. The bitmap get's downsized to 5 different sizes ((30px, 30px) to (15px, 15px)), rotated and flipped in all 8 unique ways and then padded to (30px, 30px) again, such that the glyph is either placed at the top-left or the bottom left. The percentage of matching black pixels between bitmaps is converted into a similarity score and the highest similarity of all versions is chosen as a final result.
-
 ## New Phonetic attacks
 Use [Many to many aligner](https://github.com/letter-to-phoneme/m2m-aligner) to align letters and phones of [cmudict](https://github.com/cmusphinx/cmudict). Calculate statistics from aligned cmudict: To what letters are phones most likely to correspond to? Weight this statistic via a word frequency. To attack a word, transcribe it to it's phonetic representation via cmudict and then use the statistics to transform the phonetic representation back to letters. For higher attack levels, choose statistically less likely letters. Cherry picked example: `Heavy rain raises threat of Christmas Day flooding => Heavie rayn razes threit of Cristmise Day flooding`. [List of not cherry picked examples](adversarial_attacks/phonetic_attacks/examples/lil_random_with_freq.txt).
 
@@ -19,11 +16,6 @@ Inspired by [http://ginstrom.com/scribbles/2007/12/01/fuzzy-substring-matching-w
     + **Update S, by updating the set for the current entry with the sets from the entrys that led to this entry with lowest cost**
 * **Check the bottom row of D for a lowest cost C. For all bottom row entrys of D equal to C: Store combinations of respective column index together with the set entrys of S at that location in 2-tuples into a list L**
 * **Return C,L**
-
-- Insertion cost: reduced if vowl and no vowls in word
-- Sub_cost: Reduced for high similarity values
-- Del_cost: Reduced for frequent characters in source word
-- Swap_cost: 1
 
 ## Dictionarys
 * Full-word dict: Bert's default Word piece dictionary, but only the tokens that are real english words on their own.
@@ -54,7 +46,7 @@ Inspired by [http://ginstrom.com/scribbles/2007/12/01/fuzzy-substring-matching-w
     * Repeat until each word has been covered once (or even for more iterations).
 7. Select the Maximum-a-posteriori (MAP) for each word-part in each sentence hypothesis
 8. Call the probabilities associated with each sentence hypothesis prior P
-9. Use OpenAI's GTP on each Sentence to calculate a sentence likelihood L.
+9. Use OpenAI's GPT on each Sentence to calculate a sentence likelihood L.
 10. Calculate Sentence Posterior *P* for the hypothesis from L and P.
 11. Select Maximum-a-posteriori to get a final cleaned up sentence.
 12. Puzzle segmentations back together using self implemented detokenization.
@@ -70,14 +62,25 @@ Let's now put our hypothesis through the BERT posterior and see how that changes
 `Hypothesis 1, Posterior: a small white cat with glowing eyes standing underneath chair.`
 `Hypothesis 2, Posterior: a small white cat with glowing eyes standing underneath a chair.`  
 In both cases, BERT fixed the `wit-with` error, as `wit` would not make any sense gramatically.  
-To figure our which of the 2 Hypothesis we should finally choose, let's put the sentences into GTP to calculate sentence Likelihoods.  
-`Hypothesis 1, Prior prob: 0.5591098924966913, Sentence: a small white cat with glowing eyes standing underneath chair. GTP Likelihood: 0.31197451, Posterior prob: 0.3708833644581104`
-`Hypothesis 2, Prior prob: 0.4300367473288713, Sentence: a small white cat with glowing eyes standing underneath a chair. GTP Likelihood: 0.68802549, Posterior prob: 0.6291166355418897`
-GTP decided, that the sentence ending with `a chair` is much more likely than without the `a`. After combining likelihood with prior to Posterior, we only have to choose the MAP now, to get our final cleaned output sentence: `a small white cat with glowing eyes standing underneath a chair.`.
+To figure our which of the 2 Hypothesis we should finally choose, let's put the sentences into GPT to calculate sentence Likelihoods.  
+`Hypothesis 1, Prior prob: 0.5591098924966913, Sentence: a small white cat with glowing eyes standing underneath chair. GPT Likelihood: 0.31197451, Posterior prob: 0.3708833644581104`
+`Hypothesis 2, Prior prob: 0.4300367473288713, Sentence: a small white cat with glowing eyes standing underneath a chair. GPT Likelihood: 0.68802549, Posterior prob: 0.6291166355418897`
+GPT decided, that the sentence ending with `a chair` is much more likely than without the `a`. After combining likelihood with prior to Posterior, we only have to choose the MAP now, to get our final cleaned output sentence: `a small white cat with glowing eyes standing underneath a chair.`.
+
+## Visual similarity
+To asses the similarity of the first 30000 Unicode glyphs with english letters and numbers, we create a 30000x36 similarity matrix. Each glyph is drawn via PIL in 20pt using a fitting font from the [Noto](https://www.google.com/get/noto/) font collection. The bitmap is then cropped to contain only the glyph. Then the image is resized and padded on the right and bottom to be of size (30px, 30px). When comparing the bitmap of a unicode glyph image and a letter/number glyph, multiple versions of the letter/number bitmap are created. For letters, the lowercase as well as the uppercase versions of each letter are taken. The bitmap get's downsized to 5 different sizes ((30px, 30px) to (15px, 15px)), rotated and flipped in all 8 unique ways and then padded to (30px, 30px) again, such that the glyph is either placed at the top-left or the bottom left. The percentage of matching black pixels between bitmaps is converted into a similarity score and the highest similarity of all versions is chosen as a final result.
+
+## Robustness and Generalization
+Our program performs character level adversarial shielding. Despite the fact that our BERT and GTP part can fix a lot of mistakes in the prior, the prior has to be at least somewhat close to the truth for our method to work. The basic version of our prior (bp), that only uses a levenshtein distance for the priors and does not alter the costs of the replacements is already pretty general. It performs well against keyboard-typos, natural-typos, truncation and segmentations. Against intruders, disemvoweling, phonetic attacks and few visual attacks, a levenshtein distance also at least gives somewhat good results. In fact, all attacks, that work on a local character level are somewhat covered by a levenshtein distance, which can be enough to get good results after using context via BERT. Only attacks, that are non local and for example shuffle the whole word (like full-swap) are not accounted for by the edit distance. The prior can be specifically extended to cover more attacks and be easily integrated into the pipeline. To demonstrate that fact, we created an improved version of the prior, called the full prior (fp). For that, we made the following changes:
+1. Reduce edit distance replacement costs for visually similar characters
+2. Reduce deletion cost for characters that appear often in the source word
+3. Reduce insertion cost for vowls in words that contain no vowls
+4. Also calculate an anagram distance. How close is source to be an anagram of target? Use minimum of the 2 distances as final distance.
 
 ## Evaluation
-## Abbrevation map
-
+ours bp = our method using the basic prior (see Robustness and Generalization)  
+ours fp = our method using the full prior  
+For the "only prior" versions, we took the maximum for each word of the most likely hypothesis according to the prior to form a sentence.
 ## Abbrevation map
 
 |visual|phonetic|full-swap|inner-swap|disemvowel|truncate|keyboard-typo|natural-typo|intrude|segmentation|rand|
@@ -87,40 +90,54 @@ GTP decided, that the sentence ending with `a chair` is much more likely than wi
 
 ## mover
 
-|      method      |vi:0.3|dv:0.3|in:0.3|tr:0.3|sg:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|nt:0.3|kt:0.3|sg:0.5,kt:0.3|rd:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
-|------------------|------|------|------|------|------|------|--------------------|------|------|------|------|-------------|------|-------------|-------------|
-|   no cleaning    |0.226 |0.317 |0.151 |0.435 |0.499 |0.265 |        0.19        |0.291 |0.307 |0.414 |0.345 |    0.154    |0.321 |    0.012    |    0.162    |
-|ours (only priors)|0.687 |0.657 |0.874 |0.499 | 0.78 |0.419 |       0.307        |0.689 |0.843 |0.513 |0.562 |    0.538    |0.651 |    0.68     |    0.451    |
-|       ours       | 0.83 |0.795 |0.862 |0.767 |0.809 |0.588 |       0.577        |0.822 |0.831 |0.767 |0.808 |    0.687    |0.784 |    0.816    |    0.643    |
+|        method         |vi:0.3|dv:0.3|in:0.3|tr:0.3|sg:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|nt:0.3|kt:0.3|sg:0.5,kt:0.3|rd:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
+|-----------------------|------|------|------|------|------|------|--------------------|------|------|------|------|-------------|------|-------------|-------------|
+|      no cleaning      |0.226 |0.317 |0.151 |0.435 |0.499 |0.265 |        0.19        |0.291 |0.307 |0.414 |0.345 |    0.154    |0.321 |    0.012    |    0.162    |
+| ours fp (only priors) |0.687 |0.657 |0.874 |0.499 | 0.78 |0.419 |       0.307        |0.689 |0.843 |0.513 |0.562 |    0.538    |0.651 |    0.68     |    0.451    |
+|ours fp (full pipeline)| 0.83 |0.795 |0.862 |0.767 |0.809 |0.588 |       0.577        |0.822 |0.831 |0.767 |0.808 |    0.687    |0.784 |    0.816    |    0.643    |
+|ours bp (full pipeline)|0.696 |0.574 |0.845 |0.778 | 0.82 | 0.57 |       0.588        | 0.4  |0.539 |0.765 |0.832 |    0.701    |0.677 |    0.628    |    0.501    |
+| ours bp (only priors) |0.415 |0.317 |0.875 |0.524 |0.797 |0.428 |       0.341        |0.292 |0.379 |0.527 |0.638 |    0.572    |0.512 |    0.402    |    0.315    |
 
 
 ## sts-b
 
-|      method      |vi:0.3|dv:0.3|in:0.3|tr:0.3|sg:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|nt:0.3|kt:0.3|sg:0.5,kt:0.3|rd:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
-|------------------|------|------|------|------|------|------|--------------------|------|------|------|------|-------------|------|-------------|-------------|
-|   no cleaning    |0.402 |0.473 |0.664 |0.827 |0.867 |0.588 |       0.581        |0.402 |0.574 |0.762 |0.593 |    0.573    |0.611 |    0.33     |    0.322    |
-|ours (only priors)|0.775 |0.788 |0.888 | 0.78 |0.886 |0.556 |        0.52        |0.744 |0.872 |0.758 |0.759 |    0.698    |0.714 |    0.715    |    0.53     |
-|       ours       | 0.83 |0.776 |0.859 |0.793 |0.834 |0.654 |       0.587        |0.802 |0.818 |0.773 |0.817 |    0.63     |0.779 |    0.799    |    0.654    |
+|        method         |vi:0.3|dv:0.3|in:0.3|tr:0.3|sg:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|nt:0.3|kt:0.3|sg:0.5,kt:0.3|rd:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
+|-----------------------|------|------|------|------|------|------|--------------------|------|------|------|------|-------------|------|-------------|-------------|
+|      no cleaning      |0.402 |0.473 |0.664 |0.827 |0.867 |0.588 |       0.581        |0.402 |0.574 |0.762 |0.593 |    0.573    |0.611 |    0.33     |    0.322    |
+| ours fp (only priors) |0.775 |0.788 |0.888 | 0.78 |0.886 |0.556 |        0.52        |0.744 |0.872 |0.758 |0.759 |    0.698    |0.714 |    0.715    |    0.53     |
+|ours fp (full pipeline)| 0.83 |0.776 |0.859 |0.793 |0.834 |0.654 |       0.587        |0.802 |0.818 |0.773 |0.817 |    0.63     |0.779 |    0.799    |    0.654    |
+|ours bp (full pipeline)|0.652 |0.545 |0.847 |0.815 |0.863 |0.642 |       0.534        |0.428 |0.605 |0.778 |0.841 |    0.671    |0.638 |    0.571    |    0.461    |
+| ours bp (only priors) | 0.58 |0.483 |0.902 |0.764 |0.893 |0.613 |       0.525        |0.397 |0.546 |0.777 |0.783 |    0.735    | 0.56 |    0.621    |    0.425    |
 
 
 ## bleu
 
-|      method      |vi:0.3|dv:0.3|in:0.3|tr:0.3|sg:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|nt:0.3|kt:0.3|sg:0.5,kt:0.3|rd:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
-|------------------|------|------|------|------|------|------|--------------------|------|------|------|------|-------------|------|-------------|-------------|
-|   no cleaning    |0.025 |0.149 |0.087 |0.153 |0.284 |0.098 |       0.016        |0.155 |0.154 |0.141 |0.135 |    0.008    |0.137 |    0.002    |    0.016    |
-|ours (only priors)| 0.41 |0.392 |0.567 |0.198 |0.482 |0.173 |       0.044        |0.434 |0.568 |0.183 |0.249 |    0.238    | 0.38 |    0.384    |    0.179    |
-|       ours       |0.547 |0.515 |0.568 |0.467 |0.516 |0.339 |       0.293        | 0.54 | 0.55 |0.453 |0.504 |    0.398    |0.507 |    0.531    |    0.365    |
+|        method         |vi:0.3|dv:0.3|in:0.3|tr:0.3|sg:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|nt:0.3|kt:0.3|sg:0.5,kt:0.3|rd:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
+|-----------------------|------|------|------|------|------|------|--------------------|------|------|------|------|-------------|------|-------------|-------------|
+|      no cleaning      |0.025 |0.149 |0.087 |0.153 |0.284 |0.098 |       0.016        |0.155 |0.154 |0.141 |0.135 |    0.008    |0.137 |    0.002    |    0.016    |
+| ours fp (only priors) | 0.41 |0.392 |0.567 |0.198 |0.482 |0.173 |       0.044        |0.434 |0.568 |0.183 |0.249 |    0.238    | 0.38 |    0.384    |    0.179    |
+|ours fp (full pipeline)|0.547 |0.515 |0.568 |0.467 |0.516 |0.339 |       0.293        | 0.54 | 0.55 |0.453 |0.504 |    0.398    |0.507 |    0.531    |    0.365    |
+|ours bp (full pipeline)|0.452 | 0.32 |0.541 | 0.47 |0.524 |0.333 |        0.29        |0.201 |0.305 |0.448 |0.526 |    0.407    | 0.4  |    0.371    |    0.259    |
+| ours bp (only priors) |0.155 |0.089 |0.566 |0.217 |0.487 |0.187 |        0.06        |0.098 |0.151 |0.194 |0.347 |    0.27     |0.229 |    0.149    |    0.082    |
 
 
 ## rouge-1
 
-|      method      |vi:0.3|dv:0.3|in:0.3|tr:0.3|sg:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|nt:0.3|kt:0.3|sg:0.5,kt:0.3|rd:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
-|------------------|------|------|------|------|------|------|--------------------|------|------|------|------|-------------|------|-------------|-------------|
-|   no cleaning    |0.254 |0.603 |0.393 |0.721 |0.704 |0.514 |       0.404        | 0.6  |0.623 |0.644 |0.601 |    0.322    |0.566 |    0.144    |    0.357    |
-|ours (only priors)|0.849 |0.829 |0.944 |0.745 |0.917 |0.648 |       0.538        |0.846 |0.928 | 0.72 |0.769 |    0.761    |0.813 |    0.835    |    0.675    |
-|       ours       |0.917 | 0.9  |0.938 |0.885 |0.925 |0.748 |       0.733        |0.902 |0.913 |0.872 |0.902 |    0.843    |0.882 |    0.91     |    0.781    |
+|        method         |vi:0.3|dv:0.3|in:0.3|tr:0.3|sg:0.3|ph:0.3|kt:0.2,nt:0.2,tr:0.2|fs:0.3|is:0.3|nt:0.3|kt:0.3|sg:0.5,kt:0.3|rd:0.3|vi:0.3,in:0.3|rd:0.3,rd:0.3|
+|-----------------------|------|------|------|------|------|------|--------------------|------|------|------|------|-------------|------|-------------|-------------|
+|      no cleaning      |0.254 |0.603 |0.393 |0.721 |0.704 |0.514 |       0.404        | 0.6  |0.623 |0.644 |0.601 |    0.322    |0.566 |    0.144    |    0.357    |
+| ours fp (only priors) |0.849 |0.829 |0.944 |0.745 |0.917 |0.648 |       0.538        |0.846 |0.928 | 0.72 |0.769 |    0.761    |0.813 |    0.835    |    0.675    |
+|ours fp (full pipeline)|0.917 | 0.9  |0.938 |0.885 |0.925 |0.748 |       0.733        |0.902 |0.913 |0.872 |0.902 |    0.843    |0.882 |    0.91     |    0.781    |
+|ours bp (full pipeline)|0.834 |0.751 |0.923 |0.892 | 0.93 |0.722 |       0.752        |0.572 |0.698 |0.872 | 0.92 |    0.847    |0.806 |    0.778    |    0.662    |
+| ours bp (only priors) |0.639 |0.587 |0.944 |0.762 |0.927 |0.656 |       0.576        |0.549 |0.636 |0.733 |0.823 |    0.791    |0.719 |    0.655    |    0.549    |
 
+## Runtime and Memory requirements
+Runtime evaluated with an Intel i7 processor (4 cores, 8 threads) and a Nvida 1070 ti graphics card.  
+Using some efficient batching and multiprocessing we got the time down to clean a document of 400 sentences down to around 70 min for the Levenshtein distances, ca. 49 minutes for the context-bert cleaning and one minute for the GPT hypothesis choice. **Summed up, we thus take ca. 2 hours to clean a 400 sentence document (18 seconds per sentence).** Note however, that just cleaning a single sentence may take significantly longer than 18 seconds, as we can't make use of efficient batching and multiprocessing in that case.  
+The memory requirements depend on if we load GTP and BERT at the same time into memory or separately. For same time, we take around 6GB memory, otherwise around 4GB.
 
+## Picked cherrys
+The with (visual, 1.0) attacked sentence `Å ğŕơưₚ ȭḟ ᶣoɍßěᵴ ɡɻàʑïƞɢ ĩߒ â ᶂȉɇᶪɗ.` get's cleaned perfectly to `a group of horses grazing in a field.` although the maximum of the prior looks like this: `a group dr korea grazing in a lila.`
 
 ## Comparison to other work
 We compared to the following other work [https://github.com/danishpruthi/Adversarial-Misspellings](https://github.com/danishpruthi/Adversarial-Misspellings): This implementation is only targeted at defending swaps, additions, drops and keyboard typos, but even for this kind of errors it only barely works. For example, their demonstration example is `nicset atcing I have ever witsesed` => `nicest acting i have ever witnessed`, but already for something slightly different, generated by our natural-typo adversarial attack (strength: 0.2) `nicest acting i have evere withnessed` it fails and produces `nicest acting i have every witnessed`. For complicated stuff like `A sma|ll w#hiteca:t witg,l,o,win,g e[h[e[sstajdinginderneath ac*h*a*ir.` for which to be fair it was built for, it does not work at all: `a small w#hiteca:t witg,l,o,win,g e[h[e[sstajdinginderneath ac*h*a*ir.`.

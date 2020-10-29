@@ -67,6 +67,7 @@ class BertPosterior():
     def calc_probabilistic_likelihood_hypothesis(self,weights_tensor,mask_id,dictionary):
         inner_tensor = weights_tensor.clone().reshape((1,weights_tensor.size(0),weights_tensor.size(1)))
         inner_tensor[0][mask_id] = self.mask_tensor
+        inner_tensor = inner_tensor.to(self.device)
         predictions = self.probmodel(inner_tensor)
         preds = predictions[0, mask_id].cpu().numpy()
         return softmax(np.array([preds[dictionary[i]] for i in range(len(dictionary))]),theta=self.bert_theta)

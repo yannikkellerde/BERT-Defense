@@ -36,10 +36,14 @@ for i,row in df.iterrows():
     doc = row["document"]
     with open(os.path.join("attacked_documents",os.path.basename(doc)), "r", encoding="utf-8") as f:
         attacks.append(attack_map(f.readline()[2:]))
-    if "bayesian_shielding" in doc:
-        method = "ours"
-    elif "priors" in doc:
-        method = "ours (only priors)"
+    if "nocheap_priors" in doc:
+        method = "ours bp (only priors)"
+    elif "nocheap_bayesian_shielding" in doc:
+        method = "ours bp (full pipeline)"
+    elif "/bayesian_shielding" in doc:
+        method = "ours fp (full pipeline)"
+    elif "/priors" in doc:
+        method = "ours fp (only priors)"
     elif "attacked_documents" in doc:
         method = "no cleaning"
     elif "pyspellchecker" in doc:
