@@ -16,7 +16,7 @@ def eval_document(ground_truth, cleaned):
     tall = tfirst_sentences + tsecond_sentences
     cscores,cfirst_sentences,csecond_sentences = read_labeled_data(cleaned)
     call = cfirst_sentences + csecond_sentences
-    evals = {"bleu":[],"mover":[],"rouge-1":[],"rouge-4":[],"rouge-l":[],"rouge-w":[]}
+    evals = {"bleu":[],"mover":[],"rouge-1":[],"rouge-4":[],"rouge-l":[],"rouge-w":[],"editdistance":[]}
     posterior_embeddings = simple_sentence_embedder(roberta,call)
     l = len(posterior_embeddings)
     cosine_sims = [cosine_similarity(x,y) for x,y in zip(posterior_embeddings[:int(l/2)],posterior_embeddings[int(l/2):])]
@@ -24,11 +24,13 @@ def eval_document(ground_truth, cleaned):
     for t,c in tqdm(zip(tall,call)):
         evals["bleu"].append(metrics.bleu_score(t,c))
         all_rouge = metrics.rouge_score(t,c)
+        evals["editdistance"].append(metrics.edit_distance(t,c,lower=True))
         evals["rouge-1"].append(all_rouge["rouge-1"]["p"])
         evals["rouge-4"].append(all_rouge["rouge-4"]["p"])
         evals["rouge-l"].append(all_rouge["rouge-l"]["p"])
         evals["rouge-w"].append(all_rouge["rouge-w"]["p"])
         evals["mover"].append(metrics.mover_score(t,c)[0])
+    evals["editdistance"] = sum(evals["editdistance"])/len(evals["editdistance"])
     evals["bleu"] = sum(evals["bleu"])/len(evals["bleu"])
     evals["rouge-1"] = sum(evals["rouge-1"])/len(evals["rouge-1"])
     evals["rouge-4"] = sum(evals["rouge-4"])/len(evals["rouge-4"])
@@ -49,7 +51,7 @@ def eval_many(ground_truth,documents,outfile):
         data.append(ev)
     df = pd.DataFrame(data)
     df = df.drop_duplicates(subset="document",keep="last")
-    df = df[["document","bleu","mover","sts-b","rouge-1","rouge-4","rouge-l","rouge-w"]]
+    df = df[["document","bleu","mover","sts-b","rouge-1","rouge-4","rouge-l","rouge-w","editdistance"]]
     df.to_csv(outfile)
 
 if __name__ == "__main__":
@@ -58,6 +60,8 @@ if __name__ == "__main__":
     #documents = [os.path.join("attacked_documents",x) for x in os.listdir("attacked_documents")]
     #documents.extend([os.path.join("cleaned/priors/txts",x) for x in os.listdir("cleaned/priors/txts")])
     #documents.extend([os.path.join("cleaned/bayesian_shielding",x) for x in os.listdir("cleaned/bayesian_shielding")])
-    documents.extend([os.path.join("cleaned/nocheap_bayesian_shielding",x) for x in os.listdir("cleaned/nocheap_bayesian_shielding")])
-    documents.extend([os.path.join("cleaned/nocheap_priors/txts",x) for x in os.listdir("cleaned/nocheap_priors/txts")])
+    #documents.extend([os.path.join("cleaned/nocheap_bayesian_shielding",x) for x in os.listdir("cleaned/nocheap_bayesian_shielding")])
+    #documents.extend([os.path.join("cleaned/nocheap_priors/txts",x) for x in os.listdir("cleaned/nocheap_priors/txts")])
+    #documents.extend([os.path.join("cleaned/pyspellchecker",x) for x in os.listdir("cleaned/pyspellchecker")])
+    documents.extend([os.path.join("cleaned/Adversarial_Misspellings",x) for x in os.listdir("cleaned/Adversarial_Misspellings")])
     eval_many(ground_truth,documents,"evaluation.csv")
