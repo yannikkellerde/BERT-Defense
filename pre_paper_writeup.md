@@ -78,6 +78,8 @@ Our program performs character level adversarial shielding. Despite the fact tha
 4. Also calculate an anagram distance. How close is source to be an anagram of target? Use minimum of the 2 distances as final distance.
 
 ## Evaluation
+For plots, go here [/evaluation/plots](/evaluation/plots)
+
 ours bp = our method using the basic prior (see Robustness and Generalization)  
 ours fp = our method using the full prior  
 For the "only prior" versions, we took the maximum for each word of the most likely hypothesis according to the prior to form a sentence.
