@@ -65,25 +65,55 @@ colormap = {"danishpruthi":"#0000ff","pyspellchecker":"#6600cc","no cleaning":"#
 me_uniq = list(colormap.keys())
 measures = ["sts-b","bleu","rouge-1","rouge-4","rouge-l","rouge-w","editdistance","mover"]
 
-for measure in measures:
-    fig = plt.figure(figsize=(10,8))
-    fig.subplots_adjust(bottom=0.2,right=0.75)
-    for method in me_uniq:
-        df_inner = df[df["method"]==method]
-        stupid = []
-        for at in at_uniq:
-            uff = {}
-            uff["attack"] = at
-            uff["value"] = float(df_inner.loc[df_inner["attacks"]==at][measure])
-            stupid.append(uff)
-        df_inner = pd.DataFrame(stupid)
-        avg = np.mean(df_inner["value"].to_numpy())
-        plt.plot([len(at_uniq),len(at_uniq)-0.3], [avg, avg], 'k-', color=colormap[method])
-        plt.scatter(range(len(df_inner)),df_inner["value"],label=method,color=colormap[method])
-        plt.xticks(range(len(df_inner)),at_uniq,rotation=90)
-    plt.title(measure)
-    plt.legend(title="Methods",bbox_to_anchor=(1.05, 1), loc='upper left')
-    fig.tight_layout()
-    set_xmargin(fig.axes[0],left=0.03,right=0.0)
-    plt.savefig(f"plots/{measure}.svg")
-    plt.cla()
+def scatter_plots():
+    for measure in measures:
+        fig = plt.figure(figsize=(10,8))
+        fig.subplots_adjust(bottom=0.2,right=0.75)
+        for method in me_uniq:
+            df_inner = df[df["method"]==method]
+            stupid = []
+            for at in at_uniq:
+                uff = {}
+                uff["attack"] = at
+                uff["value"] = float(df_inner.loc[df_inner["attacks"]==at][measure])
+                stupid.append(uff)
+            df_inner = pd.DataFrame(stupid)
+            avg = np.mean(df_inner["value"].to_numpy())
+            plt.plot([len(at_uniq),len(at_uniq)-0.3], [avg, avg], 'k-', color=colormap[method])
+            plt.scatter(range(len(df_inner)),df_inner["value"],label=method,color=colormap[method])
+            plt.xticks(range(len(df_inner)),at_uniq,rotation=90)
+        plt.title(measure)
+        plt.legend(title="Methods",bbox_to_anchor=(1.05, 1), loc='upper left')
+        fig.tight_layout()
+        set_xmargin(fig.axes[0],left=0.03,right=0.0)
+        plt.savefig(f"plots/{measure}.svg")
+        plt.cla()
+
+def line_plots(methods):
+    home_path = "plots/connected/"+"_".join(methods)
+    os.makedirs(home_path, exist_ok=True)
+    for measure in measures:
+        fig = plt.figure(figsize=(10,8))
+        fig.subplots_adjust(bottom=0.2,right=0.75)
+        for method in methods:
+            df_inner = df[df["method"]==method]
+            stupid = []
+            for at in at_uniq:
+                uff = {}
+                uff["attack"] = at
+                uff["value"] = float(df_inner.loc[df_inner["attacks"]==at][measure])
+                stupid.append(uff)
+            df_inner = pd.DataFrame(stupid)
+            avg = np.mean(df_inner["value"].to_numpy())
+            plt.plot([len(at_uniq),len(at_uniq)-0.3], [avg, avg], 'k-', color=colormap[method])
+            plt.plot(range(len(df_inner)),df_inner["value"],label=method,color=colormap[method])
+            plt.scatter(range(len(df_inner)),df_inner["value"],color=colormap[method],s=10)
+            plt.xticks(range(len(df_inner)),at_uniq,rotation=90)
+        plt.title(measure)
+        plt.legend(title="Methods",bbox_to_anchor=(1.05, 1), loc='upper left')
+        fig.tight_layout()
+        set_xmargin(fig.axes[0],left=0.03,right=0.0)
+        plt.savefig(os.path.join(home_path,f"{measure}.svg"))
+        plt.cla()
+
+line_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","ours bp (only priors)","ours fp (only priors)"])
