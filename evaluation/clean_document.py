@@ -10,10 +10,16 @@ from util.utility import read_labeled_data,get_most_likely_sentence_multidics
 
 cleaner = Sentence_cleaner()
 def clean_document(infile,use_existing_priors=True,cheap_actions=True,batch_size=128):
+    if "mnli" in infile:
+        mnli = True
+        prefix = "cleaned_mnli"
+    else:
+        mnli = False
+        prefix = "cleaned"
     basename = os.path.basename(infile).split(".")[0]
-    scores,first_sentences, second_sentences = read_labeled_data(infile)
+    scores,first_sentences, second_sentences = read_labeled_data(infile,do_float=not mnli)
     sentences = first_sentences + second_sentences
-    pkl_path = f"cleaned/{'' if cheap_actions else 'nocheap_'}priors/pkls/{basename}.pkl"
+    pkl_path = f"{prefix}/{'' if cheap_actions else 'nocheap_'}priors/pkls/{basename}.pkl"
     os.makedirs(os.path.dirname(pkl_path),exist_ok=True)
     if os.path.isfile(pkl_path) and use_existing_priors:
         with open(pkl_path,"rb") as f:
@@ -67,8 +73,8 @@ def clean_document(infile,use_existing_priors=True,cheap_actions=True,batch_size
         
     prior_it = zip(scores,prior_cleaned[:len(first_sentences)],prior_cleaned[len(first_sentences):])
     post_it = zip(scores,post_cleaned[:len(first_sentences)],post_cleaned[len(first_sentences):])
-    txt_path = f"cleaned/{'' if cheap_actions else 'nocheap_'}priors/txts/{basename}.txt"
-    out_path = f"cleaned/{'' if cheap_actions else 'nocheap_'}bayesian_shielding/{basename}.txt"
+    txt_path = f"{prefix}/{'' if cheap_actions else 'nocheap_'}priors/txts/{basename}.txt"
+    out_path = f"{prefix}/{'' if cheap_actions else 'nocheap_'}bayesian_shielding/{basename}.txt"
     os.makedirs(os.path.dirname(txt_path),exist_ok=True)
     os.makedirs(os.path.dirname(out_path),exist_ok=True)
     with open(txt_path,"w") as f:
@@ -82,5 +88,5 @@ if __name__ == "__main__":
     #    clean_document(os.path.join("attacked_documents",fname))
     #    del cleaner.context_bert
     #    cleaner.context_bert = None
-    clean_document(sys.argv[1],use_existing_priors=True,cheap_actions=False)
+    clean_document(sys.argv[1],use_existing_priors=True,cheap_actions=True if sys.argv[2] == "true" else False)
     sys.exit()

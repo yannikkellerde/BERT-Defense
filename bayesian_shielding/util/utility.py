@@ -158,7 +158,8 @@ def mylower(word):
     return out
 
 
-def read_labeled_data(link):
+def read_labeled_data(link,do_float=True):
+    myfunc = float if do_float else str
     with open(link, "r", encoding="utf8") as text_to_read:
         scores = []
         first_sentences = []
@@ -167,7 +168,7 @@ def read_labeled_data(link):
             if line.startswith("#"):
                 continue
             point = line.split("\t")
-            scores.append(float(point[0]))
+            scores.append(myfunc(point[0]))
             first_sentences.append(point[1].strip())
             second_sentences.append(point[2].strip())
     return scores, first_sentences, second_sentences

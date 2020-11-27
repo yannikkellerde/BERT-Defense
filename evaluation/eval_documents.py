@@ -45,7 +45,12 @@ def eval_many(ground_truth,documents,outfile):
         data = df.to_dict("records")
     else:
         data = []
+    #print(df["document"])
     for doc in tqdm(documents):
+        if doc in df["document"].to_numpy():
+            print("skipping",doc)
+            continue
+        print("starting",doc)
         ev = eval_document(ground_truth,doc)
         ev["document"] = doc
         data.append(ev)
@@ -55,13 +60,13 @@ def eval_many(ground_truth,documents,outfile):
     df.to_csv(outfile)
 
 if __name__ == "__main__":
-    ground_truth = "test_400_sentences.txt"
+    ground_truth = "../bayesian_shielding/benchmark_tasks/STSB/400_sentences.csv"
     documents = []
-    #documents = [os.path.join("attacked_documents",x) for x in os.listdir("attacked_documents")]
-    #documents.extend([os.path.join("cleaned/priors/txts",x) for x in os.listdir("cleaned/priors/txts")])
-    #documents.extend([os.path.join("cleaned/bayesian_shielding",x) for x in os.listdir("cleaned/bayesian_shielding")])
-    #documents.extend([os.path.join("cleaned/nocheap_bayesian_shielding",x) for x in os.listdir("cleaned/nocheap_bayesian_shielding")])
-    #documents.extend([os.path.join("cleaned/nocheap_priors/txts",x) for x in os.listdir("cleaned/nocheap_priors/txts")])
-    #documents.extend([os.path.join("cleaned/pyspellchecker",x) for x in os.listdir("cleaned/pyspellchecker")])
+    documents = [os.path.join("attacked_documents",x) for x in os.listdir("attacked_documents")]
+    documents.extend([os.path.join("cleaned/priors/txts",x) for x in os.listdir("cleaned/priors/txts")])
+    documents.extend([os.path.join("cleaned/bayesian_shielding",x) for x in os.listdir("cleaned/bayesian_shielding")])
+    documents.extend([os.path.join("cleaned/nocheap_bayesian_shielding",x) for x in os.listdir("cleaned/nocheap_bayesian_shielding")])
+    documents.extend([os.path.join("cleaned/nocheap_priors/txts",x) for x in os.listdir("cleaned/nocheap_priors/txts")])
+    documents.extend([os.path.join("cleaned/pyspellchecker",x) for x in os.listdir("cleaned/pyspellchecker")])
     documents.extend([os.path.join("cleaned/Adversarial_Misspellings",x) for x in os.listdir("cleaned/Adversarial_Misspellings")])
     eval_many(ground_truth,documents,"evaluation.csv")
