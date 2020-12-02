@@ -12,13 +12,15 @@ def get_mnli_model():
     model.to(device)
     return tokenizer,model
 
-def eval_mnli(tokenizer,model,first_sentences,second_sentences):
+def eval_mnli(tokenizer,model,first_sentences,second_sentences,batch_size=128):
     with torch.no_grad():
-        encoded = tokenizer(first_sentences,second_sentences,padding=True,return_tensors='pt')
-        for key in encoded:
-            encoded[key]=encoded[key].to(device)
-        res = model(**encoded)
-        return res[0].cpu().numpy().squeeze()
+        full_res = []
+        for i in range(0,len(first_sentences),batch_size):
+            encoded = tokenizer(first_sentences[i:i+batch_size],second_sentences[i:i+batch_size],padding=True,return_tensors='pt')
+            for key in encoded:
+                encoded[key]=encoded[key].to(device)
+            full_res.append(model(**encoded)[0].cpu().numpy().squeeze())
+        return np.concatenate(full_res)
 
 def get_mnli_accuracy(tokenizer,model,first_sentences,second_sentences,labels):
     label_map = {"contradiction":0,"neutral":1,"entailment":2}

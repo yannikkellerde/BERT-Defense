@@ -63,7 +63,7 @@ me_uniq = pd.unique(df["method"])
 colormap = {"danishpruthi":"#0000ff","pyspellchecker":"#6600cc","no cleaning":"#808080","ours bp (only priors)":"#cc9900",
             "ours fp (only priors)":"#ffcc00","ours bp (full pipeline)":"#ff3300","ours fp (full pipeline)":"#800000"}
 me_uniq = list(colormap.keys())
-measures = ["sts-b","bleu","rouge-1","rouge-4","rouge-l","rouge-w","editdistance","mover"]
+measures = ["sts-b","bleu","rouge-1","rouge-4","rouge-l","rouge-w","editdistance","mover","mnli"]
 
 def scatter_plots():
     for measure in measures:
@@ -125,5 +125,6 @@ def line_plots(methods):
         set_xmargin(fig.axes[0],left=0.03,right=0.0)
         plt.savefig(os.path.join(home_path,f"{measure}.svg"))
         plt.cla()
-#scatter_plots()
-line_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","danishpruthi","pyspellchecker"])
+scatter_plots()
+#line_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","danishpruthi","pyspellchecker"])
+line_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","ours bp (only priors)","ours fp (only priors)"])

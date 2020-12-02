@@ -46,7 +46,7 @@ class Sentence_cleaner():
         print(f"\nFinal cleaned sentence: {posterior_hyps[0][1]}")
         return posterior_hyps[0][1]
 
-    def batched_clean_given_prior(self,priors,batch_size=128):
+    def batched_clean_given_prior(self,priors,batch_size=64):
         self.load_bert()
         all_posterior = []
         all_posterior_hyps = self.context_bert.batch_bert_posterior(priors,batch_size=batch_size)
@@ -77,8 +77,8 @@ class Sentence_cleaner():
             all_posterior.append(posterior_hyps[0][1])
         return all_posterior
 
-    def get_priors(self,sentences):
-        return multiprocess_prior(self.dist_handler, sentences)
+    def get_priors(self,sentences,store_path=None):
+        return multiprocess_prior(self.dist_handler, sentences,store_path=store_path)
     
     def clean_sentences(self,sentences,progress=False):
         return self.clean_sentences_given_prior(self.get_priors(sentences),progress)

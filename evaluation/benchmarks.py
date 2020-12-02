@@ -18,10 +18,10 @@ def clean_all_documents(attacked_docs, clean_func):
     for doc in tqdm(docs):
         basename = os.path.basename(os.path.join(attacked_docs,doc)).split(".")[0]
         func_name = clean_func("", name=True)
-        doc_path = f"cleaned/{func_name}/{basename}.txt"
+        doc_path = f"cleaned_mnli/{func_name}/{basename}.txt"
         if os.path.isfile(doc_path):
             continue
-        scores, first_sentence, secound_sentence = read_labeled_data(os.path.join(attacked_docs,doc))
+        scores, first_sentence, secound_sentence = read_labeled_data(os.path.join(attacked_docs,doc),do_float=False)
         sentences = first_sentence + secound_sentence
         clean_sentences = list(map(clean_func, tqdm(sentences)))
         clean_data = zip(scores, clean_sentences[:len(first_sentence)], clean_sentences[len(first_sentence):])
@@ -65,6 +65,6 @@ def make_attacked_data_to_tsv(filename, output):
 
 
 if __name__ == "__main__":
-    clean_all_documents("attacked_documents", clean_with_Adversarial_Misspellings)
+    clean_all_documents("attacked_mnli", clean_with_Adversarial_Misspellings)
     #make_attacked_data_to_tsv("attacked_documents/all_attacks.txt","all_attacks")
-    clean_all_documents("attacked_documents", clean_with_pyspellchecker)
+    clean_all_documents("attacked_mnli", clean_with_pyspellchecker)
