@@ -49,7 +49,7 @@ class Adversarial_attacker():
                         the attacks in the first line
         :param attacks_with_severity: List of tuples containing method and severity
         """
-        scores,first_sentences, second_sentences = read_labeled_data(infile)
+        scores,first_sentences, second_sentences = read_labeled_data(infile,do_float=False)
         pert_first = [self.multiattack(sentence,attacks_with_severity) for sentence in tqdm(first_sentences)]
         pert_second = [self.multiattack(sentence,attacks_with_severity) for sentence in tqdm(second_sentences)]
         with open(outfile, 'w') as f:
@@ -58,5 +58,7 @@ class Adversarial_attacker():
 
 if __name__ == "__main__":
     attack = Adversarial_attacker()
-    attacks_with_severity = [("visual",0.3)]
-    attack.multiattack_document("../evaluation/test_400_sentences.txt","../evaluation/attacked_documents/visual.txt",attacks_with_severity)
+    attacks_with_severity = [("rand",0.3),("rand",0.3)]
+    #doc = "../bayesian_shielding/benchmark_tasks/STSB/400_sentences.csv"
+    doc = "../bayesian_shielding/benchmark_tasks/MNLI/mnli_dataset.csv"
+    attack.multiattack_document(doc,"../evaluation/attacked_mnli/rand2.txt",attacks_with_severity)

@@ -1,0 +1,201 @@
+# [('phonetic', 0.5)]
+0.8	A. braun d'ag is' running through the feeldt.	ae brown dog with his tongue wagging ez hee runes through ay feeelde
+0.28	Egypts Mazzlemme Brotherhood Hrefuses' to Bauck Daownd	Egipshon kugertt senttncc's Muslim Bruotherhood lieedr to life yn prizzon
+1.0	A. mahn. izz plehinn a clyboar'd.	Ay mahes plei's a kiiboared.
+0.12	A mane is chopping butter intha a. cigntaynor.	Ae womihn is cutting shrimps.
+0.88	A scwhrree run's aroun in. circles.	A scuirrel i's moving ehn circles.
+0.84	Prersun whith to skey poawlz skiing down a. snowy hyle.	Ae person skeiue down ay snowwy hile.
+0.84	Cendit cunfirmes Jaanit Yelawn aes czaies ov Us Pfedraal Rieserv	Us Scaehnitt Confirms Jaantadt Yellinhn ase New Sentrale Bhanqk Chief
+0.96	A group of haurtses gresing yn a foeeldt.	Group of huresez grasing en gracy philde.
+0.28	Ae mane es ridinn a horse.	A. man is drivinnn a car.
+0.88	Two boys sait faceng one unother at a table annd one poyntes adt the other.	Toou people psit faceeng ich other at ae table eze one points at the uther.
+1.0	Three doog's pulinn a man oan ay bicycle through the sno.	The dogs are pulling a man oan a type ove bick, through the snooe.
+0.88	A dag is jumepinn over a beriar agt a addzil-etty campeetition.	A d'og jumping over an' aubsteakle khourse fhentse.
+0.8	The ingured were tac'n tea hahspittls ihn Jeoffersen City and 'columebie, ae khlllledj town abbugt 30 miles tea the north.	Thi injuered were taik'wn to haospittelze in Kjefforsthn Saitei aendh Columbia, about 48km nawroth; ther chandiscontes weer nott immeadiately avallable.
+0.4	Rev's Irleh Reeids: Morcz 2	Reve.ss. Ealy Reieds: Sept. 3rd, 2015
+0.7	Inn thy week's leading upe to thi execution, sevoral Fllaurredah offitihul's reassived an-oneamoi's thretteniue letteurs.	Sceverral Flarrida aphichhullz 'cunneckted tuh thi caaese halve received threteeninn letters, occuumpeenie'd bis raifle bullet's.
+0.44	The Notes' Muste-Reads for Friday Mae 24, 2013	Thi Note's Muuste-Wreides' for Frrajday, Augist 23, 2013
+0.2	runs viktim down Got anea prrueph?	peareonoid Gote annyi prrooff?
+0.28	Pfillopines holds' seccand tsehnittor ovir corruption	Philippines ricaovoring aghtur powerfel typhoohn
+0.84	A grey cat laying on a brroound table.	A gree tkat leying one a wouldend table.
+0.45	They brroune trrain e's citeue on the reaylrowd trakchs.	The whitt trraen is szittenn auhn the trauehs.
+0.0	Nau, u. don't neeed to hav takeogn clasces' or urnede a duigrea in. jur aree.	I halv doone quaiht ae bidt of technekale wrighteng for helthcare enfohrmashond szysstemns'.
+0.4	Rousiione polagn repoahrtoodly crrscshh's in Egypt	Pielett kiiled a's Us gjet crasshezz in Enggelaned
+0.48	Thi tecck-loadeid Knaesdack kampozzit rooze 20.96 poynzsze to 1595.91, nnding at it's hyheust loefale for 12 muonthes.	The tecnoouage-llact Nazdak Champasatt Index <.Ixic> cleimbed 19.11 points, or 1.2 persennt, tha 1,615.02.
+0.52	Seuria 'to doycliare chemnikhel weappalnse annd saienn convention'	Wrscshon, Saierea Werk on 'concrete' Khemmeckial Weapons' Polane
+0.44	South Cooreela Szys Nawetth Fired Myssoles	Knawrth Coorea lanches shurte-reinge micels'
+0.16	Fllash pfloods klll 58 in aecterne Afghandisstan	Baumb whoonedes 16 en. eactaern Afghansstane
+0.56	Tue uurs. liaitur, the ensurrence coverage woold beginn.	Onnder the agreement, Meedacehr cooverage for drugg benefits woulde bigin en 2006.
+0.28	Too boys ian blaue swiminn trounke are holl-diue another buoy by his orms and legs' un a. beach.	Maan en whiht szirt fliping yung boy in the wattar whith faoar other boys srrounding them.
+0.68	Obalma urg's' dicycive acktiihn on Europe det creicas'	Obama urges Youropp tuh ackt chwicllee on craisose
+0.85	Ay womone is chopping brraocollea.	A woommin is' czoppinn bracohlee wihe a knif.
+0.75	Kohrettecte say the law wiollatez' syvaal libortee's, soomethinn Husse Drudittiaree Caammitthi Czairmonns Jaimez Caensenbrrenir, R-Whyss., szizz he izz scentciteve to.	Hoous Judishiary Cymmidtty Czermuwn Jaymz Sentsynbrenter, R-Whyse., sis he is psenceett've tah scyveahl liborteese khomplantts.
+0.8	relygeoce extreamism cogntinuze in pakistan dispigtt they benting of mylitiente groups.	religious extremism chanteynues yn. pakistan de'spigte thy bhaninn ov miil-etun-dt groups buy the pakistani governmon-'t.
+0.84	Vehicles ablas yhn cellapst Jupan toonnae	Vehicl's 'left burning' e's smok himmidts frummb Jupan toonnalhl
+0.88	Ae doawcktr pryscwrybs' medicine to ae pahiegndt.	A doctyr prescribs ae meedacehon.
+0.36	A womonn is chapeng awn unueen.	A. woommene es choppiue goarliqc with ay knife.
+0.64	A gai one a white hooaress.	A mahn wriding a white hurse yn. awn oreena.
+0.15	A woomonnd is' playing inh thy osce't.	Ay womiwn iz peerparing scrimp te cook.
+0.16	Tsihnah gives Us hregulatrs. actsets te auddet rycugrdz	Chingh oppausezz Us aurms sales tha Taiwan
+0.56	Bangludesh Inors Factery Viycktim's	Hreetillurs. back Banglidesh factory safetey pakht
+0.76	Paqckasstand tae rilie's most senior Afghan Taaleban prisoner	Paqcistane tha reliece seaenior Taallebann comandoor one Saturday
+0.08	Algieria prresiddent get's therrupi aftyr staroqch: staate mediah	Beylgerrriane praesiddonnd trihs to brake eleccscon' stalmmat
+0.6	Ardisstz' aur werrri'd the plan. whulld haarm thohs jo ni'd help mosz - performers whux halve a diffiqualt ptai'm leyening up chows.	Thy artissts seey thy plan will harm Frrets. culture andd punish thoes huou neie'd healp most - peerforpsmoerrs hou hav a. whaar'd ptyme ligning up whirue.
+0.12	Fuerste ove alle, leot mi sis that thehr tseemes tha be 3 maaign trreae'on tah casting a. spell.	I allwi's thought that Herray seemed to larn frrumm they Haff-Blood Prrince beter than he did fromb other soreses.
+0.16	A mahn is rontinn oan a sterite.	Ae maan pleiz the guitar.
+0.4	Ai wulde sa. huuh con doo et, buut et woooddnue be edvized.	Personally, Ay whuld cay not unless ite sooeton yew.
+0.68	The thwe Demecraton on the five-membir Fcc pandaal helde a news caanferuntce tah swei apinuean igaincet Powaal.	Thy tue Demhmo-cratts one the feive-memboor Fcc heled a news khonferents to suei apinyane agancte Poowel aend thy panhales thue uther Ripublecanee.
+0.88	Asteeroide zip'hs betwinn Earth and tsatelleitese	Acsteroid passis Earth in fllgh-by
+0.68	"Thi Eurobpian Union is baaceycalay absent," caid Tsitau Barbini, wrejenholl mineicteer for aggreculchur en Tuscunnii, Italhi.	Tietau Barbini, ay rheagiynhal mennisster for aggruculczor in. Tuschaneii, Italle, crriteecized thy absontse Tusedai in Sachremantto.
+0.65	Ae buye i's playhing a kai-bhorde.	A bye is szytting ihn a reoom pllehing a pianea by lamp liht.
+0.04	The woommewn is smoking.	They mahn is woking.
+0.0	Ae muuncky is' whaucking through they wahter.	A. ngae i's playhinn a trompot.
+0.1	A. womans ezz saiteng one a cidewalk whith a. cell fone at heer er.	A woman is riding har bicycle.
+0.04	Ukrayniane Presidun-t ordorrs 7-day se-cefire in. the aeste	Uganddise Prezidind Museveni agri's tae tsigne anti-gais Bil
+1.0	He nguys aaer making thits ale Waaaaay tue kamplicated.	Yee aer making this tuy complocateed.
+0.8	Worldt No. 2 Lleyton Huwete has acc.seed the Ososhiatiagn ove Tenniss Pryffeschonhuls ov malimus, including and ole-eged attempt l'ace year teo deup him intta refusing a drug test.	Weerld Kno.2 Lleyton Huuitt has accuseed hizz prafeesionntal pirs of long-sthandding malllisse, including aon attemmpt lace year to doupe him ento refusing a. drugh teeste.
+0.0	A mane is' hsooting a gune.	A manan i's sppytting.
+0.6	Thou people woaking allogh the shor adt soncettt.	Tou peeople wakeue along the beach at sonncet towarn a. grup of people.
+0.96	Blu aundh rede pllene in myd-aire fleitt.	a. bloue and hred arplaine whil in phlight.
+0.8	Trade noospapar Vereyate up for sall	Haallywood traaed publiqquaicehen Veriotty put upp for seele
+0.84	Sliie Stallone's Sone Saeige Founede D'ead ynh La	Silvessttho Stellognez Sohn Pfoundh Ded Aht Whome
+0.92	A woomonn es playing fllewte.	Ae woomin plais un a floutt.
+0.0	Ay boy es khuttteng papur.	A man is loeding ay rifle.
+0.92	A yung woomihn whith a brraeycelit iz wereing a beikenii top and jins.	A womme't whereiue dzienz, a darc beiceene taaup, and a bracelit.
+0.28	Ukreign‚Äôs proe-Wrusiha protestherrs dimaned greaitur authannumie	Sudoniese protessterrs demmaned they regimes austhar
+0.8	Mr. Monueal and juis groupe anord thi Unit'd St-at-ts bai wallking akraauus the brrige lenqking Matamoross andh Brounsville.	Manuea. aendde juis' groop nhnurd thy Us they sejme wey thousionnes of people do everie daay, baae whaking acraoss the bridg betweeen Matamoreos aed-d Broaundsvilll.
+0.8	Dizz this page anntswr your quesciine?	Does thi's answer your questians?
+0.96	The new Celldt War	A new Coaldt Waer?
+0.0	I have no ideea why ite es votted up, butt Rex Kerr's aanswre bueggs the chwecciions.	It'es a tautology, bugt they maappeng betwein lodgikh and the English-laanguage duscrypshheln is roaugh.
+0.44	Amd's qipe sales jumepte 7 presente year-uan-yeare to $402 millyon.	Seconed-qwaretter sals' grew 7 precent, tuh $645 million frummb $600 miilliown ian 2002.
+0.92	A woomun splyteze goarlykh cloves.	A woommann is' breaking ae head of gharlicq entata cloves.
+0.76	The man inh the backpac look'' to ji's loefft.	Un't adult mael wheariue a backpack woawkhs ad-de look's teo thy loeft.
+0.96	Inghliand captain Anndroo Straowss ritihres 'fromb professional crhrickedt	Engglend captuon Sterusse rytyrz frome crrycket
+0.8	Paper is' being khugt whihe sysurs.	A piece of papor is being cute.
+0.15	A man iz playying with frogs	A tkaht is polaying with a tkameire.
+1.0	Yoeu are on the wraiht patth.	Yu're un they ritt path.
+0.92	Three deie affter qur krash att Tian'anmen	Threa Qild In Crash Agt Tiananmene Scwerre
+0.76	Trapicaule Stoehrm Caeerin targhett's Us Gulf Kooasst	Trappicul Sttoepsme Chariene poised tuh maake l'andfalll
+0.48	Gunmen kill 15 Lybeonn solgeeres	Gunmen kellle 3 Lebunis' troupse near Ciriah
+0.8	A black daag sttindes nex. tae miterials att a cancteructiheln psit.	A black dog stand's in the miiddle ove a chont-stoructie't sciht.
+0.84	A. mannh izz liftinnn waaites'.	A mahn iz lyfting ay bahrbell.
+0.6666	Meturapalathen Ambulinnce stpok'smonn Jame's Haao saidd five people wore taiken teha chospittal ad-dh threh were treitede att the seehn aghtar yesteardai's incident.	Spokesman James' How scaid five chil-drion aged betwein 4 anddh 17 were tekeln te hospital with neeck annd chesced injuerie's, whihl thre others were trieted at the scene.
+0.75	Agrucultuor miintneszters frume more than' one hunn-dreed naceonds aur expeckkted to atenhnd thy three-day Ministerial Cahnfraincse andd Expoe on Agricultural Syanse aund Tecnoouigie spohnsuored by the U.S. Doipartmin-t of Agracultuir.	U.S. Agriculture Secratairree Ann Veneman keik's ofgh they three-dey Minnesssteraahl Congfrientce andd Expot oan Agrikoltuural Ciense aunddh Technollogi on Muonday.
+0.52	Roussie 'alone' in bllaymiue Psyreen' ribel.'s for cemicael otack: Us	Rusia ask' Un tae koncidr ites inquiry ove Syrae keemmichale ahrmes uws
+0.0	Unn emmbolism in. a mdddecayll tkontexte refor's to any larje moving mast or deefect ynh thi blude stream.	Heare is aon inteoristinng aartticle auan whikkipedee tae guive overview of pressser rhelated endjeries'.
+0.12	A. maan is crying.	A. wooman' is dinceng.
+0.2	Obaumma howlds' out over Szeerie strikes	Uk urge's cuntri's over Saeriah ede
+0.4	A wooman sthanndinn in frrunte of trease and smyleing.	A main is woalkeng buuy treass yn frrund of the szitey sccyeleine.
+0.56	Three women with brroown hehr aur smiling.	Three weimagn en In-diun dresses in a crowdide hroomb smioling.
+0.32	Ay man es playing a. fleuet inh a bandd.	A. man is plaing a ghita..
+0.0	A. girl iz eating a cupcak.	A mahes es sllicing ae cuecambur.
+0.92	Deetroite ellajible for bankruptcy pirettecctuegn: U.S. judge	Deitroite ehlidjible for banqkriptzi praitecscann
+0.68	Edt calls for the augensis to polahn un independent stafeteit and angunerinn organization.	They agiancceis has yet tta fully formulate a sstrattagee for thi khreatien ove ane inn-dependent engeeneering tekohnickule athorrrohte.
+0.84	ay woomens whihe ay wikeng hat une.	Smileing woomun citting uerringng a viking haht.
+0.28	1 purrse't kiyllde ian sektairyaon cllachhes ynn Lebenun	Knine keildt in Cieryans-lynked klacies ihn Leebinhan
+0.72	they ansuiue battle andd airstrikes killed at leised 10 milletan't's.	an nnsuing batt'lhl killld ate leest 10 miileodhen-zse.
+0.64	The laidey crakht too rah egghs.	They wooman is crakeng egs' ento a bole.
+0.68	Booxx khutterz wure useed aze a whepppoon bi the Cept. 11, 2001, hijackor's and-d have cendts been bendde as kharey-on it-olms'.	Boox cuters. woer the ueapunes useed bis thy 19 heijackres ihn thi Seppt. 11, 2001, a-taxx.
+0.16	A whitt eyrpleyne is parced one the psimend.	A. blue modercycle is pahrkt on thi syedewallk.
+0.96	Gunmen keylll knigne foreinares en Paccchstand	Gunmene kiill niine touryctes in Packastan
+0.6	A gurl yan wata withoutt gagles or a. suomiue khepp.	A gerl ynn whato, wihe goaggles and swominn chapp.
+0.9	Druse izz stile being held ate thy prisehn aund is knao in istlacehene, che said.	Druce laass gnight was' heldt en isolashonn adt the saahm prrizoon.
+0.4	I. psaid it wuztnt ay parsend, in thy legal psents.	If it isn't a persho't, then Wtf iz it?
+0.16	Ay kiteain is dryngkeng miillke fruhm ae boal'.	A. smalle child is' drinckinn wator phrom a cup.
+0.96	Too whimonns k'nt-esstients are walking there dogs in a d'ogg show.	Two whhimohn waake their daogs att a doogg scow.
+0.28	A mahn. is' liffteng a qarre.	A maan ez climing ay wale.
+0.85	A tkagt auned a faeyredt ahre playhing.	A pfarret andd keitai't play teigether.
+0.08	A maon is riding on a. beot.	A maain izz tying in thy machiion.
+0.48	The black ad-de brraund daog is playinn en they yahrd.	Thy blacck aund tan doog ez chaseng summethinn hee haz s-patted.
+0.4	Esaadh miittz with Rered Crosss ephiciellze in. Seeria	Ocaad machs Rhedd Crawss plege
+0.68	All wi now is' thiss : Discthen'd abjectees r. ressiding phrumhm us at a ratte pripporssiienole to there disstance from us.	The ixpancciin' of spass meaenz that objechti's inn cosmological dysthentces arr reseding away frum eahe utther.
+0.96	iraen lies on a mager drug raugte betwien afghanhnestan ande europe ad-d thy puersiens gulph stt-ete's.	iranan lis aun a major druge traugickiue rugut betw'en afghanistan aend you'rhipe, aze huel as the persio't gulfe stet-ts.
+0.76	ae gre d'ogg suoming through a hrivr wihe a stike ine his mouth	Doog swimming through wahter cahrying sttik en it'ts mouth
+0.16	Blacc anddh whiht cow standing in graassy feelde.	A black and whiht fotoe of a mane standiue next ta ae buss.
+0.44	A black dagg iz rounsinn through the snooh.	Ay blaq pit boull d'ogg is ranning through they dirdt.
+0.88	A person izz koombngue a caiht haire.	Ae persen es brrusching a cat.
+0.76	Bisidz battliue eton sel's slomp, Ceabel allslt has buen s-pahrrinn with soomb envescteurs upset abaut huge sttokk optiewn whindfalles khompane mannager's have pockiteed.	Besides a sall's sloumpe, Seaebee iz sppareng with som shareholdor's ovir manageement stocc optionn winndfalls.
+0.36	Ay man is couttinn teomatose into piecu's.	Ay womonon es' cuttting somm vegetables.
+0.0	A mane ez coutinn grashs.	A couownd is singinn.
+0.72	Ferrrer kreuzes ingto Austoraylyeen Opogn quoreter-finnulls	Fairrre beats Nishikori tea advandc to Aust-raylyeuon Open quarterfinals
+0.0	A. man is redding an email.	Ae persund opening a bionane.
+0.52	When studying adilit Iq, genererae addult normes aer offtain used.	Baseckly, what hu. deo is you kempaire each age greugp Iq tae the standardezaciin' sample.
+0.96	A mann and dag un a rocky seashore.	Maon and d'og stindinn on rhocq'x nex. tta wattre
+0.0	Obamaa qweeriees Tuernbull ovre Chihnah pohrt deal	Spinesh bulls gore seveon to deth
+1.0	Egypt koert ordrez rylice of Muborycq	Egieped coures orders Mubahrukk freied
+0.88	Staroge new quaue hitts shattard Pack reagione	6.8 kuayke yhn shatterd Pakchstan rijon
+0.88	He progecktud Vandderpool wall be evalable within. thi next five uors.	Products feachryng Vanderpool wel be ryleaceed whithian phive yeors', he tsaid.
+0.76	A man iz playing a. gitaar.	A guy is playhing on instruminte.
+0.52	Afghan leedasslatars upproove new electiagn law	Afgane presiden't a-proves new electon llah
+0.8	Eight bottls of Harp logger lignd up oan the florr.	Eight battls ove Harpe beer ligned up on a wouldegn phlawre.
+0.28	Yur wrrri is a vaelliid one; the reedr could bey 'frusstraaterd beae this.	I. donne buileeve nate gnowinn a. chuarihictores neem wooold be confusinn un-lesce youh make it so.
+0.44	Itz' joused a. bounch ov tselze.	Eom "ae bunch ov cills."
+0.32	En mydafftarnoon treeding, they Naezzdaq campozzitt yndex was up 8.34, or 0.5 perosennt, tha 1,790.47.	The Gnasdaak Compozidt Index .Ixic dhipte 8.59 poindts, er 0.48 pursennt, tee 1,773.54.
+0.8	U.S. oerders gnon-ecentiahl staef te lieive Tsudine, Tunesia	Us oerders non-ecaenschul staflf te leave Tunesia, Tsudann
+0.85	Som menn rar figting.	Towo men auur pfightinng.
+0.25	Thris boyse ian krrottey khos-tumes auwr feihting.	Thris meane ohr prracktiseng corratey mooves yne a feeled.
+0.76	Russier, Czihna veeeto Un rezzallluchhen on Szeureah endaurseng	Rusia, China vetau U.N. draft baccciue Arabb plant for Tserrie (Reuters)
+0.64	A maant annd whimiln sziteng aune ae sofa hoeulding ae small baby.	a woommuhn saittinnn ohn ae soefa hoolding ae babe.
+0.68	Afhter Yoghs' rhefused tuh rehigre Hernande's, he k'mplendh to thi Yquoihl Himployment Opartunittty Cemmistiieon.	Heernandez fyled aene Eiqwile Emptloymund Oppertunuty Khemischon' complaint aundd psude.
+0.8	Towe difrugnt breeds of brown annd white dog's plye one the beeach.	Towe dag's playing ian they sandh at thi beach.
+0.0	Thi man tealked aune the teal'aphone.	Guirrls' oer woalking one thi sttage.
+0.68	ay grugp of people dann'cing	A grup of meennh au. dantsing.
+0.6	The braawed Standard & Pooor's 500 Index <.Spx> advanecte 11 pointze, or 1.25 percend, tae 931.	They Standard & Poors. 500 Inndex gaygnd 10.89, er 1.2 persennt, te 931.12 as of 12:01 p.m. in New York.
+0.88	'nnother million bar'lls, beote bai Spanish refinar Cepsa Sa, whas tae be lowdiid onto ae Spannisz taangcre, the Sanndreaa Tippiaus.	Ae Spanish taanuer, Sandrea Tapeio's, waz tah by loadeid with unnother milllioon bearylls, baught buy Sppantich hrephinre Cepsa Sa, yn they afteernoon.
+1.0	A brown d'og is jumpeng.	A brrown dog iz jumping
+0.84	Jams' Merddhok chuhit's Bskyb	James Muerdock kuitts rol adt Bskyb
+0.28	Hoo aur a Khrestiin'.	Therref-ors you aer nate a Chrisstiin.
+0.2	Google lonczhes' internett-beeaming bulluen's	Google 'are playhinn internateon-yl tax game'
+0.08	Most people wan't noth only teae be Well off, but te biecume Betor auf as ptimb goes by.	Teuh stardt, thy main drivers ov ecinommcke grooth aard rhissoursezz, tecnologe, and enstaituciagn's.
+0.68	Whate the Popes' bouttlor psaw – ade erreestede ovar Vaticihn liqkse	Pope’s bubtler eremstede in scnnnddel over Vatyckaln liqke'
+0.0	Mahderet tremoor inn they Saenturae Meditteraigneenn	Iraein: Manderate cahnnidate wins prreseddentiele vogt
+0.1	A mahn es' burrniue a flag.	A mane is scooitinnn a gun.
+0.72	Betweeon 1993 ad-de 2002, 142 alegatian's of cexuahl asal-te were ryppordeid.	From 1993 teo 2002, therrr were 142 rimpportiid tsexuale assaults ate the occhadomiy.
+0.4	Deputit speaker phasus new psex cleaims'	Deputey Speakr Knigell Efent's Reeh-Arrestid
+0.84	A moongkey is bruascinn a boulll d'ogg.	A. monkhi bruuchh''s a. d'ogg.
+0.56	Ae greoup of peeople sitting aroune a table containing food.	Foups people rur sayttinn aroun ae leving wroom with.snac'se.
+0.8	Uell, Ai wuldnid pute it uan miei cv.	I woodnrt put thiss job on mei rezeme.
+0.64	Iaf strich Guasa tahrer khubs'	Iaf strike Gase teeror sehl; 1 dead
+0.2	I feel euur paign - I. absolutely poere whith swett with annie veigguraus exercise, yvvyn ian kuooll kandicionnze.	Sweat raidt is sweat rigte, ygh caant realley contereoawl itt.
+0.76	India Minister's whyfe dien 'unnatural death' affter efaire wrummars	Miinnustyrs wifehs death 'unnatural'
+0.2	South Choriyla hregreats Knorth's hrefuzul of talkes	Tsouth Cooriah reports 14th Mirs death, 12 new quaesis
+0.96	counescal ptax Hazont counstl taax binn frozn't for moest peeople?	Halznwt kaounscel tax behn frosion for moss people?
+0.6	Couple sailing in ae smaul stelboat.	Thu mene saailing in a smol seylboat.
+0.475	Ae mahes iz cutting upe ay pittatau.	A man i's coutinng up carrots.
+0.4	The prisses for everetthing e. nee'd have gone upe due to enflacceiehn.	They pric's' of everaything yo. oen Ie assets hav gon downe.
+0.4	Jiszt obugt ahnything khe't be groehn ynedaor's withouht gnaturuhl soun-ligte.	We have kweite a fugu people here hoo have groan pepherz annd smalle timattos indaors annde ian patez'.
+0.68	A groupe of menh polayyiue brass yn-strommen-ts.	A graugp of geyse polet incetruemoen-zsze outside.
+0.8	Four people rowinn down a hriver.	Foure people wrow a. caaneoe in water.
+0.92	Ay bllaque d'og ron-ing enteuh the whatter.	A bllac doog running through woatre.
+0.1	A man es eating would.	Ae mahes is adding oyl tta cuur.
+0.92	Dogs, he said, ard secind only to humants inh the thoroughness of medical understanding and-d wreesarch.	Hee said that dogs ard sekk'ned only tta humansds inh turmes of bheing the subjiced of meedechall reieseerch.
+0.5	The Sthad-dered Edischiown izz $15,000 prr procesper or $300 puer gnamede user.	The Standeared Editiion One izz a scyngle procesor version ove the Ohracle Stan-dreed Editiaon Datt-abase.
+0.8	Whiht diamond brakehs record ine Haong Konue awctuonn	White dhyimand pfetches recoerde $34m at Hk aucsceln
+0.88	Womaln rhymanddedd over child's deth A woma't has ben rhymandid enn custeeddie charged with murdr after an eight-yeare-olde girle woz foundh dedd yn a block of pflats.	Mother heldt ovir doothtures death A mother has bein remmand-diid in. kusst-ody chiarged with muerdur afetar heer eight-year-auld daugttur was found ded in ae block of fllagttch.
+0.55	A boy izz running on a beech.	Tou boys rwr polayhing yn the beech.
+0.6	Aftor Freitas' oponting staetemen-t, Kehing Cowhnea Supeuria Court Judge Charles Mertel reic'este trial un-till after the Thanksgiving weikined.	Cigh Kaounea Superior Couhrt Judge Charles Mertel wel then riecese the triahl aenteill Monnday.
+0.68	The tann annnd whiht doag iz ruunsing in the phieeld.	Thy browne and whiht daogs ruhn through the feeldt.
+0.52	Ay boy annde a girle es daantsing yn thy rhigne.	Ay mahn annd woomeln izz deinncing ene thy ren.
+0.72	A. man wheryng bllaqck pferrmal wearr & a blac toopp hat izz raiding a. whiht sjux horese.	Ae mann. with a toop hagt ridiue a whiht horse.
+0.76	Rhelyteives' scuffyle with peoleece afetur Chinah pfire kyllls 120	Angrie phameles dimand annsuer's aghtyr Tsinna pllaend fier qils 119
+0.44	The group i's eating while takinn in ae breathtacking viue.	A group of people tak ae lueok aht aeon unusual tre.
+0.08	Ay whommi't in an rhred tracksuit squeezing lemonlnze in a prres..	Ae young woomihn ian ay pink hoodie takke' a. piictuir.
+0.84	To lorje daghs run-iue ine sume grats.	Tou brindle dogs wranning ine thi grass.
+0.0	Ay maan i's traveling inn ay booat.	A whommunn ez kuutting up a karragtt wihe a gnif.
+0.92	Nobel Prize winnning authrr Daruits Lessing dies	Nobelll laurryote Daari's Llicing deye's at 94
+0.2	I. maantaged te feind this rhesopy, I thinck this is' whehr Ai goht they idea.	Ive only made ay khuple of bbq psosses, butgt they've alwayz comb ouut really weell.
+0.85	Ouht ove tuch and cympliatlhi untrousstworthe, howevar, whuld-nta.	Outt of tuch aende unntrusteworthe?
+0.0	Rudd swarn in. es new Austtralla't Pm	Maslims inn jaiidinn as sekteyrion ...
+0.64	Captun Raabart Ramsey of the Us 1st Armoured Deivisoon psaid ay truck had exploded oubtsei'd the bilding abaut 11am, anndh thate one of they compound's oubtor walls had chellapsed.	Khappptenn Raaaburt Raemnzie ove Us 1St Armored Dezvision said a trouc hadd exploedide outside the bhillding at aroun 11 am.
+0.92	Chyldreenn are playyinn yn. ae suomming pool whill two adult men woatch theme.	Cyldren plgh in a pooll while addll's look un.
+0.16	No reaideacein liqq at Iraennze knnukhler plaen't	Us Chongrosss may theaow retsch into Irann gnuclea dheal
+0.76	A puppy plays with a plastiue centanor.	Thy d'og is' polaing wihe a plastikh chegntain-re.
+0.76	Hahllie Wholy Wy rrd all vecols fylld with meny won-durs..	Say What Huux Wil Whui are all vessaill's fild wihe mannie wundars.
+0.2	Soome ov whate yowe c'gn deo:	Nauht mutsch you chuhn do besydes:
+0.85	Eare Cnnnada, the laurjist aiirline ehn Cnnndedu anddh Kno. 11 inh the weirld, has been ondir cuhrdt prutechtiion phromm creadetrss cynnce Apirile 1.	The Kno. 11 airleine yn the world, Are Canada has been ondr 'corrt prrattectua't fromm credeter's saynce Apryhl 1.
+0.6	Heavee wrain wrais's thrett ov Cristmos Day flooding	Phreshe raaign brings more phloodinn
+0.0	A. close-upp, dectuarted pfoto ove aenn mmpte glast Cowke boahthale.	A chloes-up picture of a d'eske whith a ghomputr ad-ed papers oan it.
+0.8	A boy cllims a fourraste hihl.	Ae bye es cleimbinn ae hile.
+0.0	Jes., there is a rheas-own tha noht deew what you prrappos.	Yoes, there iz a. kemicaale dhiffrienz.
+0.88	The tho dogs ore running aun the grasss.	Twe doags owr playing in the grast.
+1.0	Gnobele author D'arys L'aessing deies aht 94	Gnobyel laureate Doris Le.ing dis at 94

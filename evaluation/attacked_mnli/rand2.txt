@@ -1,0 +1,201 @@
+# [('rand', 0.3), ('rand', 0.3)]
+neutral	The nw right are nic enought	evEnoyer reallylikeshte newestbenefits
+contradiction	Ⓣhiſ site includeᷥ s list ȫᶠ wll ąward wiñnërs anḓ ͣ ſeaɾᷗhaᵬle daṭw⒝ase oⓕ Ǵoᴠeȑņkeɲt Eᶍeᷗu6ivɛ aŕtiflɝs.	Ʈɦe Gvrnmƞt Ɇxecutiᵛe ǟŗticles hsęd on ţĥ ⓦebsite arĕ nt ăƀlȇ ᴛȏ bɇ ᶊʴᴄʜd.
+entailment	uᶣ i ḓǒn't ⒦nóẘ ī î ḥa⒱e mѝxêd emoᴛioŉs aḃoüt ẖǐm uh śȫmɛᴛimɝṥ i lйke ɦȋm ⓑut ǻt thɝ ᶳaṃɘ ṭīṁȇs i ȴȏvⱻ ṱȭ sɝe so㏁ebody bȅɐʈ hiₘ	I lake hom fo thet mos pat, but wood stll enjoe seeing someoen bit hem.
+contradiction	yeah khnitii myfavorite restaurant ealebahneysiwts oneclosest you estescoaskonlwht sitnaogl's it meets the minimum airroecyitu odnookfgwo food	My fvrt rstsernatau r ylws at eltas a nrduhed mlsei wy from my hs.
+contradiction	i ďôn't konw um do ƴou đő a ľot ㈞f ɕṁaɪnpᶃ	I onkw cexylta.
+contradiction	wll tht wld be a hlp i wsh thy wld do tht hr we hv gt so little lndfll spc lft tht we 'r gng to rn t bfr th nd of ths dcd nd it's really gng to be	Wehave planty ow spacerin thelandfill.
+contradiction	yeah i wnko aenddh ai idd that all utroghh calege dna it weerkt oto	I ddi tha all through college tbu it neve odkew
+neutral	Clctt seems to bth nly thr production center having any prtnsnstrtstc creativity at ll, bt rncllyy're ctlly mr likelytosee the works ofSatyajit Ray or MrnlSn shown inEurope or North Americathan in India itself.	Mos of Mrinal neS's wro nca be foun in Europea ietoclsocnl.
+contradiction	I\f hatt rtoinvse eerw wi+lgnil to pa$y txare for th!e crseiuyt of tidlime downside, eh:s udclo uby put otpiosn with a strike c%iper o(f $98, wichh would lock i>n r;h;e pr~of~it on th<e shares at $1[8, slse whatever th(e opt;ions cos,t.	THq etrike pricd xould b3 $8.
+neutral	3) raDe oyu ris3 t; the occasion, lile nsokklavoiR, nad reject teh t6tep ru; es tzht govern l3sser emn?	Would yo8 rise ip and deavaet alk eivl lodrs in the twon?
+contradiction	Te mos impowtant d9rections are aimplly ub and ip lrads eventially to the cathedral and fortrdss commanding tbe hilltop, andl dlwn inevitably leads t8 one oc trhfe gates through tthe waal to the nea twown.	Godownwardsyo ondeofthe gates, alle jf whice whill leadyou into the cathedral.
+contradiction	Tʮ ⓑhaʞti mõᵛmȩnt of ťħ Tamilş Ⓑʵoughᵵ a nɝw warmtʰ to th hǐᵗĥrtō rígd Brǎɥmaȵic rituāl of Hinduisⓜ.	The Tamils' bhakti movemente frosws thepreviouslywarm rituall ofhinduism.
+contradiction	sie nao in a situation lich taht the bois ah. olny sxteien yeurs olde anded tehy were sxlauely ivlovned with hrr and i tinhk lkie ate taht paarlitcur point she wa's twentii thris you knlt seew sze whazznte rlaley taht mcuh oedlr than tehm and bnieg a boy at taht age i think taht tehy're vaery um ju konw lebtze face itt taht's at ay ponit yan your lfie wehn yo. yeur just stortteue tha reealyze all the tnhigs ov lfie	Everyon invole wass se sam age.
+entailment	You en"d yoy$ur fryeds are n_o_t Wellc^ome here, said Severn.	Se㏞eʀᶯ säid ţhe pǝoₚᷞe wew nor ⱳēłcoⓜe ƫhere.
+neutral	um-khumm uumhm-e yeah well uh i gahn ceee you kwne it's i'tze iets itz' knid ov fnuey baukes we it seems' lieke we loon mnoey you kanu wy moneix with stringes a-thcate and if the govornnmont changes adne the crtnue taht we lnoh the meaone to uhm i gahhn siee why the might hvae a dienferft atattued tuardz paying itt baq its a luhat us taht you no wihs dohen relgah lonee meoni to teo krnhuti's we lon mooney to governmonts and ets the	Wedon'tloan a ltf mny.
+entailment	i'm not sur wba tbe overnigh low das	I ȡõn'ţ kᵰow ħow ℂold îṯ gȫt ᶩasᴛ ȵѝɡʱŧ.
+entailment	so i hwve to fnid a wa7 to slppemeunt tagt	I nee a wy to add smthn xtr.
+entailment	the hlgr make up all ths thng and uh i mn sometime smtm it's funn smtm it's nt but uh you knw it's smthn to pas the tim ntl we do nd the nd thn we watc footbal	Sometome it is amusing to s4e whq the holkgra create.
+neutral	5 Ther share lf gross nationa savin used to replac depreciated capiltal has increase ove tne pst 40 years.	Gross nnaiaotl saivng ws hihesgt ths yr.
+contradiction	So for, howevir, thy nmbr of maill pc's lzt to ltrntv bile-paying methods izz tou smol te hv nny mtrl mpct oan Frst-Cls . volum.	The amoun>t of lost mail is hugeand really impacts~ma~il v"olume
+neutral	yuo wont to punch tte buton and goingo	Yoes dowhn whandt tha push yhe buttehn lightly, bute rather pumch i5 haarrd.
+entailment	Bfufet n de la ctare alailbave.	It jas a beufct.
+neutral	lueB syas Blumenthal cilamed lntoinC dah told him taht eiykwsLn dha made unwanted saexul advances.	Ci0ntln said taht Mncoia Lewinsky madd uwtnnead sexual advances diumrg het 5mie as a journalist in tbe White House.
+neutral	We oasl havefound htta leading naoganisrozitstriveto rnesue that theircoer processesneitlfcfeyiadn effectivelysupport mission-related outcomes.	Leading organizations 3ant tl ve sure thwir ejployeea are dade.
+neutral	ohh uħ-huh wel nō tₕeʎ ẅoułdn't wouʟd then ᶇo	N, The]ir would n,'t go t?h?er.
+contradiction	Srroy but taht's how it is.	Thins is how thinks r fnd thr are no plgs bt ot.
+neutral	Not qt as lorge es th Papal Crs komemarateng Pp John Paull Ii's vst inn 1979, whn mr than one million people gathered to clbrt mss.	Ppoe ohJn ulaP II also vtieisd in 1839.
+contradiction	eTh touist ridtyuns continied t expend, and through it beacome oen og hte top two income enearsr In Spin, aa ieonaraiztl taht srecuttnierd amss tmrsiou was ledaing to ngadgaim long-term consequences alsho egabn to grow.	Tourism is ᶇot ʌȓy ḃg in Spn.
+neutral	\"Sne seeme s0 dkfferen```` ''	She had fnhgaed s lot sicnr the lsat rmie we'd seen ber.
+neutral	ihm gdnot upeposd to it but wnhen its wehn the time is ryt it will pborlby just cydnh of happen ywoe noh	I cat not wait f=o=t it o=u ha]p]p]en.
+entailment	ehT cssn of 9311 ersved as an alarm sgnl fr the Mly lninatao cnscsnss.	T[h[e 1"93 Malay censu w:as an alar bell.
+entailment	M㈞ɿtйfyngly ngh, it is all tẖǝ ↀ㎌fcltʎ, th làᶽᶮṧs, ᶵʯe ⒫aᵗɥeȶic fřmlɘssnss in yǘth, ẗh rōůnd pɝg ȉn ᵵhe sqǜr ʰole, thē wȟateⱴeȑ dő y wǟnᵗ?	meny uuth ore leazy.
+contradiction	Cnvrsl, an ncrs in government savin dds to the sppl of resource vlbl for investmen and may pt downwar prssr on ntrs rates.	ntrct rat-se shoude increase t ncr-c saving.
+entailment	Britai's best-sellin tloabi, the Sun, aunncnoed as a front-page wlrod elcuxsiv Frida tha Txean mdoe Jrer Hall has sttare docrvie proceeding agains aging rcok satr Mick Jagger at the Hig Crout in London.	Threre is g rshiitB publication acelld teh san.
+entailment	Hewass of two minds, onereveled Inthre pace iof this village.	e vodel how peaceful ehret village swsa.
+neutral	hTe vinejards ufh the gentle copsel between yhe Vosges and eht niRhe lwayVl along a nielxg nafrow 0k12-m (75-mile) strip htqt rtetecssh odfm Marlenheim, jus6 west of Strasbourg, dowb fo Thann, outside Muehlsuo.	The slope btw th Vosges nd Rhine Valle r the only plac appropriate for vnyrd.
+neutral	We did not studey thy reaezons for thes deviatiieon spoi-cifeklay, bout the likelee resul from the contex ine whic fedral Cio operat.	Thees devieaceans mosly involve flr t apply sftwhr updatez' inn ay tyml mnnr.
+entailment	Rouen iss thye accient certer fot Normandy's thriving textil industrie, h the place ol JONE 0 Arc's martyrdom' de natioanl simbol ot resitence yto tyranny.	Joa of Arc sirfcieacd her lfie at Ruoe, wcihh bacem an eudrnin symbol of oppositio to tyrann.
+entailment	Tabls 2: Examples oh BLM 'e, FHWA's, IRS's, xnf VBA 'z Custumer Satisgation Expectativds fpi Snr Exxutive Performance	Snr xctv ''s have b{n studies o<n various spcts to reach t+h e|xpect|ation|s.
+contradiction	IN Hone Kong yuo kan have al platr , 9r efen de whole dinnwr servicr, hand-painted fo your owj desigh.	It'd impossible tp nv z plt hnd-pntd to yr 9wn dsgn in Hong Kong.
+neutral	Théiɾ aȑe a nu⒨eḅǝr oƒ eₓpénsiv jųèlaȑry and otheɻ dųǘtey-'frɛe ṥʜōps, aŀᶫ ⒲ḫith gòodṥ ⒫rʵïseᷘ eᶇn Ǘs ᵭőǟwʟȴǎrs (duṯy-㎌ree goods mũst alwɐyṡ ᷨe pǻid for en phoɻȓen ĉẖaȓeᶮsǝ).	rejywel annd rt-efuedy shops aer une inntaristing cplea teo beye goodz.
+contradiction	Wa)t)h's rluty s-t-rik-ing, though, is that Js;bo has never r]eall]y te:l iths eiad g&o.	Jbos neverheld otno an ieda forlong.
+entailment	Ẅhilę ot's probablʏ tru tĥat democracȋes āre ulikely tơ ge tio waŗ ŭnŀeȿs whey're atŧǻcked, ßometimeſ theý àre tehe fiɾȿt o ŧakĕ ţhɛ offɜňsivɛ.	saiĕǝccoDrm ᶈrobably wo t'n go to war ůᴎleȿß sõᶭɝone aṭtacks tṃhe on hɨtèr ʟsio
+contradiction	\"? ut TO y, who know the thrth, I prps t reak certains passages whish waill THRW sm lighet on the extraordinary mntlty of ths grt wn ."'' He opened th booK, nd turned th thinn pgs . ``	Thete ȉá ߒo infoʀmation kƞ the meߒtǎliȶy lf thë mab, éxᵵraordinăry oɍ not, ↀontāinfd wirhin the tẖin-ᵱaged boȭk.
+contradiction	yeah i mes jus when uh the thw militzry paid for heg educatio	The milita didn't pay for her educati.
+contradiction	butůʱthɝße guys weʴeaċtually onthɇróǻduḥ ʈwò thousǡnɖ mïļesfrom ⅎɻȭmȟome whenᴛḩeẏhɐd to ᶂile their uh ťḥeiɾ fȉņǻl exams ánď send ťheᴟ in	Th?s men filed thei&r midterm e>xams frm hm.
+entailment	But you have to hv mone to sav it, and nt many cpls wth yng children hv th lxr of tucking awa $2,00 pc annuall for thr Golde Years.	tƝ㈞ manẙ ᶝoupleṧ wtʜi ₖidṧ c㏟ɳ ᷤae㏞ uƥ for enmrȶrteei.
+entailment	and uh as a m'atte o,f fac he ';s a d<ra<f dodge	Tehy degdod the tdraf, I l'l veah you kown.
+entailment	'iilbPucty .' Lnlcn rmvd hs grt hat, mkng a smlal sohw of distnug it ff.	inoLnlc ootk his hat off.
+entailment	Ib thet etock marke, howfver, ths damage san gdt mauch worser.	Ṫhȩ ßţoc markeᴛ can experıěᶮce muĉh ẘorˢ ᵭamaᵍ.
+neutral	Missouriwasasked tocontinueitsplanningeffortsandfile asupplementalplanning report with LSC onor before October 1,1999.	Mi|s|sȏuri was happy ᶵȍ cŏntinùe ĭ`ᶵ's pla%n%ni%nɠ ǝffortṥ.
+contradiction	He hadn't see eve ptiruce of suc thnig sncie the few slien mvoies run in som of the liltte art tethares.	He had rtleency saen pyctures dptiencig tohse things.
+entailment	Look, tehre's a legned hree.	See, eehtr is a well noknw hreo rehe.
+neutral	T{h Celts rrvd i#n the wake o-f th\e Ro^m^an withdrawal at th nd o:f th fourth cntry.	Át. the end ov tehere forth psentury whahs whe bacht goods phlurished.
+contradiction	yh nd hw bt hw bt like on th wknds do y do sprts or do y go t	No one alysp ssptr on th wdkn.
+neutral	Ha'rlem w}s r frst permanent office, h*e said.	Harlemdda geart job
+entailment	tuB wenh the cushion is psnet in a ray or owt, or whe the exn recession arrive, eht disintermediatin orset wll dif themselves playin the roles of etgbd analysts and tax wonk.	The ousohscn oalw lkyiel be spentt in rdanu towo yearz.
+contradiction	Oh, ㎼aht ǟ ⒡ǿol Й feęƚ!	Iam yboend druop.
+contradiction	shi has exchanged ein hwlool flie rfo s eehithgnde live, and ash tried to compreend oll sti nsrut, gte tis possibilitys.	Shehaschoosed to liven ghollow life.
+neutral	wele the f>ir>ct th=i=ng for me i's i wo%nd%r i s-e-a a co-up-le of diferunt ways o`f talking about what privacy e '/s ume ief privecye is something thate disturrbs' ju<r<e privit state i meean aon inv-eatio't of privucay es' something tha>t dis't'u'rb's y@u' r p:ri:ve:te state t(hat's one thig anndd if privicy iz something that komb's into y{ur pryvat sttaht annd ex%tracts inf|orm|at|ion 'from i,te inn other w\or\d\s find]s somethinn oubt abo:u:bt y)oe that^'z^e unnother aennd the fueast keind of inv&a&t&i&ogn of the f(ei(r(s(t type of priwisea seemes in"vad"e"d to mne i]n variay muc\h everieda in t%his cunteray but i>n the second type a$ht l/i/sed ove|rtl|i u@h wheh=r some,one cumz in and uh finds out information ab`out yux that shoud b-e pr-yva-t u`h d(oe(s noht seem uh ahme obviouslie everyd\ay	All invasiogns oof privacity soud by severely pansisht, Beacuse izz woall teach the crimenales that it is nittt werths' doing.
+neutral	He hzd neger flt bttr.	The ᴟedicinę he ȟ-ad t@aken ᶣaḋ ㎼orƙed ⓦ_ȅl_l.
+entailment	Ŧhe camp㏟igns seem tȫ reach a něʷ ƥool of ʗơntrîḄǖᶵ㈞rŝ.	Newpepple chose to donare to the causr
+neutral	The DataWareho7sing Institute ptovides edudationand ttaining in the datawarehousingandbusiness intelligence industry.	Bu,s,inuu,s i*n*teallijan*ce indesttry is a n|ew ad-d promausing fe:eld:e ov studdy.
+contradiction	the tne csot of nieaortops.	Teh gross ocst.
+contradiction	Ctibdreliiy is a vatli aorcft, nda Jim Lerher eosd, eddeni, hvae it.	ǈim Lehre ĥas n㈞ ᴄrɝdibĭlīt whatsoⱻṽe.
+neutral	ppcneueT rseo.	Tppunec folaetd int the air.
+entailment	Frome the courgnre of hiseye he saw Jamus look over thi broqkon mare.	Jamus lookedover thr mzre.
+contradiction	Eve if you're the k~i~n o%f travele who like t@o im`p`r`ov`i`s a|nd be ad*ve*n*tu*r*ou, d;on't turn yo'u nose u,p at the touris office.	Theres nothing wirth seeinginthe tourast ofphosces.
+entailment	Similarl, OIM revise tje ekectronic Gran Renewsl Applicario ho accommodat new informatio sought by LSC and ti ensur treate ease for usefs.	Change weremad to the Gran RenewalApplicationto provide extra informationt the LSC.
+entailment	'ḑave Ⱨǻneesyߒn, tʮa houₘ nőṯhiɳg was ȋᷟpøssible.' Weᶪl, oue ḩaṽĕ a nѝierly imᵽohsͥblę task: a task of aᶇgɨnerinǥ ande bűilȡing.	This bnduilig job wlil be very diilcfuft to complete.
+contradiction	S/till, in wuld [[ bi inter\e\ssting t\0 kn>o>w . 109 Poirot looke!d at me verry earn?e?st?ly, and again shook his\n he-ad.	Poiro sid not lo9 af me.
+entailment	\" Bt I'll take up mei sttnd smwhr knr, nd whn . he comes aubt of th building sll drop a hankarchief or smthng, and fh y go!"'' ''	I wnat y to fllw hm, so wcth for the sgnl that I gvie.
+contradiction	rrThe are no shares o a ctsok that mghi someday come black, jus psiel of onsipoc as worthless us setoh sraesh of oocCk's american's Business eAailnlc.	Kooks 'marrickagn Business Alcaline caused sehars of soctk to komm bkae.
+contradiction	One thnig w+as wnroyirg m?e dreadfully, b,ut my heart gave a great tohr:b o?f relief we:h:n I saw m*y uteslr lying casel)r)sely oev/r the bcak of a cahir.	I wsdreadfullyworried bt many thngs.
+contradiction	Do yuo think sr.M Inglsthorp dema z il2l viehagl al . hwr yoenm ti siMs dwHrao? I asked in a low viice, with smeo curi0sity.	Ï yelle at tₕê top ōf my luƞg.
+neutral	Is t'n a woomonnds odydb her smto snaorp'll propartey?	Weomn's bodys benolg to themselves, tehy sohlud deciede waht to bo witch ot.
+entailment	thta oruy aaphproc is ic is righf 6ou qnc actually go out nad xub it if even if 7ou don't nwa na tet nshav on you acn evfn ustj bsu it utl the tecocenr nad those ,ind of things dam and that's kins if h5e nloa i evah sk um uh everyone i wklt to uh i 've	Yoü ᶝan sub iȶ eveᵰ іf ẙoŭ DON nat wabt tu gut yȏųʴ ₕaᶮds ōn in.
+neutral	What chznged?	Whatt swa iuuneq?
+contradiction	khidon't know either theothergrowing up all ikne3 aas	I k%now because I le^a^rned itgrowing u$p
+contradiction	Whole Lif Pollessiese - Pohlusie' tha pravied insurance ovr the insured's en-tire lyf aend they proceed (fac 'emount) or paid ownle apan deat ove the insurd.	Hell life paalstcease aqre q. typ of life indurenz that only khovre the ins8red parsin umtil retirenmen-t vrom thr workforce.
+entailment	J⸧ȿtïċ Kennɇᶑ ḋoes noț car wḧaᴛ law librarian ãcrǫss ṭͪe country ḍo wѝtͪ ǟlɭ tᶣe Suprem Co⸧ʁt Repoɹṭeɹᶊ frōᵐ 179 țhroǖgh 199.	Justice Kennedy d(o(e(sn('tc(are if theSupreme Co>urtReport>e>r>s from 1790to 1+998a+re throw=n away.
+entailment	The entirecit was surrounded by ope countryside wit ascatterin of small villages.	Tbę whoʟe coűᴎtrʎside ia scatterȇᴅ wiŧh small ṿilᴌxgeṥ.
+neutral	sb'sttt my m,y yeah my k'd'll d|o uh fr o+r five hrs ths week for me no pr`blm	Ĭ juct can't ₘaᶄe tḩe tme Ⓑeċauċe ǫk mỷ job.
+contradiction	it's actually there WL Iraq has hd uh dsgns on That plt sc nineteen twnty two to you knw it wassn't lake something thst jst sddenly pppd up	Theweirthing is that Irawasneveinterested in thatplacuntinow.
+neutral	The pfihnull wroohl cantainse a. Feedreolism E-a'estmont underexecutive Oardir	Thefiinialruel hada federalism ass'esmont that wasaddedthroughexecuteve order by the Presidegnt.
+contradiction	yrntpioPogt, for ealmxpe, may act as ratp of hte teeiueqrrsmn oninifdtie process, helping the aecngy tieydfni dna loornct asare of high utctenniray and ticencahl rsik.	Ptrtyopinog is not itornmapt, tnitesg wtih the autacl fsinhied pucdrot is betetr.
+entailment	Ṱhe rgêįme'š ɽeṡpoƞse ǫf féȑocɪoǘš rśeiôrepsn puls núḿéɹøûs otḥer ínȅptıtųdes led to ä ẗrħid rǿíeltuᶹoǹ ȉn 1848, ẅtih the Ḅõnapăɾtisƭs, lëd bɏ ߒlaoeoᶈn'ˢ npeeȟẃ, ɘⓜgnʳiɇg tùrnhmpîat.	Frcn was rlued by Napoleon's nphw ftr thy won a rtvln in 1488.
+neutral	Bŏats įn ƌaiļỳ s l ⱳиthin ft of the ⒡shnbɭ bars nɖ restauɽanṫs.	Brzs qnd resrttauans ar4 interesting pelcas.
+entailment	so i usge my experience IS is jtsu with what enw didd dan and so Trhie doinn't [[ realy go gtrhuoh the hdlic race roet they reew abled to be hmow together	Thy were able to be meho rather thn nhvg to wyrr toabu tgtgn child care.
+entailment	DD's common practice fpr managing this nvrnmnt bs bn to crt aggressive risk reduvtion efforys on itx prgrms.	Cre㏟ṯĭᴺg risk rtȅiuǒndc srɘᵮtōf iś cǿmmon ȩctaiprc.
+neutral	nTh he rn.	Ḥe ʶn lkɛ ãņ äthleţe.
+neutral	you soun lyke thiss gerl that ye talked to aboute bookhs annd we got in mocies opne nighe	I foundout aboutso many m&oviesI h)ad never he"ard"o"f.
+contradiction	if the UnitedStateshadused flonalneiuvtconl pwoer.	The U#en#it#d S>atets ha[s no pwoer to use.
+entailment	yeah rll7 jo kddng	lyrael? Now dgikind!
+entailment	Visidt at sundown or out of ssn to get thi fl flvr of th sttnn.	The seting isbetter ato visitat sundown ouduring low seoson.
+neutral	I+n a fre(ut(h(r rloe rseaevrl, Gingrich may have pieosotind h&m&s&ilef t+o fill i"t.	Gingri shou not be in pow.
+entailment	Ȧɭl oᵮ ŧhe ȉsɭandᷤ ąřȅ nǭẉ ǿᶂfͥciǡȴly ǻnᷘ pȑoùdlʸ parᴛ of Fℜancĕ, ǹot coᶫȏnıes ąś ťhèy weʁe ᶂoɻ ſőmê tẖrĕe ʗêńŧūrĭês.	The ulsdans age part og Fgance now ianestd of jsut cniooles.
+entailment	( Fot move informatio jn BLM's seniour excutive perfornmance pplane, se app.	BLM's oreneracfmp snalp year visible on-line.
+neutral	Wihlepntaersmay pcik up tihs gay srpahoeme,kids aren'tlikely to.	Soom kides deu anderstand gye saignals.
+entailment	Takeing ana cmncl tack, nation offical is Chcg rcntly issued edicts commanding preachers por black ff thr nt-Smtc rhtrc.	Natiln off8cials in Chicagoare involved in rekigious issues.
+neutral	Saddam could rmrnsegnteteehdgee (andAmerica tarnished) in ehyseet of erhtbAa drwol.	america's oppinion on Sddm wlf ls worsen.
+entailment	Teo savour the full affeced of the arquatect'e scilll, anhr the caortyard throug thy gate whic open ont the Hippodrom.	The tga to the rHdopopim is an apmexl of the circhaet's kisl.
+entailment	Thereisnotnihg mroe tobednoehree, I thnik, unless, he sertadelatrensy andlong at the daed ahses inthe grate.	ehter isewn annigyth tfel to dew.
+entailment	En Taxas, thez legiuslature was' incetruemmeantale i. effecuating changings to thwe stat's behniffitt proegrams through pr'visionez en sereral peaces of legislation.	Thes ĺeģǐslaturǝ ᴡas instɹuᵚentał ȉn efⓕecuǡting cḫangˢ to ƫhe benefіt progaₘ.
+neutral	Perhaps all we can say of graet actin is taht it iveovln amoissaiilt rheta tahn accumulatio, taht the performe isn't so mcu a surrogat as a vssee.	An actof ic dejgdu slelyo on tiaqyku of performance.
+neutral	In thesumme, the Sulta's Pool, a vas outdoo amphitheatre, stage rock concert or otherbig-nameevents.	Most rockconcerts tkae paelcin tSaeuhtln's Pool amphitheatre.
+entailment	Around 1500 b.c ., a massiv vopcani eruptio at Santorini destroye noh onk Ak4otiri unrer fert of ach and pumic but the whok Minos civilizatio.	ehT treėin ㎧annȏi cйⓥılizȁtioᵰ was dtseyoedʁ bɏ ǎ ʌoɫĉanic ɘruᷮṭioᴻ.
+entailment	\"Th grt thin is to kee clm ."'' Jls grn . ``	Juliu mad s groaning soun.
+contradiction	Juᴻe 21, 1995, ₚrovidz ṯhě speḉific ɹycqùirȩmiᶇ-ᴛon for esessinᵷ ånd hrep㈞aʶṫiƞg on cáߒṭroȴs.	Thereare nospecific requirementsfor assessment.
+contradiction	Tihs is especially ture on Menorc, wreh cold witne wind liimt the sasoe's lengt.	Thyx wil espqcialy untrue ln Menorca, wne waern sunmner weather extends the season's lfngth.
+contradiction	Ove mos of the 1980 and 1990, the U.S. was abl to inves mor tha it sav by attractin financi fro abro.	Teh US ocldu caev moer thaj it invedted jn hte 1980's and 90 'x.
+entailment	The sacred is n0t mysterious fo g4r.	The wowan ic familia with the sacre.
+entailment	If y9u labd by baot, Cqvrelale bcaeh is yours flr the usnig; ohseriwte you'll hcae to 'ay x nnomial chrage to 5he vatciaon club that owhs thd acgaere.	There is a carhge ro peploe airvrnnig at Caravelle beac by lnad.
+entailment	Behin yhe cathexra, croseoge tbe Rue ee lz R?? publiqu to the 15th-century Eglis Saint-Maxlou, the riches exampl of Fla? ­bo? ­ant Gotbic in tbe vountr.	gls lnMteci-iSah is built in a ylnmtfb Gothic tlys.
+entailment	\"Julius bfr th sf In de flt, her n cuestion nad tne pause bfr hs repy,```` Nthng ."'' Was there rlly nthng? ``	Julous puased for s while, brefoe arenwimsg her.
+entailment	G rcmmnds that th Scrtry of Defense rvs plcy nd gdnc	ḠAÒ řǝčoḿmendſ ŧͪaƭ tʱe Šecretărɏ of Dȅfeᴺse ȑevisⱻ poĺicẏ ǡnḏ ㎍uѝdāncě
+entailment	Tḫe Kȁᶩ taangᷝd both of Adrin's rŕm'ṣ, keeping the bletᴅs phaȗr ȧway.	Adri's arm wer tangle, keepin his blad away fro Kal.
+entailment	Tȟe ᶈrimary scɼn mᷥt ᶀȩ ǐnʈégratéd nṭ ṱʱ standaʴd ntk ᵽrocedüre of ṯhe emeɺĝǝᶇcỶ seᶵṯïnᵹ ᶯd muᷤṱ ⒝e ᵗhe ʵeˢponsiᵬïlity ōf ʇh stfᶠ to adminɪṡtȩr to ll ṗatients.	Ths primerey scrieen js the rexponsibility of thi stafe to be guivenn tta sll ;atients.
+entailment	\"I' hav bee visitin an old woma In the villege, He explaine,```` ve asa Lawrenc tol be yuo wer whith Monsieu Poiro Im thought Im woul cal for yuo ."'' ''	Tther was an old womman in the villlag tha's I have bee visitin.
+neutral	As a bsiac giude, the symbols boelw have bee uesd to intdiace higoe-shasn rates in Hon Kon dollars, bsae on dubol onpucacc, wit bat or showe.	As you can xee, th3 symbols are lfdolphins and octopkses.
+entailment	Slat'sJoseph Nocer.	Nocera wskro taSofrel.
+entailment	This twon, which fsrlhd between 6500 and 5050 b.c ., had flat-roofed hss of md nd tmbr dtrcd wtih wt-lglnpns, sm of wichh shw partetns tht sltl appear on Altnoaian kiilms.	Thi tow is over 8000 year old.
+entailment	dnCtds mst sbmt a set of pnenfsirritg for eirewv by th IBF.	Pe9ple that waht thr jobe heve to have thier finterprints eent 6o thes FBI.
+contradiction	In 9%918, arCs&e vhaeCz fasted o|fr 36 d=ays in California to und[e[rscor[e the eans"r"gd of pesticides to fmra erosrwk n|da the)ir children.	ceasar Chafez waz nkt concerned cabout the dangers iof pesticidr used.
+entailment	Th red mn mad hr ski glo.	Her soin wae glowing froö she re moob.
+neutral	Strategicparentsmight spents al ladge portion ok theirtax cuts, causinginterest rates torise.	Tax cut gea5e to parentd will give them greate spending flexibility byt will als lex to higher interest ra6e 9n lozn.
+contradiction	Hȭⓦeger, in tne off-fɨepd (señtiᶭěߒtaɭ) tȏùʁmàment, the Fą.ʗoᵰs wnd Jęts havē more aᶈpeălinᵍ sƭȍry lines.	Th Jetts and Flcns have boring strs.
+entailment	rgh afte the wr	utsJ after the ewrdaned.
+entailment	i'm qind ove fmlr with th weeather t tht way ian west Texaus but nott in nt in Lwsvll	Idonot know the weatherconditions inLewisville.
+entailment	In hte oemnjt of victory, Tuppence ayrbdeet x somewha6 unsportsmanlike hutmr[i.	Tcnuppee sas timuhnepat.
+entailment	The sentral feacire of the Riesult Act-s-turitegic planin, perfoeremens measure-minte, aen publech ryportin aun accowntibeletit-chen cierve as powerfye toolls to help chang the basecg cllltuir ove governmn't.	Th Rèṡǖlts Aćt hs sṯrᶵᶃc plannıng ɐs a cnͭɍl ⒡eaturè.
+neutral	The most important directionsare simply upand upleadseventuallyto the cathedraland fortress commanding the hilltop,anddowninevitably leadstooneof three gatesthrough the walltothenewtown.	Thw chatedral juoll by sppotted mdddweay elone the paht to the foorrtres aht the sumit.
+contradiction	Thi maid littl effort, dispiht the Jesui prezzonse in Asi, to conver loccal inhabetuntse to Christianit or teo expannd thehr teeritory int the interio.	The Jesu@it presence i/n Asia helpe to convert lo~ca~l resident t;o C%hrist%ianit, allowing the to expan thei te^rri^tory.
+contradiction	Drt mound surrounde th pt so tht th spectator stoo fiv or six ppl deep aroun th edg of the pit.	The grouned os tughtjellgh flat.
+entailment	ithin it's rea good anywayi's it'sbeenit was nice meetingyo	Ir eas mice meeting yok
+entailment	ům-hùm right do ẘhèrė reȧ you at hăwt staᶵe	Wher are youlocate?
+entailment	llSam swton like Louisia lay rcetedsa all erov the Oil Fields; the nmia train lin branche betwee het.	rTehe were a lot of lmsla tnwos in eht oil fdlies.
+contradiction	\" Trėhe's olᶇʏ onĕ tinhᷚ ⅎoɼ me to ɗó ."'' ''	There'safew things left for meto do.
+entailment	Thr lbrtn of thease LS European colonies created tem bss for postwar ndpndnc movements proclaiming thr Jpns slfn Asia for th Asians.	lOd erEoanpu noicsole ewre liberated.
+neutral	Therinquierexpanded verry quickly, however, fromgasking wthattechnnology failedtoanexaminatiom of contextualinfluences, such as	They mvd tehy rqns over form technology flng because thy thhgout it may be sntmhg ls.
+neutral	You're man wouldn't heve remained concienceafterDE first blow.	Afʈeʳ tɥe ⓕoɍst blos to ʈhɘ heaȡ, ƴô8r mam wòjlďn't have rȇmăйnĕd cõnscïouᶊ.
+entailment	But tshoe taht qre manufactured for slae ih in Europe and so ftkrh qre qtiue the ofher way arlnud	Th oneś ᵵhat ares ᴟadę ẗo selɭ ıᶮ Europ ǻɹë differént.
+neutral	Fixingcurrenlevel of damagewould be impossibl.	The damag could never befixedb anartisa.
+neutral	Scince his death ite hasbeen transformedintothe Bobmarleymuseum andcarefullymanaged bai the Marleyfamily teo protectthe memoryof his life.	The museum ctniaon wokrs fro other mmeebrs of the Marle fimal.
+contradiction	iʈǒ∾ɛȩmms it ᶫtnfesǻͭ ėᶇtíre neighℬourḧoods to kema ilef eǟᶳier foȑ ʈₕem.	All niohhogrbodes are plfectrey safe in their puirsut of an easier lfie.
+neutral	To eamk matters worse, many mplyrs gnkl to svea money (nd lps ither employees) will drop depedntne fbtns if esstat provide better coverage thn th prvt plns wn do.	When stts prvd bettter coverage than prvt plane, many employeers wl drp dependant bnfts ah pass dth savings on to you.
+entailment	Thn I cnrdsd.	A'ef't'rd'r'aw's, I t(hhgu(o(t a"buot it.
+neutral	probably so yeah yo8danget w headstartknit	You c+an ge[t a hea star on it i|f you p=l=an now.
+neutral	The conversation he dah eervoahrd hd stmltd shi crsty.	The conversation ma'de him curious because the-r-y spo!ke aboat treauser
+contradiction	You will fnid two pnaiipcrl finoand oroosle	ỷůu ẁₕont fƴenḍɦ aͪney ㎌iȅᶇo or õlōʳoṧe.
+contradiction	\" Thesoone we strikethe bette ."'' He turne toTuppenc . ''	He cönͮinƈȩƌ Tpᵱɴc ṱo hld oᷫf on ȶheiȓ ctn plñ.
+entailment	yeah hatt's wheir i tgo teuh tew hty first i tog cils up and dwon whene i heard hte on tehy raidio and the feirste time tyeh tdrtseat uouedi the boominn	When Im haerd taht on ghe raido I gor chllis aund the bnnigneig oh thte bombing.
+entailment	Thi hsving cim ro hiw stepmothe's ear, she taxed him wit iy on the acternoo befor her deatu, and a quarre ensue, part of which aas overhear.	A fhigt brk out bweeetn the seehotptmr nd the man brf hr dth.
+entailment	Nex, you inter tte vas ando splendi Imperial Hal, with thre hunsome marbl fontain, and a canopied thron fro whihc ths sultan would ennjoy the musike nand dancin fo his concubine.	The Imperial Hall ho7sws three mwtble f9kntains.
+neutral	VThe tomb garding willl unlock the gate to de tnnl nnd gv you a cndl to explove th small crclr catacomb, bd fou wht little y can sea, it is hrdly wth the ffrt.	Th tmb garden cn give y a thrgh tr of th ctcmbs.
+entailment	at alest i'm ggnoi to give it a try seauc uyo cna ees i nmae the ilo filters i amen you nca hcotu it it's ighrt erthe	Itt seⱻmṡ like йties' wortth tryiɳᶢ ťǒ get ƭẖe ôił fiᶪṱęȓ out.
+entailment	Tiarcnkg dwon the tiger is a sbtlue afaifr, and reriueqs a deegre of ddiaictoen, clam, and stealth.	Youmustbe vrey silent whentracking tiegrs.
+entailment	Ad]ri]n nadid.	Ardi neddod his hea.
+contradiction	The WP runs a piec inside reporting tha durin a church servic las Sund, Cardin Joh O'Connor of New Yor criticize Presiden Clint from the pulpi for taking Catholi communi whil in Sout Afric.	ehT WP unr a ipce outside reportin
+neutral	yaeh but uh co yoh hvae snall kdis	Do uoy evha any children?
+contradiction	For b*y*g R)a)j-bu)ffs, th]e supreme example o\h Indo-Gothic s}tyle i^t's ht Viktoriia Terminus, affectionately abbreviated f.o VT nowarda/ys, once's th*er railway stat_ion that l?a?un?che?d adventures inland, now hadling most suburban tra-ffic.	Thy Viktorya Termenus ez still the main doeparchre ponint for travelerz heaading deepre ingtae then contree.
+entailment	C; p Bud Wbite (Crowe) h Ef Ex, ey (Pearxe) almozt mixe in aup (59 sevonds):	Budde Whit ad-d Oed Exle ahlmos mix idt up.
+contradiction	Tne onley drawback ara, od couser, tnhe lage crowds IN sumer.	It is prtet mcuh drseete in Jul.
+neutral	Thes word itsel, tape, if translated us lid and derive fro d oud custo oh offerin a bite of food alon with e drin, the foo bein surve un aa souce sitting on top of tem glas lik la lid.	Tapa are nly smal in rdr fr you to try a lt.
+neutral	jah yeah and i took a five year knote ouut on my khahr when i reiht whinn i. got oute of caliage andh uh isll knever do that again i stihl got ay. cuple of yoars un ite tuh gux ad-d ihm	My bgr mistake wass tkng a fv year nt aou ou my cr.
+neutral	To pselac ewreh rcufeas tr[an[spor[t[ati[o[n is no(t lvaabilae, dnrsees would be erdeuriq t[o pay ai=r rate?s, an-d oipslybs air r}aets k]ey]ed t.o et.h characteristics of teh Alaskan air system.	Thes Alaskanair system are aneffectivemethod iof shipping.
+contradiction	rewe stro of a double sng iwht a a bg lms per hr nd a litetl klmtrs epr hour epyt uh mrkng on th side	A slgn thag loyn dilaspys pkh.
+entailment	The -Tlnaou of Eupalinos nci be ixplored bugt it's tdon for hte lhoprocatiubsc.	Claustrophobic wil not en-j-o-y the tunn;e o'f Eupalinos.
+contradiction	Anothe aevrttinlae is tha our hereos wree pnsuriu the nlob goa of academics eeerwyhvr--tenure.	Our hroee aren't gion for any adciaemc goal.
+neutral	He pulpéd nis clōǻk ȶĩhhtęɿ and wisheᷘ for a moᶭenʇ hħat he ʮaɖ noṭ ṣhaⱴeᶁ yis ȟfad.	eTh man hplldiesu rspue hero cape aroundhimselftoshow off.
+neutral	and ǘḧ you ᶄnȏw onc you star up ať thɘ toₚ ąȵd ͭʀŷ to ʛeŧ thŏș ͩȍllɐrs oᶮ do⒲ ᴛo the hańᴅs tħa neɝd tʱe ẙoų ₖńo ṯher's a lõt oᶂ plaᶝȅ ťₕe ₘoᶯe stoṗ and disapṕeɐʁ alȏn thǝ way	Treh3 mdees to be x mroe transparent doutsbtiirin of mlney.
+neutral	As dssukust in sioectn 1, prehnysel siivenng izz the 'unomt of agarighate doisposable persenahl income left ovr atfr prersnenaal spending oan gdoos' a-dd sesrievz.	Personal saving is ohw ucmh sbspdl aonlpers ncm is tlf rv ftr prsnl spdngn and is typically about 5 %.
+contradiction	By hetn, the aogrmpr had dadde lrCaolr and anrsyGo iutcnsoe nda het tyic of lxGaa nad dah five attorneys.	Theprogram hadolnyone sinlgeaeonrtty.
+neutral	a@pproaches f}or ᶊetᵵing di⒡$fⱻr$enƫ requirements for ßǭuʶḉeᶳ tͪát pose di%f%fɜ%ren%ᴛ levɇls of haz$ard (ᵵierͥƞᵷ); worßt-cȃsǝ rele㏟ses ä_ɴd oͭ.her ʮazaʴd asseſŝmɝnt issue~s; aĉↀi+ᴅe+nt ǐn=ᵮo=rmȁtй㈞n rɜpȍɹṱińg; public parťiȼi⒫aʈɪon; ѝƞheʀ#en#tl#y safɇ(r aᴘᵱroacḥes; aᴺd йmᴘleɯentatйon ănḋ i<ntegʀ<ȁţ<ɨo<n of sĕčtĭön 11+2 (r) wиth s|taᵵ|ȇ p(roǵȑamᷥ, particulārly state aiŕ peŕmit^t^iߒ^ğ prōgrâṃs.	The hazdra rngae for efitcnfe the iiaddnviu all the way up to the communit.
+neutral	Clearly, Gao needsassisctainzto meatitz' looming human cappittllchal-engees.	The Gao haz beinn receiphing tso many applocatiagne from qhuahlafied job ceeker that they hav had tae rai the bar in higring new employees.
+contradiction	weel Egor criedTommy eagerly.	Tomy din't spieez.
+contradiction	phn th lowar lymmet of that deferentiel ghampoundes t a hffty sum vr time.	The dnfferiitael wlil not grow.
+entailment	Hà kad ㎌òrɢǿƫten aⓑ㈞ǘƫ Åđrin.	Hi's ididn't brmreeem dnAir.
+neutral	The bsst bheach hn rp' t leest tht's' th verdict of it's regulars.	Reraugls soy that in is totally ferer fot ltteir and poltulion.
+entailment	Reportedly thebiggestpayment ade in surch acase, it if hardly a nickinTexaco's annula revenue fo morethan $30.oo billioon.	The biggest payment they ame ayrbl hurt ethir profit.
+contradiction	The flam oder whateve is was hve enoug hea, but ot wass har ato contro.	tho flam wass eas TO contral, but lacke hea.
+contradiction	um pdoran m.e	Im don' ṱ apologizê.
+neutral	However, rhe WRA States may unanimously letition the Adminiztrato 6o det3rmin that the tota emiesions od affected EGU afe reasonably projecte to excee 271,000 ton in 2018 or q later yew and to mai affected EGU s8bjec to th3 requitement; f the new WRA tradin program.	Ʈhe WRAP Štates may nnᴍsly peṫiᵗíöƞ tʮ ᶑmnštʶȃtr ẗo overtǜrᶇ the sₘòkɳġ ḅn.
+entailment	Wf hatr th4m because theu are smart3r, ;r nore ztudious, o4 more focused tjan qe age.	We ahet hetm t of jlsy fr eibng smarter tnh us.
+entailment	Thes uloⱻn coǖld hávę vallŭɐɓlē uȿeᶊ.	Ⓣhese bye tḫemseͮes coulƌ coⓜprǫve vaᴌueable.
+entailment	NearJerusalem	It i"s colse to rm>asJl>e>eu.
+contradiction	\" Teel ᶭe, Hoǘ đi thǒes ścɹibⒷlɘd ⱳords oɲ tht ęnvelope hȩᷞp yoû ᶵo disco⒱ȩʶ wahͭ de wɪlˡ was ₘakeȡ ʏèsteɾdáỷ aḟtèrnoon Egǒȓ"'' Poiŗot smiᶪed. ``	How cȫǚlḋ yőu ȵǿt fḡr ȏǚt tᶣʇ ƭẖr ẉaṣ a wɬˡ ẅrıŧteᶇ ȳsʈrdy?
+entailment	Escaped or abandoned raccoonshave beenbreedingin the irfldwo hpttaes 20 years and ehav onacragmedd crosp, watermelon andmelon arfms, nad rainbowtrout hatcheries, het apper said.	Raccoons, kf fhey areabandoned, tsnd tidamage things-tyisis what has beenhappening for thd past20 years.
+entailment	32 Under tgey Rsa prepposehl, a woerchuf be6wean the ages of 25 andd 60 wihe familgh urnings pf ate lieas6 $5,000 culdw canteribute u; teo $1,000 anjually through either an implwyer-spahhndard ssvinnn p.an wr a tax-deferrrd indaviduahl acc;und.	Moast workers dcuol brcitionu up to $1,000 Ehc haye.
+neutral	seniur mahnnagemand oversight andd arprovele ofrequired acquositiin abjectives aund planes.	th rerefenecd ogrotnziaian is xnspv, wth a nmuebr of thr divisions in atdidion to the snr mgeanmanet dvsn.
+neutral	ʎȇáb 3eľɭ thȇ uh Nℂ ͩoûblr A tournament's g㈞9nģ oǹ ŗighͭ now aᴻd uh i habǝ n'5 waȶcḥɇd it ʇhis yëar beḈxusē ǈoǚȫsvilļe's ojt of it tɦïs yeaŗ	I' 'll wathcing the baseketball tourment nexth yeah.
+contradiction	of crs y cld nnx Cb bt thy wldn't like tht a bt	nnxng Cuba iz ae grt d.
+neutral	\"I have eben tivgisni an old wanmo in eht lgvalie, she eiplednax,```` dna as Lncwerae oltd me uyo wree wtih Muiensor ootPir I tuohhgt I wulod lcla for oyu ."'' ''	I amgőǿḏ fʴienᷘs wįthM㈞nᶊieūȑ Pơirot.
+entailment	( sumsu themillenniumcoverag fromaround theglob, and examine whetherthe Y2K preparationswere a wast . )	( The iilmmlnnue crgaeeov fmor dranou the globe is summed up dna examined).
+contradiction	Tehy are pevied tohurbh the pwoer of thr Government to cpkmel pmaneyt, and the psroen 9r entity hhat pyxs these ffes does not receive ajything of vulae form the Gheevmrnot on ehcxngae.	Tehy are noht lveeid troughh the powr ove they Gemoennvrt tha kompel. pnaemyt.
+entailment	M㈞reoveř,ḼasVégãś ħąs recéȵtlysṭarťed tô ṣhow sigǹsǭfᴍatuʶiᶵy in itscųlͭural staṱũş aᶳ ẅell.	The cuĺṯuʵeof Las Vëgas hăsrecenᵗŀỴ maʇůrǝd.
+entailment	ao Eicr what do u;y h.tin um	H; w d@k y-ou fed@l about it, E_r_ic?
+contradiction	Ceir Jmsz prresoncce in Mhncstyr ws' noth ak'zidentyl.	Manchesterwas noteplaces thatSir ames haved intended to go.
+entailment	Such itrcuemlolo feer dweller as the parrotfis nda Frenc nisglahef, along itw wreidl hespa ocar, crawfis, or stetulr ndigih in crevices, acn be ouyr for the wnigiev in thes lace retwa wher visibilit of 30 m (100 ft) is common.	Ḃecąuṥe ᶹiᷥibilitƴ iˢ šoh good, ỳòu can śee ㎌ɻenʗʜ angéᷞfeeeᷤḩ, cɍawḟaiśh, annd ǫthɇɹ reeeë㎌ ƌwelᷞers.
+entailment	nkremecahB by .SU.	Ḃacěɻmḩᶯk iɳ Ȁɛɱcrïa.

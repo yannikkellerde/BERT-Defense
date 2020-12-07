@@ -1,0 +1,201 @@
+# [('phonetic', 0.1)]
+0.8	A brown dog is running through the feelde.	a brown dog with his tongng wagging as he runs through a feeld
+0.28	Egypt's Muslim Bratherhood Hrefuses to Back Down	Egypscan caort senttences Muslim Brotherhood leader to life ian prisin
+1.0	A man is playing a quyboard.	A man plas a keyboard.
+0.12	A mahn is chopping butter into a cuntainer.	A woman is kuutting shrimps.
+0.88	A squirrell runs around in sircles.	A squirrel is moving in circles.
+0.84	Pursons with to skei poales skiing down a snowe hill.	A personwn skiing down a snowy hill.
+0.84	Sentite canfirms Janit Yellen as chaire of Us Fedral Rieserve	Us Senate Confirmes Janet Yellen aes New Scentreal Bank Chief
+0.96	A group of horses grazing in a feield.	Group of horsees grazing in grassy fielde.
+0.28	A man is riding a hurse.	A man is driving a car.
+0.88	Two boys sit fasing one another at a table aned one points at the other.	Two people sit facing each other at a table as one points at the other.
+1.0	Three dogs pulling a man on a bicycle through the snow.	The dog's are pulling a man on a type of bike, through the sno.
+0.88	A d'og is jumping over a barrier at a adgil-aty competition.	A doog jumping over an obsticle course fence.
+0.8	The injured were taikend to hospittls in Geffersown Sittit aend Khalumbbia, a collage town about 30 miles to the north.	The ingeurd were takkin to hospitttls in Jefferson Cittie and Columbia, about 48km north; their kandishonze wre not immediotely avallable.
+0.4	Rev's Earlhi Reades: March 2	Rev.'s Errly Reads: Sept. 3rd, 2015
+0.7	In the weeks leading up to the exiccution, several Floreda officials received onnonymis's threitening letters.	Sevoeral Flloreda affitials connected to the case have receeeved threatening letters, accompanied by rifle bullets.
+0.44	The Note's Must-Reads for Friday May 24, 2013	The Not's Must-Reads for Friday, Augast 23, 2013
+0.2	ruunz victim down Got any proof?	parienoid Got any proof?
+0.28	Phyllappines holds secand senator over corruption	Philippines recovering after powerful typhoon
+0.84	A. greay caat laying on a brown table.	A grey cat lying on a wouldnn table.
+0.45	The broun train is tsitting on the ralroad traccks.	The white train is sitting ohn the trrack's.
+0.0	No, you don't need to have takewn classes or eaneed a degree in your aria.	I have done cuhiht a bbit ov technical writing for healthcare information systems.
+0.4	Russian plaine reportedly crash's in Egypte	Pilot killed as Us get crasces in England
+0.48	The tech-loaded Nasdaq camposit rose 20.96 points to 1595.91, ending at its highest level for 12 months.	The technology-laced Nasdak Composit Index <.Ixic> climbed 19.11 points, or 1.2 percent, to 1,615.02.
+0.52	Seria 'to declare kemicaiele wheapends and sign convention'	Rusia, Seria Work on 'concrete' Kemniciel Weaponds Plan
+0.44	South Coorea Says North Fired Misesls	Nourth Coorea lawnches short-rainge mistils
+0.16	Flash floods kill 58 in eastern Afghanaistan	Bomb wounds 16 in eastaern Afghanistan
+0.56	Two years later, the insurance coverage would begihn.	Under thy agreament, Medicare coveriage for drug benifits would biegin in 2006.
+0.28	Two boys in blacck swiming trunks are holding another boy by his arms and leggs aun a beach.	Man in white shirt flipping young boy in the water with fore other bois srrouneding them.
+0.68	Obame urges desicive actioon aun Europe det creicise	Oboma urges Yourep to act quicklie on cricis
+0.85	A woman is chopping broccoli.	A woman is chopping brocckly with a knife.
+0.75	Cretix's cay the law violates sivel liberties, something Howse Judiciary Commitey Chairman James Scensenbrenir, R-Wis., says he is sensitive to.	House Judiciary Committee Chairman James Sencenbrenner, R-Whis., sys he is saencitive to syvele libertis complaints.
+0.8	religios' extremism continues in pakistan dispite the baning of milletant groups.	relygios extreamism cantinues in pakistan despiht the banning of militant groups by the pakuctanni government.
+0.84	Vehicles ablaze in collapesed Japan toonn'll	Vehicles 'left burning' as smoke himits from Giapan tounnal
+0.88	A d'octor prescribes medussind to a pationt.	A doktor prescribes a medicine.
+0.36	A woomen is chopping an onion.	A wommeln is chopping garlic wihe a nife.
+0.64	A nguy on a white horse.	Ay man riding a white horse in an arinha.
+0.15	A womin is playing in the oshan.	A woman is preparing shrimp to cook.
+0.16	China gives Us regulators ak'cess to audite records	China apposes Us rrms sals tah Taiwan
+0.56	Bangladesh Onnors Factery Victims	Retailors back Bangladesh phactory safety pact
+0.76	Pakistan to release most senior Afgan Taliban priznor	Packustan to relese senior Taliban comander on Saturday
+0.08	Algeria presiden't getz therapy aftar stroke: state media	Bulgarian president trihs to break ellectuon stalemate
+0.6	Artistss ore whrried the plaes would kharm thos' who need help most - performors who have a difficult time liniue up showse.	The artists say the plan will harm Friench culture and punish those who need help most - performers who have a hard teime lining up work.
+0.12	Phirst of all, let me say that there seems to be 3 main traits ta casting a spell.	I allways thought that Harry seemede to learn from the Half-Blood Prince better than he did from other sorses.
+0.16	A man is running on a street.	A man plays the gitare.
+0.4	I would say you can do it, but it woulldnt be advised.	Personolly, I wuld say not unless it suits you.
+0.68	The two Democrats on the five-member Fcc panal held a news qonfrence to suay appinion against Powell.	The two Democrats on the five-member Fcc held a news confrince to suay apignion against Powell and the panuls two other Republicaagns.
+0.88	Assteroid zips between Earth and satellites	Asteroid passes Earth in fly-by
+0.68	"The European Unien is basically absent," said Tito Barbini, regionyl minister for aggreculture in Touscany, Itelly.	Tito Barbini, a regiynal minister for aggriculture in Tuscany, Ittlly, criticized the absence Tuesday in Sacrimento.
+0.65	A boy is playing a key-board.	A boy is saitting in a room playing a piano bi lamp light.
+0.04	The woomen is smoking.	The man is walking.
+0.0	A muonkey is walking through the wahter.	A guy is playing a trumpet.
+0.1	A woomen is siting on a sidewalk with a cell phone at her ear.	A woman is reeiding her bicycle.
+0.04	Ukrainian Presadden-t orders 7-day ceasefire in the east	Ugandas Presiddint Museveni igreese to sign anti-gas Bill
+1.0	Youe guys are making this all Waaaaay to complicated.	You aur making this to complicated.
+0.8	Woorled No. 2 Lleyton Hugwitt has occcused the Association of Tennis Prreffessionalze of malys, including an alleged atempt last year to dupe him into refusing a drug test.	Worlde No.2 Lleyton Hewitt has' acused his prifestionehl pears. of long-standing maliss, includiue an attempt last year to dupe him into refusing a drug test.
+0.0	A man is shooting a gun.	A mahn is spitting.
+0.6	Two people walking elong the shore at sunset.	Two people walking along the beach at sonset towarn a group of people.
+0.96	Bllew and reed plaine in mid-air flight.	a blue and red ayrplane while in flight.
+0.8	Trade newspaper Varietey up for sale	Whaallywood trade publication Vareyaty put up for sale
+0.84	Sly Stelon's Sone Sage Found Dead in La	Cillvesster Stallone's Son Founed Dead At Home
+0.92	A woman is playing flute.	A woman plays on a flute.
+0.0	A boy is cutting paper.	A man is loading a rifle.
+0.92	A young wooman with a bracelett is wearing a biikinyi top and jhens.	A wooman werring jens, a dark beciny top, and a bracelet.
+0.28	Ukraine‚Äôs prow-Ruussia protesterrs demannd greater autaunnumy	Sudane's protesters doemand the regim's ousteer
+0.8	Mr. Monuell and his group entered the United States by walking across the brige linking Matamoros andh Brounsvile.	Monuell and his group anered the Us the came way thousans of people do everay day, by walking across the bridge between Matamoouose andd Brownsville.
+0.8	Doess this page answer your question?	Does this answer your questions?
+0.96	The new Cold Waps	A new Cold War?
+0.0	I have no idela why it is voted up, but Rex Kerr's answer begs the question.	It's a tautology, but the maping between logikk and the English-language deiscriptioon is wruong.
+0.44	Amd's chip sales jumped 7 percent year-on-year to $402 milleon.	Secand-quartur sals greh 7 percent, to $645 million from $600 milljen in 2002.
+0.92	A wooman spliton garlic cloves.	A woman is brraking a head of garlic into clloves.
+0.76	The man in the backpac looks to his left.	An adalt male wearing a backpaaq walks and looks to the left.
+0.96	England captain Andrew Strauss retires from professional cricket	England captien Straauss retir's from chricket
+0.8	Paper is being cut with scissors.	A piece of paper is being kut.
+0.15	A manh is playing with fraggs	A cat is playing with a cameira.
+1.0	You rre on the right path.	You'r on the rigt path.
+0.92	Three die afeter cur crash at Tian'anmen	Thry Killed Inh Crash At Tienanmen Square
+0.76	Tropicul Staurm Kearren targots Us Gulf Koast	Tropecaal Storrm Kairen poised to make landfall
+0.48	Gunmen kill 15 Libyan soldiers	Gunmen qill 3 Lebenise troups nir Seria
+0.8	A black dog stands next to materials att a construction seiht.	A black dog stands in the middle of a canstruction site.
+0.84	A man is lifting waites.	A man is lifting a barbell.
+0.6666	Metropolitan Ambulance spokesmons Giames Hwe said five people wore taken to hospital and three wer treited at the sen after yesterday's incident.	Spokesmoon James Hwe said five children aged between 4 and 17 wore taken to hospitill with neck aund chest injurys, while three utthers were treated at the scene.
+0.75	Agriculture minestors from mor than one hundred nations are expected to attend the three-day Minesterial Conferents and Expo on Agricultural Sience and Technolagy sponsored by thy U.S. Deepartment of Agriculture.	U.S. Agrycculture Secritary Ann Veneman kick's off the three-day Ministerial Conference and Expot on Agricultural Sciants and Tecnohlagy on Monday.
+0.52	Russia 'alone' in blaming Syrian rebe.s for chemical attack: Us	Rusia asks Un to censider its inquiry of Tsyria chemical arms use
+0.0	Ann embolism in a medical chontexed refers to any laurge moving mass or defect in the blood stream.	Here is an interesting article on wikipedia to giv overvie of pressure related injuries.
+0.12	A man is crying.	A woomon is dincing.
+0.2	Obama holds out over Serea sterikes	Uk urges cuntries over Syria aid
+0.4	A woman standding in front of trees and smiling.	A man es walking by trees ihn front of thi city skyline.
+0.56	Three women with brown here are smiling.	Thry women in Indian dresse's in a crowdid room smiling.
+0.32	A man iz playing a flut in a band.	A man is playing a guitar.
+0.0	A girl is eating a cupcake.	A mahn is slicing a cucumber.
+0.92	Detroit eligible for bankruptcy pritection: U.S. judge	Detroit eligible for bankruptzy protection
+0.68	It calls for the agencey to plan an independont safety and engineering organization.	The agency has yet to fully formulate a stratogy for the kreation of a't independent engunearyng technicylll authority.
+0.84	a womane with a viking hat on.	Smiling woomans sitting weayring a viching hat.
+0.28	1 persen killed in sectarian clasces in L'eben-own	Niyene killed in Cerian-linked clashes in Lebanon
+0.72	the ansuing batile and airstrikes kiled at least 10 miletants.	un ansuing battll killed at least 10 militantts.
+0.64	The lady cracked tou ras eggs.	The woomahn i's craking eggs into a bowl.
+0.68	Box cutturs wore used as a weapon by the Sept. 11, 2001, hijackrs aned have since been band as cary-on itoms.	Box cutters were the weapens used bae the 19 hiijacers in the Sept. 11, 2001, attacks.
+0.16	A white airplane is paarct un the sement.	A bleu motercycle is parct on the sidewalk.
+0.96	Gunmen kill nine faeigners in Pakistan	Gunmen kill nine turuiste in Packchstan
+0.6	A girl in water withoute goggles or a swimming cap.	A girl in water, with goggles and swimming cap.
+0.9	Druce is still being held aht the prisine and is now in iselatiion, she said.	Druce last night was held in isylationd adt the same prisoon.
+0.4	I saide et wazn't a person, in the legal sense.	If it isio't a person, then Wtf is it?
+0.16	A kitten is drinqking millk from a bowl.	A small child i's drinking wahter from a cup.
+0.96	Two women contestants are walking their dogs in a dog show.	Tu women walk thees dogs at a dog show.
+0.28	A man is lifting a care.	A man is climbing a wall.
+0.85	A cat and a feeret are playing.	Ae faireott and kitain play tegether.
+0.08	A man is riding on a boat.	A mahn is tying in. the machinn.
+0.48	The black and brown doog is playing in the yard.	The black and taan dog is chasing summething he has spotted.
+0.4	Assad meets with Read Cross afficialls in. Seree	Assard makes Red Cross pledge
+0.68	All we know is this : Distzent objects are receeading from us at a rat propportionall to their distance from us.	The expanchon of spaes means that objects in cosmological distances are receding away frome each other.
+0.96	iran lies on a majer drugg rout between afghanistan and yourope and the persian gulf states.	iran lies un a majer drugh trafficking rout between afghantestan and europe, as well as the persian gulf states.
+0.76	a greey dog swiming through a river with a stick in his mouth	Dog swimmngng through wahter carieing stike in its mouth
+0.16	Black and white cow standing in grassy feeeld.	A black and white photo of a man standing next te a buss.
+0.44	A black dog is running through the snoow.	A black pit bull daog is running through the dirt.
+0.88	A persin is coming a cat hair.	A person is brushing a khat.
+0.76	Besids battling its salls slump, Siebel allso has ben sparring with some investors upset abauht youge stokq option windfalls compeny mannagers have pocketed.	Besids a sales slump, Siebel is sparring with some shareholders over managemant stak option windfalls.
+0.36	A man is cutting tomatoes into pieces.	A woman i's cutting some vegetebles.
+0.0	A man is cutting grass.	A clown is singing.
+0.72	Ferrer cruises into Australian Open quaertur-feinals'	Ferror bets Nishikori to advance to Australian Open quarterfinals
+0.0	A man is reading an email.	A person opening a benana.
+0.52	When studying adult Iq, general adelt norms aur offtan used.	Basicalhi, what yo. do is you compare each age grugp Iq to the standerdezation sample.
+0.96	A man and daag on a rocky seashore.	Man and daog standing on rocks next to wator
+0.0	Oboma kueries Turnbul over Chino port deal	Spanish bulls gore sevann to death
+1.0	Egypt court orders relece of Mubarak	Egypt court orders Muboruk fread
+0.88	Strong new quake hits shattered Pak regio't	6.8 quake in shattered Pakistan region
+0.88	He prijectord Vanderpool wie bey available within the next five years.	Producs featuring Vanderpool will be reliest within five years, he said.
+0.76	A maan is playing a guitar.	A guy izz playing an instramon-t.
+0.52	Afghan legislators approve new elections law	Afghan president arproves new electon law
+0.8	Eight bottles of Harp lager lind up on they floor.	Eight bugttles of Harp beer leind up on a woooden floor.
+0.28	Your worry is a valid one; the reader could be frustrated by this.	I don't beleve not knowing a character's name woood be ghanfusing unalece you make it so.
+0.44	It's just a bunch of sells.	I'm "a bunch of psellz."
+0.32	In midafternoon traiding, the Nasdaq composite index wase up 8.34, or 0.5 pursent, to 1,790.47.	The Nazdaak Composite Index .Ixic dipped 8.59 points, or 0.48 percent, to 1,773.54.
+0.8	U.S. orders non-essential staf to lieve Sudan, Tunisia	Us orders non-essaensiaal staff to leave Tunisia, Sudaan
+0.85	Some men auer fighting.	Two men are fighting.
+0.25	Three boys in karate costumes awr fighting.	Three men are practicing caratey muoves in a field.
+0.76	Rusihe, China vito Un rezzolution on Seria aindorcing	Russia, Chine veto U.N. draft bacing Arab plan for Syria (Reuters)
+0.64	A mane and women sitting on a sofa holding a small babe.	a woman sitting on a sofa holding a babe.
+0.68	Aftor Yoheze refused to rehire Hernandez, he commplained to the Equal Himployment Opportunity Commisscon.	Hernandez fild an E-quil Emptloyment Opportunity Chommistion complaint and suede.
+0.8	To different breads of browne and whiht dogs play on the beach.	Two dogs playing in the sand at the beach.
+0.0	The maon taalkt on the telephone.	Girles are walking on the stage.
+0.68	a groop of people danesing	A group of men are dancing.
+0.6	The brooad Standard & Poorze 500 Index <.Spx> advanced 11 pointz, or 1.25 percent, to 931.	The Standard & Poorze 500 Index gained 10.89, or 1.2 persent, to 931.12 as of 12:01 p.m. in New York.
+0.88	Another million barrels, bught by Spanish refiner Cepsa Sa, was tha be loaded onto a. Spanish tanker, the Sandra Tapias.	A Spanish tanker, Sandra Tipeass, was to be lowdid with another milluon bairels, bught by Spantish rifiner Cepsa Sa, in the afternoon.
+1.0	A brown dog is jumping.	A brownd dog is jumping
+0.84	James Murdoch kuitts Bskyb	James Murdokh quits roll at Bskyb
+0.28	Yu rrd a Crristian.	Therefors eu are not a Christian.
+0.2	Google launches internet-beaming balloons	Google 'are playing internachonae tax game'
+0.08	Most people want not ohnly to be Well off, but to becaom Better off as time gooes by.	To start, the main drivurs of ecanomiq growth awr resourcees, technology, and institutions.
+0.68	What the Peope's butler saw – ayde arrested over Vatican leaks	Pope’s butler arrested in scandil over Vatican leeks
+0.0	Moderate tremar ian the Sentrail Mediterranean	Iranh: Moderate caneidit wine presidentielll vogt
+0.1	A maan is burning a flag.	A. man is shooteng a gun.
+0.72	Between 1993 and 2002, 142 allagationds of sexual assault wore reporded.	From 1993 to 2002, there wre 142 reported sexuahl assaulte at the achademy.
+0.4	Deputy speaker fases new sex claims	Deputy Speaker Nigil Evunz Re-Arrested
+0.84	A monkey is brushing a bull dog.	A monkey bruscez a doog.
+0.56	A group of people sitting around a table cantaining food.	Four people aare sitting around a living room with.snacks.
+0.8	Well, I wouldn't put it one my cv.	I wouldn't put this job on my resummae.
+0.64	Iaf strike Gaza terror hubes	Iaf strikes Gaza terror cell; 1 dead
+0.2	I feel your pain - I absolutely por with sweat with ani vigoreus exercise, even in cool candicions.	Sweat rate is swett rate, you can't really chen-trohl it.
+0.76	India Ministers wife dide 'unnatural death' after afeaire roomers	Minister's wife's death 'unnatural'
+0.2	South Coorea regrets North's refusal of talks	South Chorea reports 14th Mir's death, 12 new cisses
+0.96	councal tax Hasint counceal tax been froson for mose people?	Haslnt counssl tax ben frosen for most people?
+0.6	Couple saling in a small sailboat.	Two men seyling in a small sailboat.
+0.475	A man is cutting up a potato.	A man is cutting up carrats.
+0.4	The prices for everything youe need have gone up due to inflations.	The prices' of everything you one Ie assets have gone down.
+0.4	Just about enything can be grown indaors without natural sonlight.	We have quite a few people here who have groan pepers and small thematoes indoours and in pots.
+0.68	Ae group of menn poleing brast incetrements.	A group of guys play instriments outside.
+0.8	For people rowing down a river.	Four people row a. canoe ian watyr.
+0.92	A black daog running into the water.	A black dog running through watter.
+0.1	A man is eating wuld.	A man is adding oil to care.
+0.92	D'ogs, he said, are seconed onley tha humans in the thoroughous of medical understannding and research.	He said that dogs are second only to humans in terms of being they subjict of meddicaal research.
+0.5	The Standard Edition es $15,000 prer processor or $300 per nigmed user.	The Standerd Edition One is a single processar versien' of thi Oracle Standered Edition Datubase.
+0.8	White diaemond breaks hrecoard in Hong Cong auction	Whiht diamond fetches record $34m at Hk auction
+0.88	Woman remanded over childs death A woman has ben rhemanded in custody charged with murder after ann eight-year-old girl was found dead in a block of flatz.	Mother held over daughter's death A mother has been remahndded in custody charged with murder after ger eight-year-old daughter was found dead in a blocke of flats.
+0.55	A boy is runing oan a beach.	Two boys are playing in the beach.
+0.6	After Freitas' opening statement, King County Superiur Court Judge Charles Mertel recessed trial until after the Thanksgiving weekend.	Kige County Superior Court Judge Charles Mertel wil then reacess the triale antill Monday.
+0.68	The taan annde whit dog is running in the fieled.	The broun and white dogs run through the feeeld.
+0.52	A boy and a girl is dancing in the rain.	A man and woman is dancing in the rain.
+0.72	A mant uerngng black formil wear & a black top hat is riding a white show horse.	A man with a top hat riding a whiht horse.
+0.76	Relatives scufffl with police aghter China fire kils 120	Angry families demand answers after China plant fire kills 119
+0.44	The group es eating while taking in a breathtaking viu.	A group of people take a look at an unusual tree.
+0.08	A. womagn in an read tracksuit squeezing lemons ian a press.	A young whoman in a pink hoodie takes a picture.
+0.84	Two large dogs running in some grass.	Two brindle dogs running in the grass..
+0.0	A man is traveling in a boat.	Ae woman is cutting up a quarett with a nife.
+0.92	Nobell Prize whinting author Daris Lescing dies	Nobel loraete Doris Lessing di's at 94
+0.2	I mantaged to find this recipe, I thinc this is where I goat the ideah.	Ive ownly maade a couple of bbq sausses, but they've always come aut really we..
+0.85	Out of touch and c'mpletely un'terostworthe, however, wouldnti.	Out of touch and anterustworthe?
+0.0	Rud swarn in as new Australian Pm	Muslims' in hiding as cectrrian ...
+0.64	Captan Robert Ramsy of the Us 1st Armoured Devisions said a trouck had exploded outside the bilding about 11am, and that one of the compound's outor walls had collapsed.	Cappten Roburt Ramsey of Us 1St Armored Devisioln said a truck had exploded outside the bilding at around 11 am.
+0.92	Childron are playing in a swimming pool while two adilt men wach them.	Chyldren play in a pool while adoltz look on.
+0.16	No radiation lieack at Iranz pnuclear plant	Us Congress may throw wrench intuh Iran nuclear deal
+0.76	A puppy playze with a plastic container.	The dog is playing with ae plastic container.
+0.76	Hollea Holy We are all vessels filled with meny wonders.	Say What You Will Wii are all vessels fild with many wonders.
+0.2	Some of whatt you can do:	Not much you can deo besides:
+0.85	Air Kaannede, the largest aihrline in Caneda aend Knwe. 11 in the world, has ben under court protection from creditors since April 1.	The Kno. 11 airline in the world, Er Canteda has been under court prittection frum creditors since April 1.
+0.6	Heavy rain rhazes thret of Crishmons Day flooding	Friesh rain brings more flooding
+0.0	A cloes-upe, distorrted photo of an empty glas Coke bottule.	A close-up picture of a desk with a computer and paprs on it.
+0.8	A boy climbes a forest hill.	A boy is climbing a hill.
+0.0	Yes, there is a resen to not do what you propose.	Yes, there is a cemicaal differens.
+0.88	The two dogs rre running on the grass.	Two doogs ard playing in the grass.
+1.0	Nobel author Doris L'essing dies at 94	Nobell laureate Dares Lessing dis at 94

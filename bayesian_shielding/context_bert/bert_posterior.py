@@ -196,24 +196,25 @@ class BertPosterior():
                 weights_tensor[i+1][dicts[i][j]] = p[j]/mysum
         return attention_mask,weights_tensor
 
-    def batch_bert_posterior(self,priors_hypform:List[List[Tuple[float,List[Tuple[np.ndarray,List[str]]]]]],batch_size:int=128) -> List[List[Tuple[float,List[Tuple[np.ndarray,List[str]]]]]]:
+    def batch_bert_posterior(self,priors_hypform:List[List[Tuple[float,List[Tuple[np.ndarray,List[str]]]]]],batch_size:int=64) -> List[List[Tuple[float,List[Tuple[np.ndarray,List[str]]]]]]:
         priors_nd_word_dics = sum([[content for prob,content in hyps] for hyps in priors_hypform],[])
         priors:List[List[np.ndarray]] = [[x[0] for x in hyp] for hyp in priors_nd_word_dics]
         all_word_dics:List[List[List[str]]] = [[x[1] for x in hyp] for hyp in priors_nd_word_dics]
         #priors,all_word_dics = zip(*priors_nd_word_dics)
         orig_priors = [x.copy() for x in priors]
-        max_prior_len = max(len(x) for x in priors)
         all_alreadys = [np.zeros(len(prior)) for prior in priors]
         all_bert_dics:List[List[List[int]]] = [[[self.tokenizer.vocab[word] for word in word_dic] for word_dic in word_dics] for word_dics in all_word_dics]
         with torch.no_grad():
-            for i in trange(max_prior_len):
+            for i in trange(30):
                 likelihoods = []
                 all_mask_ids = []
-                for i in trange(0,len(priors),batch_size):
+                for i in range(0,len(priors),batch_size):
                     weights_tensors = []
                     attention_masks = []
                     mask_ids = []
-                    for prior,alreadys,word_dics,bert_dics in zip(priors[i:i+batch_size],all_alreadys[i:i+batch_size],all_word_dics[i:i+batch_size],all_bert_dics[i:i+batch_size]):
+                    priors_part = priors[i:i+batch_size]
+                    max_prior_len = max(len(x) for x in priors_part)+1
+                    for prior,alreadys,word_dics,bert_dics in zip(priors_part,all_alreadys[i:i+batch_size],all_word_dics[i:i+batch_size],all_bert_dics[i:i+batch_size]):
                         attention_mask,weights_tensor,mask_id = self.get_weights_tensor(prior,word_dics,alreadys=alreadys,bert_dics=bert_dics,max_prior_len=max_prior_len)
                         weights_tensors.append(weights_tensor)
                         attention_masks.append(attention_mask)

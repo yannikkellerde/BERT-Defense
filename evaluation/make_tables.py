@@ -49,13 +49,13 @@ for i,row in df.iterrows():
     elif "pyspellchecker" in doc:
         method = "pyspellchecker"
     elif "Adversarial_Misspellings" in doc:
-        method = "Adversarial_Misspellings" 
+        method = "danishpruthi" 
     methods.append(method)
 
 df["method"] = methods
 df["attacks"] = attacks
 
-evals = ["mover","sts-b","bleu","rouge-1"]
+evals = ["mover","sts-b","bleu","rouge-1","editdistance"]
 
 table_data = {x:[] for x in evals}
 

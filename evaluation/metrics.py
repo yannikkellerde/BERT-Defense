@@ -1,5 +1,6 @@
 import sys
-import os 
+import os
+import editdistance
 sys.path.append("..")
 sys.path.append("../bayesian_shielding")
 from benchmark_tasks.STSB.RoBERTa_handler import init_model_roberta,simple_sentence_embedder
@@ -33,6 +34,11 @@ def mover_score(reference, sentence):
     idf_dict_ref = defaultdict(lambda: 1.)
     return word_mover_score([reference], [sentence], idf_dict_ref, idf_dict_hyp)
 
+def edit_distance(reference, sentence, lower=True):
+    if lower:
+        reference = reference.lower()
+        sentence = sentence.lower()
+    return editdistance.eval(reference, sentence)
 
 def direct_evaluation(datafile, attackfunc, cleanfunc):
     sentences = only_read_dataset(datafile)
