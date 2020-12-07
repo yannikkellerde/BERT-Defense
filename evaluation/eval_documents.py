@@ -9,6 +9,8 @@ import metrics
 sys.path.append("../bayesian_shielding")
 from benchmark_tasks.STSB.RoBERTa_handler import init_model_roberta,simple_sentence_embedder
 from util.utility import cosine_similarity,read_labeled_data
+import warnings 
+warnings.filterwarnings("ignore")
 
 roberta = init_model_roberta()
 def eval_document(ground_truth, cleaned):
@@ -58,6 +60,8 @@ if __name__ == "__main__":
     #documents = [os.path.join("attacked_documents",x) for x in os.listdir("attacked_documents")]
     #documents.extend([os.path.join("cleaned/priors/txts",x) for x in os.listdir("cleaned/priors/txts")])
     #documents.extend([os.path.join("cleaned/bayesian_shielding",x) for x in os.listdir("cleaned/bayesian_shielding")])
-    documents.extend([os.path.join("cleaned/nocheap_bayesian_shielding",x) for x in os.listdir("cleaned/nocheap_bayesian_shielding")])
-    documents.extend([os.path.join("cleaned/nocheap_priors/txts",x) for x in os.listdir("cleaned/nocheap_priors/txts")])
+    #documents.extend([os.path.join("cleaned/nocheap_bayesian_shielding",x) for x in os.listdir("cleaned/nocheap_bayesian_shielding")])
+    #documents.extend([os.path.join("cleaned/nocheap_priors/txts",x) for x in os.listdir("cleaned/nocheap_priors/txts")])
+    documents.extend([os.path.join("cleaned/Adversarial_Misspellings", x) for x in os.listdir("cleaned/Adversarial_Misspellings")])
+    documents.extend([os.path.join("cleaned/pyspellchecker", x) for x in os.listdir("cleaned/pyspellchecker")])
     eval_many(ground_truth,documents,"evaluation.csv")
