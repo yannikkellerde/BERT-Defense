@@ -37,11 +37,14 @@ def create_human_test_data(ground_truth, attack_path, attacked_documents, senten
                    break
             if cond == len(cond_list)-1:
                 print("Warning Element not added")
+    all_sentcs = 0
     for condition, i in zip(cond_list, range(len(cond_list))):
+        all_sentcs += len(condition)
         stim, truth, catagory = zip(*condition)
         data = {"stimulus":stim, "Truth":truth, "Class":catagory}
         df = pd.DataFrame(data=data)
-        df.to_csv(f"exp_data/csv_data_cond{i}", index=False)
+        df.to_csv(f"exp_data/csv_data_cond{i}.csv", index=False, sep="\t")
+    print(all_sentcs)
 
 
 def get_all_attacked_docs(attack_path):
