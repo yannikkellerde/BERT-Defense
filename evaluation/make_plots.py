@@ -37,8 +37,6 @@ methods = []
 attacks = []
 for i,row in df.iterrows():
     doc = row["document"]
-    with open(os.path.join("attacked_documents",os.path.basename(doc)), "r", encoding="utf-8") as f:
-        attacks.append(attack_map(f.readline()[2:]))
     if "nocheap_priors" in doc:
         method = "ours bp (only priors)"
     elif "nocheap_bayesian_shielding" in doc:
@@ -53,17 +51,26 @@ for i,row in df.iterrows():
         method = "pyspellchecker"
     elif "Adversarial_Misspellings" in doc:
         method = "danishpruthi" 
+    elif "human" in doc:
+        method = "human"
+    if method == "human":
+        attacks.append(doc.split("/")[1].replace(";",","))
+    else:
+        with open(os.path.join("attacked_documents",os.path.basename(doc)), "r", encoding="utf-8") as f:
+            attacks.append(attack_map(f.readline()[2:]))
     methods.append(method)
 
 df["method"] = methods
 df["attacks"] = attacks
 
 at_uniq = list(pd.unique(df["attacks"]))
+at_uniq = ["vi:0.3","nt:0.3","dv:0.3","ph:0.3","fs:0.3","sg:0.5,kt:0.3","rd:0.3,rd:0.3","ph:0.7","rd:0.6,rd:0.6"]
 me_uniq = pd.unique(df["method"])
 colormap = {"danishpruthi":"#0000ff","pyspellchecker":"#6600cc","no cleaning":"#808080","ours bp (only priors)":"#cc9900",
-            "ours fp (only priors)":"#ffcc00","ours bp (full pipeline)":"#ff3300","ours fp (full pipeline)":"#800000"}
+            "ours fp (only priors)":"#ffcc00","ours bp (full pipeline)":"#ff3300","ours fp (full pipeline)":"#800000",
+            "human":"#006600"}
 me_uniq = list(colormap.keys())
-measures = ["sts-b","bleu","rouge-1","rouge-4","rouge-l","rouge-w","editdistance","mover","mnli"]
+measures = ["sts-b","bleu","rouge-1","rouge-4","rouge-l","rouge-w","editdistance","mover"]
 
 def scatter_plots():
     for measure in measures:
@@ -125,6 +132,6 @@ def line_plots(methods):
         set_xmargin(fig.axes[0],left=0.03,right=0.0)
         plt.savefig(os.path.join(home_path,f"{measure}.svg"))
         plt.cla()
-scatter_plots()
+#scatter_plots()
 #line_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","danishpruthi","pyspellchecker"])
-line_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","ours bp (only priors)","ours fp (only priors)"])
+line_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","human"])

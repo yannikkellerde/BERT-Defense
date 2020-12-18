@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="204mm"
+   height="130mm"
+   viewBox="0 0 204 130"
+   version="1.1"
+   id="svg4255"
+   inkscape:version="1.0.1 (3bc2e81, 2020-09-07)"
+   sodipodi:docname="prior.svg">
+  <defs
+     id="defs4249">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1301" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="274.99829"
+     inkscape:cy="542.07384"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4252">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="42.806118"
+       y="8.2876158"
+       id="text4261"><tspan
+         sodipodi:role="line"
+         id="tspan4259"
+         x="42.806118"
+         y="8.2876158"
+         style="font-size:8.46667px;stroke-width:0.264583">Ĥe is ŗйdɨߒg a sktaebaord</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="49.870766"
+       y="42.214073"
+       id="text4267"><tspan
+         sodipodi:role="line"
+         x="49.870766"
+         y="42.214073"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         id="tspan4269">Hypothesis 1 (72%):</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="16.972132"
+       y="55.221657"
+       id="text4275"><tspan
+         sodipodi:role="line"
+         id="tspan4273"
+         x="16.972132"
+         y="55.221657"
+         style="font-size:4.93889px;stroke-width:0.264583">0.5%: He</tspan><tspan
+         sodipodi:role="line"
+         x="16.972132"
+         y="61.395267"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         id="tspan4277">0.4%: Be</tspan></text>
+    <circle
+       id="path4289"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="29.393414"
+       cy="64.103355"
+       r="0.39687499" />
+    <circle
+       id="path4291"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="29.392918"
+       cy="66.103363"
+       r="0.39687499" />
+    <circle
+       id="path4293"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="29.392918"
+       cy="68.103386"
+       r="0.39687499" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="48.143776"
+       y="55.308479"
+       id="text4275-4"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7"
+         x="48.143776"
+         y="55.308479"
+         style="font-size:4.9389px;stroke-width:0.264583">0.8%: is</tspan><tspan
+         sodipodi:role="line"
+         x="48.143776"
+         y="61.482105"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4277-4">0.3%: its</tspan></text>
+    <circle
+       id="path4289-4"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="60.565048"
+       cy="64.190186"
+       r="0.39687499" />
+    <circle
+       id="path4291-3"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="60.564552"
+       cy="66.190178"
+       r="0.39687499" />
+    <circle
+       id="path4293-0"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="60.564552"
+       cy="68.190186"
+       r="0.39687499" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="79.614883"
+       y="55.308479"
+       id="text4275-4-7"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7-8"
+         x="79.614883"
+         y="55.308479"
+         style="font-size:4.9389px;stroke-width:0.264583">0.22%: ending</tspan><tspan
+         sodipodi:role="line"
+         x="79.614883"
+         y="61.482105"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4355">0.21%: riding</tspan></text>
+    <circle
+       id="path4289-4-8"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="96.798592"
+       cy="64.190208"
+       r="0.39687499" />
+    <circle
+       id="path4291-3-8"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="96.798103"
+       cy="66.190201"
+       r="0.39687499" />
+    <circle
+       id="path4293-0-4"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="96.798103"
+       cy="68.190216"
+       r="0.39687499" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="121.05524"
+       y="55.345329"
+       id="text4275-4-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7-8-1"
+         x="121.05524"
+         y="55.345329"
+         style="font-size:4.9389px;stroke-width:0.264583">3%: a</tspan><tspan
+         sodipodi:role="line"
+         x="121.05524"
+         y="61.518955"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4355-4">1%: (</tspan></text>
+    <circle
+       id="path4289-4-8-9"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="128.71397"
+       cy="64.227058"
+       r="0.39687499" />
+    <circle
+       id="path4291-3-8-2"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="128.71347"
+       cy="66.227051"
+       r="0.39687499" />
+    <circle
+       id="path4293-0-4-0"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="128.71347"
+       cy="68.227066"
+       r="0.39687499" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="140.22511"
+       y="55.603004"
+       id="text4275-4-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7-8-9"
+         x="140.22511"
+         y="55.603004"
+         style="font-size:4.9389px;stroke-width:0.264583">1.1%: starboard</tspan><tspan
+         sodipodi:role="line"
+         x="140.22511"
+         y="61.77663"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4355-5">0.5%: steward</tspan></text>
+    <circle
+       id="path4289-4-8-0"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="157.4088"
+       cy="64.484718"
+       r="0.39687499" />
+    <circle
+       id="path4291-3-8-4"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="157.40831"
+       cy="66.484711"
+       r="0.39687499" />
+    <circle
+       id="path4293-0-4-8"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="157.40831"
+       cy="68.484726"
+       r="0.39687499" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264999"
+       id="rect4449"
+       width="26.993412"
+       height="21.85177"
+       x="15.391666"
+       y="49.76162" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264999"
+       id="rect4449-7"
+       width="26.993412"
+       height="21.85177"
+       x="46.656052"
+       y="49.605217" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.320196"
+       id="rect4449-1"
+       width="39.459248"
+       height="21.824219"
+       x="77.762596"
+       y="49.890808" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4449-1-7"
+       width="16.058811"
+       height="21.860432"
+       x="120.39225"
+       y="49.859207" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.329319"
+       id="rect4449-1-2"
+       width="41.757339"
+       height="21.815096"
+       x="139.63046"
+       y="49.86377" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="51.337566"
+       y="91.039627"
+       id="text4267-7"><tspan
+         sodipodi:role="line"
+         x="51.337566"
+         y="91.039627"
+         style="font-size:8.46667px;stroke-width:0.264583"
+         id="tspan4269-2">Hypothesis 2 (28%):</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="7.6183343"
+       y="104.14884"
+       id="text4275-2"><tspan
+         sodipodi:role="line"
+         id="tspan4273-6"
+         x="7.6183343"
+         y="104.14884"
+         style="font-size:4.9389px;stroke-width:0.264583">0.5%: He</tspan><tspan
+         sodipodi:role="line"
+         x="7.6183343"
+         y="110.32246"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4277-1">0.4%: Be</tspan></text>
+    <circle
+       id="path4289-0"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="20.039608"
+       cy="113.03065"
+       r="0.39687499" />
+    <circle
+       id="path4291-6"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="20.039112"
+       cy="115.03065"
+       r="0.39687499" />
+    <circle
+       id="path4293-1"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="20.039112"
+       cy="117.03067"
+       r="0.39687499" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="38.789967"
+       y="104.23563"
+       id="text4275-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7-9"
+         x="38.789967"
+         y="104.23563"
+         style="font-size:4.9389px;stroke-width:0.264583">0.8%: is</tspan><tspan
+         sodipodi:role="line"
+         x="38.789967"
+         y="110.40925"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4277-4-4">0.3%: its</tspan></text>
+    <circle
+       id="path4289-4-9"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="51.211235"
+       cy="113.11746"
+       r="0.39687499" />
+    <circle
+       id="path4291-3-0"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="51.210739"
+       cy="115.11752"
+       r="0.39687499" />
+    <circle
+       id="path4293-0-9"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="51.210739"
+       cy="117.11752"
+       r="0.39687499" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="70.261078"
+       y="104.23563"
+       id="text4275-4-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7-8-7"
+         x="70.261078"
+         y="104.23563"
+         style="font-size:4.9389px;stroke-width:0.264583">0.22%: ending</tspan><tspan
+         sodipodi:role="line"
+         x="70.261078"
+         y="110.40925"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4355-7">0.21%: riding</tspan></text>
+    <circle
+       id="path4289-4-8-1"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="87.444778"
+       cy="113.11752"
+       r="0.39687499" />
+    <circle
+       id="path4291-3-8-1"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="87.44429"
+       cy="115.11752"
+       r="0.39687499" />
+    <circle
+       id="path4293-0-4-5"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="87.44429"
+       cy="117.11752"
+       r="0.39687499" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="111.70142"
+       y="104.27248"
+       id="text4275-4-7-3-9"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7-8-1-7"
+         x="111.70142"
+         y="104.27248"
+         style="font-size:4.9389px;stroke-width:0.264583">3%: a</tspan><tspan
+         sodipodi:role="line"
+         x="111.70142"
+         y="110.4461"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4355-4-7">1%: (</tspan></text>
+    <circle
+       id="path4289-4-8-9-6"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="119.36013"
+       cy="113.15437"
+       r="0.39687499" />
+    <circle
+       id="path4291-3-8-2-7"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="119.35963"
+       cy="115.15437"
+       r="0.39687499" />
+    <circle
+       id="path4293-0-4-0-3"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="119.35963"
+       cy="117.15437"
+       r="0.39687499" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="130.87134"
+       y="104.53018"
+       id="text4275-4-7-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7-8-9-5"
+         x="130.87134"
+         y="104.53018"
+         style="font-size:4.9389px;stroke-width:0.264583">0.7%: skate</tspan><tspan
+         sodipodi:role="line"
+         x="130.87134"
+         y="110.7038"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4355-5-6">0.4%: site</tspan></text>
+    <circle
+       id="path4289-4-8-0-3"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="145.40923"
+       cy="113.41199"
+       r="0.39687499" />
+    <circle
+       id="path4291-3-8-4-9"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="145.40874"
+       cy="115.41206"
+       r="0.39687499" />
+    <circle
+       id="path4293-0-4-8-4"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="145.40874"
+       cy="117.41206"
+       r="0.39687499" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264999"
+       id="rect4449-8"
+       width="26.993412"
+       height="21.85177"
+       x="6.0378656"
+       y="98.688698" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264999"
+       id="rect4449-7-1"
+       width="26.993412"
+       height="21.85177"
+       x="37.302242"
+       y="98.532288" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.320196"
+       id="rect4449-1-29"
+       width="39.459248"
+       height="21.824219"
+       x="68.408783"
+       y="98.817902" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4449-1-7-3"
+       width="16.058811"
+       height="21.860434"
+       x="111.03844"
+       y="98.786331" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.283539"
+       id="rect4449-1-2-9"
+       width="30.889795"
+       height="21.860878"
+       x="130.2538"
+       y="98.767998" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="165.46526"
+       y="104.53018"
+       id="text4275-4-7-4-6-0"><tspan
+         sodipodi:role="line"
+         id="tspan4273-7-8-9-5-8"
+         x="165.46526"
+         y="104.53018"
+         style="font-size:4.9389px;stroke-width:0.264583">0.2%: board</tspan><tspan
+         sodipodi:role="line"
+         x="165.46526"
+         y="110.7038"
+         style="font-size:4.9389px;stroke-width:0.264583"
+         id="tspan4355-5-6-8">0.1%: baird</tspan></text>
+    <circle
+       id="path4289-4-8-0-3-5"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="180.00314"
+       cy="113.41199"
+       r="0.39687499" />
+    <circle
+       id="path4291-3-8-4-9-0"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="180.00266"
+       cy="115.41206"
+       r="0.39687499" />
+    <circle
+       id="path4293-0-4-8-4-9"
+       style="fill:#000000;stroke:none;stroke-width:0.264583"
+       cx="180.00266"
+       cy="117.41206"
+       r="0.39687499" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.289947"
+       id="rect4449-1-2-9-6"
+       width="32.311592"
+       height="21.854471"
+       x="164.85092"
+       y="98.771202" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect5221"
+       width="201.28859"
+       height="99.23983"
+       x="0.88887602"
+       y="29.073654" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.390026;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 101.37319,11.276591 v 17.57534"
+       id="path5229" />
+  </g>
+</svg>

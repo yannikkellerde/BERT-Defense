@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="185mm"
+   height="107mm"
+   viewBox="0 0 185 107"
+   version="1.1"
+   id="svg5773"
+   inkscape:version="1.0.1 (3bc2e81, 2020-09-07)"
+   sodipodi:docname="GPT.svg">
+  <defs
+     id="defs5767">
+    <marker
+       style="overflow:visible"
+       id="marker6663"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6661" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6557"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6555" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6515"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6513" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6473"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6471" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6417"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6415" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1301" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="174.41708"
+     inkscape:cy="373.51454"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5770">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="3.4120202"
+       y="9.9092054"
+       id="text5779"><tspan
+         sodipodi:role="line"
+         id="tspan5777"
+         x="3.4120202"
+         y="9.9092054"
+         style="font-size:6.35px;stroke-width:0.264583">Hypothesis 1 (Prior: 72%):</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="8.9389277"
+       y="19.999048"
+       id="text5783"><tspan
+         sodipodi:role="line"
+         id="tspan5781"
+         x="8.9389277"
+         y="19.999048"
+         style="font-size:5.64444px;stroke-width:0.264583">He is riding a starboard.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="100.68729"
+       y="9.8927717"
+       id="text5779-3"><tspan
+         sodipodi:role="line"
+         id="tspan5777-8"
+         x="100.68729"
+         y="9.8927717"
+         style="font-size:6.35px;stroke-width:0.264583">Hypothesis 2 (Prior: 28%):</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="105.34853"
+       y="19.710308"
+       id="text5783-5"><tspan
+         sodipodi:role="line"
+         id="tspan5781-6"
+         x="105.34853"
+         y="19.710308"
+         style="font-size:5.64444px;stroke-width:0.264583">He is riding a skateboard.</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.499999"
+       id="rect5809"
+       width="86.387695"
+       height="23.398621"
+       x="0.60096496"
+       y="0.64420247" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.499999"
+       id="rect5809-1"
+       width="86.387695"
+       height="23.398621"
+       x="97.881264"
+       y="0.81600118" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.2889px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="80.423019"
+       y="51.238934"
+       id="text5830"><tspan
+         sodipodi:role="line"
+         id="tspan5828"
+         x="80.423019"
+         y="51.238934"
+         style="font-size:11.2889px;stroke-width:0.264583">GPT</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.499999"
+       id="rect5832"
+       width="27.985424"
+       height="14.303749"
+       x="77.81781"
+       y="40.208054" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6417)"
+       d="m 140.44348,24.495349 -0.19585,7.440474 h -40.17137 l 0.19278,8.153186"
+       id="path5836" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.259797;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 39.335542,24.439556 0.09172,7.495795 h 42.773032 l 0.21026,8.270419"
+       id="path5838" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="7.6054845"
+       y="87.249817"
+       id="text6453"><tspan
+         sodipodi:role="line"
+         id="tspan6451"
+         x="7.6054845"
+         y="87.249817"
+         style="font-size:6.35px;stroke-width:0.264583">H1: -1175</tspan><tspan
+         sodipodi:role="line"
+         x="7.6054845"
+         y="95.187317"
+         style="font-size:6.35px;stroke-width:0.264583"
+         id="tspan6455">H2: -330</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="76.831627"
+       y="87.270523"
+       id="text6459"><tspan
+         sodipodi:role="line"
+         id="tspan6457"
+         x="76.831627"
+         y="87.270523"
+         style="font-size:6.35px;stroke-width:0.264583">H1: 2%</tspan><tspan
+         sodipodi:role="line"
+         x="76.831627"
+         y="95.208023"
+         style="font-size:6.35px;stroke-width:0.264583"
+         id="tspan6461">H2: 98%</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.251643;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect6463"
+       width="34.454071"
+       height="19.887209"
+       x="5.0503354"
+       y="78.751175" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect6465"
+       width="31.062187"
+       height="17.951185"
+       x="74.393906"
+       y="80.127182" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.307574px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6515)"
+       d="m 92.332016,55.164623 0.10797,12.57971 H 20.747383 l 0.157071,11.006844"
+       id="path6511" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="29.307955"
+       y="65.747948"
+       id="text6549"><tspan
+         sodipodi:role="line"
+         id="tspan6547"
+         x="29.307955"
+         y="65.747948"
+         style="stroke-width:0.264583">Language modeling</tspan><tspan
+         sodipodi:role="line"
+         x="29.307955"
+         y="71.92157"
+         style="stroke-width:0.264583"
+         id="tspan6551">            score</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.270686px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6557)"
+       d="m 39.429969,89.294253 34.103267,-0.30846"
+       id="path6553" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="41.530804"
+       y="87.687714"
+       id="text6597"><tspan
+         sodipodi:role="line"
+         id="tspan6595"
+         x="41.530804"
+         y="87.687714"
+         style="stroke-width:0.264583">Softmax</tspan><tspan
+         sodipodi:role="line"
+         x="41.530804"
+         y="93.861336"
+         style="stroke-width:0.264583"
+         id="tspan6599">θ = 0.005</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="73.933342"
+       y="103.8127"
+       id="text6621"><tspan
+         sodipodi:role="line"
+         id="tspan6619"
+         x="73.933342"
+         y="103.8127"
+         style="font-size:6.35px;stroke-width:0.264583">Likelihood</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="141.47876"
+       y="88.602631"
+       id="text6453-1"><tspan
+         sodipodi:role="line"
+         id="tspan6451-5"
+         x="141.47876"
+         y="88.602631"
+         style="font-size:6.35px;stroke-width:0.264583">H1: 5%</tspan><tspan
+         sodipodi:role="line"
+         x="141.47876"
+         y="96.540131"
+         style="font-size:6.35px;stroke-width:0.264583"
+         id="tspan6455-9">H2: 95%</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.251643;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect6463-8"
+       width="34.454071"
+       height="19.887209"
+       x="138.92361"
+       y="80.103989" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6663)"
+       d="m 105.80102,89.323463 33.15574,0.0596"
+       id="path6659" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="107.5025"
+       y="88.469994"
+       id="text6709"><tspan
+         sodipodi:role="line"
+         id="tspan6707"
+         x="107.5025"
+         y="88.469994"
+         style="stroke-width:0.264583">Bayes Rule</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="142.15709"
+       y="105.5983"
+       id="text6713"><tspan
+         sodipodi:role="line"
+         id="tspan6711"
+         x="142.15709"
+         y="105.5983"
+         style="font-size:6.35px;stroke-width:0.264583">Posterior</tspan></text>
+  </g>
+</svg>
