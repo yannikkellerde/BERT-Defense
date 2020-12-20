@@ -66,7 +66,7 @@ def evaluate_data(datafile):
         results["edit_distance"].append((atk, np.mean(edit_distance)))
         results["rough"].append((atk, np.mean(rough)))
     build_plots(results)
-    return results
+    return results, evaled_data
 
 def build_plots(results):
     plot_length = len(results)
@@ -81,9 +81,36 @@ def build_plots(results):
     plt.show()
         
 
-
-    
-
+def evaluate_vp(scored_data):
+    data = pd.read_csv("human_data/eval_data.csv", sep="\t")
+    question_data = pd.read_csv("human_data/questiondata.csv", header=None)
+    vp = data["vp"].tolist()
+    vp_q = question_data[0].tolist()
+    question_typ = question_data[1].tolist()
+    ans = question_data[2].tolist()
+    questions = zip(vp_q, question_typ, ans)
+    print("Total subjects: ", len(set(vp_q)))
+    print("Data used subjects: ", len(set(vp)))
+    print("Rejected Subjects: ", len(set(vp_q))-len(set(vp)))
+    print("Sentences per Subject: ", len(list(filter(lambda x: x == vp_q[0], vp))))
+    relevant_questions = list(filter(lambda x: x[0] in vp, questions))
+    age_questions = list(filter(lambda x: x[1] == "age", relevant_questions))
+    sex_questions = list(filter(lambda x: x[1] == "Sex", relevant_questions))
+    native_questions = list(filter(lambda x: x[1] == "EnglishLevel", relevant_questions))
+    _ ,_ , age = zip(*age_questions)
+    age = [int(a) for a in age]
+    print("Mean age: ", np.mean(age))
+    males = len(list(filter(lambda x: x[2] == "M", sex_questions)))
+    females = len(list(filter(lambda x: x[2] == "F", sex_questions)))
+    print(f"Females: {females}, Males: {males}")
+    native_speaker = list(filter(lambda x: x[2] == "NS", native_questions))
+    non_native_speaker = list(filter(lambda x: x[2] == "NNS", native_questions))
+    print(f"Native speaker: {len(native_speaker)}, Non-native speaker: {len(non_native_speaker)}")
+    for speaker_class in [native_speaker, non_native_speaker]:
+        vp_code, _, s_class= zip(*speaker_class)
+        important_evals = list(filter(lambda x: x[0] in vp_code, scored_data))
+        _, _, mover, bleu, edit_distance, rough = zip(*important_evals)
+        print(f"{s_class[0]}: Mover Score = {np.mean(mover)}, Bleu Score = {np.mean(bleu)}, Edit distance = {np.mean(edit_distance)}, rouge = {np.mean(rough)}")
 
 
 def _clean_data(sentence):
@@ -93,13 +120,9 @@ def _clean_data(sentence):
         sentence = sentence[:-1]
     return sentence
 
-    
-
-
-
-
 
 if __name__ == "__main__":
     print(_clean_data("   Halo Welt.   \n"))
     #create_evaluation_file("evaluation/human_data/trialdata.csv", "evaluation/human_data/eval_data.csv")
-    evaluate_data("human_data/eval_data.csv")
+    _, evals = evaluate_data("human_data/eval_data.csv")
+    evaluate_vp(evals)
