@@ -74,7 +74,6 @@ class BertPosterior():
 
     def showprobs_hypothesis(self,probs,word_dic,amount=20):
         inds = np.flip(np.argsort(probs))
-        print(inds,amount)
         return [[word_dic[inds[i]],probs[inds[i]]] if len(inds)>i else [] for i in range(amount)]
 
     def bert_posterior_for_hypothesis(self,prior,word_dics,iterations_left,alreadys=None,orig_prior=None,bert_dics=None,verbose=False):
@@ -112,7 +111,8 @@ class BertPosterior():
         if verbose:
             print("masked",mask_id-1)
             print("likelihood",self.showprobs_hypothesis(likelihood,word_dics[mask_id-1],10))
-            print("posterior",get_most_likely_sentence_multidics(prior,word_dics))
+            print("posterior",self.showprobs_hypothesis(prior[mask_id-1],word_dics[mask_id-1],10))
+            #print("posterior",get_most_likely_sentence_multidics(prior,word_dics))
         return self.bert_posterior_for_hypothesis(prior,word_dics,iterations_left-1,alreadys,orig_prior,bert_dics,verbose)
 
     def gpt_score_sentence(self,sentence):
@@ -233,3 +233,9 @@ class BertPosterior():
                 count+=1
             hyped_posterior.append(hyp_block)
         return hyped_posterior
+
+if __name__=="__main__":
+    bp = BertPosterior()
+    #bp.load_gtp()
+    #print(bp.gpt_score_sentence(sys.argv[1]))
+    print(softmax(np.array([-330,-1175]),bp.gpt_theta))

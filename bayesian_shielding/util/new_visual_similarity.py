@@ -2,6 +2,7 @@ import sys,os
 sys.path.append("..")
 from util.letter_stuff import letters,numbers,big_letters,small_letters
 from util.utility import cosine_similarity
+import matplotlib.pyplot as plt
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import time
@@ -123,6 +124,7 @@ forms = get_letter_forms(out_size)
 #    pickle.dump(forms,f)
 #with open("../binaries/letter_forms.pkl","rb") as f:
 #    forms = pickle.load(f)
+"""
 s = time.perf_counter()
 for i in trange(char_count):
     char = chr(i)
@@ -138,5 +140,14 @@ for i in trange(char_count):
         sim_matrix[i,j] = sim
     if i%1000==999:
         np.save("../binaries/vis_sim.npy",sim_matrix)
-print(time.perf_counter()-s)
-np.save("../binaries/vis_sim.npy",sim_matrix)
+"""
+f = get_in_all_forms("h",(30,30))
+#plt.imshow(~f[3][0], cmap=plt.cm.gray)
+#plt.show()
+print(len(f))
+new_im = np.zeros((6*31-1,16*31-1),dtype=bool)
+for i,part in enumerate(f):
+    new_im[(i//16)*31:(i//16)*31+30,(i%16)*31:(i%16)*31+30] = ~part[0]
+pil_im = Image.fromarray(new_im)
+pil_im.save("../../graphics/png/h_versions.png")
+#np.save("../binaries/vis_sim.npy",sim_matrix)

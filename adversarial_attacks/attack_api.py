@@ -58,7 +58,8 @@ class Adversarial_attacker():
 
 if __name__ == "__main__":
     attack = Adversarial_attacker()
-    attacks_with_severity = [("rand",0.3),("rand",0.3)]
+    attacks_with_severity = [("visual",1)]
+    print(attack.multiattack(sys.argv[1],attacks_with_severity))
     #doc = "../bayesian_shielding/benchmark_tasks/STSB/400_sentences.csv"
-    doc = "../bayesian_shielding/benchmark_tasks/MNLI/mnli_dataset.csv"
-    attack.multiattack_document(doc,"../evaluation/attacked_mnli/rand2.txt",attacks_with_severity)
+    #doc = "../bayesian_shielding/benchmark_tasks/MNLI/mnli_dataset.csv"
+    #attack.multiattack_document(doc,"../evaluation/attacked_mnli/rand2.txt",attacks_with_severity)

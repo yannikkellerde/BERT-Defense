@@ -53,15 +53,15 @@ def clean_document(infile,use_existing_priors=True,cheap_actions=True,batch_size
         prior_batches.append(cur)
     print("prior refs",sys.getrefcount(prior),len(prior_batches))
     del prior
-    os.makedirs("/tmp/adv_shield",exist_ok=True)
+    os.makedirs("tmp/adv_shield",exist_ok=True)
     for i,batch in enumerate(prior_batches):
-        with open(f"/tmp/adv_shield/{i}.pkl","wb") as f:
+        with open(f"tmp/adv_shield/{i}.pkl","wb") as f:
             pickle.dump(batch,f)
     del prior_batches
 
     post_cleaned = []
-    for fname in tqdm(sorted(os.listdir("/tmp/adv_shield"),key=lambda x:int(x.split(".")[0]))):
-        with open(os.path.join("/tmp/adv_shield",fname),"rb") as f:
+    for fname in tqdm(sorted(os.listdir("tmp/adv_shield"),key=lambda x:int(x.split(".")[0]))):
+        with open(os.path.join("tmp/adv_shield",fname),"rb") as f:
             prior_batch = pickle.load(f)
         post_cleaned.extend(cleaner.batched_clean_given_prior(prior_batch))
         del prior_batch
@@ -72,7 +72,7 @@ def clean_document(infile,use_existing_priors=True,cheap_actions=True,batch_size
     os.makedirs(os.path.dirname(out_path),exist_ok=True)
     with open(out_path, "w") as f:
         f.write("\n".join(f"{sc}\t{fs}\t{ss}" for sc, fs, ss in post_it))
-    shutil.rmtree("/tmp/adv_shield")
+    shutil.rmtree("tmp/adv_shield")
 
 if __name__ == "__main__":
     #for fname in os.listdir("attacked_documents")[2:]:

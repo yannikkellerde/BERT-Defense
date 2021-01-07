@@ -169,8 +169,8 @@ def read_labeled_data(link,do_float=True):
                 continue
             point = line.split("\t")
             scores.append(myfunc(point[0]))
-            first_sentences.append(point[1].strip())
-            second_sentences.append(point[2].strip())
+            first_sentences.append(point[1].strip().lower())
+            second_sentences.append(point[2].strip().lower())
     return scores, first_sentences, second_sentences
 
 def fast_allmin(a):

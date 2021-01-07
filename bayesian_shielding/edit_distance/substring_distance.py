@@ -234,6 +234,12 @@ class Sub_dist():
 
     def show_hyp_max(self,hyp):
         print(hyp[0]," ".join([x[1][np.argmax(x[0])] for x in hyp[1]]))
+        for x in hyp[1]:
+            best = np.argsort(x[0])[::-1]
+            print(x[1][best[0]],x[0][best[0]],end="\t")
+            print(x[1][best[1]],x[0][best[1]])
+            print(x[1][best[2]],x[0][best[2]])
+            print(x[1][best[3]],x[0][best[3]])
 
     def in_cost(self, in_char, no_vowls):
         if (not self.cheap_actions["ins"]):
@@ -273,9 +279,12 @@ if __name__ == "__main__":
     sd = Sub_dist()
     #print(sd.sub_cost("b","ǟ"))
     #exit()
-    res = sd.word_to_prob(sys.argv[1],progress=True)
-    for wuff in res:
-        print(wuff[0],wuff[1],[x[1][np.argmin(x[0])] for x in wuff[2]])
-    #res = sd.get_sentence_hypothesis(sys.argv[1].split(" "),progress=True)
-    #for x in res:
-    #    sd.show_hyp_max(x)
+    #res = sd.word_to_prob(sys.argv[1],progress=True)
+    #resother = list(zip(*res))
+    #resother[1] = softmax(-np.array(resother[1]),10)
+    #res = list(zip(*resother))
+    #for wuff in res:
+    #    print(wuff[0],wuff[1],[x[1][np.argmin(x[0])] for x in wuff[2]])
+    res = sd.get_sentence_hypothesis(sys.argv[1].split(" "),progress=True)
+    for x in res:
+        sd.show_hyp_max(x)
