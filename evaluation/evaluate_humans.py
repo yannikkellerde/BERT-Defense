@@ -3,6 +3,7 @@ import numpy as np
 import random
 from tqdm import tqdm
 import metrics
+from scipy.stats import ttest_ind
 import matplotlib.pyplot as plt
 
 def create_evaluation_file(filename, new_file_dire):
@@ -106,12 +107,14 @@ def evaluate_vp(scored_data):
     native_speaker = list(filter(lambda x: x[2] == "NS", native_questions))
     non_native_speaker = list(filter(lambda x: x[2] == "NNS", native_questions))
     print(f"Native speaker: {len(native_speaker)}, Non-native speaker: {len(non_native_speaker)}")
+    eds = []
     for speaker_class in [native_speaker, non_native_speaker]:
         vp_code, _, s_class= zip(*speaker_class)
         important_evals = list(filter(lambda x: x[0] in vp_code, scored_data))
         _, _, mover, bleu, edit_distance, rough = zip(*important_evals)
+        eds.append(edit_distance)
         print(f"{s_class[0]}: Mover Score = {np.mean(mover)}, Bleu Score = {np.mean(bleu)}, Edit distance = {np.mean(edit_distance)}, rouge = {np.mean(rough)}")
-
+    print(f"Unequal variance t-test {ttest_ind(eds[0],eds[1],equal_var=False)}")
 
 def _clean_data(sentence):
     sentence = sentence.lower()
