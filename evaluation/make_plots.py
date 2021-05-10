@@ -105,6 +105,28 @@ def scatter_plots():
         plt.savefig(f"plots/scatter/{measure}.svg")
         plt.cla()
 
+def ablation_plot():
+    docs_with_names = {
+        "attacked_documents/rand2.txt":"no shielding",
+        "cleaned/no_lev_bayesian_shielding/rand2.txt":"No lev.",
+        "cleaned/no_bert_bayesian_shielding/rand2.txt":"No BERT",
+        "cleaned/no_gpt_bayesian_shielding/rand2.txt":"No GPT",
+        "cleaned/nocheap_bayesian_shielding/rand2.txt":"attack-agnostic",
+        "cleaned/bayesian_shielding/rand2.txt":"domain-specific"
+    }
+    colormap = ("#0000ff","#6600cc","#808080","#cc9900","#ffcc00","#ff3300")
+    width = 0.8
+    move = np.array([-0.35+width/2+width*i for i in range(len(docs_with_names))])
+    plt.xticks(move,docs_with_names.values(),rotation=90)
+    scores = []
+    for doc,name in docs_with_names.items():
+        scores.append(float(df[df["document"]==doc]["mover"]))
+    print(move,scores)
+    plt.bar(np.array(move),np.array(scores),color=colormap,width=0.5)
+    plt.tight_layout()
+    plt.title("Mover Score")
+    plt.show()
+
 def bar_plots(methods,do_40=False):
     home_path = "plots/bar/"+"_".join(methods)
     os.makedirs(home_path, exist_ok=True)
@@ -142,5 +164,6 @@ def bar_plots(methods,do_40=False):
 #scatter_plots()
 #line_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","danishpruthi","pyspellchecker"])
 #bar_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","danishpruthi","pyspellchecker"],do_40=False)
-bar_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","human"],do_40=True)
+#bar_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","human"],do_40=True)
 #bar_plots(methods=["ours bp (full pipeline)","ours fp (full pipeline)","danishpruthi","pyspellchecker"])
+ablation_plot()

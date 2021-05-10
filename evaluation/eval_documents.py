@@ -46,10 +46,10 @@ def ttest_vs_human(ground_truth,document,condition):
 
 def make_easy_measures(evals,tall,call,average=True):
     for t,c in tqdm(zip(tall,call)):
-        if t.endswith("."):
-            t = t[:-1]
-        if c.endswith("."):
-            c = c[:-1]
+        #if t.endswith("."):
+        #    t = t[:-1]
+        #if c.endswith("."):
+        #    c = c[:-1]
         evals["bleu"].append(metrics.bleu_score(t,c))
         all_rouge = metrics.rouge_score(t,c)
         evals["editdistance"].append(metrics.edit_distance(t,c,lower=True))
@@ -189,10 +189,10 @@ def eval_document(ground_truth, cleaned):
     cscores,cfirst_sentences,csecond_sentences = read_labeled_data(cleaned,do_float=True)
     call = cfirst_sentences + csecond_sentences
     evals = {"bleu":[],"mover":[],"rouge-1":[],"rouge-4":[],"rouge-l":[],"rouge-w":[],"editdistance":[]}
-    posterior_embeddings = simple_sentence_embedder(roberta,call)
-    l = len(posterior_embeddings)
-    cosine_sims = [cosine_similarity(x,y) for x,y in zip(posterior_embeddings[:int(l/2)],posterior_embeddings[int(l/2):])]
-    evals["sts-b"] = stats.spearmanr(cosine_sims,cscores)[0]
+    #posterior_embeddings = simple_sentence_embedder(roberta,call)
+    #l = len(posterior_embeddings)
+    #cosine_sims = [cosine_similarity(x,y) for x,y in zip(posterior_embeddings[:int(l/2)],posterior_embeddings[int(l/2):])]
+    #evals["sts-b"] = stats.spearmanr(cosine_sims,cscores)[0]
     make_easy_measures(evals,tall,call)
     return evals
 
@@ -219,13 +219,16 @@ def eval_many(ground_truth,documents,outfile):
 if __name__ == "__main__":
     ground_truth = "../bayesian_shielding/benchmark_tasks/STSB/400_sentences.csv"
     documents = []
-    documents = [os.path.join("attacked_documents",x) for x in os.listdir("attacked_documents")]
+    """documents = [os.path.join("attacked_documents",x) for x in os.listdir("attacked_documents")]
     documents.extend([os.path.join("cleaned/priors/txts",x) for x in os.listdir("cleaned/priors/txts")])
     documents.extend([os.path.join("cleaned/bayesian_shielding",x) for x in os.listdir("cleaned/bayesian_shielding")])
     documents.extend([os.path.join("cleaned/nocheap_bayesian_shielding",x) for x in os.listdir("cleaned/nocheap_bayesian_shielding")])
     documents.extend([os.path.join("cleaned/nocheap_priors/txts",x) for x in os.listdir("cleaned/nocheap_priors/txts")])
     documents.extend([os.path.join("cleaned/pyspellchecker",x) for x in os.listdir("cleaned/pyspellchecker")])
-    documents.extend([os.path.join("cleaned/Adversarial_Misspellings",x) for x in os.listdir("cleaned/Adversarial_Misspellings")])
+    documents.extend([os.path.join("cleaned/Adversarial_Misspellings",x) for x in os.listdir("cleaned/Adversarial_Misspellings")])"""
+    documents.extend([os.path.join("cleaned/no_bert_bayesian_shielding",x) for x in os.listdir("cleaned/no_bert_bayesian_shielding")])
+    documents.extend([os.path.join("cleaned/no_lev_bayesian_shielding",x) for x in os.listdir("cleaned/no_lev_bayesian_shielding")])
+    documents.extend([os.path.join("cleaned/no_gpt_bayesian_shielding",x) for x in os.listdir("cleaned/no_gpt_bayesian_shielding")])
     """
     documents.extend([os.path.join("cleaned_mnli/priors/txts",x) for x in os.listdir("cleaned_mnli/priors/txts")])
     documents.extend([os.path.join("cleaned_mnli/bayesian_shielding",x) for x in os.listdir("cleaned_mnli/bayesian_shielding")])
@@ -235,10 +238,11 @@ if __name__ == "__main__":
     documents.extend([os.path.join("cleaned_mnli/Adversarial_Misspellings",x) for x in os.listdir("cleaned_mnli/Adversarial_Misspellings")])
     documents.extend([os.path.join("attacked_mnli",x) for x in os.listdir("attacked_mnli")])
     ground_truth = "../bayesian_shielding/benchmark_tasks/STSB/400_sentences.csv"""
-    #eval_many(ground_truth,documents,"evaluation.csv")
+    eval_many(ground_truth,documents,"evaluation.csv")
+    #print(eval_document(ground_truth,"cleaned/nocheap_bayesian_shielding/rand2.txt"))
     #eval_many_40(ground_truth,documents,"evaluation.csv")
     #evaluate_full_human("evaluation.csv")
     #compare_all_with_human()
     #print(compare_with_human("cleaned/bayesian_shielding"))
     #print(ttest_documents(ground_truth,"cleaned/nocheap_bayesian_shielding/rand_hard.txt","cleaned/pyspellchecker/rand_hard.txt"))
-    print(ttest_vs_human(ground_truth,"cleaned/bayesian_shielding/rand2.txt","rand2"))
+    #print(ttest_vs_human(ground_truth,"cleaned/bayesian_shielding/rand2.txt","rand2"))

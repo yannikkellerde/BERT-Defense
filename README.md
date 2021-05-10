@@ -1,16 +1,18 @@
 # A Bayesian approach at shielding against adversarial attacks on natural language
 
-## TODO
-- [x] Implement Phonetic attacks
-- [x] Add swaps to levenshtein distance
-- [x] Give the project some resonable structure / remove the hacky stuff for shared task
-- [x] Add BERT version that can handle probability distributions over words as inputs.
-- [x] Develop easy to use api for adversarial attacks.
-- [x] Evaluate baseline https://github.com/danishpruthi/Adversarial-Misspellings
-- [x] Evaluation Metric for shielding (Direct: BLEU, ROUGE, MOVER; Outgoing: STS-B SNLI etc.)
-- [ ] Use evaluation Metrics to find best hyperparameters
-- [ ] Find information about human text similarity clues (ask psychologists and/or read papers)
-- [ ] Maybe make an experiment about humans handeling adversarial attacks.
-- [ ] Handle random shuffeling, reversed words and potentially even more human similarity clues.
-- [x] Find a way to handle abnormal word segmentations.
-- [ ] Write the paper
+## Requirements
+There is an environment.yml provided.  
+To summarize, the main packages are:
++ python >= 3.6
++ numpy
++ torch==1.5.0
++ nltk
++ tqdm
++ pillow
++ pytorch_pretrained_bert
++ pandas
+
+## Usage
+You can use BERT-Defense to clean a single sentence using the script at `bayesian_shielding/frontend/clean_sentences.py`. Run for example `python clean_sentences.py "Egyp's Muslim BrotherhooRefuse toBackDown"` to clean the sentence and obtain the output *egypt muslim brotherhood refuse to back down*.
+
+If you want to clean multiple sentences, you should probably make use of batched processing and use the `evaluation/clean_document.py` script. However, currently, you will need to format your document of sentences in a format similar to the files in `evaluation/attacked_documents`.

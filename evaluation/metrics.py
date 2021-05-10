@@ -3,7 +3,7 @@ import os
 import editdistance
 sys.path.append("..")
 sys.path.append("../bayesian_shielding")
-from benchmark_tasks.STSB.RoBERTa_handler import init_model_roberta,simple_sentence_embedder
+#from benchmark_tasks.STSB.RoBERTa_handler import init_model_roberta,simple_sentence_embedder
 from bayesian_shielding.util.utility import read_labeled_data,cosine_similarity, only_read_dataset
 from adversarial_attacks.attack_api import Adversarial_attacker
 from frontend.clean_sentences import Sentence_cleaner

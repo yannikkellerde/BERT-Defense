@@ -4,7 +4,7 @@ import torch
 import numpy as np
 from typing import List,Tuple
 import math
-from util.utility import softmax,get_most_likely_sentence,get_full_word_dict,get_most_likely_sentence_multidics
+from util.utility import softmax,get_most_likely_sentence,get_full_word_dict,get_most_likely_sentence_multidics,analayze_list_structure
 from pytorch_pretrained_bert import BertTokenizer, BertForMaskedLM, OpenAIGPTTokenizer, OpenAIGPTModel, OpenAIGPTLMHeadModel
 from context_bert.probabilistic_bert import my_BertForMaskedLM
 import logging
@@ -197,6 +197,7 @@ class BertPosterior():
         return attention_mask,weights_tensor
 
     def batch_bert_posterior(self,priors_hypform:List[List[Tuple[float,List[Tuple[np.ndarray,List[str]]]]]],batch_size:int=64) -> List[List[Tuple[float,List[Tuple[np.ndarray,List[str]]]]]]:
+        print(analayze_list_structure(priors_hypform))
         priors_nd_word_dics = sum([[content for prob,content in hyps] for hyps in priors_hypform],[])
         priors:List[List[np.ndarray]] = [[x[0] for x in hyp] for hyp in priors_nd_word_dics]
         all_word_dics:List[List[List[str]]] = [[x[1] for x in hyp] for hyp in priors_nd_word_dics]

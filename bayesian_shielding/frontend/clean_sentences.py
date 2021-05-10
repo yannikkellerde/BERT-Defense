@@ -1,11 +1,11 @@
-import sys
+import sys,os
 import numpy as np
-sys.path.append("..")
+sys.path.append(os.path.join(os.path.dirname(__file__),".."))
 from tqdm import tqdm
 from context_bert.bert_posterior import BertPosterior
 from edit_distance.substring_distance import Sub_dist
 from edit_distance.multiprocess_distances import multiprocess_prior
-from util.utility import get_full_word_dict,get_most_likely_sentence_multidics,preprocess_sentence,softmax
+from util.utility import get_full_word_dict,get_most_likely_sentence_multidics,preprocess_sentence,softmax,analayze_list_structure
 
 class Sentence_cleaner():
     def __init__(self):
@@ -46,13 +46,29 @@ class Sentence_cleaner():
         print(f"\nFinal cleaned sentence: {posterior_hyps[0][1]}")
         return posterior_hyps[0][1]
 
-    def batched_clean_given_prior(self,priors,batch_size=64):
+    def batched_clean_given_prior(self,priors,batch_size=64,use_bert=True,use_gpt=True):
         self.load_bert()
         all_posterior = []
-        all_posterior_hyps = self.context_bert.batch_bert_posterior(priors,batch_size=batch_size)
-        for hyps in tqdm(all_posterior_hyps):
-            posterior_hyps = self.context_bert.gpt_hypothesis(hyps)
-            all_posterior.append(posterior_hyps[0][1])
+        if use_bert:
+            all_posterior_hyps = self.context_bert.batch_bert_posterior(priors,batch_size=batch_size)
+        else:
+            priors_nd_word_dics = sum([[content for prob,content in hyps] for hyps in priors],[])
+            priors_other:List[List[np.ndarray]] = [[x[0] for x in hyp] for hyp in priors_nd_word_dics]
+            all_word_dics:List[List[List[str]]] = [[x[1] for x in hyp] for hyp in priors_nd_word_dics]
+            all_posterior_hyps = []
+            count = 0
+            for hyp in priors:
+                hyp_block = []
+                for prob,content in hyp:
+                    hyp_block.append((prob,get_most_likely_sentence_multidics(priors_other[count],all_word_dics[count])))
+                    count+=1
+                all_posterior_hyps.append(hyp_block)
+        if use_gpt:
+            for hyps in tqdm(all_posterior_hyps):
+                posterior_hyps = self.context_bert.gpt_hypothesis(hyps)
+                all_posterior.append(posterior_hyps[0][1])
+        else:
+            all_posterior = [x[0][1] for x in all_posterior_hyps]
         return all_posterior
 
     def clean_sentences_given_prior(self,prior,progress=False):
