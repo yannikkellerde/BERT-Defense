@@ -1,4 +1,4 @@
-# A Bayesian approach at shielding against adversarial attacks on natural language
+# BERT-Defense: A Probabilistic Model Based on BERT toCombat Cognitively Inspired Orthographic Adversarial Attacks
 
 ## Requirements
 There is an environment.yml provided.  
