@@ -4,7 +4,7 @@ Code and data for our [paper](https://arxiv.org/pdf/2106.01452.pdf)
 
 
 ```
-@inproceedings{keller:bert-defnse,
+@inproceedings{keller:bert-defense,
    title = "BERT-Defense: A Probabilistic Model Based on BERT to Combat Cognitively Inspired Orthographic Adversarial Attacks",
    author = "Yannik Keller and Jan Mackensen and Steffen Eger",
    year = "2021",
