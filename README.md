@@ -39,7 +39,7 @@ If you want to clean multiple sentences, you should probably make use of batched
 
 ## Notes
 
-If you cite the Zéroe benchmark, please also cite this paper:
+If you cite the Zéroe benchmark, please also cite this [paper](https://github.com/yannikbenz/zeroe):
 
 ```
 @inproceedings{eger-benz-2020-hero,
